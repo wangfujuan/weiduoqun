@@ -60,8 +60,8 @@
 		}
     ],
     "tabBar": {
-        "color": "#7a7e83",
-        "selectedColor": "#0faeff",
+        "color": "#666666",
+        "selectedColor": "#44b549",
         "backgroundColor": "#ffffff",
         "list": [{
             "pagePath": "pages/home/home",

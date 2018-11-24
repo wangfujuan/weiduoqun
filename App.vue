@@ -17,6 +17,7 @@
     page {
         min-height: 100%;
         display: flex;
+		font-family: PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,Helvetica Neue,Arial,sans-serif;
     }
 
     .content {
@@ -24,7 +25,7 @@
         flex: 1;
         flex-direction: column;
         background-color: #f4f6fa;
-        padding: 10px;
+        padding-top: 20upx;
     }
 
     .input-group {
@@ -101,4 +102,19 @@
     button.primary {
         background-color: #0faeff;
     }
+	
+	.b-line{
+		position: relative;
+	}
+	.b-line::after {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		height: 1px;
+		content: '';
+		-webkit-transform: scaleY(.5);
+		transform: scaleY(.5);
+		background-color: #ededed;
+	}
 </style>
