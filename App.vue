@@ -17,8 +17,13 @@
     page {
         min-height: 100%;
         display: flex;
+		font-size: 28upx;
 		font-family: PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,Helvetica Neue,Arial,sans-serif;
     }
+	
+	image {
+		vertical-align: middle;
+	}
 
     .content {
         display: flex;
@@ -26,6 +31,7 @@
         flex-direction: column;
         background-color: #f4f6fa;
         padding-top: 20upx;
+		width: 100%;
     }
 
     .input-group {

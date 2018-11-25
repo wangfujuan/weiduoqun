@@ -26,16 +26,136 @@
 					<uni-icon type="arrowright"></uni-icon>				
 				</view>
 			</view>
+			<!-- 推荐名片 start -->
+			<view class="white">
+				<view class="block-tl">
+					<view class="block-tl-lf">
+						推荐名片
+					</view>
+					<view class="block-tl-rt">
+						<view class="block-tl-rt-item">
+							导入
+						</view>
+						<view class="block-tl-rt-item">
+							清理
+						</view>
+					</view>
+				</view>
+				<scroll-view class="card-ls" scroll-x scroll-left="0">	
+					<view class="card-item" v-for="card in cardList" :key="card.id">
+						<view class="card-avatar">
+							<image :src="card.img" mode="widthFix"></image>
+						</view>
+						<view class="card-name">
+							{{card.name}}
+						</view>
+					</view>	
+				</scroll-view>	
+			</view>
+			<!-- 推荐名片 end -->
+			<!-- 热门群 start -->
+			<view class="white">
+				<view class="block-tl">
+					<view class="block-tl-lf">
+						热门群
+					</view>
+					<view class="block-tl-rt">
+						<view class="block-tl-rt-item">
+							导入
+						</view>
+						<view class="block-tl-rt-item">
+							清理
+						</view>
+					</view>
+				</view>
+				<scroll-view class="card-ls hot-ls" scroll-x scroll-left="0">	
+					<view class="hot-item" v-for="hot in hotList" :key="hot.id">
+						<view class="card-avatar">
+							<image :src="hot.img" mode="widthFix"></image>
+						</view>
+						<view class="hot-name">
+							{{hot.name}}
+						</view>
+						<view class="hot-add">
+							加群
+						</view>
+					</view>	
+				</scroll-view>	
+			</view>
+			<!-- 热门群 end -->
+			<!-- 产品秀 start -->
+			<view class="white">
+				<view class="block-tl">
+					<view class="block-tl-lf">
+						产品秀
+					</view>
+					<view class="block-tl-rt">
+						<view class="block-tl-rt-more">
+							更多
+						</view>
+					</view>
+				</view>
+				<view class="product-ls">
+					<view class="product-item b-line">
+						<view class="product-tl">
+							目前世界上最神奇的面膜
+						</view>
+						<image class="product-item-img" src="../../static/product.png" mode="widthFix"></image>
+						<view class="product-info">
+							米色小霞 <text>99人阅读</text>
+						</view>
+					</view>	
+					<view class="product-item b-line">
+						<view class="product-tl">
+							目前世界上最神奇的面膜
+						</view>
+						<image class="product-item-img" src="../../static/product.png" mode="widthFix"></image>
+						<view class="product-info">
+							米色小霞 <text>99人阅读</text>
+						</view>
+					</view>	
+					<view class="product-item">
+						<view class="product-tl">
+							目前世界上最神奇的面膜
+						</view>
+						<image class="product-item-img" src="../../static/product.png" mode="widthFix"></image>
+						<view class="product-info">
+							米色小霞 <text>99人阅读</text>
+						</view>
+					</view>	
+				</view>
+			</view>
+			<!-- 产品秀 end -->
+			<!-- 头条干货 start -->
+			<view class="white">
+				<view class="uni-list">
+					<view class="uni-list-cell b-line" hover-class="uni-list-cell-hover" v-for="(value,key) in listData" :key="key" @click="goDetail(value)">
+						<view class="uni-media-list">
+							<image class="uni-media-list-logo" :src="value.cover"></image>
+							<view class="uni-media-list-body">
+								<view class="uni-media-list-text-top">{{value.title}}</view>
+								<view class="uni-media-list-text-bottom">
+									<text>{{value.author_name}}</text>
+									<text>{{value.published_at}}</text>
+								</view>
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<!-- 头条干货 end -->
 		</view>
 	</view>
 </template>
 <script>
-	import uniIcon from '../../components/uni-icon.vue'
+	import uniIcon from '../../components/uni-icon.vue';
+	var dateUtils = require('../../common/util.js').dateUtils;
 	
 	export default {
 		data() {
 			return {
-				title: 'swiper',
+				listData: [],
+				reload: false,
 				indicatorDots: false,
 				autoplay: false,
 				interval: 2000,
@@ -73,21 +193,134 @@
 						img: "../../static/c1.png",
 						name: "工具箱"
 					}
-				]
+				],
+				cardList: [
+					{
+						id: 1,
+						img: "../../static/avatar.png",
+						name: "月儿"
+					},
+					{
+						id: 2,
+						img: "../../static/avatar.png",
+						name: "萤火虫"
+					},
+					{
+						id: 3,
+						img: "../../static/avatar.png",
+						name: "萤火虫"
+					},
+					{
+						id: 4,
+						img: "../../static/avatar.png",
+						name: "萤火虫"
+					},
+					{
+						id: 5,
+						img: "../../static/avatar.png",
+						name: "萤火虫"
+					},
+					{
+						id: 6,
+						img: "../../static/avatar.png",
+						name: "萤火虫"
+					}
+				],
+				hotList: [
+					{
+						id: 1,
+						img: "../../static/avatar.png",
+						name: "月儿"
+					},
+					{
+						id: 2,
+						img: "../../static/avatar.png",
+						name: "萤火虫"
+					},
+					{
+						id: 3,
+						img: "../../static/avatar.png",
+						name: "萤火虫"
+					},
+					{
+						id: 4,
+						img: "../../static/avatar.png",
+						name: "萤火虫"
+					},
+					{
+						id: 5,
+						img: "../../static/avatar.png",
+						name: "萤火虫"
+					},
+					{
+						id: 6,
+						img: "../../static/avatar.png",
+						name: "萤火虫"
+					}
+				],
 			}
+		},
+		onLoad() {
+			this.getList();
+		},
+		onPullDownRefresh() {
+			this.reload = true;
+			this.last_id = "";
+			this.getBanner();
+			this.getList();
+		},
+		onReachBottom() {
+			this.getList();
 		},
 		components: {
 			uniIcon
 		},
 		methods: {
-			
+			getList() {
+				var data = {
+					column: "id,post_id,title,author_name,cover,published_at" //需要的字段名
+				};
+				if (this.last_id) { //说明已有数据，目前处于上拉加载
+					data.minId = this.last_id;
+					data.time = new Date().getTime() + "";
+					data.pageSize = 10;
+				}
+				uni.request({
+					url: 'https://unidemo.dcloud.net.cn/api/news',
+					data: data,
+					success: (data) => {
+						if (data.statusCode == 200) {
+							let list = this.setTime(data.data);
+							this.listData = this.reload ? list : this.listData.concat(list);
+							this.last_id = list[list.length - 1].id;
+							this.reload = false;
+						}
+					},
+					fail: (data, code) => {
+						console.log('fail' + JSON.stringify(data));
+					}
+				})
+			},
+			setTime: function (items) {
+				var newItems = [];
+				items.forEach((e) => {
+					newItems.push({
+						author_name: e.author_name,
+						cover: e.cover,
+						id: e.id,
+						post_id: e.post_id,
+						published_at: dateUtils.format(e.published_at),
+						title: e.title
+					});
+				});
+				return newItems;
+			}
 		}
 	}
 </script>
 
 <style>
 	@import "../../common/icon.css";
-	
 	uni-swiper{
 		height: 224upx;
 	}
@@ -113,6 +346,8 @@
 	.white {
 		border-radius: 16upx;
 		background-color: #FFFFFF;
+		margin-bottom: 20upx;
+		overflow: hidden;
 	}
 	/* 九宫格 */
 	.uni-grid-9 {
@@ -162,5 +397,220 @@
 		font-size: 18px;
 		color: #eaeaea;
 	}
+	
+	.block-tl {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 24upx 20upx
+	}
+	
+	.block-tl-lf {
+		font-size: 30upx;
+		font-weight: 500;
+	} 
+	.block-tl-rt {
+		font-size: 24upx;
+		color: #a1a1a1;
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.block-tl-rt-item {
+		border: 1px solid #e2e2e2;
+		border-radius: 40upx;
+		height: 40upx;
+		line-height: 40upx;
+		padding: 0 20upx;
+		margin-left: 20upx;
+	}
+	
+	.scroll {
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	.card-ls{
+		/* width: 100%; */
+		white-space: nowrap;
+		padding: 10upx 0 44upx 22upx;
+		overflow: hidden;
+	}
+	
+	.hot-ls {
+		padding-bottom: 26upx;
+		padding-top: 0;
+	}
+	
+	.card-item {
+		display: inline-block;
+		width: 140upx;
+		margin-right: 20upx;
+	}
+	
+	.card-avatar {
+		width: 120upx;
+		height: 120upx;
+		border: 6upx solid #ececec;
+		padding: 6upx;
+		border-radius: 100%;
+		margin: 0 auto;
+	}
+	
+	.card-name {
+		font-size: 26upx;
+		text-align: center;
+		line-height: 1;
+		margin-top: 16upx;
+	}
+	
+	.card-ls image {
+		width: 100%;
+		border-radius: 100%;
+	} 
+	
+	.hot-item {
+		border: 2upx solid #f3f3f3;
+		width: 152upx;
+		height: 220upx;
+		border-radius: 10upx;
+		display: inline-block;
+		margin-right: 20upx;
+		text-align: center;
+		padding: 20upx
+	}
+	
+	.hot-item .card-avatar {
+		width: 90upx;
+		height: 90upx;
+	}
+	
+	.hot-name {
+		font-size: 26upx;
+		line-height: 1;
+		margin: 20upx 0;
+	}
+	
+	.hot-add {
+		font-size: 26rpx;
+		background-color: #44b549;
+		width: 112upx;
+		height: 38upx;
+		line-height: 38upx;
+		text-align: center;
+		margin: 0 auto;
+		color: #fff;
+		border-radius: 38upx;
+	}
+	
+	.product-tl {
+		font-size: 30upx;
+		font-weight: 500;
+		line-height: 1;
+	}
+	
+	.product-ls {
+		margin-top: -30upx;
+	}
+	
+	.product-item {
+		padding: 30upx 25upx 0;
+	}
+	
+	.product-item-img {
+		width: 100%;
+		margin: 25upx 0;
+	}
+	
+	.product-info {
+		color: #969696;
+		font-size: 24upx;
+		line-height: 1;
+		padding: 5upx 0 28upx;
+	}
+	
+	.uni-list {
+		padding: 0 20upx;
+	}
+	
+	.uni-list-cell {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 25upx 0;
+	}
+	
+	.uni-media-list-logo {
+		width: 200upx;
+		height: 130upx;
+		margin-right: 20upx;
+		border-radius: 10upx;
+	}
+
+	.uni-media-list {
+		/* padding: 22upx 30upx; */
+		box-sizing: border-box;
+		display: flex;
+		width: 100%;
+		flex-direction: row;
+	}
+	
+	.uni-navigate-right.uni-media-list {
+		padding-right: 74upx;
+	}
+	
+	.uni-pull-right {
+		flex-direction: row-reverse;
+	}
+	
+	.uni-pull-right>.uni-media-list-logo {
+		margin-right: 0upx;
+		margin-left: 20upx;
+	}
+	
+	.uni-media-list-logo image {
+		height: 100%;
+		width: 100%;
+	}
+	
+	.uni-media-list-body {
+		height: 84upx;
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
+		overflow: hidden;
+	}
+	
+	.uni-media-list-text-top {
+		width: 100%;
+		line-height: 36upx;
+		font-size: 30upx;
+		height: 74upx;
+		font-size: 28upx;
+		overflow: hidden;
+	}
+	
+	.uni-media-list-text-bottom {
+		width: 100%;
+		line-height: 30upx;
+		font-size: 22upx;
+		color: #8f8f94;
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.uni-media-list-text-bottom text {
+		margin-right: 10upx;
+	}
+	
+	.uni-media-list-body {
+		height: auto;
+		justify-content: space-around;
+	}
+
 </style>
 
