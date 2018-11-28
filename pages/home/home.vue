@@ -1,21 +1,30 @@
 <template>
 	<view class="content">
-		<swiper :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" :duration="duration" previous-margin="16px" next-margin="16px" circular="true">
+		<!-- <view class="shadow"></view> -->
+		<swiper :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" :duration="duration" circular="true">
 			<swiper-item>
-				<view class="swiper-item color1">A</view>
+				<view class="swiper-item">
+					<image src="../../static/banner.jpg" mode="widthFix"></image>
+				</view>
 			</swiper-item>
 			<swiper-item>
-				<view class="swiper-item color2">B</view>
+				<view class="swiper-item">
+					<image src="../../static/banner.jpg" mode="widthFix"></image>
+				</view>
 			</swiper-item>
 			<swiper-item>
-				<view class="swiper-item color3">C</view>
+				<view class="swiper-item">
+					<image src="../../static/banner.jpg" mode="widthFix"></image>
+				</view>
 			</swiper-item>
 		</swiper>
 		<view class="content-pad">
 			<view class="white">
 				<view class="uni-grid-9 b-line">
 					<view class="uni-grid-9-item" hover-class="uni-grid-9-item-hover" v-for="(item,index) in grids" :key="index">
-						<image class="uni-grid-9-image" :src="item.img"></image>
+						<view :class="item.syicon">
+							<uni-icon :type="item.icon"></uni-icon>
+						</view>
 						<text class="uni-grid-9-text">{{item.name}}</text>
 					</view>
 				</view>
@@ -30,14 +39,19 @@
 			<view class="white">
 				<view class="block-tl">
 					<view class="block-tl-lf">
-						推荐名片
+						<view class="block-tl-icon block-tl-color1">
+							<uni-icon type="geren2"></uni-icon>
+						</view>
+						<text class="mdtxt">推荐名片</text>
 					</view>
 					<view class="block-tl-rt">
 						<view class="block-tl-rt-item">
-							导入
+							<uni-icon type="laiyuan"></uni-icon>
+							<text class="mdtxt">导入</text>
 						</view>
 						<view class="block-tl-rt-item">
-							清理
+							<uni-icon type="qinglihuancun"></uni-icon>
+							<text class="mdtxt">清理</text>
 						</view>
 					</view>
 				</view>
@@ -47,7 +61,8 @@
 							<image :src="card.img" mode="widthFix"></image>
 						</view>
 						<view class="card-name">
-							{{card.name}}
+							<text class="ding">顶</text>
+							<text class="mdtxt">{{card.name}}</text>
 						</view>
 					</view>	
 				</scroll-view>	
@@ -57,14 +72,19 @@
 			<view class="white">
 				<view class="block-tl">
 					<view class="block-tl-lf">
-						热门群
+						<view class="block-tl-icon block-tl-color2">
+							<uni-icon type="duoren2"></uni-icon>
+						</view>
+						<text class="mdtxt">热门群</text>
 					</view>
 					<view class="block-tl-rt">
 						<view class="block-tl-rt-item">
-							导入
+							<uni-icon type="laiyuan"></uni-icon>
+							<text class="mdtxt">导入</text>
 						</view>
 						<view class="block-tl-rt-item">
-							清理
+							<uni-icon type="qinglihuancun"></uni-icon>
+							<text class="mdtxt">清理</text>
 						</view>
 					</view>
 				</view>
@@ -74,10 +94,12 @@
 							<image :src="hot.img" mode="widthFix"></image>
 						</view>
 						<view class="hot-name">
-							{{hot.name}}
+							<text class="ding">顶</text>
+							<text class="mdtxt">{{hot.name}}</text>
 						</view>
 						<view class="hot-add">
-							加群
+							<uni-icon type="tianjia"></uni-icon>
+							<text class="mdtxt">加群</text>
 						</view>
 					</view>	
 				</scroll-view>	
@@ -87,11 +109,17 @@
 			<view class="white">
 				<view class="block-tl">
 					<view class="block-tl-lf">
-						产品秀
+						<view class="block-tl-icon block-tl-color3">
+							<uni-icon type="chanpin2"></uni-icon>
+						</view>
+						<text class="mdtxt">产品秀</text>
 					</view>
 					<view class="block-tl-rt">
 						<view class="block-tl-rt-more">
-							更多
+							<text class="mdtxt">更多</text>
+							<view class="block-more more-color1">
+								<uni-icon type="qianjin"></uni-icon>
+							</view>
 						</view>
 					</view>
 				</view>
@@ -128,6 +156,26 @@
 			<!-- 产品秀 end -->
 			<!-- 头条干货 start -->
 			<view class="white">
+				<view class="block-tl">
+					<view class="block-tl-lf">
+						<view class="block-tl-icon block-tl-color4">
+							<uni-icon type="chanpin2"></uni-icon>
+						</view>
+						<text class="mdtxt">头条干货</text>
+					</view>
+					<view class="block-tl-rt">
+						<view class="block-tl-rt-item">
+							<uni-icon type="shoucang1"></uni-icon>
+							<text class="mdtxt">收藏</text>
+						</view>
+						<view class="block-tl-rt-more">
+							<text class="mdtxt">更多</text>
+							<view class="block-more more-color2">
+								<uni-icon type="qianjin"></uni-icon>
+							</view>
+						</view>
+					</view>
+				</view>
 				<view class="uni-list">
 					<view class="uni-list-cell b-line" hover-class="uni-list-cell-hover" v-for="(value,key) in listData" :key="key" @click="goDetail(value)">
 						<view class="uni-media-list">
@@ -148,8 +196,8 @@
 	</view>
 </template>
 <script>
-	import uniIcon from '../../components/uni-icon.vue';
-	var dateUtils = require('../../common/util.js').dateUtils;
+	import uniIcon from '../../components/uni-icon.vue'
+	var dateUtils = require('../../common/util.js').dateUtils
 	
 	export default {
 		data() {
@@ -160,101 +208,112 @@
 				autoplay: false,
 				interval: 2000,
 				duration: 500,
+				iconClassList: [
+					''
+				],
 				grids: [
 					{
-						img: "../../static/c1.png",
-						name: "微信群"
+						name: "微信群",
+						icon: "duoren2",
+						syicon: "iconwp oneicon"
 					},
 					{
-						img: "../../static/c1.png",
-						name: "个人微信"
+						name: "个人微信",
+						icon: "geren2",
+						syicon: "iconwp twoicon"
 					},
 					{
-						img: "../../static/c1.png",
-						name: "加粉神器"
+						name: "加粉神器",
+						icon: "xin2",
+						syicon: "iconwp threeicon"
 					},
 					{
-						img: "../../static/c1.png",
-						name: "QQ名片"
+						name: "QQ名片",
+						icon: "qq02",
+						syicon: "iconwp fouricon"
 					},
 					{
-						img: "../../static/c1.png",
-						name: "微信访问"
+						name: "微信访问",
+						icon: "qq02",
+						syicon: "iconwp fiveicon"
 					},
 					{
-						img: "../../static/c1.png",
-						name: "好品牌"
+						name: "好品牌",
+						icon: "upstagefill",
+						syicon: "iconwp sixicon"
 					},
 					{
-						img: "../../static/c1.png",
-						name: "产品秀"
+						name: "产品秀",
+						icon: "chanpin2",
+						syicon: "iconwp sevenicon"
 					},
 					{
-						img: "../../static/c1.png",
-						name: "工具箱"
+						name: "工具箱",
+						icon: "icon_fuzhugongju-mian",
+						syicon: "iconwp eighticon"
 					}
 				],
 				cardList: [
 					{
 						id: 1,
-						img: "../../static/avatar.png",
+						img: "../../static/avatar/avatar_1.jpg",
 						name: "月儿"
 					},
 					{
 						id: 2,
-						img: "../../static/avatar.png",
+						img: "../../static/avatar/avatar_2.jpg",
 						name: "萤火虫"
 					},
 					{
 						id: 3,
-						img: "../../static/avatar.png",
+						img: "../../static/avatar/avatar_3.jpg",
 						name: "萤火虫"
 					},
 					{
 						id: 4,
-						img: "../../static/avatar.png",
+						img: "../../static/avatar/avatar_4.jpg",
 						name: "萤火虫"
 					},
 					{
 						id: 5,
-						img: "../../static/avatar.png",
+						img: "../../static/avatar/avatar_5.jpg",
 						name: "萤火虫"
 					},
 					{
 						id: 6,
-						img: "../../static/avatar.png",
+						img: "../../static/avatar/avatar_6.jpg",
 						name: "萤火虫"
 					}
 				],
 				hotList: [
 					{
 						id: 1,
-						img: "../../static/avatar.png",
+						img: "../../static/avatar/avatar_1.jpg",
 						name: "月儿"
 					},
 					{
 						id: 2,
-						img: "../../static/avatar.png",
+						img: "../../static/avatar/avatar_2.jpg",
 						name: "萤火虫"
 					},
 					{
 						id: 3,
-						img: "../../static/avatar.png",
+						img: "../../static/avatar/avatar_3.jpg",
 						name: "萤火虫"
 					},
 					{
 						id: 4,
-						img: "../../static/avatar.png",
+						img: "../../static/avatar/avatar_1.jpg",
 						name: "萤火虫"
 					},
 					{
 						id: 5,
-						img: "../../static/avatar.png",
+						img: "../../static/avatar/avatar_2.jpg",
 						name: "萤火虫"
 					},
 					{
 						id: 6,
-						img: "../../static/avatar.png",
+						img: "../../static/avatar/avatar_3.jpg",
 						name: "萤火虫"
 					}
 				],
@@ -321,34 +380,36 @@
 
 <style>
 	@import "../../common/icon.css";
+	
 	uni-swiper{
 		height: 224upx;
 	}
+	
 	.swiper-item {
 		display: block;
 		height: 224upx;
 		line-height: 224upx;
 		text-align: center;
-		margin-right: 14upx;
+		/* margin-right: 14upx; */
 	}
-	.color1 {
-		background-color: #007AFF;
+	
+	uni-image {
+		width: 100%;
 	}
-	.color2 {
-		background-color: #8F8F94;
+	
+	.block-tl-icon .uni-icon {
+		color: #fff;
+		font-size: 24upx;
 	}
-	.color3 {
-		background-color: antiquewhite;
+	
+	.block-tl-rt-item .uni-icon {
+		color: #aaa;
+		font-size: 26upx;
+		vertical-align: middle;
+		margin-right: 4upx;
 	}
-	.content-pad {
-		padding: 20upx;
-	}
-	.white {
-		border-radius: 16upx;
-		background-color: #FFFFFF;
-		margin-bottom: 20upx;
-		overflow: hidden;
-	}
+	
+	
 	/* 九宫格 */
 	.uni-grid-9 {
 		box-sizing: border-box;
@@ -371,12 +432,67 @@
 		display: block;
 		line-height: 1;
 		font-size: 24upx;
-		margin-top: 5upx;
+		margin-top: 16upx;
 		color: #626262;
 	}
 
 	.uni-grid-9-item-hover {
 		background: rgba(0, 0, 0, 0.1);
+	}
+	
+	.iconwp {
+		width: 90upx;
+		height: 90upx;
+		background-color: #007AFF;
+		border-radius: 100%;
+		margin: 0 auto;
+		text-align: center;
+		line-height: 90upx;
+	}
+	
+	.iconwp .uni-icon {
+		font-size: 44upx;
+		color: #fff;
+	}
+	
+	.oneicon {
+		background-image: linear-gradient(-45deg, #ff9a9e 0%, #ffbdbd 100%);
+		box-shadow: 4upx 0 16upx rgba(255, 189, 189, .3);
+	}
+	
+	.twoicon {
+		background-image: linear-gradient(-45deg, #30D2BE 0%, #80f3e5 100%);
+		box-shadow: 4upx 0 16upx rgba(128, 243, 229, .3);
+	}
+	
+	.threeicon {
+		background-image: linear-gradient(-45deg, #e7b65f 0%, #f1d199 100%);
+		box-shadow: 4upx 0 16upx rgba(241, 109, 153, .3);
+	}
+	
+	.fouricon {
+		background-image: linear-gradient(-45deg, #21c7ef 0%, #70e3ff 100%);
+		box-shadow: 4upx 0 16upx rgba(112, 227, 255, .3);
+	}
+	
+	.fiveicon {
+		background-image: linear-gradient(-45deg, #60dc8f 0%, #8af5b2 100%);
+		box-shadow: 4upx 0 16upx rgba(138, 245, 178, .3);
+	}
+	
+	.sixicon {
+		background-image: linear-gradient(-45deg, #f1948f 0%, #ffb8b4 100%);
+		box-shadow: 4upx 0 16upx rgba(255, 184, 180, .3);
+	}
+	
+	.sevenicon {	
+		background-image: linear-gradient(-45deg, #f787b3 0%, #f3a7c5 100%);
+		box-shadow: 4upx 0 16upx rgba(243, 167, 197, .3);
+	}
+	
+	.eighticon {
+		background-image: linear-gradient(-45deg, #8f75ed 0%, #a792f5 100%);
+		box-shadow: 4upx 0 16upx rgba(167, 146, 245, .3);
 	}
 	
 	.tips{
@@ -398,32 +514,6 @@
 		color: #eaeaea;
 	}
 	
-	.block-tl {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		padding: 24upx 20upx
-	}
-	
-	.block-tl-lf {
-		font-size: 30upx;
-		font-weight: 500;
-	} 
-	.block-tl-rt {
-		font-size: 24upx;
-		color: #a1a1a1;
-		display: flex;
-		flex-direction: row;
-	}
-	
-	.block-tl-rt-item {
-		border: 1px solid #e2e2e2;
-		border-radius: 40upx;
-		height: 40upx;
-		line-height: 40upx;
-		padding: 0 20upx;
-		margin-left: 20upx;
-	}
 	
 	.scroll {
 		width: 100%;
@@ -451,8 +541,8 @@
 	.card-avatar {
 		width: 120upx;
 		height: 120upx;
-		border: 6upx solid #ececec;
-		padding: 6upx;
+		border: 4upx solid #ececec;
+		padding: 4upx;
 		border-radius: 100%;
 		margin: 0 auto;
 	}
@@ -493,14 +583,13 @@
 	
 	.hot-add {
 		font-size: 26rpx;
-		background-color: #44b549;
+		background-image: linear-gradient(-45deg, #44b549 0%, #5dd962 100%);
 		width: 112upx;
-		height: 38upx;
-		line-height: 38upx;
+		height: 40upx;
 		text-align: center;
 		margin: 0 auto;
 		color: #fff;
-		border-radius: 38upx;
+		border-radius: 40upx;
 	}
 	
 	.product-tl {
@@ -531,6 +620,7 @@
 	
 	.uni-list {
 		padding: 0 20upx;
+		margin-top: -20upx;
 	}
 	
 	.uni-list-cell {
@@ -611,6 +701,56 @@
 		height: auto;
 		justify-content: space-around;
 	}
-
+	
+	.ding {
+		width: 30upx;
+		height: 30upx;
+		line-height: 30upx;
+		text-align: center;
+		color: #fff;
+		border-radius: 6upx;
+		background-color: #44b549;
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 24upx;
+		transform: scale(0.8);
+		margin-right: 8upx;
+	}
+	
+	.hot-add .uni-icon {
+		color: #fff;
+		font-size: 22upx;
+		vertical-align: middle;
+		margin-right: 4upx;
+	}
+	
+	
+	
+	.block-more {
+		display: inline-block;
+		vertical-align: middle;
+		width: 30upx;
+		height: 30upx;
+		text-align: center;
+		line-height: 28upx;
+		border-radius: 10upx;
+		margin-left: 6upx;
+	}
+	
+	.more-color1 {
+		background-image: linear-gradient(-45deg, #8f75ed 0%, #a792f5 100%);
+		box-shadow: 4upx 0 8upx rgba(167, 146, 245, .3);
+	}	
+	
+	.more-color2 {
+		background-image: linear-gradient(-45deg, #e7b65f 0%, #f1d199 100%);
+		box-shadow: 4upx 0 8upx rgba(241, 109, 153, .3);
+	}
+	
+	.uni-icon-qianjin {
+		font-size: 22upx;
+	}
+	
+	
 </style>
 

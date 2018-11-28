@@ -1,0 +1,112 @@
+
+@font-face {
+  font-family: "uniicons";
+  font-weight: normal;
+  font-style: normal;
+}
+.uni-icon {
+  font-family: "uniicons" !important;
+  font-size: 48rpx;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+}
+.uni-icon-likefill:before {
+  content: "\E668";
+}
+.uni-icon-like:before {
+  content: "\E669";
+}
+.uni-icon-upstagefill:before {
+  content: "\E70E";
+}
+.uni-icon-peoplefill:before {
+  content: "\E735";
+}
+.uni-icon-people:before {
+  content: "\E736";
+}
+.uni-icon-tianjia:before {
+  content: "\E60C";
+}
+.uni-icon-xin2:before {
+  content: "\E712";
+}
+.uni-icon-biaodan:before {
+  content: "\E715";
+}
+.uni-icon-chanpin2:before {
+  content: "\E71A";
+}
+.uni-icon-duoren2:before {
+  content: "\E71E";
+}
+.uni-icon-geren2:before {
+  content: "\E71F";
+}
+.uni-icon-xiazai:before {
+  content: "\E73E";
+}
+.uni-icon-huidaodingbu:before {
+  content: "\E74A";
+}
+.uni-icon-qianjin:before {
+  content: "\E74E";
+}
+.uni-icon-laiyuan:before {
+  content: "\E77B";
+}
+.uni-icon-huati:before {
+  content: "\E659";
+}
+.uni-icon-quanquanzhuyeb:before {
+  content: "\E6D5";
+}
+.uni-icon-iconzhuyesel:before {
+  content: "\E600";
+}
+.uni-icon-iconzhuyenor:before {
+  content: "\E601";
+}
+.uni-icon-iconwosel:before {
+  content: "\E604";
+}
+.uni-icon-iconwonor:before {
+  content: "\E605";
+}
+.uni-icon-iconquanzisel:before {
+  content: "\E606";
+}
+.uni-icon-iconquanzinor:before {
+  content: "\E607";
+}
+.uni-icon-qq02:before {
+  content: "\E63D";
+}
+.uni-icon-dynamic_fill:before {
+  content: "\E6F4";
+}
+.uni-icon-dynamic:before {
+  content: "\E6F5";
+}
+.uni-icon-clean-up:before {
+  content: "\E786";
+}
+.uni-icon-haoping:before {
+  content: "\E64C";
+}
+.uni-icon-shoucang1:before {
+  content: "\E602";
+}
+.uni-icon-shoucang-tianchong:before {
+  content: "\E609";
+}
+.uni-icon-icon_fuzhugongju-mian:before {
+  content: "\E65C";
+}
+.uni-icon-qinglihuancun:before {
+  content: "\E608";
+}

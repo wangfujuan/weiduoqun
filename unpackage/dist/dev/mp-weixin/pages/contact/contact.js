@@ -1,0 +1,4 @@
+require("../../common/manifest.js");
+require("../../common/vendor.js");
+global.webpackJsonp([10],{52:function(e,t,u){"use strict";var n=s(u(1)),o=s(u(53));function s(e){return e&&e.__esModule?e:{default:e}}Page((0,n.default)(o.default))},53:function(e,t,u){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n=u(55),o=u.n(n),s=!1;var l=function(e){s||u(54)},r=u(0)(o.a,null,l,null,null);r.options.__file="MAMP/htdocs/weiduoqun/pages/contact/contact.vue",r.esModule&&Object.keys(r.esModule).some(function(e){return"default"!==e&&"__"!==e.substr(0,2)})&&console.error("named exports are not supported in *.vue files."),t.default=r.exports},54:function(e,t){},55:function(e,t,u){"use strict"}},[52]);
+//# sourceMappingURL=../../../.sourcemap/mp-weixin/pages/contact/contact.js.map

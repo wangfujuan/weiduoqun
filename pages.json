@@ -3,19 +3,16 @@
 		{
 			"path": "pages/home/home",
 			"style": {
-				"navigationBarTitleText": "微多群",
-				"app-plus" : {
-					"titleNView" : {
-						"buttons" : [
-							{
-								"text" : "\ue534",
-								"fontSrc" : "/static/uni.ttf",
-								"fontSize" : "22px",
-								"color" : "#353535"
-							}
-						]	
-					}
-				}
+				"navigationBarTitleText": "微多群"
+// 				"app-plus" : {
+// 					"titleNView" : {
+// 						"buttons" : [
+// 							{
+// 								"type" : "share"
+// 							}
+// 						]	
+// 					}
+// 				}
 			}
 		}, {
             "path": "pages/main/main",
@@ -63,31 +60,32 @@
         "color": "#666666",
         "selectedColor": "#44b549",
         "backgroundColor": "#ffffff",
+		"borderStyle": "white",
         "list": [{
             "pagePath": "pages/home/home",
             "text": "首页",
-            "iconPath": "static/img/home.png",
-            "selectedIconPath": "static/img/homeHL.png"
+            "iconPath": "static/tabbar/home.png",
+            "selectedIconPath": "static/tabbar/home_selected.png"
         }, {
             "pagePath": "pages/circle/circle",
             "text": "微商圈",
-            "iconPath": "static/img/user.png",
-            "selectedIconPath": "static/img/userHL.png"
+            "iconPath": "static/tabbar/circle.png",
+            "selectedIconPath": "static/tabbar/circle_selected.png"
         }, {
             "pagePath": "pages/contact/contact",
             "text": "人脉多",
-            "iconPath": "static/img/user.png",
-            "selectedIconPath": "static/img/userHL.png"
+            "iconPath": "static/tabbar/contact.png",
+            "selectedIconPath": "static/tabbar/contact_selected.png"
         }, {
             "pagePath": "pages/obtain/obtain",
             "text": "收益中心",
-            "iconPath": "static/img/user.png",
-            "selectedIconPath": "static/img/userHL.png"
+            "iconPath": "static/tabbar/obtain.png",
+            "selectedIconPath": "static/tabbar/obtain_selected.png"
         }, {
             "pagePath": "pages/user/user",
             "text": "我的",
-            "iconPath": "static/img/user.png",
-            "selectedIconPath": "static/img/userHL.png"
+            "iconPath": "static/tabbar/user.png",
+            "selectedIconPath": "static/tabbar/user_selected.png"
         }]
     },
     "globalStyle": {

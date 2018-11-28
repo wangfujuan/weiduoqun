@@ -1,0 +1,84 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="76a6bd91">
+  <view class="_view data-v-6377e186 content">
+    <view class="_view data-v-6377e186 postop b-line"></view>
+    <view class="_view data-v-6377e186 content-pad">
+      <view class="_view data-v-6377e186 white">
+        <view class="_view data-v-6377e186 block-tl b-line">
+          <view class="_view data-v-6377e186 block-tl-lf">
+            <view class="_view data-v-6377e186 block-tl-icon block-tl-color2">
+              <template type="huati" data="{{...$root['0'], ...$root[$kk+'HOE-0'],$root}}" is="18f61b88"></template>
+            </view>
+            <text class="_text data-v-6377e186 mdtxt">话题</text>
+          </view>
+          <view class="_view data-v-6377e186 block-tl-rt">
+            <view class="_view data-v-6377e186 block-tl-rt-more">
+              <text class="_text data-v-6377e186 mdtxt">前往话题广场</text>
+              <view class="_view data-v-6377e186 block-more more-color1">
+                <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'etC-1'],$root}}" is="18f61b88"></template>
+              </view>
+            </view>
+          </view>
+        </view>
+        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" next-margin="40px" class="_swiper data-v-6377e186">
+          <swiper-item class="_swiper-item data-v-6377e186">
+            <view class="_view data-v-6377e186 topic-item">
+              <image class="_image data-v-6377e186 topic-item-avatar" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+              <view class="_view data-v-6377e186 topic-item-info">
+                <view class="_view data-v-6377e186 topic-item-tl"> #微商故事# </view>
+                <view class="_view data-v-6377e186 topic-item-des"> 骗子公司，TT系统。骗我辛苦钱 </view>
+                <view class="_view data-v-6377e186 topic-item-num">
+                  <text class="_text data-v-6377e186">2赞</text>
+                  <text class="_text data-v-6377e186">10评论</text>
+                </view>
+              </view>
+            </view>
+          </swiper-item>
+          <swiper-item class="_swiper-item data-v-6377e186">
+            <view class="_view data-v-6377e186 topic-item">
+              <image class="_image data-v-6377e186 topic-item-avatar" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+              <view class="_view data-v-6377e186 topic-item-info">
+                <view class="_view data-v-6377e186 topic-item-tl"> #微商故事# </view>
+                <view class="_view data-v-6377e186 topic-item-des"> 骗子公司，TT系统。骗我辛苦钱 </view>
+                <view class="_view data-v-6377e186 topic-item-num">
+                  <text class="_text data-v-6377e186">2赞</text>
+                  <text class="_text data-v-6377e186">10评论</text>
+                </view>
+              </view>
+            </view>
+          </swiper-item>
+          <swiper-item class="_swiper-item data-v-6377e186">
+            <view class="_view data-v-6377e186 topic-item">
+              <image class="_image data-v-6377e186 topic-item-avatar" src="../../static/avatar/avatar_3.jpg" mode="widthFix"></image>
+              <view class="_view data-v-6377e186 topic-item-info">
+                <view class="_view data-v-6377e186 topic-item-tl"> #微商故事# </view>
+                <view class="_view data-v-6377e186 topic-item-des"> 骗子公司，TT系统。骗我辛苦钱 </view>
+                <view class="_view data-v-6377e186 topic-item-num">
+                  <text class="_text data-v-6377e186">2赞</text>
+                  <text class="_text data-v-6377e186">10评论</text>
+                </view>
+              </view>
+            </view>
+          </swiper-item>
+        </swiper>
+      </view>
+      <view class="_view data-v-6377e186 white">
+        <view class="_view data-v-6377e186 art-item">
+          <view class="_view data-v-6377e186 art-item-tl">
+            <image class="_image data-v-6377e186 avatar" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+            <view class="_view data-v-6377e186 art-user">
+              <view class="_view data-v-6377e186 art-user-name"> 慧慧 </view>
+              <view class="_view data-v-6377e186 art-usr-time"> 30秒前 </view>
+            </view>
+            <view class="_view data-v-6377e186 block-tl-rt">
+              <view class="_view data-v-6377e186 block-tl-rt-item">
+                <template type="qinglihuancun" data="{{...$root['0'], ...$root[$kk+'1dr-5'],$root}}" is="18f61b88"></template>
+                <text class="_text data-v-6377e186 mdtxt">举报</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
