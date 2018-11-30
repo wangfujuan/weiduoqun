@@ -4,6 +4,7 @@
   font-family: "uniicons";
   font-weight: normal;
   font-style: normal;
+  src: url('https://www.epingwang.com/static/fonts/iconfont.ttf') format('truetype'),;
 }
 .uni-icon {
   font-family: "uniicons" !important;
@@ -110,6 +111,18 @@
 }
 .uni-icon-qinglihuancun:before {
   content: "\E608";
+}
+.uni-icon-zan:before {
+  content: "\E7C0";
+}
+.uni-icon-huida:before {
+  content: "\E7A0";
+}
+.uni-icon-fenxiang:before {
+  content: "\E79C";
+}
+.uni-icon-jubao:before {
+  content: "\E603";
 }
 uni-swiper {
   height: 224rpx;

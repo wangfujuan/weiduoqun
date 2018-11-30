@@ -7,7 +7,7 @@
         <view class="_view data-v-6377e186 block-tl b-line">
           <view class="_view data-v-6377e186 block-tl-lf">
             <view class="_view data-v-6377e186 block-tl-icon block-tl-color2">
-              <template type="huati" data="{{...$root['0'], ...$root[$kk+'Voj-0'],$root}}" is="18f61b88"></template>
+              <template type="huati" data="{{...$root['0'], ...$root[$kk+'MFL-0'],$root}}" is="18f61b88"></template>
             </view>
             <text class="_text data-v-6377e186 mdtxt">话题</text>
           </view>
@@ -15,7 +15,7 @@
             <view class="_view data-v-6377e186 block-tl-rt-more">
               <text class="_text data-v-6377e186 mdtxt">前往话题广场</text>
               <view class="_view data-v-6377e186 block-more more-color1">
-                <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'WLg-1'],$root}}" is="18f61b88"></template>
+                <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'zG1-1'],$root}}" is="18f61b88"></template>
               </view>
             </view>
           </view>
@@ -72,9 +72,82 @@
             </view>
             <view class="_view data-v-6377e186 block-tl-rt">
               <view class="_view data-v-6377e186 block-tl-rt-item">
-                <template type="qinglihuancun" data="{{...$root['0'], ...$root[$kk+'OqH-5'],$root}}" is="18f61b88"></template>
+                <template type="jubao" data="{{...$root['0'], ...$root[$kk+'J7T-5'],$root}}" is="18f61b88"></template>
                 <text class="_text data-v-6377e186 mdtxt">举报</text>
               </view>
+            </view>
+          </view>
+          <view class="_view data-v-6377e186 art-item-info"> 似乎在😊 很多人眼中，胸针是古板或陈旧的~~，很难和时髦挂上勾❤️。但胸针是个很好搭配的饰品，在个很好搭配的饰上都能有它的存在，可以说它是万能的点缀。 </view>
+          <view class="_view data-v-6377e186 art-item-pic">
+            <view class="_view data-v-6377e186 art-item-img-wp">
+              <image class="_image data-v-6377e186 art-item-img" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+            </view>
+            <view class="_view data-v-6377e186 art-item-img-wp">
+              <image class="_image data-v-6377e186 art-item-img" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+            </view>
+            <view class="_view data-v-6377e186 art-item-img-wp">
+              <image class="_image data-v-6377e186 art-item-img" src="../../static/avatar/avatar_3.jpg" mode="widthFix"></image>
+            </view>
+          </view>
+          <view class="_view data-v-6377e186 user-doings">
+            <view class="_view data-v-6377e186 user-doings-item">
+              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'N7y-6'],$root}}" is="18f61b88"></template>
+              <text class="_text data-v-6377e186 mdtxt">分享</text>
+            </view>
+            <view class="_view data-v-6377e186 m-line"></view>
+            <view class="_view data-v-6377e186 user-doings-item">
+              <template type="huida" data="{{...$root['0'], ...$root[$kk+'gMq-7'],$root}}" is="18f61b88"></template>
+              <text class="_text data-v-6377e186 mdtxt">评论</text>
+            </view>
+            <view class="_view data-v-6377e186 m-line"></view>
+            <view class="_view data-v-6377e186 user-doings-item">
+              <template type="zan" data="{{...$root['0'], ...$root[$kk+'9im-8'],$root}}" is="18f61b88"></template>
+              <text class="_text data-v-6377e186 mdtxt">点赞</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-6377e186 white">
+        <view class="_view data-v-6377e186 art-item">
+          <view class="_view data-v-6377e186 art-item-tl">
+            <image class="_image data-v-6377e186 avatar" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+            <view class="_view data-v-6377e186 art-user">
+              <view class="_view data-v-6377e186 art-user-name"> 松松 </view>
+              <view class="_view data-v-6377e186 art-usr-time"> 30秒前 </view>
+            </view>
+            <view class="_view data-v-6377e186 block-tl-rt">
+              <view class="_view data-v-6377e186 block-tl-rt-item">
+                <template type="jubao" data="{{...$root['0'], ...$root[$kk+'Gar-9'],$root}}" is="18f61b88"></template>
+                <text class="_text data-v-6377e186 mdtxt">举报</text>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-6377e186 art-item-info"> 似乎在😊 很多人眼中，胸针是古板或陈旧的~~，很难和时髦挂上勾❤️。但胸针是个很好搭配的饰品，在个很好搭配的饰上都能有它的存在，可以说它是万能的点缀。 </view>
+          <view class="_view data-v-6377e186 art-item-pic">
+            <view class="_view data-v-6377e186 art-item-img-wp">
+              <image class="_image data-v-6377e186 art-item-img" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+            </view>
+            <view class="_view data-v-6377e186 art-item-img-wp">
+              <image class="_image data-v-6377e186 art-item-img" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+            </view>
+            <view class="_view data-v-6377e186 art-item-img-wp">
+              <image class="_image data-v-6377e186 art-item-img" src="../../static/avatar/avatar_3.jpg" mode="widthFix"></image>
+            </view>
+          </view>
+          <view class="_view data-v-6377e186 user-doings">
+            <view class="_view data-v-6377e186 user-doings-item">
+              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'nVl-10'],$root}}" is="18f61b88"></template>
+              <text class="_text data-v-6377e186 mdtxt">分享</text>
+            </view>
+            <view class="_view data-v-6377e186 m-line"></view>
+            <view class="_view data-v-6377e186 user-doings-item">
+              <template type="huida" data="{{...$root['0'], ...$root[$kk+'dyX-11'],$root}}" is="18f61b88"></template>
+              <text class="_text data-v-6377e186 mdtxt">评论</text>
+            </view>
+            <view class="_view data-v-6377e186 m-line"></view>
+            <view class="_view data-v-6377e186 user-doings-item">
+              <template type="zan" data="{{...$root['0'], ...$root[$kk+'zDa-12'],$root}}" is="18f61b88"></template>
+              <text class="_text data-v-6377e186 mdtxt">点赞</text>
             </view>
           </view>
         </view>
