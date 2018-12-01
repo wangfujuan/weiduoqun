@@ -1,1 +1,241 @@
 @import "../../common/vendor.wxss";
+
+@font-face {
+  font-family: "uniicons";
+  font-weight: normal;
+  font-style: normal;
+  src: url('https://www.epingwang.com/static/fonts/iconfont.ttf') format('truetype'),;
+}
+.uni-icon {
+  font-family: "uniicons" !important;
+  font-size: 48rpx;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+}
+.uni-icon-likefill:before {
+  content: "\E668";
+}
+.uni-icon-like:before {
+  content: "\E669";
+}
+.uni-icon-upstagefill:before {
+  content: "\E70E";
+}
+.uni-icon-peoplefill:before {
+  content: "\E735";
+}
+.uni-icon-people:before {
+  content: "\E736";
+}
+.uni-icon-tianjia:before {
+  content: "\E60C";
+}
+.uni-icon-xin2:before {
+  content: "\E712";
+}
+.uni-icon-biaodan:before {
+  content: "\E715";
+}
+.uni-icon-chanpin2:before {
+  content: "\E71A";
+}
+.uni-icon-duoren2:before {
+  content: "\E71E";
+}
+.uni-icon-geren2:before {
+  content: "\E71F";
+}
+.uni-icon-xiazai:before {
+  content: "\E73E";
+}
+.uni-icon-huidaodingbu:before {
+  content: "\E74A";
+}
+.uni-icon-qianjin:before {
+  content: "\E74E";
+}
+.uni-icon-laiyuan:before {
+  content: "\E77B";
+}
+.uni-icon-huati:before {
+  content: "\E659";
+}
+.uni-icon-quanquanzhuyeb:before {
+  content: "\E6D5";
+}
+.uni-icon-iconzhuyesel:before {
+  content: "\E600";
+}
+.uni-icon-iconzhuyenor:before {
+  content: "\E601";
+}
+.uni-icon-iconwosel:before {
+  content: "\E604";
+}
+.uni-icon-iconwonor:before {
+  content: "\E605";
+}
+.uni-icon-iconquanzisel:before {
+  content: "\E606";
+}
+.uni-icon-iconquanzinor:before {
+  content: "\E607";
+}
+.uni-icon-qq02:before {
+  content: "\E63D";
+}
+.uni-icon-dynamic_fill:before {
+  content: "\E6F4";
+}
+.uni-icon-dynamic:before {
+  content: "\E6F5";
+}
+.uni-icon-clean-up:before {
+  content: "\E786";
+}
+.uni-icon-haoping:before {
+  content: "\E64C";
+}
+.uni-icon-shoucang1:before {
+  content: "\E602";
+}
+.uni-icon-shoucang-tianchong:before {
+  content: "\E609";
+}
+.uni-icon-icon_fuzhugongju-mian:before {
+  content: "\E65C";
+}
+.uni-icon-qinglihuancun:before {
+  content: "\E608";
+}
+.uni-icon-zan:before {
+  content: "\E7C0";
+}
+.uni-icon-huida:before {
+  content: "\E7A0";
+}
+.uni-icon-fenxiang:before {
+  content: "\E79C";
+}
+.uni-icon-jubao:before {
+  content: "\E603";
+}
+view {
+  box-sizing: border-box;
+}
+uni-swiper[data-v-3c055dd4] {
+  height: 246rpx;
+}
+swiper {
+  height: 232rpx;
+}
+.swiper-item {
+  display: block;
+  height: 232rpx;
+  text-align: center;
+  padding: 0 7rpx;
+}
+uni-image,
+swiper-item image {
+  width: 100%;
+  border-radius: 14rpx;
+}
+.trend {
+  height: 170rpx;
+  background-image: -webkit-linear-gradient(135deg, #6e78e0 0%, #b07ef1 100%);
+  background-image: linear-gradient(-45deg, #6e78e0 0%, #b07ef1 100%);
+  margin: 0 22rpx 20rpx;
+  border-radius: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.trend-info {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.trend-user {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+.trend-user-avatar {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 100%;
+  border: 4rpx solid #ececec;
+  padding: 4rpx;
+}
+.trend-user image {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 100%;
+}
+.tool-ls {
+  font-size: 0;
+  padding: 0 12rpx;
+}
+.tool-item {
+  font-size: 28rpx;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height: 236rpx;
+  padding: 0 8rpx 22rpx;
+}
+.tool-item-box {
+  border: 1rpx solid #f3f3f3;
+  height: 100%;
+  padding: 30rpx;
+  border-radius: 10rpx;
+}
+.tool-item-con {
+  line-height: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  margin-bottom: 30rpx;
+}
+.tool-item-icon {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100%;
+  background-color: #007AFF;
+}
+.tool-item-des {
+  color: #a1a1a1;
+  font-size: 22rpx;
+  margin-top: 20rpx;
+}
+.tool-item-info {
+  padding-left: 20rpx;
+}
+.tool-item-btn {
+  height: 56rpx;
+  line-height: 52rpx;
+  border: 1rpx solid #44B549;
+  border-radius: 56rpx;
+  text-align: center;
+  color: #44B549;
+  font-size: 22rpx;
+}

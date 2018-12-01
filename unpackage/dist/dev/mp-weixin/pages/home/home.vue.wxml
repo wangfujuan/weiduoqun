@@ -1,175 +1,176 @@
 <import src="/components/uni-icon.vue.wxml" />
-<template name="b9afa09e">
-  <view class="_view data-v-7729375d content">
-    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" class="_swiper data-v-7729375d">
-      <swiper-item class="_swiper-item data-v-7729375d">
-        <view class="_view data-v-7729375d swiper-item">
-          <image src="../../static/banner.jpg" mode="widthFix" class="_image data-v-7729375d"></image>
+<template name="6c13d9f5">
+  <view class="_view data-v-18530888 content">
+    <view class="_view data-v-18530888 shadow"></view>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" next-margin="20rpx" previous-margin="20rpx" class="_swiper data-v-18530888">
+      <swiper-item class="_swiper-item data-v-18530888">
+        <view class="_view data-v-18530888 swiper-item">
+          <image src="../../static/banner.jpg" mode="widthFix" class="_image data-v-18530888"></image>
         </view>
       </swiper-item>
-      <swiper-item class="_swiper-item data-v-7729375d">
-        <view class="_view data-v-7729375d swiper-item">
-          <image src="../../static/banner.jpg" mode="widthFix" class="_image data-v-7729375d"></image>
+      <swiper-item class="_swiper-item data-v-18530888">
+        <view class="_view data-v-18530888 swiper-item">
+          <image src="../../static/banner.jpg" mode="widthFix" class="_image data-v-18530888"></image>
         </view>
       </swiper-item>
-      <swiper-item class="_swiper-item data-v-7729375d">
-        <view class="_view data-v-7729375d swiper-item">
-          <image src="../../static/banner.jpg" mode="widthFix" class="_image data-v-7729375d"></image>
+      <swiper-item class="_swiper-item data-v-18530888">
+        <view class="_view data-v-18530888 swiper-item">
+          <image src="../../static/banner.jpg" mode="widthFix" class="_image data-v-18530888"></image>
         </view>
       </swiper-item>
     </swiper>
-    <view class="_view data-v-7729375d content-pad">
-      <view class="_view data-v-7729375d white">
-        <view class="_view data-v-7729375d uni-grid-9 b-line">
-          <view class="_view data-v-7729375d uni-grid-9-item" hover-class="uni-grid-9-item-hover" wx:key="index" key="{{index}}" wx:for="{{grids}}" wx:for-index="index" wx:for-item="item">
-            <view class="_view data-v-7729375d {{item.syicon}}">
-              <template data="{{...$root['0'], ...$root[$kk+'eeg-3-'+index],$root}}" is="18f61b88"></template>
+    <view class="_view data-v-18530888 content-pad">
+      <view class="_view data-v-18530888 white">
+        <view class="_view data-v-18530888 uni-grid-9 b-line">
+          <view class="_view data-v-18530888 uni-grid-9-item" hover-class="uni-grid-9-item-hover" wx:key="index" key="{{index}}" wx:for="{{grids}}" wx:for-index="index" wx:for-item="item">
+            <view class="_view data-v-18530888 {{item.syicon}}">
+              <template data="{{...$root['0'], ...$root[$kk+'rXg-3-'+index],$root}}" is="20a51b0d"></template>
             </view>
-            <text class="_text data-v-7729375d uni-grid-9-text">{{item.name}}</text>
+            <text class="_text data-v-18530888 uni-grid-9-text">{{item.name}}</text>
           </view>
         </view>
-        <view class="_view data-v-7729375d tips">
-          <view class="_view data-v-7729375d tips-text"> 注意：防骗提醒，让你远离骗子！ </view>
-          <template type="arrowright" data="{{...$root['0'], ...$root[$kk+'MRo-4'],$root}}" is="18f61b88"></template>
+        <view class="_view data-v-18530888 tips">
+          <view class="_view data-v-18530888 tips-text"> 注意：防骗提醒，让你远离骗子！ </view>
+          <template type="arrowright" data="{{...$root['0'], ...$root[$kk+'1v1-4'],$root}}" is="20a51b0d"></template>
         </view>
       </view>
-      <view class="_view data-v-7729375d white">
-        <view class="_view data-v-7729375d block-tl">
-          <view class="_view data-v-7729375d block-tl-lf">
-            <view class="_view data-v-7729375d block-tl-icon block-tl-color1">
-              <template type="geren2" data="{{...$root['0'], ...$root[$kk+'bSJ-5'],$root}}" is="18f61b88"></template>
+      <view class="_view data-v-18530888 white">
+        <view class="_view data-v-18530888 block-tl">
+          <view class="_view data-v-18530888 block-tl-lf">
+            <view class="_view data-v-18530888 block-tl-icon block-tl-color1">
+              <template type="geren2" data="{{...$root['0'], ...$root[$kk+'SIO-5'],$root}}" is="20a51b0d"></template>
             </view>
-            <text class="_text data-v-7729375d mdtxt">推荐名片</text>
+            <text class="_text data-v-18530888 mdtxt">推荐名片</text>
           </view>
-          <view class="_view data-v-7729375d block-tl-rt">
-            <view class="_view data-v-7729375d block-tl-rt-item">
-              <template type="laiyuan" data="{{...$root['0'], ...$root[$kk+'iGM-6'],$root}}" is="18f61b88"></template>
-              <text class="_text data-v-7729375d mdtxt">导入</text>
+          <view class="_view data-v-18530888 block-tl-rt">
+            <view class="_view data-v-18530888 block-tl-rt-item">
+              <template type="laiyuan" data="{{...$root['0'], ...$root[$kk+'zGJ-6'],$root}}" is="20a51b0d"></template>
+              <text class="_text data-v-18530888 mdtxt">导入</text>
             </view>
-            <view class="_view data-v-7729375d block-tl-rt-item">
-              <template type="qinglihuancun" data="{{...$root['0'], ...$root[$kk+'nKR-7'],$root}}" is="18f61b88"></template>
-              <text class="_text data-v-7729375d mdtxt">清理</text>
+            <view class="_view data-v-18530888 block-tl-rt-item">
+              <template type="qinglihuancun" data="{{...$root['0'], ...$root[$kk+'mT9-7'],$root}}" is="20a51b0d"></template>
+              <text class="_text data-v-18530888 mdtxt">清理</text>
             </view>
           </view>
         </view>
-        <scroll-view class="_scroll-view data-v-7729375d card-ls" scroll-x scroll-left="0">
-          <view class="_view data-v-7729375d card-item" wx:key="card.id" key="{{card.id}}" wx:for="{{cardList}}" wx:for-index="index" wx:for-item="card">
-            <view class="_view data-v-7729375d card-avatar">
-              <image src="{{card.img}}" mode="widthFix" class="_image data-v-7729375d"></image>
+        <scroll-view class="_scroll-view data-v-18530888 card-ls" scroll-x scroll-left="0">
+          <view class="_view data-v-18530888 card-item" wx:key="card.id" key="{{card.id}}" wx:for="{{cardList}}" wx:for-index="index" wx:for-item="card">
+            <view class="_view data-v-18530888 card-avatar">
+              <image src="{{card.img}}" mode="widthFix" class="_image data-v-18530888"></image>
             </view>
-            <view class="_view data-v-7729375d card-name">
-              <text class="_text data-v-7729375d ding">顶</text>
-              <text class="_text data-v-7729375d mdtxt">{{card.name}}</text>
+            <view class="_view data-v-18530888 card-name">
+              <text class="_text data-v-18530888 ding">顶</text>
+              <text class="_text data-v-18530888 mdtxt">{{card.name}}</text>
             </view>
           </view>
         </scroll-view>
       </view>
-      <view class="_view data-v-7729375d white">
-        <view class="_view data-v-7729375d block-tl">
-          <view class="_view data-v-7729375d block-tl-lf">
-            <view class="_view data-v-7729375d block-tl-icon block-tl-color2">
-              <template type="duoren2" data="{{...$root['0'], ...$root[$kk+'PbF-8'],$root}}" is="18f61b88"></template>
+      <view class="_view data-v-18530888 white">
+        <view class="_view data-v-18530888 block-tl">
+          <view class="_view data-v-18530888 block-tl-lf">
+            <view class="_view data-v-18530888 block-tl-icon block-tl-color2">
+              <template type="duoren2" data="{{...$root['0'], ...$root[$kk+'Ic6-8'],$root}}" is="20a51b0d"></template>
             </view>
-            <text class="_text data-v-7729375d mdtxt">热门群</text>
+            <text class="_text data-v-18530888 mdtxt">热门群</text>
           </view>
-          <view class="_view data-v-7729375d block-tl-rt">
-            <view class="_view data-v-7729375d block-tl-rt-item">
-              <template type="laiyuan" data="{{...$root['0'], ...$root[$kk+'17U-9'],$root}}" is="18f61b88"></template>
-              <text class="_text data-v-7729375d mdtxt">导入</text>
+          <view class="_view data-v-18530888 block-tl-rt">
+            <view class="_view data-v-18530888 block-tl-rt-item">
+              <template type="laiyuan" data="{{...$root['0'], ...$root[$kk+'3ud-9'],$root}}" is="20a51b0d"></template>
+              <text class="_text data-v-18530888 mdtxt">导入</text>
             </view>
-            <view class="_view data-v-7729375d block-tl-rt-item">
-              <template type="qinglihuancun" data="{{...$root['0'], ...$root[$kk+'TbL-10'],$root}}" is="18f61b88"></template>
-              <text class="_text data-v-7729375d mdtxt">清理</text>
+            <view class="_view data-v-18530888 block-tl-rt-item">
+              <template type="qinglihuancun" data="{{...$root['0'], ...$root[$kk+'0FH-10'],$root}}" is="20a51b0d"></template>
+              <text class="_text data-v-18530888 mdtxt">清理</text>
             </view>
           </view>
         </view>
-        <scroll-view class="_scroll-view data-v-7729375d card-ls hot-ls" scroll-x scroll-left="0">
-          <view class="_view data-v-7729375d hot-item" wx:key="hot.id" key="{{hot.id}}" wx:for="{{hotList}}" wx:for-index="index" wx:for-item="hot">
-            <view class="_view data-v-7729375d card-avatar">
-              <image src="{{hot.img}}" mode="widthFix" class="_image data-v-7729375d"></image>
+        <scroll-view class="_scroll-view data-v-18530888 card-ls hot-ls" scroll-x scroll-left="0">
+          <view class="_view data-v-18530888 hot-item" wx:key="hot.id" key="{{hot.id}}" wx:for="{{hotList}}" wx:for-index="index" wx:for-item="hot">
+            <view class="_view data-v-18530888 card-avatar">
+              <image src="{{hot.img}}" mode="widthFix" class="_image data-v-18530888"></image>
             </view>
-            <view class="_view data-v-7729375d hot-name">
-              <text class="_text data-v-7729375d ding">顶</text>
-              <text class="_text data-v-7729375d mdtxt">{{hot.name}}</text>
+            <view class="_view data-v-18530888 hot-name">
+              <text class="_text data-v-18530888 ding">顶</text>
+              <text class="_text data-v-18530888 mdtxt">{{hot.name}}</text>
             </view>
-            <view class="_view data-v-7729375d hot-add">
-              <template type="tianjia" data="{{...$root['0'], ...$root[$kk+'Tl3-11-'+index],$root}}" is="18f61b88"></template>
-              <text class="_text data-v-7729375d mdtxt">加群</text>
+            <view class="_view data-v-18530888 hot-add">
+              <template type="tianjia" data="{{...$root['0'], ...$root[$kk+'rB3-11-'+index],$root}}" is="20a51b0d"></template>
+              <text class="_text data-v-18530888 mdtxt">加群</text>
             </view>
           </view>
         </scroll-view>
       </view>
-      <view class="_view data-v-7729375d white">
-        <view class="_view data-v-7729375d block-tl">
-          <view class="_view data-v-7729375d block-tl-lf">
-            <view class="_view data-v-7729375d block-tl-icon block-tl-color3">
-              <template type="chanpin2" data="{{...$root['0'], ...$root[$kk+'DTe-12'],$root}}" is="18f61b88"></template>
+      <view class="_view data-v-18530888 white">
+        <view class="_view data-v-18530888 block-tl">
+          <view class="_view data-v-18530888 block-tl-lf">
+            <view class="_view data-v-18530888 block-tl-icon block-tl-color3">
+              <template type="chanpin2" data="{{...$root['0'], ...$root[$kk+'qVT-12'],$root}}" is="20a51b0d"></template>
             </view>
-            <text class="_text data-v-7729375d mdtxt">产品秀</text>
+            <text class="_text data-v-18530888 mdtxt">产品秀</text>
           </view>
-          <view class="_view data-v-7729375d block-tl-rt">
-            <view class="_view data-v-7729375d block-tl-rt-more">
-              <text class="_text data-v-7729375d mdtxt">更多</text>
-              <view class="_view data-v-7729375d block-more more-color1">
-                <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'C0z-13'],$root}}" is="18f61b88"></template>
+          <view class="_view data-v-18530888 block-tl-rt">
+            <view class="_view data-v-18530888 block-tl-rt-more">
+              <text class="_text data-v-18530888 mdtxt">更多</text>
+              <view class="_view data-v-18530888 block-more more-color1">
+                <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'wL2-13'],$root}}" is="20a51b0d"></template>
               </view>
             </view>
           </view>
         </view>
-        <view class="_view data-v-7729375d product-ls">
-          <view class="_view data-v-7729375d product-item b-line">
-            <view class="_view data-v-7729375d product-tl"> 目前世界上最神奇的面膜 </view>
-            <image class="_image data-v-7729375d product-item-img" src="../../static/product.png" mode="widthFix"></image>
-            <view class="_view data-v-7729375d product-info"> 米色小霞
-              <text class="_text data-v-7729375d">99人阅读</text>
+        <view class="_view data-v-18530888 product-ls">
+          <view class="_view data-v-18530888 product-item b-line">
+            <view class="_view data-v-18530888 product-tl"> 目前世界上最神奇的面膜 </view>
+            <image class="_image data-v-18530888 product-item-img" src="../../static/product.png" mode="widthFix"></image>
+            <view class="_view data-v-18530888 product-info"> 米色小霞
+              <text class="_text data-v-18530888">99人阅读</text>
             </view>
           </view>
-          <view class="_view data-v-7729375d product-item b-line">
-            <view class="_view data-v-7729375d product-tl"> 目前世界上最神奇的面膜 </view>
-            <image class="_image data-v-7729375d product-item-img" src="../../static/product.png" mode="widthFix"></image>
-            <view class="_view data-v-7729375d product-info"> 米色小霞
-              <text class="_text data-v-7729375d">99人阅读</text>
+          <view class="_view data-v-18530888 product-item b-line">
+            <view class="_view data-v-18530888 product-tl"> 目前世界上最神奇的面膜 </view>
+            <image class="_image data-v-18530888 product-item-img" src="../../static/product.png" mode="widthFix"></image>
+            <view class="_view data-v-18530888 product-info"> 米色小霞
+              <text class="_text data-v-18530888">99人阅读</text>
             </view>
           </view>
-          <view class="_view data-v-7729375d product-item">
-            <view class="_view data-v-7729375d product-tl"> 目前世界上最神奇的面膜 </view>
-            <image class="_image data-v-7729375d product-item-img" src="../../static/product.png" mode="widthFix"></image>
-            <view class="_view data-v-7729375d product-info"> 米色小霞
-              <text class="_text data-v-7729375d">99人阅读</text>
+          <view class="_view data-v-18530888 product-item">
+            <view class="_view data-v-18530888 product-tl"> 目前世界上最神奇的面膜 </view>
+            <image class="_image data-v-18530888 product-item-img" src="../../static/product.png" mode="widthFix"></image>
+            <view class="_view data-v-18530888 product-info"> 米色小霞
+              <text class="_text data-v-18530888">99人阅读</text>
             </view>
           </view>
         </view>
       </view>
-      <view class="_view data-v-7729375d white">
-        <view class="_view data-v-7729375d block-tl">
-          <view class="_view data-v-7729375d block-tl-lf">
-            <view class="_view data-v-7729375d block-tl-icon block-tl-color4">
-              <template type="chanpin2" data="{{...$root['0'], ...$root[$kk+'NQ9-14'],$root}}" is="18f61b88"></template>
+      <view class="_view data-v-18530888 white">
+        <view class="_view data-v-18530888 block-tl">
+          <view class="_view data-v-18530888 block-tl-lf">
+            <view class="_view data-v-18530888 block-tl-icon block-tl-color4">
+              <template type="chanpin2" data="{{...$root['0'], ...$root[$kk+'1xk-14'],$root}}" is="20a51b0d"></template>
             </view>
-            <text class="_text data-v-7729375d mdtxt">头条干货</text>
+            <text class="_text data-v-18530888 mdtxt">头条干货</text>
           </view>
-          <view class="_view data-v-7729375d block-tl-rt">
-            <view class="_view data-v-7729375d block-tl-rt-item">
-              <template type="shoucang1" data="{{...$root['0'], ...$root[$kk+'Akv-15'],$root}}" is="18f61b88"></template>
-              <text class="_text data-v-7729375d mdtxt">收藏</text>
+          <view class="_view data-v-18530888 block-tl-rt">
+            <view class="_view data-v-18530888 block-tl-rt-item">
+              <template type="shoucang1" data="{{...$root['0'], ...$root[$kk+'y8W-15'],$root}}" is="20a51b0d"></template>
+              <text class="_text data-v-18530888 mdtxt">收藏</text>
             </view>
-            <view class="_view data-v-7729375d block-tl-rt-more">
-              <text class="_text data-v-7729375d mdtxt">更多</text>
-              <view class="_view data-v-7729375d block-more more-color2">
-                <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'HdR-16'],$root}}" is="18f61b88"></template>
+            <view class="_view data-v-18530888 block-tl-rt-more">
+              <text class="_text data-v-18530888 mdtxt">更多</text>
+              <view class="_view data-v-18530888 block-more more-color2">
+                <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'2gJ-16'],$root}}" is="20a51b0d"></template>
               </view>
             </view>
           </view>
         </view>
-        <view class="_view data-v-7729375d uni-list">
-          <view class="_view data-v-7729375d uni-list-cell b-line" hover-class="uni-list-cell-hover" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'vDt-0-'+key}}" data-comkey="{{$k}}" wx:for="{{listData}}" wx:for-index="key" wx:for-item="value">
-            <view class="_view data-v-7729375d uni-media-list">
-              <image class="_image data-v-7729375d uni-media-list-logo" src="{{value.cover}}"></image>
-              <view class="_view data-v-7729375d uni-media-list-body">
-                <view class="_view data-v-7729375d uni-media-list-text-top">{{value.title}}</view>
-                <view class="_view data-v-7729375d uni-media-list-text-bottom">
-                  <text class="_text data-v-7729375d">{{value.author_name}}</text>
-                  <text class="_text data-v-7729375d">{{value.published_at}}</text>
+        <view class="_view data-v-18530888 uni-list">
+          <view class="_view data-v-18530888 uni-list-cell b-line" hover-class="uni-list-cell-hover" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'aoE-0-'+key}}" data-comkey="{{$k}}" wx:for="{{listData}}" wx:for-index="key" wx:for-item="value">
+            <view class="_view data-v-18530888 uni-media-list">
+              <image class="_image data-v-18530888 uni-media-list-logo" src="{{value.cover}}"></image>
+              <view class="_view data-v-18530888 uni-media-list-body">
+                <view class="_view data-v-18530888 uni-media-list-text-top">{{value.title}}</view>
+                <view class="_view data-v-18530888 uni-media-list-text-bottom">
+                  <text class="_text data-v-18530888">{{value.author_name}}</text>
+                  <text class="_text data-v-18530888">{{value.published_at}}</text>
                 </view>
               </view>
             </view>

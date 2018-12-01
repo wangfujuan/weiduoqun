@@ -4,6 +4,7 @@
   font-family: "uniicons";
   font-weight: normal;
   font-style: normal;
+  src: url('https://www.epingwang.com/static/fonts/iconfont.ttf') format('truetype'),;
 }
 .uni-icon {
   font-family: "uniicons" !important;
@@ -111,17 +112,34 @@
 .uni-icon-qinglihuancun:before {
   content: "\E608";
 }
-uni-swiper {
-  height: 224rpx;
+.uni-icon-zan:before {
+  content: "\E7C0";
+}
+.uni-icon-huida:before {
+  content: "\E7A0";
+}
+.uni-icon-fenxiang:before {
+  content: "\E79C";
+}
+.uni-icon-jubao:before {
+  content: "\E603";
+}
+uni-swiper[data-v-3c055dd4] {
+  height: 246rpx;
+}
+swiper {
+  height: 232rpx;
 }
 .swiper-item {
   display: block;
-  height: 224rpx;
-  line-height: 224rpx;
+  height: 232rpx;
   text-align: center;
+  padding: 0 7rpx;
 }
-uni-image {
+uni-image,
+swiper-item image {
   width: 100%;
+  border-radius: 14rpx;
 }
 .block-tl-icon .uni-icon {
   color: #fff;

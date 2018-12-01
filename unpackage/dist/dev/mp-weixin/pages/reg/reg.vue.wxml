@@ -1,21 +1,21 @@
-<template name="2647548a">
-  <view class="_view data-v-52935867 content">
-    <view class="_view data-v-52935867 input-group">
-      <view class="_view data-v-52935867 input-row border">
-        <text class="_text data-v-52935867 title">账号：</text>
-        <input type="text" value="{{account}}" bindinput="handleProxy" placeholder="请输入账号" data-eventid="{{'8GK-0'}}" data-comkey="{{$k}}" class="_input data-v-52935867" />
+<template name="a6db8c76">
+  <view class="_view data-v-77c57852 content">
+    <view class="_view data-v-77c57852 input-group">
+      <view class="_view data-v-77c57852 input-row border">
+        <text class="_text data-v-77c57852 title">账号：</text>
+        <input type="text" value="{{account}}" bindinput="handleProxy" placeholder="请输入账号" data-eventid="{{'ron-0'}}" data-comkey="{{$k}}" class="_input data-v-77c57852" />
       </view>
-      <view class="_view data-v-52935867 input-row border">
-        <text class="_text data-v-52935867 title">密码：</text>
-        <input type="text" password="true" value="{{password}}" bindinput="handleProxy" placeholder="请输入密码" data-eventid="{{'QVy-1'}}" data-comkey="{{$k}}" class="_input data-v-52935867" />
+      <view class="_view data-v-77c57852 input-row border">
+        <text class="_text data-v-77c57852 title">密码：</text>
+        <input type="text" password="true" value="{{password}}" bindinput="handleProxy" placeholder="请输入密码" data-eventid="{{'jZE-1'}}" data-comkey="{{$k}}" class="_input data-v-77c57852" />
       </view>
-      <view class="_view data-v-52935867 input-row">
-        <text class="_text data-v-52935867 title">邮箱：</text>
-        <input type="text" value="{{email}}" bindinput="handleProxy" placeholder="请输入邮箱" data-eventid="{{'7kz-2'}}" data-comkey="{{$k}}" class="_input data-v-52935867" />
+      <view class="_view data-v-77c57852 input-row">
+        <text class="_text data-v-77c57852 title">邮箱：</text>
+        <input type="text" value="{{email}}" bindinput="handleProxy" placeholder="请输入邮箱" data-eventid="{{'IP8-2'}}" data-comkey="{{$k}}" class="_input data-v-77c57852" />
       </view>
     </view>
-    <view class="_view data-v-52935867 btn-row">
-      <button type="primary" class="_button data-v-52935867 primary" bindtap="handleProxy" data-eventid="{{'sFZ-3'}}" data-comkey="{{$k}}">注册</button>
+    <view class="_view data-v-77c57852 btn-row">
+      <button type="primary" class="_button data-v-77c57852 primary" bindtap="handleProxy" data-eventid="{{'rCM-3'}}" data-comkey="{{$k}}">注册</button>
     </view>
   </view>
 </template>

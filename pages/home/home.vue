@@ -1,7 +1,11 @@
 <template>
 	<view class="content">
-		<!-- <view class="shadow"></view> -->
-		<swiper :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" :duration="duration" circular="true">
+		<view class="shadow"></view>
+		<swiper :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" 
+				:duration="duration" 
+				circular="true" 
+				next-margin="20rpx" 
+				previous-margin="20rpx">
 			<swiper-item>
 				<view class="swiper-item">
 					<image src="../../static/banner.jpg" mode="widthFix"></image>
@@ -208,9 +212,6 @@
 				autoplay: false,
 				interval: 2000,
 				duration: 500,
-				iconClassList: [
-					''
-				],
 				grids: [
 					{
 						name: "微信群",
@@ -380,21 +381,24 @@
 
 <style>
 	@import "../../common/icon.css";
+	uni-swiper[data-v-3c055dd4]{
+		height: 246upx;
+	}
 	
-	uni-swiper{
-		height: 224upx;
+	swiper{
+		height: 232upx;
 	}
 	
 	.swiper-item {
 		display: block;
-		height: 224upx;
-		line-height: 224upx;
-		text-align: center;
-		/* margin-right: 14upx; */
+		height: 232upx;
+		text-align: center;	
+		padding: 0 7upx;
 	}
 	
-	uni-image {
+	uni-image,swiper-item image {
 		width: 100%;
+		border-radius: 14upx;
 	}
 	
 	.block-tl-icon .uni-icon {

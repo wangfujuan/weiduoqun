@@ -1,17 +1,17 @@
-<template name="3f7c87f1">
-  <view class="_view data-v-137d8f9d content">
-    <view wx:if="{{hasLogin}}" class="_view data-v-137d8f9d hello">
-      <view class="_view data-v-137d8f9d title"> 您好 {{userName}}，您已成功登录。 </view>
-      <view class="_view data-v-137d8f9d ul">
-        <view class="_view data-v-137d8f9d">这是 uni-app 带登录模板的示例App首页。</view>
-        <view class="_view data-v-137d8f9d">在 “我的” 中点击 “退出” 可以 “注销当前账户”</view>
+<template name="08683235">
+  <view class="_view data-v-96b13e70 content">
+    <view wx:if="{{hasLogin}}" class="_view data-v-96b13e70 hello">
+      <view class="_view data-v-96b13e70 title"> 您好 {{userName}}，您已成功登录。 </view>
+      <view class="_view data-v-96b13e70 ul">
+        <view class="_view data-v-96b13e70">这是 uni-app 带登录模板的示例App首页。</view>
+        <view class="_view data-v-96b13e70">在 “我的” 中点击 “退出” 可以 “注销当前账户”</view>
       </view>
     </view>
-    <view wx:if="{{!hasLogin}}" class="_view data-v-137d8f9d hello">
-      <view class="_view data-v-137d8f9d title"> 您好 游客。 </view>
-      <view class="_view data-v-137d8f9d ul">
-        <view class="_view data-v-137d8f9d">这是 uni-app 带登录模板的示例App首页。</view>
-        <view class="_view data-v-137d8f9d">在 “我的” 中点击 “登录” 可以 “登录您的账户”</view>
+    <view wx:if="{{!hasLogin}}" class="_view data-v-96b13e70 hello">
+      <view class="_view data-v-96b13e70 title"> 您好 游客。 </view>
+      <view class="_view data-v-96b13e70 ul">
+        <view class="_view data-v-96b13e70">这是 uni-app 带登录模板的示例App首页。</view>
+        <view class="_view data-v-96b13e70">在 “我的” 中点击 “登录” 可以 “登录您的账户”</view>
       </view>
     </view>
   </view>

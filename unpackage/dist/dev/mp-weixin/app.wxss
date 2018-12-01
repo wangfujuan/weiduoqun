@@ -120,6 +120,9 @@ image {
   width: 80rpx;
   height: 80rpx;
   border-radius: 100%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 80rpx;
+  flex: 0 0 80rpx;
 }
 .shadow {
   box-shadow: 0 10rpx 12rpx -12rpx rgba(0,0,0,0.15) inset;
