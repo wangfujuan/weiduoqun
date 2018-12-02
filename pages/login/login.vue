@@ -1,21 +1,21 @@
 <template>
     <view class="content">
+		<view class="logo">
+			LOGO
+		</view>
         <view class="input-group">
-            <view class="input-row border">
-                <text class="title">账号：</text>
-                <input type="text" v-model="account" placeholder="请输入账号">
+            <view class="input-row b-line">
+                <input placeholder-class="gray" type="text" v-model="account" placeholder="请输入手机号码">
             </view>
-            <view class="input-row">
-                <text class="title">密码：</text>
-                <input type="text" password="true" v-model="password" placeholder="请输入密码">
+            <view class="input-row b-line">
+                <input placeholder-class="gray" type="text" password="true" v-model="password" placeholder="请输入密码">
             </view>
         </view>
         <view class="btn-row">
-            <button type="primary" class="primary" @tap="bindLogin">登录</button>
+            <button class="greenlinear loginbtn" @tap="bindLogin">登录</button>
         </view>
         <view class="action-row">
             <navigator url="../reg/reg">注册账号</navigator>
-            <text>|</text>
             <navigator url="../pwd/pwd">忘记密码</navigator>
         </view>
         <view class="oauth-row" v-if="hasProvider" v-bind:style="{top: positionTop + 'px'}">
@@ -159,17 +159,56 @@
 </script>
 
 <style>
+	.gray {
+		color: #585858;
+	}
+	
+	.logo {
+		text-align: center;
+		margin: 100upx 0;
+	}
+	.input-group {
+		position: relative;
+		padding: 0 40upx;
+	}
+
+	.input-row {
+		display: flex;
+		flex-direction: row;
+		position: relative;
+	}
+
+	.input-row input {
+		flex: 1;
+		height: 110upx;
+		line-height: 110upx;
+	}
+
+	.btn-row {
+		margin-top: 80upx;
+		padding: 0 40upx;	
+		margin-bottom: 80upx;
+	}
+	
+	uni-button:after {
+		border-width: 0;
+	}
+	
+	.loginbtn {
+		height: 90upx;
+		line-height: 90upx;
+		text-align: center;
+		border-radius: 90upx;
+		font-size: 28upx;
+	}
     .action-row {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
+		padding: 0 60upx;
+		font-size: 26upx;
     }
-
-    .action-row navigator {
-        color: #007aff;
-        padding: 0 20px;
-    }
-
+	
     .oauth-row {
         display: flex;
         flex-direction: row;

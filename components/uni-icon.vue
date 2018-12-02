@@ -32,5 +32,5 @@
 </script>
 
 <style>
-    @import "../common/icon.css";
+    @import "../common/iconfont.css";
 </style>

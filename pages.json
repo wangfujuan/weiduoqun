@@ -20,14 +20,14 @@
                 "navigationBarTitleText": "登录模板"
             }
         }, {
-            "path": "pages/login/login",
-            "style": {
-                "navigationBarTitleText": "登录"
-            }
+            "path": "pages/login/login"
+//             "style": {
+//                 "navigationBarTitleText": "登录"
+//             }
         }, {
             "path": "pages/reg/reg",
             "style": {
-                "navigationBarTitleText": "注册"
+                "navigationBarTitleText": "用户注册"
             }
         }, {
             "path": "pages/pwd/pwd",

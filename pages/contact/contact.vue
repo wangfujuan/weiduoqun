@@ -23,6 +23,38 @@
        	</swiper-item>
        </swiper>
 	   <view class="content-pad">
+		   <view class="top-ls">
+				<view class="top-item">
+					<view class="top-item-con">
+						<view class="top-item-tl">
+							我的名片
+						</view>
+						<view class="top-item-des">
+							漂亮置顶名片引流
+						</view>
+					</view>
+				</view>
+				<view class="top-item">
+					<view class="top-item-con">
+						<view class="top-item-tl">
+							多号爆粉
+						</view>
+						<view class="top-item-des">
+							同时可爆粉3个号
+						</view>
+					</view>
+				</view>
+				<view class="top-item">
+					<view class="top-item-con">
+						<view class="top-item-tl">
+							会员专享
+						</view>
+						<view class="top-item-des">
+							专享16项高级特权
+						</view>
+					</view>
+				</view>
+		   </view>
 		   <!-- 热门工具 start -->
 		   <view class="white">
 				<view class="block-tl">
@@ -211,7 +243,11 @@
 </script>
 
 <style>
-	@import "../../common/icon.css";
+	@import "../../common/iconfont.css";
+	.content {
+		background-color: #f4f6fa;
+	}
+	
 	view {
 		box-sizing: border-box;
 	}
@@ -235,6 +271,39 @@
 		border-radius: 14upx;
 	}
 	
+	.top-ls {
+		font-size: 0;
+		margin-bottom: 20upx;
+		margin-left: -10upx;
+		margin-right: -10upx;
+	}
+	
+	.top-item {
+		width: 33.3333%;
+		display: inline-block;
+		vertical-align: top;
+		font-size: 28upx;
+		height: 110upx;
+		padding: 0 10upx;
+		color: #fff;
+		line-height: 1;
+	}
+	
+	.top-item-des {
+		font-size: 24upx;
+		margin-top: 14upx;
+		transform-origin: 0 0;
+		transform: scale(0.8);
+		white-space: nowrap;
+	}
+	
+	.top-item-con {
+		background: #007AFF;
+		border-radius: 10upx;
+		height: 100%;
+		padding: 20upx;
+	}
+	
 	.trend {
 		height: 170upx;
 		background-image: linear-gradient(-45deg, #6e78e0 0%, #b07ef1 100%);
@@ -243,10 +312,13 @@
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+		color: #fff;
+		padding: 0 20upx 0 40upx;
 	}
 	
 	.trend-info {
-		flex: 1
+		flex: 1;
+		line-height: 1
 	}
 	
 	.trend-user {
@@ -254,18 +326,29 @@
 		flex-direction: row;
 	}
 	
+	.trend-info-tl {
+		font-size: 32upx;
+		margin-bottom: 20upx;
+	}
+	
+	.trend-info-des{
+		font-size: 24upx;
+	}
+	
 	.trend-user-avatar {
-		width: 70upx;
-		height: 70upx;
+		width: 76upx;
+		height: 76upx;
 		border-radius: 100%;
 		border: 4upx solid #ececec;
-		padding: 4upx;
+		/* padding: 4upx; */
+		margin-left: -20upx;
 	}
 	
 	.trend-user image {
-		width: 70upx;
-		height: 70upx;
+		width: 68upx;
+		height: 68upx;
 		border-radius: 100%;
+		
 	}
 	
 	.tool-ls {
@@ -322,4 +405,5 @@
 		color: #44B549;
 		font-size: 22upx;
 	}
+	
 </style>

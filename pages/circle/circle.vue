@@ -201,6 +201,10 @@
 </script>
 
 <style>
+	.content {
+		background-color: #f4f6fa;
+	}
+	
 	.block-more {
 		display: inline-block;
 		vertical-align: middle;

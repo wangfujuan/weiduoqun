@@ -380,7 +380,12 @@
 </script>
 
 <style>
-	@import "../../common/icon.css";
+	@import "../../common/iconfont.css";
+	
+	.content {
+		background-color: #f4f6fa;
+	}
+	
 	uni-swiper[data-v-3c055dd4]{
 		height: 246upx;
 	}
