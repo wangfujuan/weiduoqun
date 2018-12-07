@@ -22,10 +22,9 @@
        		</view>
        	</swiper-item>
        </swiper>
-	   <view class="content-pad">
-		   <view class="top-ls">
-				<view class="top-item">
-					<view class="top-item-con">
+			 <view class="top-ls">
+				 <view class="top-item">
+					<view class="top-item-con block-tl-color1">
 						<view class="top-item-tl">
 							我的名片
 						</view>
@@ -33,9 +32,9 @@
 							漂亮置顶名片引流
 						</view>
 					</view>
-				</view>
-				<view class="top-item">
-					<view class="top-item-con">
+				 </view>
+				 <view class="top-item">
+					<view class="top-item-con block-tl-color2">
 						<view class="top-item-tl">
 							多号爆粉
 						</view>
@@ -43,9 +42,9 @@
 							同时可爆粉3个号
 						</view>
 					</view>
-				</view>
-				<view class="top-item">
-					<view class="top-item-con">
+				 </view>
+				 <view class="top-item">
+					<view class="top-item-con block-tl-color5">
 						<view class="top-item-tl">
 							会员专享
 						</view>
@@ -53,27 +52,28 @@
 							专享16项高级特权
 						</view>
 					</view>
-				</view>
-		   </view>
+				 </view>
+			 </view>
+			<view class="content-pad">
 		   <!-- 热门工具 start -->
 		   <view class="white">
 				<view class="block-tl">
 					<view class="block-tl-lf">
 						<view class="block-tl-icon block-tl-color2">
-							<!-- <uni-icon type="chanpin2"></uni-icon> -->
+							<uni-icon size="12" color="#fff" type="ai-tool"></uni-icon>
 						</view>
 						<text class="mdtxt">热门工具</text>
 					</view>
 					<view class="block-tl-rt">
 						<view class="block-tl-rt-item">
-							<!-- <uni-icon type="shoucang1"></uni-icon> -->
+							<uni-icon size="13" color="#aaa" type="qinglihuancun"></uni-icon>
 							<text class="mdtxt">清理</text>
 						</view>
 					</view>
 				</view>
-				<view class="trend">
+				<view class="trend block-tl-color3">
 					<view class="trend-icon">
-						
+						<uni-icon type="gerenxinxi"></uni-icon>
 					</view>
 					<view class="trend-info">
 						<view class="trend-info-tl">
@@ -93,15 +93,18 @@
 						<view class="trend-user-avatar">
 							<image src="../../static/avatar/avatar_4.jpg" mode="aspectFill"></image>
 						</view>
-						<!-- <uni-icon type=""></uni-icon> -->
+						<uni-icon type="qianjin"></uni-icon>
 					</view>
 				</view>
 				<view class="tool-ls">
 					<view class="tool-item">
 						<view class="tool-item-box">
 							<view class="tool-item-con">
-								<view class="tool-item-icon">
-									
+								<view class="tool-item-icon block-tl-color1">
+									<uni-icon type="dingwei"></uni-icon>
+									<view class="tool-tip block-tl-color1">
+										高通过
+									</view>
 								</view>
 								<view class="tool-item-info">
 									<view class="tool-item-tl">
@@ -120,112 +123,242 @@
 					<view class="tool-item">
 						<view class="tool-item-box">
 							<view class="tool-item-con">
-								<view class="tool-item-icon">
-									
+								<view class="tool-item-icon block-tl-color2">
+									<uni-icon type="remen"></uni-icon>
+									<view class="tool-tip block-tl-color2">
+										可多号
+									</view>
 								</view>
 								<view class="tool-item-info">
 									<view class="tool-item-tl">
-										精准人脉
+										坐等爆粉
 									</view>
 									<view class="tool-item-des">
-										人脉多赚钱多
+										高效简单安全
 									</view>
 								</view>
 							</view>
 							<view class="tool-item-btn">
-								千万人脉免费加
+								每日涨粉200人
 							</view>
 						</view>
 					</view>
 					<view class="tool-item">
 						<view class="tool-item-box">
 							<view class="tool-item-con">
-								<view class="tool-item-icon">
-									
+								<view class="tool-item-icon block-tl-color3">
+									<uni-icon type="diqiuquanqiu"></uni-icon>
 								</view>
 								<view class="tool-item-info">
 									<view class="tool-item-tl">
-										精准人脉
+										全网散客
 									</view>
 									<view class="tool-item-des">
-										人脉多赚钱多
+										无微商无私粉
 									</view>
 								</view>
 							</view>
 							<view class="tool-item-btn">
-								千万人脉免费加
+								每次可导入30个
 							</view>
 						</view>
 					</view>
 					<view class="tool-item">
 						<view class="tool-item-box">
 							<view class="tool-item-con">
-								<view class="tool-item-icon">
-									
+								<view class="tool-item-icon block-tl-color4">
+									<uni-icon type="licaijingxuan"></uni-icon>
 								</view>
 								<view class="tool-item-info">
 									<view class="tool-item-tl">
-										精准人脉
+										精选客源
 									</view>
 									<view class="tool-item-des">
-										人脉多赚钱多
+										只能匹配人脉
 									</view>
 								</view>
 							</view>
 							<view class="tool-item-btn">
-								千万人脉免费加
+								每次可导入50个
 							</view>
 						</view>
 					</view>
 					<view class="tool-item">
 						<view class="tool-item-box">
 							<view class="tool-item-con">
-								<view class="tool-item-icon">
-									
+								<view class="tool-item-icon block-tl-color5">
+									<uni-icon type="duoren2"></uni-icon>
 								</view>
 								<view class="tool-item-info">
 									<view class="tool-item-tl">
-										精准人脉
+										微信Q群
 									</view>
 									<view class="tool-item-des">
-										人脉多赚钱多
+										海量群秒更新
 									</view>
 								</view>
 							</view>
 							<view class="tool-item-btn">
-								千万人脉免费加
+								每天更新500+
 							</view>
 						</view>
 					</view>
 					<view class="tool-item">
 						<view class="tool-item-box">
 							<view class="tool-item-con">
-								<view class="tool-item-icon">
-									
+								<view class="tool-item-icon block-tl-color6">
+									<uni-icon type="clean-up"></uni-icon>
 								</view>
 								<view class="tool-item-info">
 									<view class="tool-item-tl">
-										精准人脉
+										清理通讯录
 									</view>
 									<view class="tool-item-des">
-										人脉多赚钱多
+										清理人脉残留
 									</view>
 								</view>
 							</view>
 							<view class="tool-item-btn">
-								千万人脉免费加
+								一键智能清理
 							</view>
 						</view>
 					</view>
 				</view>
 		   </view>
 		   <!-- 热门工具 end -->
-	   </view>
+			 <!-- 工具箱 start -->
+			 <view class="white">
+			 <view class="block-tl">
+			 	<view class="block-tl-lf">
+			 		<view class="block-tl-icon block-tl-color1">
+			 			<uni-icon size="12" color="#fff" type="icon_fuzhugongju-mian"></uni-icon>
+			 		</view>
+			 		<text class="mdtxt">工具箱</text>
+			 	</view>
+			 	<view class="block-tl-rt">
+			 		<view class="block-tl-rt-more">
+			 			<text class="mdtxt">免费好用</text>
+			 			<view class="block-more more-color2">
+			 				<uni-icon size="12" type="qianjin"></uni-icon>
+			 			</view>
+			 		</view>
+			 	</view>
+			 </view>
+			 <view class="trend block-tl-color2">
+			 	<view class="trend-icon">
+			 		<uni-icon type="iconfontzhizuobiaozhun0247"></uni-icon>
+			 	</view>
+			 	<view class="trend-info">
+			 		<view class="trend-info-tl">
+			 			九格切图
+			 		</view>
+			 		<view class="trend-info-des">
+			 			让你的朋友圈更炫酷
+			 		</view>
+			 	</view>
+			 	<view class="trend-user whiteborder">
+					<view class="trend-user-avatar">
+						<image src="../../static/img/pengyouquan.jpg" mode="aspectFill"></image>
+					</view>
+					<view class="trend-user-avatar">
+						<image src="../../static/img/qqkongjian.jpg" mode="aspectFill"></image>
+					</view>
+			 		<view class="trend-user-avatar">
+			 			<image src="../../static/img/sinaweibo.jpg" mode="aspectFill"></image>
+			 		</view>
+			 		<uni-icon type="qianjin"></uni-icon>
+			 	</view>
+			 </view>
+			 <view class="tool-ls">
+			 	<view class="tool-item">
+			 		<view class="tool-item-box">
+			 			<view class="tool-item-con">
+			 				<view class="tool-item-icon block-tl-color2">
+			 					<uni-icon type="zongxiangpingfen"></uni-icon>
+			 				</view>
+			 				<view class="tool-item-info">
+			 					<view class="tool-item-tl">
+			 						纵向拼图
+			 					</view>
+			 					<view class="tool-item-des">
+			 						适合做长截图
+			 					</view>
+			 				</view>
+			 			</view>
+			 			<view class="tool-item-btn">
+			 				最高支持10张图
+			 			</view>
+			 		</view>
+			 	</view>
+			 	<view class="tool-item">
+			 		<view class="tool-item-box">
+			 			<view class="tool-item-con">
+			 				<view class="tool-item-icon block-tl-color3">
+			 					<uni-icon type="hengxiangpingfen"></uni-icon>
+			 				</view>
+			 				<view class="tool-item-info">
+			 					<view class="tool-item-tl">
+			 						横向拼图
+			 					</view>
+			 					<view class="tool-item-des">
+			 						适合拼接横图
+			 					</view>
+			 				</view>
+			 			</view>
+			 			<view class="tool-item-btn">
+			 				最高支持10张图
+			 			</view>
+			 		</view>
+			 	</view>
+			 	<view class="tool-item">
+			 		<view class="tool-item-box">
+			 			<view class="tool-item-con">
+			 				<view class="tool-item-icon block-tl-color4">
+			 					<uni-icon type="fsux_tubiao_masaiketu"></uni-icon>
+			 				</view>
+			 				<view class="tool-item-info">
+			 					<view class="tool-item-tl">
+			 						马赛克
+			 					</view>
+			 					<view class="tool-item-des">
+			 						自由打码涂抹
+			 					</view>
+			 				</view>
+			 			</view>
+			 			<view class="tool-item-btn">
+			 				3种打码选择
+			 			</view>
+			 		</view>
+			 	</view>
+			 	<view class="tool-item">
+			 		<view class="tool-item-box">
+			 			<view class="tool-item-con">
+			 				<view class="tool-item-icon block-tl-color2">
+			 					<uni-icon type="zhongbiao"></uni-icon>
+			 				</view>
+			 				<view class="tool-item-info">
+			 					<view class="tool-item-tl">
+			 						圈重点
+			 					</view>
+			 					<view class="tool-item-des">
+			 						快速标记涂鸦
+			 					</view>
+			 				</view>
+			 			</view>
+			 			<view class="tool-item-btn">
+			 				3种画笔风格
+			 			</view>
+			 		</view>
+			 	</view>
+			 </view>
+			 </view>
+			 <!-- 工具箱 end -->
+	    </view>
     </view>
 </template>
 
 <script>
-    import uniIcon from '../../components/uni-icon.vue'
+  import uniIcon from '../../components/uni-icon.vue'
 	
 	export default {
 		data() {
@@ -251,7 +384,7 @@
 	view {
 		box-sizing: border-box;
 	}
-	uni-swiper[data-v-3c055dd4]{
+	uni-swiper{
 		height: 246upx;
 	}
 	
@@ -273,20 +406,26 @@
 	
 	.top-ls {
 		font-size: 0;
-		margin-bottom: 20upx;
-		margin-left: -10upx;
-		margin-right: -10upx;
+		margin-top: 20upx;
+		padding: 0 10upx;
 	}
 	
 	.top-item {
-		width: 33.3333%;
 		display: inline-block;
 		vertical-align: top;
+		width: 33.333333%;
 		font-size: 28upx;
 		height: 110upx;
 		padding: 0 10upx;
 		color: #fff;
 		line-height: 1;
+		/* margin: 0 10upx; */
+	}
+
+	.top-item-con {
+		border-radius: 10upx;
+		height: 100%;
+		padding: 20upx;
 	}
 	
 	.top-item-des {
@@ -297,16 +436,8 @@
 		white-space: nowrap;
 	}
 	
-	.top-item-con {
-		background: #007AFF;
-		border-radius: 10upx;
-		height: 100%;
-		padding: 20upx;
-	}
-	
 	.trend {
 		height: 170upx;
-		background-image: linear-gradient(-45deg, #6e78e0 0%, #b07ef1 100%);
 		margin: 0 22upx 20upx;
 		border-radius: 10upx;
 		display: flex;
@@ -316,14 +447,25 @@
 		padding: 0 20upx 0 40upx;
 	}
 	
+	.trend-icon {
+		width: 60upx;
+		flex: 0 0 60upx;
+	}
+	
+	.trend-icon .uni-icon {
+		font-size: 60upx;
+	}
+	
 	.trend-info {
 		flex: 1;
-		line-height: 1
+		line-height: 1;
+		padding-left: 30upx;
 	}
 	
 	.trend-user {
 		display: flex;
 		flex-direction: row;
+		align-items: center;
 	}
 	
 	.trend-info-tl {
@@ -366,7 +508,7 @@
 	}
 	
 	.tool-item-box {
-		border: 1px solid #f3f3f3;
+		border: 2upx solid #f3f3f3;
 		height: 100%;
 		padding: 30upx;
 		border-radius: 10upx;
@@ -380,10 +522,34 @@
 	}
 	
 	.tool-item-icon {
+		position: relative;
 		width: 80upx;
 		height: 80upx;
 		border-radius: 100%;
-		background-color: #007AFF;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		/* background-color: #007AFF; */
+	}
+	
+	.tool-tip {
+		position: absolute;
+		width: 90upx;
+		height: 40upx;
+		line-height: 40upx;
+		text-align: center;
+		border-radius: 40upx;
+		font-size: 24upx;
+		color: #fff;
+		right: -30upx;
+		top: -24upx;
+		border: 1px solid #fff;
+		transform: scale(0.8);
+	}
+	
+	.tool-item-icon .uni-icon {
+		color: #fff;
+		font-size: 44upx;
 	}
 	
 	.tool-item-des {
@@ -399,11 +565,42 @@
 	.tool-item-btn {
 		height: 56rpx;
 		line-height: 52upx;
-		border: 1px solid #44B549;
+		border: 2upx solid #44B549;
 		border-radius: 56upx;
 		text-align: center;
 		color: #44B549;
 		font-size: 22upx;
 	}
 	
+	.block-tl-rt-item .uni-icon {
+    vertical-align: middle;
+    margin-right: 2px;
+	}
+	
+	.trend .uni-icon-qianjin {
+		font-size: 30upx;
+		margin-left: 12upx;
+	}
+
+	
+	.block-more {
+		display: inline-block;
+		vertical-align: middle;
+		width: 30upx;
+		height: 30upx;
+		text-align: center;
+		line-height: 28upx;
+		border-radius: 10upx;
+		margin-left: 6upx;
+		color: #fff;
+	}
+	
+	.more-color2 {
+		background-image: linear-gradient(-45deg, #e7b65f 0%, #f1d199 100%);
+		box-shadow: 4upx 0 8upx rgba(241, 109, 153, .3);
+	}
+	
+	.whiteborder .trend-user-avatar{
+		border-color: #fff;
+	}
 </style>

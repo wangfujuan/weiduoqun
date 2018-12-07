@@ -1,8 +1,179 @@
 <template name="a778399e">
   <view class="_view data-v-ff762a46 content">
-    <view class="_view data-v-ff762a46 btn-row">
-      <button wx:if="{{!hasLogin}}" type="primary" class="_button data-v-ff762a46 primary" bindtap="handleProxy" data-eventid="{{'OuF-0'}}" data-comkey="{{$k}}">登录</button>
-      <button wx:if="{{hasLogin}}" type="default" bindtap="handleProxy" data-eventid="{{'d1C-1'}}" data-comkey="{{$k}}" class="_button data-v-ff762a46">退出登录</button>
+    <view class="_view data-v-ff762a46 me-top">
+      <view class="_view data-v-ff762a46 me-login">
+        <image class="_image data-v-ff762a46 avatar" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+        <view class="_view data-v-ff762a46 me-login-status">
+          <view class="_view data-v-ff762a46 me-login-tl" wx:if="{{!hasLogin}}" bindtap="handleProxy" data-eventid="{{'ahW-0'}}" data-comkey="{{$k}}"> 登录/注册 </view>
+          <view class="_view data-v-ff762a46 me-login-des"> 登录后可使用更多功能
+            <navigator class="_navigator data-v-ff762a46 edituser" url="../meedit/meedit">修改资料
+              <view class="_view data-v-ff762a46 uni-icon uni-icon-qianjin"></view>
+            </navigator>
+          </view>
+        </view>
+        <navigator url="../setting/setting" hover-class="none" class="_navigator data-v-ff762a46 me-login-set center">
+          <view class="_view data-v-ff762a46 uni-icon uni-icon-shezhi1"></view> 设置 </navigator>
+      </view>
+    </view>
+    <view class="_view data-v-ff762a46 content-pad">
+      <view class="_view data-v-ff762a46 white">
+        <view class="_view data-v-ff762a46 user-get">
+          <view class="_view data-v-ff762a46 user-get-item">
+            <view class="_view data-v-ff762a46 user-get-item-sum">
+              <text class="_text data-v-ff762a46">20</text> 个 </view>
+            <view class="_view data-v-ff762a46 user-get-item-info"> 我的微币 </view>
+          </view>
+          <view class="_view data-v-ff762a46 user-get-item">
+            <view class="_view data-v-ff762a46 user-get-item-sum">
+              <text class="_text data-v-ff762a46">18.00</text> 元 </view>
+            <view class="_view data-v-ff762a46 user-get-item-info"> 收益余额 </view>
+          </view>
+          <view class="_view data-v-ff762a46 user-get-charge">
+            <view class="_view data-v-ff762a46 uni-icon uni-icon-wodeqianbao1"></view>
+            <view class="_view data-v-ff762a46 user-get-item-info"> 马上充值 </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-ff762a46 white">
+        <view class="_view data-v-ff762a46 member-ls">
+          <view class="_view data-v-ff762a46 member-item">
+            <view class="_view data-v-ff762a46 member-item-lf">
+              <view class="_view data-v-ff762a46 member-item-lf-tl">
+                <view class="_view data-v-ff762a46 uni-icon uni-icon-huiyuan"></view>
+                <view class="_view data-v-ff762a46"> 超级会员 </view>
+                <view class="_view data-v-ff762a46 haveopen"> 已开通 </view>
+              </view>
+              <view class="_view data-v-ff762a46 member-item-lf-time"> 2019.01.13到期 </view>
+            </view>
+            <view class="_view data-v-ff762a46 member-item-rt"> 查看详细 </view>
+          </view>
+          <view class="_view data-v-ff762a46 line"></view>
+          <view class="_view data-v-ff762a46 member-item">
+            <view class="_view data-v-ff762a46 member-item-lf">
+              <view class="_view data-v-ff762a46 member-item-lf-tl">
+                <view class="_view data-v-ff762a46 uni-icon uni-icon-huiyuan1"></view>
+                <view class="_view data-v-ff762a46 noopen-tl"> 钻石代理 </view>
+                <view class="_view data-v-ff762a46 noopen"> 未开通 </view>
+              </view>
+              <view class="_view data-v-ff762a46 member-item-lf-time share"> 分享就能赚钱 </view>
+            </view>
+            <view class="_view data-v-ff762a46 member-item-rt"> 开 通 </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-ff762a46 white">
+        <view class="_view data-v-ff762a46 user-tl"> 我的名片 </view>
+        <view class="_view data-v-ff762a46 user-ls">
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color1 uni-icon-weixinqun"></view>
+            <view class="_view data-v-ff762a46 user-item-info">微信群</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color2 uni-icon-qqqun"></view>
+            <view class="_view data-v-ff762a46 user-item-info">QQ群</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color3 uni-icon-gerenweixin"></view>
+            <view class="_view data-v-ff762a46 user-item-info">个人微信</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color4 uni-icon-qqqun"></view>
+            <view class="_view data-v-ff762a46 user-item-info">公众号</view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-ff762a46 white">
+        <view class="_view data-v-ff762a46 user-tl"> 我的发布 </view>
+        <view class="_view data-v-ff762a46 user-ls">
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color5 uni-icon-qunjiaoyi"></view>
+            <view class="_view data-v-ff762a46 user-item-info">群交易</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color6 uni-icon-weishanghuoyuan"></view>
+            <view class="_view data-v-ff762a46 user-item-info">微商货源</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color7 uni-icon-weishangquan"></view>
+            <view class="_view data-v-ff762a46 user-item-info">微商圈</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color8 uni-icon-shouyitixian"></view>
+            <view class="_view data-v-ff762a46 user-item-info">干货文章</view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-ff762a46 white">
+        <view class="_view data-v-ff762a46 user-tl"> 收益中心 </view>
+        <view class="_view data-v-ff762a46 user-ls">
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color5 uni-icon-dailishouyi"></view>
+            <view class="_view data-v-ff762a46 user-item-info">分享奖现金</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color6 uni-icon-erweimafenxiang"></view>
+            <view class="_view data-v-ff762a46 user-item-info">二维码分享</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color7 uni-icon-tuiguang"></view>
+            <view class="_view data-v-ff762a46 user-item-info">复制推广链接</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color8 uni-icon-dailishouyi"></view>
+            <view class="_view data-v-ff762a46 user-item-info">代理收益</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color7 uni-icon-dailichongweibi"></view>
+            <view class="_view data-v-ff762a46 user-item-info">代理充微币</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color8 uni-icon-shouyitixian"></view>
+            <view class="_view data-v-ff762a46 user-item-info">收益提现</view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-ff762a46 white">
+        <view class="_view data-v-ff762a46 user-tl"> 会员服务 </view>
+        <view class="_view data-v-ff762a46 user-ls">
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color5 uni-icon-shouyitixian"></view>
+            <view class="_view data-v-ff762a46 user-item-info">订单管理</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color6 uni-icon-tuiguang"></view>
+            <view class="_view data-v-ff762a46 user-item-info">会员套餐</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color7 uni-icon-wodehuiyuan"></view>
+            <view class="_view data-v-ff762a46 user-item-info">我的会员</view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-ff762a46 white">
+        <view class="_view data-v-ff762a46 user-tl"> 其他服务 </view>
+        <view class="_view data-v-ff762a46 user-ls">
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color5 uni-icon-qunjiaoyi"></view>
+            <view class="_view data-v-ff762a46 user-item-info">账号管理</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color6 uni-icon-yijianfankui"></view>
+            <view class="_view data-v-ff762a46 user-item-info">意见反馈</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color7 uni-icon-qunjiaoyi"></view>
+            <view class="_view data-v-ff762a46 user-item-info">新手帮助</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color7 uni-icon-lianxiwomen"></view>
+            <view class="_view data-v-ff762a46 user-item-info">联系我们</view>
+          </view>
+          <view class="_view data-v-ff762a46 user-item">
+            <view class="_view data-v-ff762a46 uni-icon color7 uni-icon-qunjiaoyi"></view>
+            <view class="_view data-v-ff762a46 user-item-info">好评送微币</view>
+          </view>
+        </view>
+      </view>
     </view>
   </view>
 </template>

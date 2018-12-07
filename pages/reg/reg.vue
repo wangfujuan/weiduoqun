@@ -33,7 +33,6 @@
             return {
                 account: '',
                 password: '',
-                email: ''
             }
         },
         methods: {
@@ -56,18 +55,10 @@
                     });
                     return;
                 }
-                if (this.email.length < 3 || !~this.email.indexOf('@')) {
-                    uni.showToast({
-                        icon: 'none',
-                        title: '邮箱地址不合法'
-                    });
-                    return;
-                }
 
                 const data = {
                     account: this.account,
                     password: this.password,
-                    email: this.email
                 }
                 service.addUser(data);
                 uni.showToast({
@@ -130,7 +121,8 @@
 	}
 	
 	.getcode {
-		width: 200upx;
+		flex: 0 0 160upx;
+		width: 160upx;
 		height: 60upx;
 		line-height: 60upx;
 		font-size: 24upx;

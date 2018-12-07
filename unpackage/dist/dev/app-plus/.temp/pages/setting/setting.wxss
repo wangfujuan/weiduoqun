@@ -1,0 +1,47 @@
+@import "../../common/vendor.wxss";
+
+.content {
+  background-color: #f4f6fa;
+}
+.edit-ls {
+  background-color: #fff;
+  border-top: 2rpx solid #eee;
+}
+.edit-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 20rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.edit-item-lf {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  line-height: 1;
+}
+.edit-item-tl {
+  padding-top: 20rpx;
+}
+.edit-item-txt {
+  font-size: 24rpx;
+  color: #a1a1a1;
+  margin-top: 25rpx;
+}
+.avatar-80 {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100%;
+}
+.edit-item-status {
+  color: #44B549;
+}

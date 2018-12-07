@@ -4,24 +4,36 @@
 			LOGO
 		</view>
         <view class="input-group">
-            <view class="input-row b-line">
-                <input placeholder-class="gray" type="text" v-model="account" placeholder="请输入手机号码">
+            <view class="input-row b-line center">
+                <input placeholder-class="gray" type="number" v-model="account" placeholder="请输入手机号码" @input="bindClearInput">
+				<view class="uni-icon uni-icon-shanchu" v-if="showClearIcon" @click="clearIcon"></view>
             </view>
-            <view class="input-row b-line">
-                <input placeholder-class="gray" type="text" password="true" v-model="password" placeholder="请输入密码">
+            <view class="input-row b-line center">
+                <input placeholder-class="gray" type="text" :password="showPassword" v-model="password" placeholder="请输入密码">
+				<view class="uni-icon uni-icon-kejian" v-if="showPassword" @click="changePassword"></view>
+				<view class="uni-icon uni-icon-yincangbukejian" v-if="!showPassword" @click="changePassword"></view>
             </view>
         </view>
         <view class="btn-row">
             <button class="greenlinear loginbtn" @tap="bindLogin">登录</button>
         </view>
         <view class="action-row">
-            <navigator url="../reg/reg">注册账号</navigator>
-            <navigator url="../pwd/pwd">忘记密码</navigator>
+            <navigator url="../reg/reg" hover-class="none">注册账号</navigator>
+            <navigator url="../pwd/pwd" hover-class="none">忘记密码</navigator>
         </view>
         <view class="oauth-row" v-if="hasProvider" v-bind:style="{top: positionTop + 'px'}">
             <view class="oauth-image" v-for="provider in providerList" :key="provider.value">
                 <image :src="provider.image" @tap="oauth(provider.value)"></image>
             </view>
+			<view class="weixinlogin">
+				微信登录
+			</view>
+			<view class="weixin-info">
+				无法注册？<navigator url="" hover-class="none">查看帮助</navigator>
+			</view>
+			<view class="weixin-info">
+				注册代表同意 <navigator url="" hover-class="none">《用户使用服务协议》</navigator>
+			</view>
         </view>
     </view>
 </template>
@@ -40,14 +52,16 @@
                 hasProvider: false,
                 account: '',
                 password: '',
-                positionTop: 0
+                positionTop: 0,
+				showClearIcon: false,
+				showPassword: true
             }
         },
         computed: mapState(['forcedLogin']),
         methods: {
             ...mapMutations(['login']),
             initProvider() {
-                const filters = ['weixin', 'qq', 'sinaweibo'];
+                const filters = ['weixin'];
                 uni.getProvider({
                     service: 'oauth',
                     success: (res) => {
@@ -80,10 +94,10 @@
                  * 客户端对账号信息进行一些必要的校验。
                  * 实际开发中，根据业务需要进行处理，这里仅做示例。
                  */
-                if (this.account.length < 5) {
+                if (this.account.length != 11) {
                     uni.showToast({
                         icon: 'none',
-                        title: '账号最短为 5 个字符'
+                        title: '请输入正确的手机号'
                     });
                     return;
                 }
@@ -149,7 +163,22 @@
                     uni.navigateBack();
                 }
 
-            }
+            },
+			bindClearInput: function (e) {
+				this.account = e.target.value;
+				if (e.target.value.length > 0) {
+					this.showClearIcon = true;
+				} else {
+					this.showClearIcon = false;
+				}
+			},
+			clearIcon: function () {
+				this.account = "";
+				this.showClearIcon = false;
+			},
+			changePassword: function () {
+				this.showPassword = !this.showPassword;
+			}
         },
         onLoad() {
             this.initPosition();
@@ -159,6 +188,17 @@
 </script>
 
 <style>
+	@import "../../common/iconfont.css";
+	.uni-icon-shanchu {
+		color: #999;
+		font-size: 32upx;
+	}
+	
+	.uni-icon-kejian, .uni-icon-yincangbukejian  {
+		color: #999;
+		font-size: 38upx;
+	}
+	
 	.gray {
 		color: #585858;
 	}
@@ -180,8 +220,8 @@
 
 	.input-row input {
 		flex: 1;
-		height: 110upx;
-		line-height: 110upx;
+		height: 50upx;
+		padding: 30upx 0;
 	}
 
 	.btn-row {
@@ -211,26 +251,36 @@
 	
     .oauth-row {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
+		align-items: center;
+		padding-top: 120upx;
     }
 
     .oauth-image {
         width: 100px;
         height: 100px;
-        border: 1px solid #dddddd;
-        border-radius: 100px;
-        margin: 0 40px;
-        background-color: #ffffff;
+        margin: 0 40px;  
     }
 
     .oauth-image image {
-        width: 60px;
-        height: 60px;
-        margin: 20px;
+        width: 100px;
+        height: 100px;
     }
+	
+	.weixinlogin {
+		margin-bottom: 80upx;
+		color: #505050;
+	}
+	
+	.weixin-info {
+		display: flex;
+		flex-direction: row;
+		margin-top: 30upx;
+		color: #999;
+	}
+	
+	.weixin-info navigator {
+		color: #44B549;
+	}
 </style>

@@ -1,1 +1,75 @@
 @import "../../common/vendor.wxss";
+
+.content {
+  background-color: #F4F6FA;
+}
+.input-group {
+  background: #fff;
+  margin: 40rpx 0 30rpx;
+}
+.input-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.title {
+  width: 150rpx;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 150rpx;
+  flex: 0 0 150rpx;
+  text-align: right;
+}
+.input-row ._input {
+  padding-left: 30rpx;
+}
+.gray {
+  color: #585858;
+}
+.btn-row {
+  padding: 0 30rpx 80rpx;
+}
+.regbtn {
+  background: #44B549;
+  font-size: 30rpx;
+  color: #fff;
+  height: 96rpx;
+  line-height: 96rpx;
+}
+._button::after {
+  border-width: 0;
+}
+.getcode {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 160rpx;
+  flex: 0 0 160rpx;
+  width: 160rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 24rpx;
+  background-color: #44B549;
+  color: #fff;
+  padding: 0;
+}
+.action-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 0 60rpx;
+  font-size: 26rpx;
+}

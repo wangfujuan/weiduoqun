@@ -1,9 +1,15 @@
+/* App */
+/* @font-face {
+	font-family: "uniicons";
+  src: url('https://www.epingwang.com/static/fonts/iconfont.ttf') format('truetype'),
+  url('https://www.epingwang.com/static/fonts/iconfont.svg') format('svg');
+} */
 
+/* H5 */
 @font-face {
-  font-family: "uniicons";
-  font-weight: normal;
-  font-style: normal;
-	src: url('https://www.epingwang.com/static/fonts/iconfont.ttf') format('truetype'),
+	font-family: "uniicons";
+  src: url('iconfont.ttf') format('truetype'),
+  url('iconfont.svg') format('svg');
 }
 
 .uni-icon {
@@ -17,6 +23,8 @@
   -webkit-font-smoothing: antialiased;
 }
 
+.uni-icon-erweimafenxiang:before { content: "\e60f"; }
+
 .uni-icon-likefill:before { content: "\e668"; }
 
 .uni-icon-like:before { content: "\e669"; }
@@ -27,7 +35,15 @@
 
 .uni-icon-people:before { content: "\e736"; }
 
+.uni-icon-pengyouquan:before { content: "\e621"; }
+
 .uni-icon-tianjia:before { content: "\e60c"; }
+
+.uni-icon-shanchu:before { content: "\e612"; }
+
+.uni-icon-lianxiwomen:before { content: "\e740"; }
+
+.uni-icon-licaijingxuan:before { content: "\e639"; }
 
 .uni-icon-xin2:before { content: "\e712"; }
 
@@ -45,9 +61,19 @@
 
 .uni-icon-qianjin:before { content: "\e74e"; }
 
+.uni-icon-diqiuquanqiu:before { content: "\e76c"; }
+
 .uni-icon-laiyuan:before { content: "\e77b"; }
 
+.uni-icon-ai-tool:before { content: "\e627"; }
+
+.uni-icon-gerenxinxi:before { content: "\e665"; }
+
+.uni-icon-wodehuiyuan:before { content: "\e67e"; }
+
 .uni-icon-huati:before { content: "\e659"; }
+
+.uni-icon-jubao:before { content: "\e603"; }
 
 .uni-icon-quanquanzhuyeb:before { content: "\e6d5"; }
 
@@ -63,11 +89,49 @@
 
 .uni-icon-iconquanzinor:before { content: "\e607"; }
 
+.uni-icon-dailichongweibi:before { content: "\e62e"; }
+
 .uni-icon-qq02:before { content: "\e63d"; }
+
+.uni-icon-weixin:before { content: "\e63f"; }
+
+.uni-icon-wodeqianbao1:before { content: "\e65d"; }
+
+.uni-icon-iconfontzhizuobiaozhun0247:before { content: "\e6a3"; }
+
+.uni-icon-remen:before { content: "\e62f"; }
+
+.uni-icon-tuiguang:before { content: "\e64d"; }
+
+.uni-icon-fenxiang:before { content: "\e79c"; }
+
+.uni-icon-huida:before { content: "\e7a0"; }
+
+.uni-icon-zan:before { content: "\e7c0"; }
+
+.uni-icon-yijianfankui:before { content: "\e6e5"; }
+
+.uni-icon-gerenweixin:before { content: "\e6e6"; }
+
+.uni-icon-diangdanguanli:before { content: "\e6f3"; }
 
 .uni-icon-dynamic_fill:before { content: "\e6f4"; }
 
 .uni-icon-dynamic:before { content: "\e6f5"; }
+
+.uni-icon-qqqun:before { content: "\e700"; }
+
+.uni-icon-qunjiaoyi:before { content: "\e71d"; }
+
+.uni-icon-weishangquan:before { content: "\e727"; }
+
+.uni-icon-shouyitixian:before { content: "\e732"; }
+
+.uni-icon-weixinqun:before { content: "\e8a3"; }
+
+.uni-icon-weishanghuoyuan:before { content: "\e747"; }
+
+.uni-icon-dailishouyi:before { content: "\e74b"; }
 
 .uni-icon-clean-up:before { content: "\e786"; }
 
@@ -77,14 +141,36 @@
 
 .uni-icon-shoucang-tianchong:before { content: "\e609"; }
 
+.uni-icon-qiandai-tianchong:before { content: "\e68f"; }
+
+.uni-icon-dingwei:before { content: "\e60a"; }
+
+.uni-icon-hengxiangpingfen:before { content: "\e60b"; }
+
+.uni-icon-zongxiangpingfen:before { content: "\e60d"; }
+
+.uni-icon-qun:before { content: "\e6e8"; }
+
+.uni-icon-jihua:before { content: "\e63a"; }
+
 .uni-icon-icon_fuzhugongju-mian:before { content: "\e65c"; }
+
+.uni-icon-kejian:before { content: "\e73c"; }
+
+.uni-icon-hua:before { content: "\e634"; }
+
+.uni-icon-zhongbiao:before { content: "\e6d9"; }
 
 .uni-icon-qinglihuancun:before { content: "\e608"; }
 
-.uni-icon-zan:before { content: "\e7c0"; }
+.uni-icon-fsux_tubiao_masaiketu:before { content: "\e60e"; }
 
-.uni-icon-huida:before { content: "\e7a0"; }
+.uni-icon-yincangbukejian:before { content: "\e7d0"; }
 
-.uni-icon-fenxiang:before { content: "\e79c"; }
+.uni-icon-Spy:before { content: "\eb49"; }
 
-.uni-icon-jubao:before { content: "\e603"; }
+.uni-icon-huiyuan:before { content: "\e65e"; }
+
+.uni-icon-huiyuan1:before { content: "\e643"; }
+
+.uni-icon-shezhi1:before { content: "\e6e9"; }

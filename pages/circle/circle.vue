@@ -14,8 +14,8 @@
 					<view class="block-tl-rt">
 						<view class="block-tl-rt-more">
 							<text class="mdtxt">前往话题广场</text>
-							<view class="block-more more-color1">
-								<uni-icon type="qianjin"></uni-icon>
+							<view class="block-more more-color4">
+								<uni-icon color="#fff" size="12" type="qianjin"></uni-icon>
 							</view>
 						</view>
 					</view>
@@ -201,6 +201,7 @@
 </script>
 
 <style>
+	
 	.content {
 		background-color: #f4f6fa;
 	}
@@ -225,10 +226,6 @@
 		font-size: 26upx;
 		vertical-align: middle;
 		margin-right: 4upx;
-	}
-	
-	.uni-icon-qianjin {
-		font-size: 22upx;
 	}
 	
 	uni-swiper{
@@ -354,7 +351,7 @@
 	.m-line {
 		width: 1px;
 		height: 80upx;
-		background-color: #f5f5f5;
+		background-color: #e5e5e5;
 		transform-origin: 0 0;
 		transform: scaleY(0.5);
 	}

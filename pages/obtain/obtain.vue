@@ -1,6 +1,7 @@
 <template>
     <view class="content">
-		<view class="content-pad">
+		<view class="shadow"></view>
+		<view class="content-pad notoppad">
 			<view class="white">
 				<view class="obtain-top">
 					<view class="obtain-box">
@@ -28,15 +29,21 @@
 						</view>
 					</view>
 					<view class="obtain-boss">
-						老板赚钱特权 每笔收益最高奖励50%
+						<uni-icon size="20" color="#a46c17" type="Spy"></uni-icon>
+						<view class="obtain-boss-info">
+							老板赚钱特权 每笔收益最高奖励50%
+						</view>
 						<view class="obtain-boss-open">
 							开通
 						</view>
 					</view>
-					<view class="obtain-led">
+					<view class="obtain-led block-tl-color3">
 						<view class="obtain-led-lf">
-							<view class="obtain-led-tl">
-								待领收益(错过)
+							<view class="obtain-led-tl center">
+								<uni-icon size="18" color="#fff" type="qiandai-tianchong"></uni-icon>
+								<view class="obtain-led-tl-txt">
+									待领收益(错过)
+								</view>
 							</view>
 							<view class="obtain-led-num">
 								<text>718.00</text>元
@@ -45,6 +52,7 @@
 						<view class="obtain-led-rt">
 							<view class="obtain-led-detail">
 								查看详情
+								<uni-icon size="12" color="#fff" type="qianjin"></uni-icon>
 							</view>
 							<view class="obtain-led-sum">
 								累计10笔收益
@@ -61,6 +69,9 @@
 									<text>0.00</text>元
 								</view>
 							</view>
+							<view class="obtain-do-icon center">
+								<uni-icon color="#dddddd" type="qianjin"></uni-icon>
+							</view>
 						</view>
 						<view class="obtain-do-item">
 							<view class="obtain-do-con">
@@ -71,6 +82,9 @@
 									<text>10</text>人
 								</view>
 							</view>
+							<view class="obtain-do-icon center">
+								<uni-icon color="#dddddd" type="qianjin"></uni-icon>
+							</view>
 						</view>
 					</view>
 				</view>
@@ -79,16 +93,16 @@
 			<view class="white">
 				<view class="block-tl b-line">
 					<view class="block-tl-lf">
-						<view class="block-tl-icon block-tl-color3">
-							<!-- <uni-icon type="chanpin2"></uni-icon> -->
+						<view class="block-tl-icon block-tl-color8">
+							<uni-icon size="16" color="#fff" type="jihua"></uni-icon>	
 						</view>
 						<text class="mdtxt">每日计划</text>
 					</view>
 					<view class="block-tl-rt">
 						<view class="block-tl-rt-more">
 							<text class="mdtxt">更多</text>
-							<view class="block-more more-color1">
-								<!-- <uni-icon type="qianjin"></uni-icon> -->
+							<view class="block-more more-color5">
+								<uni-icon size="12" color="#fff" type="qianjin"></uni-icon>
 							</view>
 						</view>
 					</view>
@@ -103,8 +117,8 @@
 				</view>
 				<view class="share-ls b-line">
 					<view class="share-item">
-						<view class="share-item-lf">
-							
+						<view class="share-item-lf center">
+							<uni-icon size="30" color="#44b549" type="pengyouquan"></uni-icon>
 						</view>
 						<view class="share-item-con b-line">
 							<view class="share-item-md">
@@ -115,13 +129,17 @@
 									早晚各一次，至少保留10小时
 								</view>
 								<view class="share-item-md-sum">
-									<view class="share-item-md-sum-item">
-										每次+5
-										
+									<view class="share-item-md-sum-item center">
+										<view class="share-item-md-sum-txt">
+											每次+5
+										</view>
+										<uni-icon color="#e9526e" size="14" type="hua"></uni-icon>
 									</view>
-									<view class="share-item-md-sum-item">
-										老板+20
-										
+									<view class="share-item-md-sum-item center">
+										<view class="share-item-md-sum-txt">
+											老板+20
+										</view>
+										<uni-icon color="#e9526e" size="14" type="hua"></uni-icon>
 									</view>
 								</view>
 							</view>
@@ -136,25 +154,29 @@
 						</view>
 					</view>
 					<view class="share-item">
-						<view class="share-item-lf">
-							
+						<view class="share-item-lf center">
+							<uni-icon size="28" color="#44b549" type="weixin"></uni-icon>
 						</view>
 						<view class="share-item-con b-line">
 							<view class="share-item-md">
 								<view class="share-item-md-tl">
-									分享2次朋友圈
+									分享5个微信群
 								</view>
 								<view class="share-item-md-des">
-									早晚各一次，至少保留10小时
+									要求50人以上的微信群
 								</view>
 								<view class="share-item-md-sum">
-									<view class="share-item-md-sum-item">
-										每次+5
-										
+									<view class="share-item-md-sum-item center">
+										<view class="share-item-md-sum-txt">
+											每次+5
+										</view>
+										<uni-icon color="#e9526e" size="14" type="hua"></uni-icon>
 									</view>
-									<view class="share-item-md-sum-item">
-										老板+20
-										
+									<view class="share-item-md-sum-item center">
+										<view class="share-item-md-sum-txt">
+											老板+20
+										</view>
+										<uni-icon color="#e9526e" size="14" type="hua"></uni-icon>
 									</view>
 								</view>
 							</view>
@@ -169,25 +191,29 @@
 						</view>
 					</view>
 					<view class="share-item">
-						<view class="share-item-lf">
-							
+						<view class="share-item-lf center">
+							<uni-icon size="28" color="#44b549" type="qun"></uni-icon>
 						</view>
 						<view class="share-item-con">
 							<view class="share-item-md">
 								<view class="share-item-md-tl">
-									分享2次朋友圈
+									分享5个好友
 								</view>
 								<view class="share-item-md-des">
-									早晚各一次，至少保留10小时
+									微商/电商/淘宝/金融/营销人群为佳
 								</view>
 								<view class="share-item-md-sum">
-									<view class="share-item-md-sum-item">
-										每次+5
-										
+									<view class="share-item-md-sum-item center">
+										<view class="share-item-md-sum-txt">
+											每次+5
+										</view>
+										<uni-icon color="#e9526e" size="14" type="hua"></uni-icon>
 									</view>
-									<view class="share-item-md-sum-item">
-										老板+20
-										
+									<view class="share-item-md-sum-item center">
+										<view class="share-item-md-sum-txt">
+											老板+20
+										</view>
+										<uni-icon color="#e9526e" size="14" type="hua"></uni-icon>
 									</view>
 								</view>
 							</view>
@@ -202,8 +228,9 @@
 						</view>
 					</view>
 				</view>
-				<view class="share-more">
+				<view class="share-more center">
 					更多奖励计划
+					<uni-icon size="12" color="#44b549" type="qianjin"></uni-icon>
 				</view>
 			</view>
 			<!-- 每日计划 end -->
@@ -253,12 +280,24 @@
 </template>
 
 <script>
-    
+    import uniIcon from '../../components/uni-icon.vue'
+	
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		components: {
+			uniIcon
+		},
+	}
 </script>
 
 <style>
-	view {
-		line-height: 1;
+	
+	.notoppad {
+		padding-top: 0;
 	}
 	
 	.content {
@@ -266,7 +305,7 @@
 	}
 	
 	.obtain-top {
-		
+		line-height: 1;
 	}
 	
 	.obtain-box {
@@ -316,26 +355,34 @@
 	
 	.obtain-boss {
 		position: relative;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
 		margin: 20upx;
 		border: 1px solid #d8ae3d;
 		height: 24upx;
 		line-height: 24upx;
-		padding: 30upx;
+		padding: 30upx 20upx;
 		color: #a46c17;
 		border-radius: 10upx;
 	}
 	
+	.obtain-boss-info {
+		padding-left: 10upx;
+	}
+	
 	.obtain-boss-open {
 		position: absolute;
-		right: 30upx;
+		right: 20upx;
 		width: 110upx;
 		height: 48upx;
 		line-height: 48upx;
-		background: #A46C17;
+		background-image: linear-gradient(-45deg, #d9c085 0%, #b39a65 100%);;
 		border-radius: 48upx;
 		top: 18upx;
 		color: #fff;
 		text-align: center;
+		font-size: 24upx;
 	}
 	
 	.obtain-led {
@@ -348,12 +395,17 @@
 		padding: 30upx;
 		color: #fff;
 		font-size: 24upx;
+		line-height: 1;
 	}
 	
 	.obtain-led-tl {
 		margin-bottom: 30upx;
 		height: 32upx;
-		line-height: 32upx;
+		/* line-height: 32upx; */
+	}
+	
+	.obtain-led-tl-txt {
+		margin-left: 5upx;
 	}
 	
 	.obtain-led-num text {
@@ -361,12 +413,16 @@
 	}
 	
 	.obtain-led-detail {
-		width: 170upx;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 160upx;
+		padding-left: 10upx;
 		height: 48upx;
 		line-height: 48upx;
-		background-color: #44B549;
+		background-color: rgba(0, 0, 0, .1);
 		border-radius: 48upx;
-		text-align: center;
 		margin-bottom: 20upx;
 	}
 	
@@ -376,15 +432,28 @@
 		justify-content: space-between;
 		padding: 0 10upx;
 		margin: 20upx 0;
+		line-height: 1;
 	}
 	
 	.obtain-do-item {
 		flex: 1;
 		padding: 0 10upx;
+		position: relative;
+	}
+	
+	.obtain-do-icon {
+		position: absolute;
+		right: 20upx;
+		top: 50%;
+		margin-top: -38upx;
+		width: 76upx;
+		height: 76upx;
+		border-radius: 100%;
+		background-color: #f7f7f7;
 	}
 	
 	.obtain-do-con {
-		border: 1px solid #F3F3F3;
+		border: 2upx solid #F3F3F3;
 		border-radius: 10upx;
 		padding: 30upx;
 		font-size: 24upx;
@@ -400,7 +469,7 @@
 	}
 	
 	.obtain-do-con-info text{
-		font-size: 30upx;
+		font-size: 32upx;
 	}
 	
 	.obtain-day {
@@ -413,9 +482,13 @@
 		padding: 20upx;
 	}
 	
+	.obtain-day-tl text {
+		color: #ffa300;
+	}
+	
 	.obtain-day-tips {
-		background-color: #fbf0ed;
-		color: #A46C17;
+		background-color: #fff8ea;
+		color: #ffa300;
 		height: 66upx;
 		line-height: 66upx;
 		font-size: 24upx;
@@ -428,13 +501,14 @@
 		padding: 30upx 20upx 0;
 		display: flex;
 		flex-direction: row;
+		line-height: 1;
 	}
 	
 	.share-item-lf {
 		width: 80upx;
 		height: 80upx;
 		border-radius: 100%;
-		background-color: #0FAEFF;
+		background-color: #e5f8ed;
 	}
 	
 	.share-item-con {
@@ -460,6 +534,7 @@
 	
 	.share-item-md-sum-item {
 		margin-right: 20upx;
+		color: #ffa300;
 	}
 	
 	.share-item-rt-go {
@@ -468,7 +543,7 @@
 		line-height: 48upx;
 		width: 120upx;
 		text-align: center;
-		background: #0FAEFF;
+		background: #e9526e;
 		color: #fff;
 		border-radius: 10upx;
 		margin-bottom: 16upx;
@@ -476,12 +551,17 @@
 	
 	.share-item-rt-day {
 		font-size: 24upx;
+		color: #a1a1a1;
 	}
 	
 	.share-more {
 		padding: 35upx 0;
 		text-align: center;
 		font-size: 24upx;
-		color: #A46C17;
+		color: #44b549;
+	}
+	
+	.share-item-md-sum-txt {
+		margin-right: 10upx;
 	}
 </style>

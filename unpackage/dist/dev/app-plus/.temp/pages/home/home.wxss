@@ -1,10 +1,8 @@
 @import "../../common/vendor.wxss";
-
 @font-face {
   font-family: "uniicons";
-  font-weight: normal;
-  font-style: normal;
-  src: url('https://www.epingwang.com/static/fonts/iconfont.ttf') format('truetype'),;
+  src: url('https://www.epingwang.com/static/fonts/iconfont.ttf') format('truetype'),
+  url('https://www.epingwang.com/static/fonts/iconfont.svg') format('svg');
 }
 .uni-icon {
   font-family: "uniicons" !important;
@@ -15,6 +13,9 @@
   display: inline-block;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
+}
+.uni-icon-erweimafenxiang:before {
+  content: "\E60F";
 }
 .uni-icon-likefill:before {
   content: "\E668";
@@ -31,8 +32,20 @@
 .uni-icon-people:before {
   content: "\E736";
 }
+.uni-icon-pengyouquan:before {
+  content: "\E621";
+}
 .uni-icon-tianjia:before {
   content: "\E60C";
+}
+.uni-icon-shanchu:before {
+  content: "\E612";
+}
+.uni-icon-lianxiwomen:before {
+  content: "\E740";
+}
+.uni-icon-licaijingxuan:before {
+  content: "\E639";
 }
 .uni-icon-xin2:before {
   content: "\E712";
@@ -58,11 +71,26 @@
 .uni-icon-qianjin:before {
   content: "\E74E";
 }
+.uni-icon-diqiuquanqiu:before {
+  content: "\E76C";
+}
 .uni-icon-laiyuan:before {
   content: "\E77B";
 }
+.uni-icon-ai-tool:before {
+  content: "\E627";
+}
+.uni-icon-gerenxinxi:before {
+  content: "\E665";
+}
+.uni-icon-wodehuiyuan:before {
+  content: "\E67E";
+}
 .uni-icon-huati:before {
   content: "\E659";
+}
+.uni-icon-jubao:before {
+  content: "\E603";
 }
 .uni-icon-quanquanzhuyeb:before {
   content: "\E6D5";
@@ -85,14 +113,71 @@
 .uni-icon-iconquanzinor:before {
   content: "\E607";
 }
+.uni-icon-dailichongweibi:before {
+  content: "\E62E";
+}
 .uni-icon-qq02:before {
   content: "\E63D";
+}
+.uni-icon-weixin:before {
+  content: "\E63F";
+}
+.uni-icon-wodeqianbao1:before {
+  content: "\E65D";
+}
+.uni-icon-iconfontzhizuobiaozhun0247:before {
+  content: "\E6A3";
+}
+.uni-icon-remen:before {
+  content: "\E62F";
+}
+.uni-icon-tuiguang:before {
+  content: "\E64D";
+}
+.uni-icon-fenxiang:before {
+  content: "\E79C";
+}
+.uni-icon-huida:before {
+  content: "\E7A0";
+}
+.uni-icon-zan:before {
+  content: "\E7C0";
+}
+.uni-icon-yijianfankui:before {
+  content: "\E6E5";
+}
+.uni-icon-gerenweixin:before {
+  content: "\E6E6";
+}
+.uni-icon-diangdanguanli:before {
+  content: "\E6F3";
 }
 .uni-icon-dynamic_fill:before {
   content: "\E6F4";
 }
 .uni-icon-dynamic:before {
   content: "\E6F5";
+}
+.uni-icon-qqqun:before {
+  content: "\E700";
+}
+.uni-icon-qunjiaoyi:before {
+  content: "\E71D";
+}
+.uni-icon-weishangquan:before {
+  content: "\E727";
+}
+.uni-icon-shouyitixian:before {
+  content: "\E732";
+}
+.uni-icon-weixinqun:before {
+  content: "\E8A3";
+}
+.uni-icon-weishanghuoyuan:before {
+  content: "\E747";
+}
+.uni-icon-dailishouyi:before {
+  content: "\E74B";
 }
 .uni-icon-clean-up:before {
   content: "\E786";
@@ -106,35 +191,76 @@
 .uni-icon-shoucang-tianchong:before {
   content: "\E609";
 }
+.uni-icon-qiandai-tianchong:before {
+  content: "\E68F";
+}
+.uni-icon-dingwei:before {
+  content: "\E60A";
+}
+.uni-icon-hengxiangpingfen:before {
+  content: "\E60B";
+}
+.uni-icon-zongxiangpingfen:before {
+  content: "\E60D";
+}
+.uni-icon-qun:before {
+  content: "\E6E8";
+}
+.uni-icon-jihua:before {
+  content: "\E63A";
+}
 .uni-icon-icon_fuzhugongju-mian:before {
   content: "\E65C";
+}
+.uni-icon-kejian:before {
+  content: "\E73C";
+}
+.uni-icon-hua:before {
+  content: "\E634";
+}
+.uni-icon-zhongbiao:before {
+  content: "\E6D9";
 }
 .uni-icon-qinglihuancun:before {
   content: "\E608";
 }
-.uni-icon-zan:before {
-  content: "\E7C0";
+.uni-icon-fsux_tubiao_masaiketu:before {
+  content: "\E60E";
 }
-.uni-icon-huida:before {
-  content: "\E7A0";
+.uni-icon-yincangbukejian:before {
+  content: "\E7D0";
 }
-.uni-icon-fenxiang:before {
-  content: "\E79C";
+.uni-icon-Spy:before {
+  content: "\EB49";
 }
-.uni-icon-jubao:before {
-  content: "\E603";
+.uni-icon-huiyuan:before {
+  content: "\E65E";
 }
-uni-swiper {
-  height: 224rpx;
+.uni-icon-huiyuan1:before {
+  content: "\E643";
+}
+.uni-icon-shezhi1:before {
+  content: "\E6E9";
+}
+.content {
+  background-color: #f4f6fa;
+}
+uni-swiper[data-v-3c055dd4] {
+  height: 246rpx;
+}
+swiper {
+  height: 232rpx;
 }
 .swiper-item {
   display: block;
-  height: 224rpx;
-  line-height: 224rpx;
+  height: 232rpx;
   text-align: center;
+  padding: 0 7rpx;
 }
-uni-image {
+uni-image,
+swiper-item image {
   width: 100%;
+  border-radius: 14rpx;
 }
 .block-tl-icon .uni-icon {
   color: #fff;
@@ -173,11 +299,23 @@ uni-image {
 .iconwp {
   width: 90rpx;
   height: 90rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
   background-color: #007AFF;
   border-radius: 100%;
   margin: 0 auto;
   text-align: center;
-  line-height: 90rpx;
 }
 .iconwp .uni-icon {
   font-size: 44rpx;
@@ -288,7 +426,7 @@ uni-image {
   border-radius: 100%;
 }
 .hot-item {
-  border: 2rpx solid #f3f3f3;
+  border: 1rpx solid #f3f3f3;
   width: 152rpx;
   height: 220rpx;
   border-radius: 10rpx;
@@ -462,26 +600,6 @@ uni-image {
   font-size: 22rpx;
   vertical-align: middle;
   margin-right: 4rpx;
-}
-.block-more {
-  display: inline-block;
-  vertical-align: middle;
-  width: 30rpx;
-  height: 30rpx;
-  text-align: center;
-  line-height: 28rpx;
-  border-radius: 10rpx;
-  margin-left: 6rpx;
-}
-.more-color1 {
-  background-image: -webkit-linear-gradient(135deg, #8f75ed 0%, #a792f5 100%);
-  background-image: linear-gradient(-45deg, #8f75ed 0%, #a792f5 100%);
-  box-shadow: 4rpx 0 8rpx rgba(167, 146, 245, .3);
-}
-.more-color2 {
-  background-image: -webkit-linear-gradient(135deg, #e7b65f 0%, #f1d199 100%);
-  background-image: linear-gradient(-45deg, #e7b65f 0%, #f1d199 100%);
-  box-shadow: 4rpx 0 8rpx rgba(241, 109, 153, .3);
 }
 .uni-icon-qianjin {
   font-size: 22rpx;

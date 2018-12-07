@@ -1,0 +1,16 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="0cc214b3">
+  <view class="_view data-v-1b5ca942 content">
+    <view class="_view data-v-1b5ca942 edit-ls">
+      <view class="_view data-v-1b5ca942 edit-item b-line" bindtap="handleProxy" data-eventid="{{'kqW-0'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-1b5ca942 edit-item-lf">
+          <view class="_view data-v-1b5ca942 edit-item-tl"> 上传头像 </view>
+          <view class="_view data-v-1b5ca942 edit-item-txt"> 良好的形象会更容易被加粉 </view>
+        </view>
+        <view class="_view data-v-1b5ca942 edit-item-rt">
+          <template type="qianjin" color="#aaa" size="16" data="{{...$root['0'], ...$root[$kk+'OLW-0'],$root}}" is="18f61b88"></template>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

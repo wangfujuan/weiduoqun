@@ -50,10 +50,10 @@
 					</view>
 					<view class="block-tl-rt">
 						<view class="block-tl-rt-item">
-							<uni-icon type="laiyuan"></uni-icon>
+							<uni-icon type="laiyuan"></uni-icon>							
 							<text class="mdtxt">导入</text>
 						</view>
-						<view class="block-tl-rt-item">
+						<view class="block-tl-rt-item">							
 							<uni-icon type="qinglihuancun"></uni-icon>
 							<text class="mdtxt">清理</text>
 						</view>
@@ -452,11 +452,15 @@
 	.iconwp {
 		width: 90upx;
 		height: 90upx;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 		background-color: #007AFF;
 		border-radius: 100%;
 		margin: 0 auto;
 		text-align: center;
-		line-height: 90upx;
+		/* line-height: 90upx; */
 	}
 	
 	.iconwp .uni-icon {
@@ -569,7 +573,7 @@
 	} 
 	
 	.hot-item {
-		border: 2upx solid #f3f3f3;
+		border: 1px solid #f3f3f3;
 		width: 152upx;
 		height: 220upx;
 		border-radius: 10upx;
@@ -731,29 +735,6 @@
 		font-size: 22upx;
 		vertical-align: middle;
 		margin-right: 4upx;
-	}
-	
-	
-	
-	.block-more {
-		display: inline-block;
-		vertical-align: middle;
-		width: 30upx;
-		height: 30upx;
-		text-align: center;
-		line-height: 28upx;
-		border-radius: 10upx;
-		margin-left: 6upx;
-	}
-	
-	.more-color1 {
-		background-image: linear-gradient(-45deg, #8f75ed 0%, #a792f5 100%);
-		box-shadow: 4upx 0 8upx rgba(167, 146, 245, .3);
-	}	
-	
-	.more-color2 {
-		background-image: linear-gradient(-45deg, #e7b65f 0%, #f1d199 100%);
-		box-shadow: 4upx 0 8upx rgba(241, 109, 153, .3);
 	}
 	
 	.uni-icon-qianjin {

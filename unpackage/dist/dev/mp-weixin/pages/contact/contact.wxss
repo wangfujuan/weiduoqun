@@ -1,10 +1,8 @@
 @import "../../common/vendor.wxss";
-
 @font-face {
   font-family: "uniicons";
-  font-weight: normal;
-  font-style: normal;
-  src: url('https://www.epingwang.com/static/fonts/iconfont.ttf') format('truetype'),;
+  src: url('https://www.epingwang.com/static/fonts/iconfont.ttf') format('truetype'),
+  url('https://www.epingwang.com/static/fonts/iconfont.svg') format('svg');
 }
 .uni-icon {
   font-family: "uniicons" !important;
@@ -15,6 +13,9 @@
   display: inline-block;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
+}
+.uni-icon-erweimafenxiang:before {
+  content: "\E60F";
 }
 .uni-icon-likefill:before {
   content: "\E668";
@@ -31,8 +32,20 @@
 .uni-icon-people:before {
   content: "\E736";
 }
+.uni-icon-pengyouquan:before {
+  content: "\E621";
+}
 .uni-icon-tianjia:before {
   content: "\E60C";
+}
+.uni-icon-shanchu:before {
+  content: "\E612";
+}
+.uni-icon-lianxiwomen:before {
+  content: "\E740";
+}
+.uni-icon-licaijingxuan:before {
+  content: "\E639";
 }
 .uni-icon-xin2:before {
   content: "\E712";
@@ -58,11 +71,26 @@
 .uni-icon-qianjin:before {
   content: "\E74E";
 }
+.uni-icon-diqiuquanqiu:before {
+  content: "\E76C";
+}
 .uni-icon-laiyuan:before {
   content: "\E77B";
 }
+.uni-icon-ai-tool:before {
+  content: "\E627";
+}
+.uni-icon-gerenxinxi:before {
+  content: "\E665";
+}
+.uni-icon-wodehuiyuan:before {
+  content: "\E67E";
+}
 .uni-icon-huati:before {
   content: "\E659";
+}
+.uni-icon-jubao:before {
+  content: "\E603";
 }
 .uni-icon-quanquanzhuyeb:before {
   content: "\E6D5";
@@ -85,14 +113,71 @@
 .uni-icon-iconquanzinor:before {
   content: "\E607";
 }
+.uni-icon-dailichongweibi:before {
+  content: "\E62E";
+}
 .uni-icon-qq02:before {
   content: "\E63D";
+}
+.uni-icon-weixin:before {
+  content: "\E63F";
+}
+.uni-icon-wodeqianbao1:before {
+  content: "\E65D";
+}
+.uni-icon-iconfontzhizuobiaozhun0247:before {
+  content: "\E6A3";
+}
+.uni-icon-remen:before {
+  content: "\E62F";
+}
+.uni-icon-tuiguang:before {
+  content: "\E64D";
+}
+.uni-icon-fenxiang:before {
+  content: "\E79C";
+}
+.uni-icon-huida:before {
+  content: "\E7A0";
+}
+.uni-icon-zan:before {
+  content: "\E7C0";
+}
+.uni-icon-yijianfankui:before {
+  content: "\E6E5";
+}
+.uni-icon-gerenweixin:before {
+  content: "\E6E6";
+}
+.uni-icon-diangdanguanli:before {
+  content: "\E6F3";
 }
 .uni-icon-dynamic_fill:before {
   content: "\E6F4";
 }
 .uni-icon-dynamic:before {
   content: "\E6F5";
+}
+.uni-icon-qqqun:before {
+  content: "\E700";
+}
+.uni-icon-qunjiaoyi:before {
+  content: "\E71D";
+}
+.uni-icon-weishangquan:before {
+  content: "\E727";
+}
+.uni-icon-shouyitixian:before {
+  content: "\E732";
+}
+.uni-icon-weixinqun:before {
+  content: "\E8A3";
+}
+.uni-icon-weishanghuoyuan:before {
+  content: "\E747";
+}
+.uni-icon-dailishouyi:before {
+  content: "\E74B";
 }
 .uni-icon-clean-up:before {
   content: "\E786";
@@ -106,28 +191,64 @@
 .uni-icon-shoucang-tianchong:before {
   content: "\E609";
 }
+.uni-icon-qiandai-tianchong:before {
+  content: "\E68F";
+}
+.uni-icon-dingwei:before {
+  content: "\E60A";
+}
+.uni-icon-hengxiangpingfen:before {
+  content: "\E60B";
+}
+.uni-icon-zongxiangpingfen:before {
+  content: "\E60D";
+}
+.uni-icon-qun:before {
+  content: "\E6E8";
+}
+.uni-icon-jihua:before {
+  content: "\E63A";
+}
 .uni-icon-icon_fuzhugongju-mian:before {
   content: "\E65C";
+}
+.uni-icon-kejian:before {
+  content: "\E73C";
+}
+.uni-icon-hua:before {
+  content: "\E634";
+}
+.uni-icon-zhongbiao:before {
+  content: "\E6D9";
 }
 .uni-icon-qinglihuancun:before {
   content: "\E608";
 }
-.uni-icon-zan:before {
-  content: "\E7C0";
+.uni-icon-fsux_tubiao_masaiketu:before {
+  content: "\E60E";
 }
-.uni-icon-huida:before {
-  content: "\E7A0";
+.uni-icon-yincangbukejian:before {
+  content: "\E7D0";
 }
-.uni-icon-fenxiang:before {
-  content: "\E79C";
+.uni-icon-Spy:before {
+  content: "\EB49";
 }
-.uni-icon-jubao:before {
-  content: "\E603";
+.uni-icon-huiyuan:before {
+  content: "\E65E";
+}
+.uni-icon-huiyuan1:before {
+  content: "\E643";
+}
+.uni-icon-shezhi1:before {
+  content: "\E6E9";
+}
+.content {
+  background-color: #f4f6fa;
 }
 view {
   box-sizing: border-box;
 }
-uni-swiper[data-v-3c055dd4] {
+uni-swiper {
   height: 246rpx;
 }
 swiper {
@@ -144,10 +265,37 @@ swiper-item image {
   width: 100%;
   border-radius: 14rpx;
 }
+.top-ls {
+  font-size: 0;
+  margin-top: 20rpx;
+  padding: 0 10rpx;
+}
+.top-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 33.333333%;
+  font-size: 28rpx;
+  height: 110rpx;
+  padding: 0 10rpx;
+  color: #fff;
+  line-height: 1;
+}
+.top-item-con {
+  border-radius: 10rpx;
+  height: 100%;
+  padding: 20rpx;
+}
+.top-item-des {
+  font-size: 24rpx;
+  margin-top: 14rpx;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  white-space: nowrap;
+}
 .trend {
   height: 170rpx;
-  background-image: -webkit-linear-gradient(135deg, #6e78e0 0%, #b07ef1 100%);
-  background-image: linear-gradient(-45deg, #6e78e0 0%, #b07ef1 100%);
   margin: 0 22rpx 20rpx;
   border-radius: 10rpx;
   display: -webkit-box;
@@ -160,11 +308,24 @@ swiper-item image {
   -webkit-box-align: center;
   -webkit-align-items: center;
   align-items: center;
+  color: #fff;
+  padding: 0 20rpx 0 40rpx;
+}
+.trend-icon {
+  width: 60rpx;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 60rpx;
+  flex: 0 0 60rpx;
+}
+.trend-icon .uni-icon {
+  font-size: 60rpx;
 }
 .trend-info {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   flex: 1;
+  line-height: 1;
+  padding-left: 30rpx;
 }
 .trend-user {
   display: -webkit-box;
@@ -174,17 +335,27 @@ swiper-item image {
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
   flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.trend-info-tl {
+  font-size: 32rpx;
+  margin-bottom: 20rpx;
+}
+.trend-info-des {
+  font-size: 24rpx;
 }
 .trend-user-avatar {
-  width: 70rpx;
-  height: 70rpx;
+  width: 76rpx;
+  height: 76rpx;
   border-radius: 100%;
   border: 4rpx solid #ececec;
-  padding: 4rpx;
+  margin-left: -20rpx;
 }
 .trend-user image {
-  width: 70rpx;
-  height: 70rpx;
+  width: 68rpx;
+  height: 68rpx;
   border-radius: 100%;
 }
 .tool-ls {
@@ -200,7 +371,7 @@ swiper-item image {
   padding: 0 8rpx 22rpx;
 }
 .tool-item-box {
-  border: 1rpx solid #f3f3f3;
+  border: 2rpx solid #f3f3f3;
   height: 100%;
   padding: 30rpx;
   border-radius: 10rpx;
@@ -217,10 +388,38 @@ swiper-item image {
   margin-bottom: 30rpx;
 }
 .tool-item-icon {
+  position: relative;
   width: 80rpx;
   height: 80rpx;
   border-radius: 100%;
-  background-color: #007AFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.tool-tip {
+  position: absolute;
+  width: 90rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  border-radius: 40rpx;
+  font-size: 24rpx;
+  color: #fff;
+  right: -30rpx;
+  top: -24rpx;
+  border: 1rpx solid #fff;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.tool-item-icon .uni-icon {
+  color: #fff;
+  font-size: 44rpx;
 }
 .tool-item-des {
   color: #a1a1a1;
@@ -233,9 +432,36 @@ swiper-item image {
 .tool-item-btn {
   height: 56rpx;
   line-height: 52rpx;
-  border: 1rpx solid #44B549;
+  border: 2rpx solid #44B549;
   border-radius: 56rpx;
   text-align: center;
   color: #44B549;
   font-size: 22rpx;
+}
+.block-tl-rt-item .uni-icon {
+  vertical-align: middle;
+  margin-right: 2rpx;
+}
+.trend .uni-icon-qianjin {
+  font-size: 30rpx;
+  margin-left: 12rpx;
+}
+.block-more {
+  display: inline-block;
+  vertical-align: middle;
+  width: 30rpx;
+  height: 30rpx;
+  text-align: center;
+  line-height: 28rpx;
+  border-radius: 10rpx;
+  margin-left: 6rpx;
+  color: #fff;
+}
+.more-color2 {
+  background-image: -webkit-linear-gradient(135deg, #e7b65f 0%, #f1d199 100%);
+  background-image: linear-gradient(-45deg, #e7b65f 0%, #f1d199 100%);
+  box-shadow: 4rpx 0 8rpx rgba(241, 109, 153, .3);
+}
+.whiteborder .trend-user-avatar {
+  border-color: #fff;
 }
