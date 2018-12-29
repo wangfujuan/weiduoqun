@@ -1,0 +1,1 @@
+<import src="/pages/selectTrade/selectTrade.vue.wxml" /><template is="af56a5ba" data="{{ ...$root['0'], $root }}"/>

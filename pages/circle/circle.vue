@@ -94,9 +94,11 @@
 							</view>
 						</view>
 					</view>
-					<view class="art-item-info">
-						似乎在😊 很多人眼中，胸针是古板或陈旧的~~，很难和时髦挂上勾❤️。但胸针是个很好搭配的饰品，在个很好搭配的饰上都能有它的存在，可以说它是万能的点缀。
-					</view>
+					<navigator url="../circleDetail/circleDetail" hover-class="none">
+						<view class="art-item-info">
+							似乎在😊 很多人眼中，胸针是古板或陈旧的~~，很难和时髦挂上勾❤️。但胸针是个很好搭配的饰品，在个很好搭配的饰上都能有它的存在，可以说它是万能的点缀。
+						</view>
+					</navigator>
 					<view class="art-item-pic">
 						<view class="art-item-img-wp">
 							<image class="art-item-img" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
@@ -145,9 +147,11 @@
 							</view>
 						</view>
 					</view>
-					<view class="art-item-info">
-						似乎在😊 很多人眼中，胸针是古板或陈旧的~~，很难和时髦挂上勾❤️。但胸针是个很好搭配的饰品，在个很好搭配的饰上都能有它的存在，可以说它是万能的点缀。
-					</view>
+					<navigator url="../circleDetail/circleDetail" hover-class="none">
+						<view class="art-item-info">
+							似乎在😊 很多人眼中，胸针是古板或陈旧的~~，很难和时髦挂上勾❤️。但胸针是个很好搭配的饰品，在个很好搭配的饰上都能有它的存在，可以说它是万能的点缀。
+						</view>
+					</navigator>
 					<view class="art-item-pic">
 						<view class="art-item-img-wp">
 							<image class="art-item-img" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>

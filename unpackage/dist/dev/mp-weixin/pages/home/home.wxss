@@ -242,6 +242,54 @@
 .uni-icon-shezhi1:before {
   content: "\E6E9";
 }
+.uni-icon-choujiang:before {
+  content: "\E610";
+}
+.uni-icon-huxiangganxingqu:before {
+  content: "\E7BE";
+}
+.uni-icon-youhuiquan01:before {
+  content: "\E637";
+}
+.uni-icon-zhifubaozhifu:before {
+  content: "\E654";
+}
+.uni-icon-weixinzhifu:before {
+  content: "\E63B";
+}
+.uni-icon-jiufuqianbaoicon05:before {
+  content: "\E692";
+}
+.uni-icon-shachu-xue:before {
+  content: "\E638";
+}
+.uni-icon-kefu:before {
+  content: "\E635";
+}
+.uni-icon-bangzhu:before {
+  content: "\E61B";
+}
+.uni-icon-fankui-tianchong:before {
+  content: "\E652";
+}
+.uni-icon-right-1:before {
+  content: "\E611";
+}
+.uni-icon-ai-phone:before {
+  content: "\E63C";
+}
+.uni-icon-tongxunlu:before {
+  content: "\E63E";
+}
+.uni-icon-duihao:before {
+  content: "\E633";
+}
+.uni-icon-xiangce:before {
+  content: "\E7BF";
+}
+.uni-icon-shuaxin:before {
+  content: "\E613";
+}
 .content {
   background-color: #f4f6fa;
 }
@@ -579,21 +627,6 @@ swiper-item image {
   height: auto;
   -webkit-justify-content: space-around;
   justify-content: space-around;
-}
-.ding {
-  width: 30rpx;
-  height: 30rpx;
-  line-height: 30rpx;
-  text-align: center;
-  color: #fff;
-  border-radius: 6rpx;
-  background-color: #44b549;
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 24rpx;
-  -webkit-transform: scale(0.8);
-  transform: scale(0.8);
-  margin-right: 8rpx;
 }
 .hot-add .uni-icon {
   color: #fff;

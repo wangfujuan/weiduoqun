@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([[2,1],".",[1],"radio-item { width: ",[0,40],"; height: ",[0,40],"; border: ",[0,2]," solid #ddd; border-radius: 100%; }\n.",[1],"content { background-color: #F4F6FA; }\n.",[1],"sg-item { margin: ",[0,20]," ",[0,30],"; background-color: #fff; padding: ",[0,20]," ",[0,20]," ",[0,20]," ",[0,30],"; border-radius: ",[0,10],"; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; align-items: center; box-shadow: 0 ",[0,2]," ",[0,6]," rgba(0,0,0,.1); }\n.",[1],"sg-item-md { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; padding-left: ",[0,20],"; }\n.",[1],"sg-item-rt { font-size: ",[0,24],"; color: #a2a2a2; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center; }\n.",[1],"sg-item-rt .",[1],"uni-icon { margin-left: ",[0,5],"; }\n.",[1],"width-80 { width: ",[0,80],"; height: ",[0,80],"; -webkit-box-flex: 0; -webkit-flex: 0 0 ",[0,80],"; flex: 0 0 ",[0,80],"; }\n.",[1],"sg-item-con { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; padding-left: ",[0,20],"; }\n.",[1],"sg-item-tl { font-weight: 500; }\n.",[1],"sg-item-wx { font-size: ",[0,24],"; color: #A1A1A1; }\n.",[1],"add-group { color: #8a8a8a; text-align: center; height: ",[0,100],"; line-height: ",[0,100],"; background-color: #fff; margin: 0 ",[0,30],"; border: ",[0,2]," solid #e5e5e5; border-radius: ",[0,10],"; }\n.",[1],"add-group .",[1],"uni-icon { margin-right: ",[0,10],"; }\n",],undefined,{path:"./pages/selectGroup/selectGroup.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/selectGroup/selectGroup.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

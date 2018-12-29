@@ -242,6 +242,57 @@
 .uni-icon-shezhi1:before {
   content: "\E6E9";
 }
+.uni-icon-choujiang:before {
+  content: "\E610";
+}
+.uni-icon-huxiangganxingqu:before {
+  content: "\E7BE";
+}
+.uni-icon-youhuiquan01:before {
+  content: "\E637";
+}
+.uni-icon-zhifubaozhifu:before {
+  content: "\E654";
+}
+.uni-icon-weixinzhifu:before {
+  content: "\E63B";
+}
+.uni-icon-jiufuqianbaoicon05:before {
+  content: "\E692";
+}
+.uni-icon-shachu-xue:before {
+  content: "\E638";
+}
+.uni-icon-kefu:before {
+  content: "\E635";
+}
+.uni-icon-bangzhu:before {
+  content: "\E61B";
+}
+.uni-icon-fankui-tianchong:before {
+  content: "\E652";
+}
+.uni-icon-right-1:before {
+  content: "\E611";
+}
+.uni-icon-ai-phone:before {
+  content: "\E63C";
+}
+.uni-icon-tongxunlu:before {
+  content: "\E63E";
+}
+.uni-icon-duihao:before {
+  content: "\E633";
+}
+.uni-icon-xiangce:before {
+  content: "\E7BF";
+}
+.uni-icon-shuaxin:before {
+  content: "\E613";
+}
+.content {
+  overflow: hidden;
+}
 .uni-icon-huiyuan1 {
   color: #a1a1a1;
   font-size: 32rpx;
@@ -268,6 +319,23 @@
 }
 .me-top {
   position: relative;
+}
+.edituser {
+  background-color: rgba(255,255,255,.1);
+  font-size: 24rpx;
+  margin-left: 20rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  border-radius: 40rpx;
+  padding: 0 10rpx 0 20rpx;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+}
+.edituser .uni-icon {
+  font-size: 24rpx;
+  margin-left: -8rpx;
 }
 .me-login {
   background-color: #44B549;
@@ -458,7 +526,7 @@
 }
 .noopen {
   font-size: 24rpx;
-  border: 2rpx solid #a1a1a1;
+  border: 2rpx solid #eee;
   color: #a1a1a1;
   height: 40rpx;
   line-height: 40rpx;

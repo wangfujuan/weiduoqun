@@ -2,15 +2,75 @@
 <template name="0cc214b3">
   <view class="_view data-v-1b5ca942 content">
     <view class="_view data-v-1b5ca942 edit-ls">
-      <view class="_view data-v-1b5ca942 edit-item b-line" bindtap="handleProxy" data-eventid="{{'kqW-0'}}" data-comkey="{{$k}}">
+      <navigator url="../meedit/meedit" class="_navigator data-v-1b5ca942 edit-item b-line" hover-class="none">
         <view class="_view data-v-1b5ca942 edit-item-lf">
-          <view class="_view data-v-1b5ca942 edit-item-tl"> 上传头像 </view>
-          <view class="_view data-v-1b5ca942 edit-item-txt"> 良好的形象会更容易被加粉 </view>
+          <view class="_view data-v-1b5ca942 edit-item-tl"> 修改个人资料 </view>
+          <view class="_view data-v-1b5ca942 edit-item-txt"> 完善个人资料加粉效果更精准 </view>
         </view>
         <view class="_view data-v-1b5ca942 edit-item-rt">
-          <template type="qianjin" color="#aaa" size="16" data="{{...$root['0'], ...$root[$kk+'OLW-0'],$root}}" is="18f61b88"></template>
+          <template type="qianjin" color="#ddd" size="16" data="{{...$root['0'], ...$root[$kk+'EA5-0'],$root}}" is="18f61b88"></template>
+        </view>
+      </navigator>
+    </view>
+    <view class="_view data-v-1b5ca942 line20"></view>
+    <view class="_view data-v-1b5ca942 edit-ls">
+      <view class="_view data-v-1b5ca942 edit-item b-line">
+        <view class="_view data-v-1b5ca942 edit-item-lf">
+          <view class="_view data-v-1b5ca942 edit-item-tl"> 停止被加粉 </view>
+          <view class="_view data-v-1b5ca942 edit-item-txt"> 可停止一个或多个号被加粉 </view>
+        </view>
+        <view class="_view data-v-1b5ca942 edit-item-rt">
+          <template type="qianjin" color="#ddd" size="16" data="{{...$root['0'], ...$root[$kk+'882-1'],$root}}" is="18f61b88"></template>
         </view>
       </view>
+      <view class="_view data-v-1b5ca942 edit-item b-line">
+        <view class="_view data-v-1b5ca942 edit-item-lf">
+          <view class="_view data-v-1b5ca942 edit-item-tl"> 绑定微信
+            <text class="_text data-v-1b5ca942 greenfont smallfont">(未绑定)</text>
+          </view>
+          <view class="_view data-v-1b5ca942 edit-item-txt"> 绑定微信加粉更方便 </view>
+        </view>
+        <view class="_view data-v-1b5ca942 edit-item-rt">
+          <text class="_text data-v-1b5ca942 greenfont">点击绑定</text>
+        </view>
+      </view>
+      <view class="_view data-v-1b5ca942 edit-item b-line">
+        <view class="_view data-v-1b5ca942 edit-item-lf">
+          <view class="_view data-v-1b5ca942 edit-item-tl"> 关闭短信通知 </view>
+          <view class="_view data-v-1b5ca942 edit-item-txt"> 有收益时短信提醒，每天最多2次，累计最多5次 </view>
+        </view>
+        <view class="_view data-v-1b5ca942 edit-item-rt">
+          <switch color="#44B549" bindchange="handleProxy" data-eventid="{{'SHn-0'}}" data-comkey="{{$k}}" class="_switch data-v-1b5ca942" />
+        </view>
+      </view>
+      <view class="_view data-v-1b5ca942 edit-item b-line">
+        <view class="_view data-v-1b5ca942 edit-item-lf">
+          <view class="_view data-v-1b5ca942 edit-item-tl"> 当前版本 </view>
+          <view class="_view data-v-1b5ca942 edit-item-txt"> 目前已经是最新版本 </view>
+        </view>
+        <view class="_view data-v-1b5ca942 edit-item-rt"> 1.0.0 </view>
+      </view>
+      <view class="_view data-v-1b5ca942 edit-item b-line">
+        <view class="_view data-v-1b5ca942 edit-item-lf">
+          <view class="_view data-v-1b5ca942 edit-item-tl"> 注销账号 </view>
+          <view class="_view data-v-1b5ca942 edit-item-txt"> 可注销已注册的手机号 </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-1b5ca942 line20"></view>
+    <view class="_view data-v-1b5ca942 edit-ls">
+      <view class="_view data-v-1b5ca942 edit-item b-line">
+        <view class="_view data-v-1b5ca942 edit-item-lf"> 清除缓存 </view>
+        <view class="_view data-v-1b5ca942 edit-item-rt">
+          <template type="qianjin" color="#ddd" size="16" data="{{...$root['0'], ...$root[$kk+'ytn-2'],$root}}" is="18f61b88"></template>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-1b5ca942 line20"></view>
+    <view class="_view data-v-1b5ca942 exit"> 退出当前账号 </view>
+    <view class="_view data-v-1b5ca942 smallfont fixeduser">
+      <navigator url hover-class="none" class="_navigator data-v-1b5ca942">《微多群用户服务协议》</navigator>
+      <navigator url hover-class="none" class="_navigator data-v-1b5ca942">《微多群隐私政策》</navigator>
     </view>
   </view>
 </template>

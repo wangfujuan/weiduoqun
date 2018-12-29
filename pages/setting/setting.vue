@@ -81,6 +81,17 @@
 			</view>
 		</view>
 		<view class="line20"></view>
+		<view class="edit-ls">
+			<view class="edit-item b-line">
+				<view class="edit-item-lf">	
+					清除缓存
+				</view>
+				<view class="edit-item-rt">
+					<uni-icon type="qianjin" color="#ddd" size="16"></uni-icon>
+				</view>
+			</view>
+		</view>
+		<view class="line20"></view>
 		<view class="exit">
 			退出当前账号
 		</view>		

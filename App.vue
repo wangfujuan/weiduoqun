@@ -14,6 +14,15 @@
 
 <style>
     /*每个页面公共css */
+	.picker-item{
+		font-size: 32upx !important;
+		line-height: 80upx !important;
+	}
+	.mpvue-picker__hd{
+		padding: 18upx 30upx !important;
+		font-size: 34upx !important;
+		border-bottom: 2upx solid #e5e5e5 !important;
+	}
     page {
         min-height: 100%;
         display: flex;
@@ -220,5 +229,59 @@
 	}
 	.smallfont{
 		font-size: 22upx;
+	}
+	.submitbtn-wp{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		/* background-color: #fff; */
+		padding: 15upx 30upx 30upx;
+	}
+	.submitbtn{
+		height: 90upx;
+		line-height: 90upx;
+		text-align: center;
+		color: #fff;
+		font-weight: 500;
+		font-size: 34upx;
+		border-radius: 90upx;
+	}
+	.submitbtn::after{
+		display: none;	
+	}
+	.line20{
+		height: 20upx;
+		background-color: #F4F6FA;
+	}
+	.tool-item-icon {
+		position: relative;
+		width: 80upx;
+		height: 80upx;
+		border-radius: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.ding {
+		width: 30upx;
+		height: 30upx;
+		line-height: 30upx;
+		text-align: center;
+		color: #fff;
+		border-radius: 6upx;
+		background-color: #44b549;
+		display: inline-block;
+		vertical-align: middle;
+		font-size: 24upx;
+		transform: scale(0.8);
+		margin-right: 8upx;
+	}
+	.dbellipsis{
+		display: -webkit-box;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
 	}
 </style>

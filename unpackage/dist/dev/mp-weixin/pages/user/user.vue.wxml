@@ -1,40 +1,43 @@
+<import src="/components/uni-icon.vue.wxml" />
 <template name="a778399e">
   <view class="_view data-v-ff762a46 content">
     <view class="_view data-v-ff762a46 me-top">
       <view class="_view data-v-ff762a46 me-login">
         <image class="_image data-v-ff762a46 avatar" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
         <view class="_view data-v-ff762a46 me-login-status">
-          <view class="_view data-v-ff762a46 me-login-tl" wx:if="{{!hasLogin}}" bindtap="handleProxy" data-eventid="{{'hSH-0'}}" data-comkey="{{$k}}"> 登录/注册 </view>
+          <view class="_view data-v-ff762a46 me-login-tl" wx:if="{{!hasLogin}}" bindtap="handleProxy" data-eventid="{{'u7c-0'}}" data-comkey="{{$k}}"> 登录/注册 </view>
           <view class="_view data-v-ff762a46 me-login-des"> 登录后可使用更多功能
-            <view class="_view data-v-ff762a46">修改资料</view>
+            <navigator class="_navigator data-v-ff762a46 edituser" url="../meedit/meedit">修改资料
+              <view class="_view data-v-ff762a46 uni-icon uni-icon-qianjin"></view>
+            </navigator>
           </view>
         </view>
-        <view class="_view data-v-ff762a46 me-login-set center">
-          <view class="_view data-v-ff762a46 uni-icon uni-icon-shezhi1"></view> 设置 </view>
+        <navigator url="../setting/setting" hover-class="none" class="_navigator data-v-ff762a46 me-login-set center">
+          <view class="_view data-v-ff762a46 uni-icon uni-icon-shezhi1"></view> 设置 </navigator>
       </view>
     </view>
     <view class="_view data-v-ff762a46 content-pad">
       <view class="_view data-v-ff762a46 white">
         <view class="_view data-v-ff762a46 user-get">
-          <view class="_view data-v-ff762a46 user-get-item">
+          <navigator class="_navigator data-v-ff762a46 user-get-item" url="../weibi/weibi" hover-class="none">
             <view class="_view data-v-ff762a46 user-get-item-sum">
               <text class="_text data-v-ff762a46">20</text> 个 </view>
             <view class="_view data-v-ff762a46 user-get-item-info"> 我的微币 </view>
-          </view>
+          </navigator>
           <view class="_view data-v-ff762a46 user-get-item">
             <view class="_view data-v-ff762a46 user-get-item-sum">
               <text class="_text data-v-ff762a46">18.00</text> 元 </view>
             <view class="_view data-v-ff762a46 user-get-item-info"> 收益余额 </view>
           </view>
-          <view class="_view data-v-ff762a46 user-get-charge">
+          <navigator hover-class="none" url="../weibiRecharge/weibiRecharge" class="_navigator data-v-ff762a46 user-get-charge">
             <view class="_view data-v-ff762a46 uni-icon uni-icon-wodeqianbao1"></view>
             <view class="_view data-v-ff762a46 user-get-item-info"> 马上充值 </view>
-          </view>
+          </navigator>
         </view>
       </view>
       <view class="_view data-v-ff762a46 white">
         <view class="_view data-v-ff762a46 member-ls">
-          <view class="_view data-v-ff762a46 member-item">
+          <navigator hover-class="none" class="_navigator data-v-ff762a46 member-item" url="../member/member">
             <view class="_view data-v-ff762a46 member-item-lf">
               <view class="_view data-v-ff762a46 member-item-lf-tl">
                 <view class="_view data-v-ff762a46 uni-icon uni-icon-huiyuan"></view>
@@ -44,7 +47,7 @@
               <view class="_view data-v-ff762a46 member-item-lf-time"> 2019.01.13到期 </view>
             </view>
             <view class="_view data-v-ff762a46 member-item-rt"> 查看详细 </view>
-          </view>
+          </navigator>
           <view class="_view data-v-ff762a46 line"></view>
           <view class="_view data-v-ff762a46 member-item">
             <view class="_view data-v-ff762a46 member-item-lf">
@@ -62,18 +65,18 @@
       <view class="_view data-v-ff762a46 white">
         <view class="_view data-v-ff762a46 user-tl"> 我的名片 </view>
         <view class="_view data-v-ff762a46 user-ls">
-          <view class="_view data-v-ff762a46 user-item">
+          <navigator hover-class="none" url="../card/card" class="_navigator data-v-ff762a46 user-item">
             <view class="_view data-v-ff762a46 uni-icon color1 uni-icon-weixinqun"></view>
             <view class="_view data-v-ff762a46 user-item-info">微信群</view>
-          </view>
+          </navigator>
           <view class="_view data-v-ff762a46 user-item">
             <view class="_view data-v-ff762a46 uni-icon color2 uni-icon-qqqun"></view>
             <view class="_view data-v-ff762a46 user-item-info">QQ群</view>
           </view>
-          <view class="_view data-v-ff762a46 user-item">
+          <navigator class="_navigator data-v-ff762a46 user-item" hover-class="none" url>
             <view class="_view data-v-ff762a46 uni-icon color3 uni-icon-gerenweixin"></view>
             <view class="_view data-v-ff762a46 user-item-info">个人微信</view>
-          </view>
+          </navigator>
           <view class="_view data-v-ff762a46 user-item">
             <view class="_view data-v-ff762a46 uni-icon color4 uni-icon-qqqun"></view>
             <view class="_view data-v-ff762a46 user-item-info">公众号</view>
@@ -154,18 +157,18 @@
             <view class="_view data-v-ff762a46 uni-icon color5 uni-icon-qunjiaoyi"></view>
             <view class="_view data-v-ff762a46 user-item-info">账号管理</view>
           </view>
-          <view class="_view data-v-ff762a46 user-item">
-            <view class="_view data-v-ff762a46 uni-icon color6 uni-icon-yijianfankui"></view>
+          <navigator class="_navigator data-v-ff762a46 user-item" hover-class="none" url="../feedback/feedback">
+            <template type="fankui-tianchong" size="30" color="#5bc48d" data="{{...$root['0'], ...$root[$kk+'BJf-0'],$root}}" is="18f61b88"></template>
             <view class="_view data-v-ff762a46 user-item-info">意见反馈</view>
-          </view>
-          <view class="_view data-v-ff762a46 user-item">
-            <view class="_view data-v-ff762a46 uni-icon color7 uni-icon-qunjiaoyi"></view>
+          </navigator>
+          <navigator class="_navigator data-v-ff762a46 user-item" hover-class="none" url="../help/help">
+            <template type="bangzhu" color="#e07464" size="30" data="{{...$root['0'], ...$root[$kk+'VE2-1'],$root}}" is="18f61b88"></template>
             <view class="_view data-v-ff762a46 user-item-info">新手帮助</view>
-          </view>
-          <view class="_view data-v-ff762a46 user-item">
-            <view class="_view data-v-ff762a46 uni-icon color7 uni-icon-lianxiwomen"></view>
+          </navigator>
+          <navigator class="_navigator data-v-ff762a46 user-item" hover-class="none" url="../service/service">
+            <template type="kefu" color="#d45a7a" size="30" data="{{...$root['0'], ...$root[$kk+'H7k-2'],$root}}" is="18f61b88"></template>
             <view class="_view data-v-ff762a46 user-item-info">联系我们</view>
-          </view>
+          </navigator>
           <view class="_view data-v-ff762a46 user-item">
             <view class="_view data-v-ff762a46 uni-icon color7 uni-icon-qunjiaoyi"></view>
             <view class="_view data-v-ff762a46 user-item-info">好评送微币</view>

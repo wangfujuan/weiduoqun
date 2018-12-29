@@ -1,0 +1,1 @@
+<import src="/pages/wxgroupcard/wxgroupcard.vue.wxml" /><template is="34c18b2f" data="{{ ...$root['0'], $root }}"/>

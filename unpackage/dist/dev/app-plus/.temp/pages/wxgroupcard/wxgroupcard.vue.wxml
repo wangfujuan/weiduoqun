@@ -1,0 +1,209 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="34c18b2f">
+  <view class="_view data-v-5b54944a content">
+    <view class="_view data-v-5b54944a content-pad">
+      <view class="_view data-v-5b54944a white">
+        <view class="_view data-v-5b54944a wx-item">
+          <navigator class="_navigator data-v-5b54944a wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
+            <view class="_view data-v-5b54944a avatar-wp">
+              <view class="_view data-v-5b54944a avatar-vip">
+                <template type="huiyuan" size="12" data="{{...$root['0'], ...$root[$kk+'TSp-0'],$root}}" is="18f61b88"></template>会员 </view>
+              <image class="_image data-v-5b54944a avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+            </view>
+            <view class="_view data-v-5b54944a wx-item-con">
+              <view class="_view data-v-5b54944a wx-item-tl">
+                <text class="_text data-v-5b54944a mdtxt">妮妮小宝贝</text>
+              </view>
+              <view class="_view data-v-5b54944a wx-item-wx"> 微信好：jingjingapp
+                <view class="_view data-v-5b54944a copy">复制</view>
+              </view>
+            </view>
+          </navigator>
+          <view class="_view data-v-5b54944a wx-item-rt" bindtap="handleProxy" data-position="middle" data-eventid="{{'auQ-0'}}" data-comkey="{{$k}}">
+            <template type="tianjia" size="12" color="#44B549" data="{{...$root['0'], ...$root[$kk+'yme-1'],$root}}" is="18f61b88"></template>加群主 </view>
+        </view>
+      </view>
+      <view class="_view data-v-5b54944a white">
+        <view class="_view data-v-5b54944a wxgc-title"> 北京吃喝玩乐群
+          <view class="_view data-v-5b54944a block-tl-rt">
+            <navigator url="../report/report" hover-class="none" class="_navigator data-v-5b54944a block-tl-rt-item">
+              <template type="jubao" size="13" data="{{...$root['0'], ...$root[$kk+'Cgj-2'],$root}}" is="18f61b88"></template>
+              <text class="_text data-v-5b54944a mdtxt">举报</text>
+            </navigator>
+            <view class="_view data-v-5b54944a block-tl-rt-item">
+              <template type="fenxiang" size="13" data="{{...$root['0'], ...$root[$kk+'GGP-3'],$root}}" is="18f61b88"></template>
+              <text class="_text data-v-5b54944a mdtxt">分享</text>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-5b54944a wxgc-sub-title">
+          <view class="_view data-v-5b54944a wxgc-sub-item"> 更新时间：12-14 15:20 </view>
+          <view class="_view data-v-5b54944a wxgc-sub-sm"> 行业：时尚交友 </view>
+          <view class="_view data-v-5b54944a wxgc-sub-sm"> 曝光：1209 </view>
+        </view>
+        <image class="_image data-v-5b54944a wxgc-code" src="../../static/me-code.jpg" mode="widthFix"></image>
+        <view class="_view data-v-5b54944a warning b-line"> 注意防骗，请勿轻信他人请勿轻易转账给对方 </view>
+        <view class="_view data-v-5b54944a b-line">
+          <view class="_view data-v-5b54944a user-use center"> 使用教程
+            <text class="_text data-v-5b54944a user-use-down"></text>
+          </view>
+          <view class="_view data-v-5b54944a user-use-info">
+            <view class="_view data-v-5b54944a user-use-line"> 1、选择您要添加的好友或者微信群的二维码，点击保存二维码到相册 </view>
+            <view class="_view data-v-5b54944a user-use-line"> 2、即可批量快速扫码加好友 </view>
+            <view class="_view data-v-5b54944a user-use-line"> 3、详细了解
+              <navigator class="_navigator data-v-5b54944a user-use-blue" url>《积分规则》</navigator>
+            </view>
+          </view>
+          <view class="_view data-v-5b54944a user-use-info">
+            <view class="_view data-v-5b54944a user-use-tl"> 群介绍
+              <view class="_view data-v-5b54944a user-use-tag">北京 北京</view>
+            </view>
+            <view class="_view data-v-5b54944a"> 香港海港城最全母婴店推荐 </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-5b54944a white">
+        <view class="_view data-v-5b54944a block-tl">
+          <view class="_view data-v-5b54944a block-tl-lf">
+            <view class="_view data-v-5b54944a block-tl-icon block-tl-color3">
+              <template type="geren2" color="#fff" size="12" data="{{...$root['0'], ...$root[$kk+'2WP-4'],$root}}" is="18f61b88"></template>
+            </view>
+            <text class="_text data-v-5b54944a mdtxt">热门微信群推荐</text>
+          </view>
+        </view>
+        <view class="_view data-v-5b54944a wx-item b-line">
+          <navigator class="_navigator data-v-5b54944a wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
+            <view class="_view data-v-5b54944a avatar-wp">
+              <view class="_view data-v-5b54944a avatar-vip">
+                <template type="huiyuan" size="12" data="{{...$root['0'], ...$root[$kk+'O1X-5'],$root}}" is="18f61b88"></template>会员 </view>
+              <image class="_image data-v-5b54944a avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+            </view>
+            <view class="_view data-v-5b54944a wx-item-con">
+              <view class="_view data-v-5b54944a wx-item-tl">
+                <text class="_text data-v-5b54944a ding">顶</text>
+                <text class="_text data-v-5b54944a mdtxt">妮妮小宝贝</text>
+              </view>
+              <view class="_view data-v-5b54944a wx-item-wx"> 进群加群主，不加秒踢 </view>
+            </view>
+          </navigator>
+        </view>
+        <view class="_view data-v-5b54944a wx-item b-line">
+          <navigator class="_navigator data-v-5b54944a wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
+            <view class="_view data-v-5b54944a avatar-wp">
+              <view class="_view data-v-5b54944a avatar-vip">
+                <template type="huiyuan" size="12" data="{{...$root['0'], ...$root[$kk+'5Wn-6'],$root}}" is="18f61b88"></template>会员 </view>
+              <image class="_image data-v-5b54944a avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+            </view>
+            <view class="_view data-v-5b54944a wx-item-con">
+              <view class="_view data-v-5b54944a wx-item-tl">
+                <text class="_text data-v-5b54944a mdtxt">妮妮小宝贝</text>
+              </view>
+              <view class="_view data-v-5b54944a wx-item-wx"> 进群加群主，不加秒踢 </view>
+            </view>
+          </navigator>
+        </view>
+        <view class="_view data-v-5b54944a wx-item">
+          <navigator class="_navigator data-v-5b54944a wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
+            <view class="_view data-v-5b54944a avatar-wp">
+              <view class="_view data-v-5b54944a avatar-vip">
+                <template type="huiyuan" size="12" data="{{...$root['0'], ...$root[$kk+'N0S-7'],$root}}" is="18f61b88"></template>会员 </view>
+              <image class="_image data-v-5b54944a avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+            </view>
+            <view class="_view data-v-5b54944a wx-item-con">
+              <view class="_view data-v-5b54944a wx-item-tl">
+                <text class="_text data-v-5b54944a mdtxt">妮妮小宝贝</text>
+              </view>
+              <view class="_view data-v-5b54944a wx-item-wx"> 进群加群主，不加秒踢 </view>
+            </view>
+          </navigator>
+        </view>
+      </view>
+      <view class="_view data-v-5b54944a white">
+        <view class="_view data-v-5b54944a block-tl">
+          <view class="_view data-v-5b54944a block-tl-lf">
+            <view class="_view data-v-5b54944a block-tl-icon block-tl-color2">
+              <template type="geren2" color="#fff" size="12" data="{{...$root['0'], ...$root[$kk+'eCt-8'],$root}}" is="18f61b88"></template>
+            </view>
+            <text class="_text data-v-5b54944a mdtxt">热门微信群分类</text>
+          </view>
+        </view>
+        <view class="_view data-v-5b54944a hot-category-ls">
+          <view class="_view data-v-5b54944a hot-category-item">
+            <view class="_view data-v-5b54944a hot-category-con b-line"> 红包群
+              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'T9X-9'],$root}}" is="18f61b88"></template>
+            </view>
+          </view>
+          <view class="_view data-v-5b54944a hot-category-item">
+            <view class="_view data-v-5b54944a hot-category-con b-line"> 微信福利群
+              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'xgG-10'],$root}}" is="18f61b88"></template>
+            </view>
+          </view>
+          <view class="_view data-v-5b54944a hot-category-item">
+            <view class="_view data-v-5b54944a hot-category-con b-line"> 创业群
+              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'Kjd-11'],$root}}" is="18f61b88"></template>
+            </view>
+          </view>
+          <view class="_view data-v-5b54944a hot-category-item">
+            <view class="_view data-v-5b54944a hot-category-con b-line"> 兼职群
+              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'20O-12'],$root}}" is="18f61b88"></template>
+            </view>
+          </view>
+          <view class="_view data-v-5b54944a hot-category-item">
+            <view class="_view data-v-5b54944a hot-category-con b-line"> 红包群
+              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'rBy-13'],$root}}" is="18f61b88"></template>
+            </view>
+          </view>
+          <view class="_view data-v-5b54944a hot-category-item">
+            <view class="_view data-v-5b54944a hot-category-con b-line"> 微信福利群
+              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'by5-14'],$root}}" is="18f61b88"></template>
+            </view>
+          </view>
+          <view class="_view data-v-5b54944a hot-category-item">
+            <view class="_view data-v-5b54944a hot-category-con b-line"> 创业群
+              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'pPR-15'],$root}}" is="18f61b88"></template>
+            </view>
+          </view>
+          <view class="_view data-v-5b54944a hot-category-item">
+            <view class="_view data-v-5b54944a hot-category-con b-line"> 兼职群
+              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'LLP-16'],$root}}" is="18f61b88"></template>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-5b54944a wxgroup-fix">
+      <view class="_view data-v-5b54944a wxgroup-btn-wp">
+        <view class="_view data-v-5b54944a wxgroup-btn-lf center">
+          <template type="erweimafenxiang" size="16" color="#fff" data="{{...$root['0'], ...$root[$kk+'xDM-17'],$root}}" is="18f61b88"></template> 保存二维码 </view>
+        <view class="_view data-v-5b54944a wxgroup-btn-md center">
+          <template type="tongxunlu" size="16" color="#fff" data="{{...$root['0'], ...$root[$kk+'b81-18'],$root}}" is="18f61b88"></template> 导入通讯录 </view>
+        <view class="_view data-v-5b54944a wxgroup-btn-rt center">
+          <template type="weixin" size="16" color="#fff" data="{{...$root['0'], ...$root[$kk+'DMN-19'],$root}}" is="18f61b88"></template> 发送到微信 </view>
+      </view>
+    </view>
+    <view class="_view data-v-5b54944a mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'WCb-1'}}" data-comkey="{{$k}}"></view>
+    <view class="_view data-v-5b54944a popup popup-middle" hidden="{{!(showState.middle)}}">
+      <view class="_view data-v-5b54944a kf-tl b-line"> 添加群
+        <template type="shachu-xue" size="16" bindtap="handleProxy" data-eventid="{{'uZt-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Pex-20'],$root}}" is="18f61b88"></template>
+      </view>
+      <view class="_view data-v-5b54944a add-line">
+        <template type="weixin" color="#44B549" size="22" data="{{...$root['0'], ...$root[$kk+'3Hz-21'],$root}}" is="18f61b88"></template>
+        <view class="_view data-v-5b54944a add-info">jinglingapp</view>
+        <view class="_view data-v-5b54944a add-copy">复制</view>
+      </view>
+      <view class="_view data-v-5b54944a add-line">
+        <template type="ai-phone" color="#e9ce59" size="22" data="{{...$root['0'], ...$root[$kk+'KQa-22'],$root}}" is="18f61b88"></template>
+        <view class="_view data-v-5b54944a add-info">15010200333</view>
+        <view class="_view data-v-5b54944a add-copy">复制</view>
+      </view>
+      <image class="_image data-v-5b54944a kf-con-code" src="../../static/code.jpg" mode="widthFix"></image>
+      <view class="_view data-v-5b54944a kf-con-info"> 扫一扫 或者 点击图片保存到手机相册 </view>
+      <view class="_view data-v-5b54944a wx-btn-ls">
+        <view class="_view data-v-5b54944a kf-btn block-tl-color8 center">
+          <template type="weixin" size="18" data="{{...$root['0'], ...$root[$kk+'K9v-23'],$root}}" is="18f61b88"></template>发送到微信 </view>
+        <view class="_view data-v-5b54944a kf-btn center wx-btn-default">
+          <template type="tongxunlu" size="18" data="{{...$root['0'], ...$root[$kk+'Vh9-24'],$root}}" is="18f61b88"></template>导入通讯录 </view>
+      </view>
+    </view>
+  </view>
+</template>

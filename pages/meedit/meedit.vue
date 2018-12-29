@@ -12,8 +12,7 @@
 						</view>
 					</view>
 					<view class="edit-item-rt">
-						<image class="avatar-80" :src="avatar" mode="widthFix"></image>
-						
+						<image class="avatar-80" :src="avatar" mode="widthFix"></image>	
 					</view>
 				</view>
 				<view class="edit-item b-line" @click="show" data-position="middle">
@@ -366,6 +365,12 @@
 						// console.log(JSON.stringify(res.tempFilePaths));
 					}
 				});
+			},
+			formSubmit: function (e) {
+				console.log('form发生了submit事件，携带数据为：' + JSON.stringify(e.detail.value))
+			},
+			formReset: function () {
+				console.log('form发生了reset事件')
 			}
 		},
 		onBackPress() {
@@ -620,25 +625,5 @@
 		border: 2upx solid #44B549;
 		border-radius: 10upx;
 		color: #44B549;
-	}
-	.submitbtn-wp{
-		position: fixed;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		background-color: #fff;
-		padding: 30upx 30upx;
-	}
-	.submitbtn{
-		height: 90upx;
-		line-height: 90upx;
-		text-align: center;
-		color: #fff;
-		font-weight: 500;
-		font-size: 34upx;
-		border-radius: 90upx;
-	}
-	.submitbtn::after{
-		display: none;	
 	}
 </style>

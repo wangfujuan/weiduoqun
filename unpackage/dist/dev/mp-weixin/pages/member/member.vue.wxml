@@ -1,0 +1,218 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="44912651">
+  <view class="_view data-v-c7a31006 content">
+    <view class="_view data-v-c7a31006 member-top">
+      <image class="_image data-v-c7a31006 avatar-120" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+      <view class="_view data-v-c7a31006 member-name"> Hi, 150****2019 </view>
+      <view class="_view data-v-c7a31006 member-id"> UID: 1029292929 </view>
+      <view class="_view data-v-c7a31006 member-btn" bindtap="handleProxy" data-eventid="{{'4zb-0'}}" data-comkey="{{$k}}"> 开通超级会员 </view>
+    </view>
+    <view class="_view data-v-c7a31006 member-cl b-line">
+      <view class="_view data-v-c7a31006 member-cl-item center {{isActive == 0 ? 'member-active' : ''}}" bindtap="handleProxy" data-eventid="{{'vZa-1'}}" data-comkey="{{$k}}"> 普通会员 </view>
+      <view class="_view data-v-c7a31006 line"></view>
+      <view class="_view data-v-c7a31006 member-cl-item center {{isActive == 1 ? 'member-active' : ''}}" bindtap="handleProxy" data-eventid="{{'YaJ-2'}}" data-comkey="{{$k}}">
+        <template color="#b28431" size="18" type="huiyuan" data="{{...$root['0'], ...$root[$kk+'ID0-0'],$root}}" is="18f61b88"></template>超级会员
+        <text class="_text data-v-c7a31006 coupons">折扣</text>
+      </view>
+      <view class="_view data-v-c7a31006 line"></view>
+      <view class="_view data-v-c7a31006 member-cl-item center {{isActive == 2 ? 'member-active' : ''}}" bindtap="handleProxy" data-eventid="{{'w6j-3'}}" data-comkey="{{$k}}">
+        <template type="huiyuan1" color="#b28431" size="18" data="{{...$root['0'], ...$root[$kk+'UqB-1'],$root}}" is="18f61b88"></template>钻石代理 </view>
+    </view>
+    <view class="_view data-v-c7a31006 member-box {{isActive == 0 ? 'displaybox' : ''}}">
+      <view class="_view data-v-c7a31006 member-box-item b-line">
+        <view class="_view data-v-c7a31006 member-box-item-lf">
+          <view class="_view data-v-c7a31006 tool-item-icon block-tl-color1">
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'kwQ-2'],$root}}" is="18f61b88"></template>
+          </view>
+          <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
+        </view>
+        <view class="_view data-v-c7a31006 member-box-item-rt">
+          <view class="_view data-v-c7a31006 member-box-info"> 不能自动刷新 </view>
+          <view class="_view data-v-c7a31006 member-box-info"> 名片数量，每个分类下可发布
+            <text class="_text data-v-c7a31006 fontred">3</text>个 </view>
+        </view>
+      </view>
+      <view class="_view data-v-c7a31006 member-box-item b-line">
+        <view class="_view data-v-c7a31006 member-box-item-lf">
+          <view class="_view data-v-c7a31006 tool-item-icon block-tl-color2">
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'h9f-3'],$root}}" is="18f61b88"></template>
+          </view>
+          <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
+        </view>
+        <view class="_view data-v-c7a31006 member-box-item-rt">
+          <view class="_view data-v-c7a31006 member-box-info"> 不能自动刷新 </view>
+          <view class="_view data-v-c7a31006 member-box-info"> 名片数量，每个分类下可发布
+            <text class="_text data-v-c7a31006 fontred">3</text>个 </view>
+        </view>
+      </view>
+      <view class="_view data-v-c7a31006 member-box-item b-line">
+        <view class="_view data-v-c7a31006 member-box-item-lf">
+          <view class="_view data-v-c7a31006 tool-item-icon block-tl-color6">
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'6In-4'],$root}}" is="18f61b88"></template>
+          </view>
+          <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
+        </view>
+        <view class="_view data-v-c7a31006 member-box-item-rt">
+          <view class="_view data-v-c7a31006 member-box-info"> 不能自动刷新 </view>
+          <view class="_view data-v-c7a31006 member-box-info"> 名片数量，每个分类下可发布
+            <text class="_text data-v-c7a31006 fontred">3</text>个 </view>
+        </view>
+      </view>
+      <view class="_view data-v-c7a31006 member-box-item b-line">
+        <view class="_view data-v-c7a31006 member-box-item-lf">
+          <view class="_view data-v-c7a31006 tool-item-icon block-tl-color4">
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'CdJ-5'],$root}}" is="18f61b88"></template>
+          </view>
+          <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
+        </view>
+        <view class="_view data-v-c7a31006 member-box-item-rt">
+          <view class="_view data-v-c7a31006 member-box-info"> 不能自动刷新 </view>
+          <view class="_view data-v-c7a31006 member-box-info"> 名片数量，每个分类下可发布
+            <text class="_text data-v-c7a31006 fontred">3</text>个 </view>
+        </view>
+      </view>
+      <view class="_view data-v-c7a31006 member-box-item b-line">
+        <view class="_view data-v-c7a31006 member-box-item-lf">
+          <view class="_view data-v-c7a31006 tool-item-icon block-tl-color4">
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'J3g-6'],$root}}" is="18f61b88"></template>
+          </view>
+          <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
+        </view>
+        <view class="_view data-v-c7a31006 member-box-item-rt">
+          <view class="_view data-v-c7a31006 member-box-info"> 不能自动刷新 </view>
+          <view class="_view data-v-c7a31006 member-box-info"> 名片数量，每个分类下可发布
+            <text class="_text data-v-c7a31006 fontred">3</text>个 </view>
+        </view>
+      </view>
+      <view class="_view data-v-c7a31006 member-box-item b-line">
+        <view class="_view data-v-c7a31006 member-box-item-lf">
+          <view class="_view data-v-c7a31006 tool-item-icon block-tl-color4">
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'wTa-7'],$root}}" is="18f61b88"></template>
+          </view>
+          <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
+        </view>
+        <view class="_view data-v-c7a31006 member-box-item-rt">
+          <view class="_view data-v-c7a31006 member-box-info"> 不能自动刷新 </view>
+          <view class="_view data-v-c7a31006 member-box-info"> 名片数量，每个分类下可发布
+            <text class="_text data-v-c7a31006 fontred">3</text>个 </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-c7a31006 member-box {{isActive == 1 ? 'displaybox' : ''}}">
+      <view class="_view data-v-c7a31006 member-box-item b-line">
+        <view class="_view data-v-c7a31006 member-box-item-lf">
+          <view class="_view data-v-c7a31006 tool-item-icon block-tl-color1">
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'fz8-8'],$root}}" is="18f61b88"></template>
+          </view>
+          <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
+        </view>
+        <view class="_view data-v-c7a31006 member-box-item-rt">
+          <view class="_view data-v-c7a31006 member-box-info"> 不能自动刷新 </view>
+          <view class="_view data-v-c7a31006 member-box-info"> 名片数量，每个分类下可发布
+            <text class="_text data-v-c7a31006 fontred">3</text>个 </view>
+        </view>
+      </view>
+      <view class="_view data-v-c7a31006 member-box-item b-line">
+        <view class="_view data-v-c7a31006 member-box-item-lf">
+          <view class="_view data-v-c7a31006 tool-item-icon block-tl-color1">
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'Pmh-9'],$root}}" is="18f61b88"></template>
+          </view>
+          <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
+        </view>
+        <view class="_view data-v-c7a31006 member-box-item-rt">
+          <view class="_view data-v-c7a31006 member-box-info"> 不能自动刷新 </view>
+          <view class="_view data-v-c7a31006 member-box-info"> 名片数量，每个分类下可发布
+            <text class="_text data-v-c7a31006 fontred">3</text>个 </view>
+        </view>
+      </view>
+      <view class="_view data-v-c7a31006 member-box-item b-line">
+        <view class="_view data-v-c7a31006 member-box-item-lf">
+          <view class="_view data-v-c7a31006 tool-item-icon block-tl-color1">
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'Swt-10'],$root}}" is="18f61b88"></template>
+          </view>
+          <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
+        </view>
+        <view class="_view data-v-c7a31006 member-box-item-rt">
+          <view class="_view data-v-c7a31006 member-box-info"> 不能自动刷新 </view>
+          <view class="_view data-v-c7a31006 member-box-info"> 名片数量，每个分类下可发布
+            <text class="_text data-v-c7a31006 fontred">3</text>个 </view>
+        </view>
+      </view>
+      <view class="_view data-v-c7a31006 member-box-item b-line">
+        <view class="_view data-v-c7a31006 member-box-item-lf">
+          <view class="_view data-v-c7a31006 tool-item-icon block-tl-color1">
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'bXH-11'],$root}}" is="18f61b88"></template>
+          </view>
+          <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
+        </view>
+        <view class="_view data-v-c7a31006 member-box-item-rt">
+          <view class="_view data-v-c7a31006 member-box-info"> 不能自动刷新 </view>
+          <view class="_view data-v-c7a31006 member-box-info"> 名片数量，每个分类下可发布
+            <text class="_text data-v-c7a31006 fontred">3</text>个 </view>
+        </view>
+      </view>
+      <view class="_view data-v-c7a31006 member-box-item b-line">
+        <view class="_view data-v-c7a31006 member-box-item-lf">
+          <view class="_view data-v-c7a31006 tool-item-icon block-tl-color1">
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'hbA-12'],$root}}" is="18f61b88"></template>
+          </view>
+          <view class="_view data-v-c7a31006 member-box-item-tl"> 会员价格 </view>
+        </view>
+        <view class="_view data-v-c7a31006 member-box-item-rt">
+          <view class="_view data-v-c7a31006 member-box-price center">
+            <view class="_view data-v-c7a31006 fontred"> ¥
+              <text class="_text data-v-c7a31006 fontsize">199.00</text>
+            </view>
+            <text class="_text data-v-c7a31006 fontunder">¥299.00</text>
+            <text class="_text data-v-c7a31006">1年</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-c7a31006 member-box {{isActive == 2 ? 'displaybox' : ''}}">
+      <view class="_view data-v-c7a31006 member-box-item b-line">
+        <view class="_view data-v-c7a31006 member-box-item-lf">
+          <view class="_view data-v-c7a31006 tool-item-icon block-tl-color1">
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'dJk-13'],$root}}" is="18f61b88"></template>
+          </view>
+          <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
+        </view>
+        <view class="_view data-v-c7a31006 member-box-item-rt">
+          <view class="_view data-v-c7a31006 member-box-info"> 不能自动刷新 </view>
+          <view class="_view data-v-c7a31006 member-box-info"> 名片数量，每个分类下可发布
+            <text class="_text data-v-c7a31006 fontred">3</text>个 </view>
+        </view>
+      </view>
+      <view class="_view data-v-c7a31006 member-box-item b-line">
+        <view class="_view data-v-c7a31006 member-box-item-lf">
+          <view class="_view data-v-c7a31006 tool-item-icon block-tl-color1">
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'Ueb-14'],$root}}" is="18f61b88"></template>
+          </view>
+          <view class="_view data-v-c7a31006 member-box-item-tl"> 会员价格 </view>
+        </view>
+        <view class="_view data-v-c7a31006 member-box-item-rt">
+          <view class="_view data-v-c7a31006 member-box-price center">
+            <view class="_view data-v-c7a31006 fontred"> ¥
+              <text class="_text data-v-c7a31006 fontsize">299.00</text>
+            </view>
+            <text class="_text data-v-c7a31006 fontunder">¥499.00</text>
+            <text class="_text data-v-c7a31006">1年</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view wx:if="{{isActive > 0}}" class="_view data-v-c7a31006">
+      <radio-group class="_radio-group data-v-c7a31006 pay-box" bindchange="handleProxy" data-eventid="{{'1ju-4'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-c7a31006 pay-item" wx:key="item" key="{{item}}" wx:for="{{payList}}" wx:for-index="index" wx:for-item="item">
+          <label class="_label data-v-c7a31006 pay-item-con">
+            <template data="{{...$root['0'], ...$root[$kk+'KX2-15-'+index],$root}}" is="18f61b88"></template>{{item.value}}
+            <radio class="_radio data-v-c7a31006 pay-radio" value="{{item.name}}" checked="{{item.checked}}" />
+          </label>
+        </view>
+      </radio-group>
+    </view>
+    <view class="_view data-v-c7a31006 fixed-btn-wp">
+      <navigator class="_navigator data-v-c7a31006 fixed-btn" url>开通超级会员</navigator>
+    </view>
+  </view>
+</template>

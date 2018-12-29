@@ -1,0 +1,71 @@
+@import "../../common/vendor.wxss";
+
+.content {
+  padding: 30rpx;
+}
+.fd-box {
+  background-color: #f9f9f9;
+  border: 2rpx solid #e2e2e2;
+  border-radius: 10rpx;
+  padding: 20rpx;
+  font-size: 32rpx;
+}
+.fd-tl {
+  margin-bottom: 20rpx;
+}
+._textarea {
+  height: 200rpx;
+}
+.fd-line {
+  background-color: #f9f9f9;
+  border: 2rpx solid #e2e2e2;
+  border-radius: 10rpx;
+  margin: 40rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  height: 96rpx;
+  line-height: 96rpx;
+  padding: 0 20rpx;
+  font-size: 32rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.fd-line ._input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  padding-left: 30rpx;
+}
+.cardbtn {
+  background-color: #44B549;
+  color: #fff;
+  border-radius: 10rpx;
+  margin: 40rpx 0;
+  font-size: 32rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+}
+.cardbtn::after {
+  border: none;
+}
+.uploader-box {
+  overflow: hidden;
+  margin-top: -20rpx;
+}
+.uploader-item {
+  margin-top: 20rpx;
+  width: 162rpx;
+  height: 162rpx;
+  text-align: center;
+  line-height: 158rpx;
+  border: 2rpx dashed #cecece;
+  background-color: #f6f6f6;
+  border-radius: 6rpx;
+  float: left;
+}

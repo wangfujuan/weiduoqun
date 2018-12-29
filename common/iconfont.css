@@ -107,7 +107,7 @@
 
 .uni-icon-huida:before { content: "\e7a0"; }
 
-.uni-icon-zan:before { content: "\e7c0"; }
+.uni-icon-zan-1:before { content: "\e7c0"; }
 
 .uni-icon-yijianfankui:before { content: "\e6e5"; }
 
@@ -174,3 +174,43 @@
 .uni-icon-huiyuan1:before { content: "\e643"; }
 
 .uni-icon-shezhi1:before { content: "\e6e9"; }
+
+.uni-icon-choujiang:before { content: "\e610"; }
+
+.uni-icon-huxiangganxingqu:before { content: "\e7be"; }
+
+.uni-icon-youhuiquan01:before { content: "\e637"; }
+
+.uni-icon-zhifubaozhifu:before { content: "\e654"; }
+
+.uni-icon-weixinzhifu:before { content: "\e63b"; }
+
+.uni-icon-jiufuqianbaoicon05:before { content: "\e692"; }
+
+.uni-icon-shachu-xue:before { content: "\e638"; }
+
+.uni-icon-kefu:before { content: "\e635"; }
+
+.uni-icon-bangzhu:before { content: "\e61b"; }
+
+.uni-icon-fankui-tianchong:before { content: "\e652"; }
+
+.uni-icon-right-1:before { content: "\e611"; }
+
+.uni-icon-ai-phone:before { content: "\e63c"; }
+
+.uni-icon-tongxunlu:before { content: "\e63e"; }
+
+.uni-icon-duihao:before { content: "\e633"; }
+
+.uni-icon-xiangce:before { content: "\e7bf"; }
+
+.uni-icon-shuaxin:before { content: "\e613"; }
+
+.uni-icon-nv:before { content: "\e832"; }
+
+.uni-icon-nan:before { content: "\e833"; }
+
+.uni-icon-zan:before { content: "\e66f"; }
+
+.uni-icon-zan-fill:before { content: "\e693"; }

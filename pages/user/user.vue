@@ -39,17 +39,17 @@
 							收益余额
 						</view>
 					</view>
-					<view class="user-get-charge">
+					<navigator hover-class="none" url="../weibiRecharge/weibiRecharge" class="user-get-charge">
 						<view class="uni-icon uni-icon-wodeqianbao1"></view>
 						<view class="user-get-item-info">
 							马上充值
 						</view>
-					</view>
+					</navigator>
 				</view>
 			</view>
 			<view class="white">
 				<view class="member-ls">
-					<view class="member-item">
+					<navigator hover-class="none" class="member-item" url="../member/member">
 						<view class="member-item-lf">
 							<view class="member-item-lf-tl">
 								<view class="uni-icon uni-icon-huiyuan"></view>
@@ -67,7 +67,7 @@
 						<view class="member-item-rt">
 							查看详细
 						</view>
-					</view>
+					</navigator>
 					<view class="line"></view>
 					<view class="member-item">
 						<view class="member-item-lf">
@@ -96,22 +96,22 @@
 					我的名片
 				</view>
 				<view class="user-ls">
-					<view class="user-item">
+					<navigator hover-class="none" url="../card/card" class="user-item">
 						<view class="uni-icon color1 uni-icon-weixinqun"></view>
 						<view class="user-item-info">微信群</view>
-					</view>
+					</navigator>
 					<view class="user-item">
 						<view class="uni-icon color2 uni-icon-qqqun"></view>
 						<view class="user-item-info">QQ群</view>
 					</view>
-					<view class="user-item">
+					<navigator class="user-item" hover-class="none" url="">
 						<view class="uni-icon color3 uni-icon-gerenweixin"></view>
 						<view class="user-item-info">个人微信</view>
-					</view>
-					<view class="user-item">
+					</navigator>
+					<navigator class="user-item" hover-class="none" url="">
 						<view class="uni-icon color4 uni-icon-qqqun"></view>
-						<view class="user-item-info">公众号</view>
-					</view>
+						<view class="user-item-info">公众号</view>				
+					</navigator>
 				</view>
 			</view>
 			<!-- 我的名片 end -->
@@ -129,14 +129,14 @@
 						<view class="uni-icon color6 uni-icon-weishanghuoyuan"></view>
 						<view class="user-item-info">微商货源</view>
 					</view>
-					<view class="user-item">
+					<navigator class="user-item" hover-class="none" url="../meCircle/meCircle">
 						<view class="uni-icon color7 uni-icon-weishangquan"></view>
 						<view class="user-item-info">微商圈</view>
-					</view>
-					<view class="user-item">
+					</navigator>
+					<navigator class="user-item" hover-class="none" url="../menews/menews">			
 						<view class="uni-icon color8 uni-icon-shouyitixian"></view>
-						<view class="user-item-info">干货文章</view>
-					</view>
+						<view class="user-item-info">微头条</view>
+					</navigator>
 				</view>
 			</view>
 			<!-- 我的发布 end -->
@@ -158,18 +158,10 @@
 						<view class="uni-icon color7 uni-icon-tuiguang"></view>
 						<view class="user-item-info">复制推广链接</view>
 					</view>
-					<view class="user-item">
+					<navigator hover-class="none" url="../income/income" class="user-item">
 						<view class="uni-icon color8 uni-icon-dailishouyi"></view>
-						<view class="user-item-info">代理收益</view>
-					</view>
-					<view class="user-item">
-						<view class="uni-icon color7 uni-icon-dailichongweibi"></view>
-						<view class="user-item-info">代理充微币</view>
-					</view>
-					<view class="user-item">
-						<view class="uni-icon color8 uni-icon-shouyitixian"></view>
-						<view class="user-item-info">收益提现</view>
-					</view>
+						<view class="user-item-info">收益明细</view>
+					</navigator>
 				</view>
 			</view>
 			<!-- 收益中心 end -->
@@ -204,18 +196,18 @@
 						<view class="uni-icon color5 uni-icon-qunjiaoyi"></view>
 						<view class="user-item-info">账号管理</view>
 					</view>
-					<view class="user-item">
-						<view class="uni-icon color6 uni-icon-yijianfankui"></view>
+					<navigator class="user-item" hover-class="none" url="../feedback/feedback">
+						<uni-icon type="fankui-tianchong" size="30" color="#5bc48d"></uni-icon>
 						<view class="user-item-info">意见反馈</view>
-					</view>
-					<view class="user-item">
-						<view class="uni-icon color7 uni-icon-qunjiaoyi"></view>
-						<view class="user-item-info">新手帮助</view>
-					</view>
-					<view class="user-item">
-						<view class="uni-icon color7 uni-icon-lianxiwomen"></view>
+					</navigator>
+					<navigator class="user-item" hover-class="none" url="../help/help">
+						<uni-icon type="bangzhu" color="#e07464" size="30"></uni-icon>
+						<view class="user-item-info">新手帮助</view>			
+					</navigator>
+					<navigator class="user-item" hover-class="none" url="../service/service">
+						<uni-icon type="kefu" color="#d45a7a" size="30"></uni-icon>
 						<view class="user-item-info">联系我们</view>
-					</view>
+					</navigator>
 					<view class="user-item">
 						<view class="uni-icon color7 uni-icon-qunjiaoyi"></view>
 						<view class="user-item-info">好评送微币</view>
@@ -228,37 +220,38 @@
 </template>
 
 <script>
-   
-    import {
-            mapState,
-            mapMutations
-        } from 'vuex'
+		import uniIcon from '../../components/uni-icon.vue'
+	 
+    import { mapState, mapMutations } from 'vuex'
     
-        export default {
-            computed: {
-                ...mapState(['hasLogin', 'forcedLogin'])
-            },
-            methods: {
-                ...mapMutations(['logout']),
-                bindLogin() {
-                    uni.navigateTo({
-                        url: '../login/login',
-                    });
-                },
-                bindLogout() {
-                    this.logout();
-                    /**
-                     * 如果需要强制登录跳转回登录页面
-                     */
-                    if (this.forcedLogin) {
-                        uni.reLaunch({
-                            url: '../login/login',
-                        });
-                    }
-                }
-            }
-        }
-		
+		export default {
+				components: {
+					uniIcon
+				},
+				computed: {
+						...mapState(['hasLogin', 'forcedLogin'])
+				},
+				methods: {
+						...mapMutations(['logout']),
+						bindLogin() {
+								uni.navigateTo({
+										url: '../login/login',
+								});
+						},
+						bindLogout() {
+								this.logout();
+								/**
+								 * 如果需要强制登录跳转回登录页面
+								 */
+								if (this.forcedLogin) {
+										uni.reLaunch({
+												url: '../login/login',
+										});
+								}
+						}
+				}
+		}
+
 </script>
 
 <style>

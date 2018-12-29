@@ -1,0 +1,1 @@
+<import src="/pages/weibi/weibi.vue.wxml" /><template is="000d08d2" data="{{ ...$root['0'], $root }}"/>

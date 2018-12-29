@@ -51,7 +51,26 @@
 			"style": {
 				"navigationBarTitleText": "微商圈"
 			}
-		}, {
+		}, 
+		{
+			"path": "pages/circleDetail/circleDetail",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/meCircle/meCircle",
+			"style": {
+				"navigationBarTitleText": "我的微商圈"
+			}
+		},
+		{
+			"path": "pages/putCircle/putCircle",
+			"style": {
+				"navigationBarTitleText": "发布微商圈"
+			}
+		},
+		{
 			"path": "pages/contact/contact",
 			"style": {
 				"navigationBarTitleText": "人脉多"
@@ -77,6 +96,176 @@
 			"path": "pages/weibi/weibi",
 			"style": {
 				"navigationBarTitleText": "我的微币"
+			}
+		},
+		{
+			"path": "pages/weibiRecharge/weibiRecharge",
+			"style": {
+				"navigationBarTitleText": "微币充值",
+				"navigationBarBackgroundColor":"#090702",
+				"app-plus": {
+					"titleNView": {
+						"titleColor": "#c18f35"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/card/card",
+			"style": {
+				"navigationBarTitleText": "我的名片",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#44b549",
+						"titleColor": "#fff",
+						"buttons": [
+							{
+								"text" : "\ue60c",
+                                "fontSrc" : "/common/iconfont.ttf",
+                                "fontSize" : "22px",
+                                "color" : "#fff"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/member/member",
+			"style": {
+				"navigationBarTitleText": "会员服务",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#fdfcfb"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/service/service",
+			"style": {
+				"navigationBarTitleText": "客服中心"
+			}
+		},
+		{
+			"path": "pages/help/help",
+			"style": {
+				"navigationBarTitleText": "帮助中心"
+			}
+		},
+		{
+			"path": "pages/feedback/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		},
+		{
+			"path": "pages/releaseCard/releaseCard",
+			"style": {
+				"navigationBarTitleText": "个人微信名片发布"
+			}
+		},
+		{
+			"path": "pages/selectTrade/selectTrade",
+			"style": {
+				"navigationBarTitleText": "选择微信群行业"
+			}
+		},
+		{
+			"path": "pages/releaseGroup/releaseGroup",
+			"style": {
+				"navigationBarTitleText": "发布微信群名片"
+			}
+		},
+		{
+			"path": "pages/selectGroup/selectGroup",
+			"style": {
+				"navigationBarTitleText": "选择微信群主"
+			}
+		},
+		{
+			"path": "pages/wxgroup/wxgroup",
+			"style": {
+				"navigationBarTitleText": "微信群"
+			}
+		},
+		{
+			"path": "pages/wxgroupcard/wxgroupcard",
+			"style": {
+				"navigationBarTitleText": "微信群名片"
+			}
+		},
+		{
+			"path": "pages/report/report",
+			"style": {
+				"navigationBarTitleText": "举报"
+			}
+		},
+		{
+			"path": "pages/import/import",
+			"style": {
+				"navigationBarTitleText": "批量导入通讯录"
+			}
+		},
+		{
+			"path": "pages/sourcegoods/sourcegoods",
+			"style": {
+				"navigationBarTitleText": "微商货源"
+			}
+		},
+		{
+			"path": "pages/goodsdetail/goodsdetail",
+			"style": {
+				"navigationBarTitleText": "微商货源详情"
+			}
+		},
+		{
+			"path": "pages/memberindex/memberindex",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus" : {
+					"titleNView" : {
+						"type" : "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/weinews/weinews",
+			"style": {
+				"navigationBarTitleText": "微头条"
+			}
+		},
+		{
+			"path": "pages/weinewsDetail/weinewsDetail",
+			"style": {
+				"navigationBarTitleText": "文章详情"
+			}
+		},
+		{
+			"path": "pages/moreComment/moreComment",
+			"style": {
+				"navigationBarTitleText": "更多评论"
+			}
+		},
+		{
+			"path": "pages/menews/menews",
+			"style": {
+				"navigationBarTitleText": "更多评论"
+			}
+		},
+		{
+			"path": "pages/putnews/putnews",
+			"style": {
+				"navigationBarTitleText": "发布微头条"
+			}
+		},
+		{
+			"path": "pages/income/income",
+			"style": {
+				"navigationBarTitleText": "收益明细",
+				"navigationBarBackgroundColor":"#44B549",
+				"navigationBarTextStyle":"white"
 			}
 		}
     ],

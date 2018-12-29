@@ -1,0 +1,17 @@
+@import "../../common/vendor.wxss";
+
+.mi-top {
+  height: 450rpx;
+  position: relative;
+  overflow: hidden;
+}
+.mi-bg {
+  position: absolute;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-filter: blur(12rpx);
+  filter: blur(12rpx);
+}

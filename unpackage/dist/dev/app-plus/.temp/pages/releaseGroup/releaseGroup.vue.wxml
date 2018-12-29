@@ -1,0 +1,84 @@
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/mpvue-picker/mpvuePicker.vue.wxml" />
+<template name="6e046451">
+  <view class="_view data-v-118ed806 content">
+    <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'EgJ-3'}}" data-comkey="{{$k}}" class="_form data-v-118ed806">
+      <view class="_view data-v-118ed806 content-pad">
+        <view class="_view data-v-118ed806 white">
+          <view class="_view data-v-118ed806 summary">
+            <view class="_view data-v-118ed806 summary-con"> 当前微币：
+              <text class="_text data-v-118ed806">55</text> 发布扣除：
+              <text class="_text data-v-118ed806">1</text>
+            </view>
+            <view class="_view data-v-118ed806 center">
+              <template type="bangzhu" size="12" color="#8a8a8a" data="{{...$root['0'], ...$root[$kk+'aRx-0'],$root}}" is="18f61b88"></template> 微币使用规则 </view>
+          </view>
+        </view>
+        <view class="_view data-v-118ed806 white">
+          <navigator hover-class="none" url="../selectGroup/selectGroup" class="_navigator data-v-118ed806">
+            <view class="_view data-v-118ed806 rc-line b-line">
+              <view class="_view data-v-118ed806 rc-line-lf"> 群主 </view>
+              <view class="_view data-v-118ed806 rc-select"> 群二维码失效后 会显示群主二维码 </view>
+              <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'O3f-1'],$root}}" is="18f61b88"></template>
+            </view>
+          </navigator>
+          <view class="_view data-v-118ed806 rc-line b-line" bindtap="handleProxy" data-eventid="{{'ifl-0'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-118ed806 rc-line-lf"> 地区 </view>
+            <view class="_view data-v-118ed806 rc-select"> 请选择地区 </view>
+            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'AZw-2'],$root}}" is="18f61b88"></template>
+          </view>
+          <view class="_view data-v-118ed806 rc-line" bindtap="handleProxy" data-eventid="{{'b9x-1'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-118ed806 rc-line-lf"> 行业 </view>
+            <view class="_view data-v-118ed806 rc-select"> 请选择个人行业 </view>
+            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'2z8-3'],$root}}" is="18f61b88"></template>
+          </view>
+        </view>
+        <view class="_view data-v-118ed806 white">
+          <view class="_view data-v-118ed806 rc-line b-line">
+            <view class="_view data-v-118ed806 rc-line-lf"> 群名 </view>
+            <input type="text" placeholder-style="color: #c7c7c7" placeholder="想个吸引人的标题" value="" class="_input data-v-118ed806" />
+          </view>
+          <view class="_view data-v-118ed806 rc-line">
+            <view class="_view data-v-118ed806 rc-line-lf"> 描述 </view>
+            <input type="text" placeholder-style="color: #c7c7c7" placeholder="认真填写描述,要一鸣惊人哦" value="" class="_input data-v-118ed806" />
+          </view>
+        </view>
+        <view class="_view data-v-118ed806 white">
+          <view class="_view data-v-118ed806 rc-upload">
+            <view class="_view data-v-118ed806 up-avatar">
+              <template type="tianjia" color="#b9b9b9" data="{{...$root['0'], ...$root[$kk+'bDN-4'],$root}}" is="18f61b88"></template>
+            </view>
+            <view class="_view data-v-118ed806 rc-upload-info"> 上传微信头像 </view>
+          </view>
+        </view>
+        <view class="_view data-v-118ed806 white">
+          <view class="_view data-v-118ed806 rc-upload">
+            <view class="_view data-v-118ed806 up-avatar">
+              <template type="tianjia" color="#b9b9b9" data="{{...$root['0'], ...$root[$kk+'GpD-5'],$root}}" is="18f61b88"></template>
+            </view>
+            <view class="_view data-v-118ed806 rc-upload-info"> 上传微信二维码
+              <text class="_text data-v-118ed806">(限1张)</text>
+            </view>
+            <view class="_view data-v-118ed806 rc-upload-rt center">
+              <template type="bangzhu" size="12" data="{{...$root['0'], ...$root[$kk+'iDz-6'],$root}}" is="18f61b88"></template> 如何获取 </view>
+          </view>
+        </view>
+        <view class="_view data-v-118ed806 white">
+          <view class="_view data-v-118ed806 rc-upload">
+            <switch checked color="#44B549" bindchange="handleProxy" data-eventid="{{'6vU-2'}}" data-comkey="{{$k}}" class="_switch data-v-118ed806" />
+            <view class="_view data-v-118ed806 rc-upload-info"> 开启防止机器人进群验证 </view>
+            <view class="_view data-v-118ed806 rc-upload-rt center">
+              <template type="bangzhu" size="12" data="{{...$root['0'], ...$root[$kk+'eiW-7'],$root}}" is="18f61b88"></template> 了解详情 </view>
+          </view>
+        </view>
+        <view class="_view data-v-118ed806 user-agree"> 发布代表同意
+          <navigator url class="_navigator data-v-118ed806">《用户使用服务协议》</navigator>
+        </view>
+        <view class="_view data-v-118ed806 submitbtn-wp">
+          <button class="_button data-v-118ed806 block-tl-color8 submitbtn" formType="submit">确认发布</button>
+        </view>
+      </view>
+    </form>
+    <template ref="mpvuePicker" bindonConfirm="handleProxy" bindonCancel="handleProxy" data-eventid="{{'ySh-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'TQT-8'],$root}}" is="ec834500"></template>
+  </view>
+</template>

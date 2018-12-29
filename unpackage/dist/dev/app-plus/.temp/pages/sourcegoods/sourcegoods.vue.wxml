@@ -1,0 +1,69 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="239d4249">
+  <view class="_view data-v-7d9d2616 index">
+    <scroll-view id="tab-bar" class="_scroll-view data-v-7d9d2616 swiper-tab" scroll-x scroll-left="{{scrollLeft}}">
+      <view wx:key="tab.id" key="{{tab.id}}" id="{{tab.id}}" data-current="{{index}}" bindtap="handleProxy" data-eventid="{{'92n-0-'+index}}" data-comkey="{{$k}}" wx:for="{{tabBars}}" wx:for-index="index" wx:for-item="tab" class="_view data-v-7d9d2616 {{['swiper-tab-list', tabIndex == index ? 'active' : '']}}">{{tab.name}}</view>
+    </scroll-view>
+    <swiper current="{{tabIndex}}" class="_swiper data-v-7d9d2616 swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'Ghv-2'}}" data-comkey="{{$k}}">
+      <swiper-item wx:key="tab.id" key="{{tab.id}}" wx:for="{{newsitems}}" wx:for-index="index1" wx:for-item="tab" class="_swiper-item data-v-7d9d2616">
+        <scroll-view class="_scroll-view data-v-7d9d2616 list" scroll-y bindscrolltolower="handleProxy" data-eventid="{{'7OH-1-'+index1}}" data-comkey="{{$k}}">
+          <view class="_view data-v-7d9d2616 goods-ls">
+            <view class="_view data-v-7d9d2616 goods-item">
+              <navigator hover-class="none" url="../goodsdetail/goodsdetail" class="_navigator data-v-7d9d2616">
+                <view class="_view data-v-7d9d2616 goods-item-con">
+                  <image class="_image data-v-7d9d2616 goods-img" src="../../static/goods.jpg" mode="aspectFill"></image>
+                  <view class="_view data-v-7d9d2616 goods-item-tl"> 九分裤格子条纹复古风女裤 </view>
+                  <view class="_view data-v-7d9d2616 goods-item-user">
+                    <image class="_image data-v-7d9d2616 avatar-36" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+                    <view class="_view data-v-7d9d2616 goods-item-phone"> 150***1029 </view>
+                    <view class="_view data-v-7d9d2616 goods-item-sum">
+                      <template type="kejian" size="16" data="{{...$root['0'], ...$root[$kk+'tMW-0-'+index1],$root}}" is="18f61b88"></template> 100 </view>
+                  </view>
+                </view>
+              </navigator>
+            </view>
+            <view class="_view data-v-7d9d2616 goods-item">
+              <view class="_view data-v-7d9d2616 goods-item-con">
+                <image class="_image data-v-7d9d2616 goods-img" src="../../static/goods.jpg" mode="aspectFill"></image>
+                <view class="_view data-v-7d9d2616 goods-item-tl"> 九分裤格子条纹复古风女裤 </view>
+                <view class="_view data-v-7d9d2616 goods-item-user">
+                  <image class="_image data-v-7d9d2616 avatar-36" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+                  <view class="_view data-v-7d9d2616 goods-item-phone"> 150***1029 </view>
+                  <view class="_view data-v-7d9d2616 goods-item-sum">
+                    <template type="kejian" size="16" data="{{...$root['0'], ...$root[$kk+'nPL-1-'+index1],$root}}" is="18f61b88"></template> 100 </view>
+                </view>
+              </view>
+            </view>
+            <view class="_view data-v-7d9d2616 goods-item">
+              <view class="_view data-v-7d9d2616 goods-item-con">
+                <image class="_image data-v-7d9d2616 goods-img" src="../../static/goods.jpg" mode="aspectFill"></image>
+                <view class="_view data-v-7d9d2616 goods-item-tl"> 九分裤格子条纹复古风女裤 </view>
+                <view class="_view data-v-7d9d2616 goods-item-user">
+                  <image class="_image data-v-7d9d2616 avatar-36" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+                  <view class="_view data-v-7d9d2616 goods-item-phone"> 150***1029 </view>
+                  <view class="_view data-v-7d9d2616 goods-item-sum">
+                    <template type="kejian" size="16" data="{{...$root['0'], ...$root[$kk+'emD-2-'+index1],$root}}" is="18f61b88"></template> 100 </view>
+                </view>
+              </view>
+            </view>
+            <view class="_view data-v-7d9d2616 goods-item">
+              <view class="_view data-v-7d9d2616 goods-item-con">
+                <image class="_image data-v-7d9d2616 goods-img" src="../../static/goods.jpg" mode="aspectFill"></image>
+                <view class="_view data-v-7d9d2616 goods-item-tl"> 九分裤格子条纹复古风女裤 </view>
+                <view class="_view data-v-7d9d2616 goods-item-user">
+                  <image class="_image data-v-7d9d2616 avatar-36" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+                  <view class="_view data-v-7d9d2616 goods-item-phone"> 150***1029 </view>
+                  <view class="_view data-v-7d9d2616 goods-item-sum">
+                    <template type="kejian" size="16" data="{{...$root['0'], ...$root[$kk+'NGn-3-'+index1],$root}}" is="18f61b88"></template> 100 </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </scroll-view>
+      </swiper-item>
+    </swiper>
+    <view class="_view data-v-7d9d2616 submitbtn-wp">
+      <button class="_button data-v-7d9d2616 block-tl-color8 submitbtn" formType="submit"> 发布我的货源 </button>
+    </view>
+  </view>
+</template>

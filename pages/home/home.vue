@@ -25,12 +25,12 @@
 		<view class="content-pad">
 			<view class="white">
 				<view class="uni-grid-9 b-line">
-					<view class="uni-grid-9-item" hover-class="uni-grid-9-item-hover" v-for="(item,index) in grids" :key="index">
+					<navigator :url="item.url" class="uni-grid-9-item" hover-class="none" v-for="(item,index) in grids" :key="index">
 						<view :class="item.syicon">
 							<uni-icon :type="item.icon"></uni-icon>
 						</view>
 						<text class="uni-grid-9-text">{{item.name}}</text>
-					</view>
+					</navigator>
 				</view>
 				<view class="tips">
 					<view class="tips-text">
@@ -109,24 +109,26 @@
 				</scroll-view>	
 			</view>
 			<!-- 热门群 end -->
-			<!-- 产品秀 start -->
+			<!-- 微商货源 start -->
 			<view class="white">
-				<view class="block-tl">
-					<view class="block-tl-lf">
-						<view class="block-tl-icon block-tl-color3">
-							<uni-icon type="chanpin2"></uni-icon>
+				<navigator url="../sourcegoods/sourcegoods" hover-class="none">
+					<view class="block-tl">
+						<view class="block-tl-lf">
+							<view class="block-tl-icon block-tl-color3">
+								<uni-icon type="chanpin2"></uni-icon>
+							</view>
+							<text class="mdtxt">微商货源</text>
 						</view>
-						<text class="mdtxt">产品秀</text>
-					</view>
-					<view class="block-tl-rt">
-						<view class="block-tl-rt-more">
-							<text class="mdtxt">更多</text>
-							<view class="block-more more-color1">
-								<uni-icon type="qianjin"></uni-icon>
+						<view class="block-tl-rt">
+							<view class="block-tl-rt-more">
+								<text class="mdtxt">更多</text>
+								<view class="block-more more-color1">
+									<uni-icon type="qianjin"></uni-icon>
+								</view>
 							</view>
 						</view>
 					</view>
-				</view>
+				</navigator>
 				<view class="product-ls">
 					<view class="product-item b-line">
 						<view class="product-tl">
@@ -157,27 +159,27 @@
 					</view>	
 				</view>
 			</view>
-			<!-- 产品秀 end -->
+			<!-- 微商货源 end -->
 			<!-- 头条干货 start -->
 			<view class="white">
 				<view class="block-tl">
-					<view class="block-tl-lf">
+					<navigator class="block-tl-lf" hover-class="none" url="../weinews/weinews">
 						<view class="block-tl-icon block-tl-color4">
 							<uni-icon type="chanpin2"></uni-icon>
 						</view>
-						<text class="mdtxt">头条干货</text>
-					</view>
+						<text class="mdtxt">头条干货</text>	
+					</navigator>
 					<view class="block-tl-rt">
 						<view class="block-tl-rt-item">
 							<uni-icon type="shoucang1"></uni-icon>
 							<text class="mdtxt">收藏</text>
 						</view>
-						<view class="block-tl-rt-more">
+						<navigator class="block-tl-rt-more" hover-class="none" url="../weinews/weinews">
 							<text class="mdtxt">更多</text>
 							<view class="block-more more-color2">
 								<uni-icon type="qianjin"></uni-icon>
 							</view>
-						</view>
+						</navigator>
 					</view>
 				</view>
 				<view class="uni-list">
@@ -216,7 +218,8 @@
 					{
 						name: "微信群",
 						icon: "duoren2",
-						syicon: "iconwp oneicon"
+						syicon: "iconwp oneicon",
+						url: '../wxgroup/wxgroup'
 					},
 					{
 						name: "个人微信",
@@ -715,20 +718,7 @@
 		justify-content: space-around;
 	}
 	
-	.ding {
-		width: 30upx;
-		height: 30upx;
-		line-height: 30upx;
-		text-align: center;
-		color: #fff;
-		border-radius: 6upx;
-		background-color: #44b549;
-		display: inline-block;
-		vertical-align: middle;
-		font-size: 24upx;
-		transform: scale(0.8);
-		margin-right: 8upx;
-	}
+	
 	
 	.hot-add .uni-icon {
 		color: #fff;

@@ -376,7 +376,6 @@
 </script>
 
 <style>
-	@import "../../common/iconfont.css";
 	.content {
 		background-color: #f4f6fa;
 	}
@@ -521,16 +520,7 @@
 		margin-bottom: 30upx;
 	}
 	
-	.tool-item-icon {
-		position: relative;
-		width: 80upx;
-		height: 80upx;
-		border-radius: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		/* background-color: #007AFF; */
-	}
+	
 	
 	.tool-tip {
 		position: absolute;

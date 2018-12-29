@@ -359,7 +359,7 @@
 		flex-direction: row;
 		align-items: center;
 		margin: 20upx;
-		border: 1px solid #d8ae3d;
+		border: 2upx solid #d8ae3d;
 		height: 24upx;
 		line-height: 24upx;
 		padding: 30upx 20upx;
