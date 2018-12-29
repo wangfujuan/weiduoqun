@@ -29,6 +29,43 @@
 				</view>
 			</view>	
 		</view>
+		<view class="share-ls">
+			<view class="share-item">
+				<view class="share-item-lf center">
+					<uni-icon size="24" color="#fff" type="dailishouyi"></uni-icon>
+				</view>
+				<view class="share-item-con b-line">
+					<view class="share-item-md-tl">
+						一级好友注册
+						<text class="fontred">+1元</text>
+					</view>
+					<view class="share-item-md-des">
+						189****837注册奖金
+						<text>12/06 15:23</text>
+					</view>			
+				</view>
+			</view>
+			<view class="share-item">
+				<view class="share-item-lf center">
+					<uni-icon size="24" color="#fff" type="dailishouyi"></uni-icon>
+				</view>
+				<view class="share-item-con b-line">
+					<view class="share-item-md-tl">
+						一级好友开通会员
+						<text class="fontred">+160元</text>
+					</view>
+					<view class="share-item-md-des">
+						189****837注册奖金
+						<text>12/06 15:23</text>
+					</view>			
+				</view>
+			</view>
+		</view>
+		<navigator hover-class="none" url="../withdraw/withdraw">
+			<view class="submitbtn-wp">
+				<button class="block-tl-color8 submitbtn" formType="submit">我要提现</button>
+			</view>
+		</navigator>
 	</view>
 </template>
 
@@ -133,5 +170,45 @@
 		border-left: 2upx solid #eeeeee;
 		margin-left: 20upx;
 		padding-left: 20upx;
+	}
+	.share-ls{
+		background-color: #fff;
+		padding-top: 80upx;
+	}
+	.share-item {
+		padding: 30upx 30upx 0;
+		display: flex;
+		flex-direction: row;
+		line-height: 1;
+	}
+	
+	.share-item-lf {
+		width: 70upx;
+		height: 70upx;
+		border-radius: 100%;
+		/* background-color: #e74c2d; */
+		background-image: linear-gradient(45deg, #fe9f87 0%, #eb4a22 100%);
+	}
+	
+	.share-item-con {
+		flex: 1;
+		padding-left: 20upx;
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 20upx;
+	}
+	
+	.share-item-md-des {
+		font-size: 24upx;
+		color: #b1b1b1;
+		margin: 20upx 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.share-item-md-tl{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 	}
 </style>

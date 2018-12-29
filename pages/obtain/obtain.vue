@@ -9,7 +9,7 @@
 							收益<text class="obtain-money">0.00</text>元
 						</view>
 						<view class="obtain-box-btnls">
-							<view class="obtain-box-btn">
+							<view class="obtain-box-btn" @click="show" data-position="bottom">
 								邀请好友
 							</view>
 							<view class="obtain-box-btn">
@@ -37,6 +37,7 @@
 							开通
 						</view>
 					</view>
+					<navigator hover-class="none" url="../willObtain/willObtain">
 					<view class="obtain-led block-tl-color3">
 						<view class="obtain-led-lf">
 							<view class="obtain-led-tl center">
@@ -59,6 +60,7 @@
 							</view>
 						</view>
 					</view>
+					</navigator>
 					<view class="obtain-do">
 						<view class="obtain-do-item">
 							<view class="obtain-do-con">
@@ -276,6 +278,26 @@
 			<!-- 代理特权 end -->
 			<view>客服中心</view>
 		</view> 
+		<view class="mask" v-show="showMask" @click="hide"></view>
+		<!-- popup 批量保存群二维 start-->	
+		<view class="popup popup-bottom" v-show="showState.bottom">
+			<view class="action-line">
+				<uni-icon type="xiangce" color="#eb6644"></uni-icon>
+				<view class="action-line-info">批量保存群二维码到相册</view>
+				<uni-icon type="qianjin" size="18" color="#8a8a8a"></uni-icon>
+			</view>
+			<view class="action-line">
+				<uni-icon type="weixin" color="#44B549"></uni-icon>
+				<view class="action-line-info">
+					批量发送群二维码到微信
+				</view>
+				<uni-icon type="qianjin" size="18" color="#8a8a8a"></uni-icon>
+			</view>
+			<view class="action-cancel" @click="hide">
+				取消
+			</view>
+		</view>
+		<!-- popup 批量保存群二维 end-->
     </view>
 </template>
 
@@ -285,12 +307,42 @@
 	export default {
 		data() {
 			return {
-				
+				showMask: false,
+				showState: {
+					top: false,
+					middle: false,
+					bottom: false,
+				},
+				activePop: 'middle'
 			}
 		},
 		components: {
 			uniIcon
 		},
+		methods: {
+			show: function(e) {
+				var pos = e.currentTarget.dataset.position;
+				switch (pos) {
+					case 'top':
+						this.activePop = 'top'
+						break
+					case 'bottom':
+						this.activePop = 'bottom'
+						break
+					case 'bottom1':
+						this.activePop = 'bottom1'
+						break
+					default:
+						this.activePop = 'middle'
+				}
+				this.showMask = true
+				this.showState[this.activePop] = true
+			},
+			hide: function() {
+				this.showMask = false
+				this.showState[this.activePop] = false
+			},
+		}
 	}
 </script>
 
@@ -564,4 +616,58 @@
 	.share-item-md-sum-txt {
 		margin-right: 10upx;
 	}
+	/* popup start */
+	.mask {
+		position: fixed;
+		z-index: 998;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, .3);
+	}
+	.masktop{
+		position: fixed;
+		z-index: 998;
+		top: 180upx;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, .3);
+	}
+	
+	.popup {
+		position: absolute;
+		z-index: 999;
+		background-color: #ffffff;
+		-webkit-box-shadow: 0 0 30upx rgba(0, 0, 0, .1);
+		box-shadow: 0 0 30upx rgba(0, 0, 0, .1);
+	}
+	
+	.popup-bottom {
+		bottom: 0;
+		width: 100%;
+	}
+	.action-line{
+		font-size: 30upx;
+		color: #8a8a8a;
+		height: 100upx;
+		line-height: 100upx;
+		padding: 0 30upx;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		background-color: #F4F6FA;
+		margin-bottom: 4upx;
+	}
+	.action-cancel{
+		text-align: center;
+		line-height: 70upx;
+	}
+	.action-line-info{
+		flex: 1;
+		padding-left: 20upx;
+	}
+	/* popup end */
 </style>

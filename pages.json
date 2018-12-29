@@ -267,6 +267,29 @@
 				"navigationBarBackgroundColor":"#44B549",
 				"navigationBarTextStyle":"white"
 			}
+		},
+		{
+			"path": "pages/withdraw/withdraw",
+			"style": {
+				"navigationBarTitleText": "支付宝提现"
+			}
+		},
+		{
+			"path": "pages/willObtain/willObtain",
+			"style": {
+				"navigationBarTitleText": "待领收益",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "领取帮助",
+						        "fontSize":"12",
+						        "color" : "#333"
+						    }
+						]
+					}
+				}
+			}
 		}
     ],
     "tabBar": {
