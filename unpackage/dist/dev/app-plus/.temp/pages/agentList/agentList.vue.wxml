@@ -1,0 +1,51 @@
+<template name="3cb21a99">
+  <view class="_view data-v-0dfe7b45 content">
+    <view class="_view data-v-0dfe7b45 line20"></view>
+    <view class="_view data-v-0dfe7b45 agent-ls">
+      <view class="_view data-v-0dfe7b45 agent-item">
+        <view class="_view data-v-0dfe7b45 agent-item-lf"> 钻石代理
+          <text class="_text data-v-0dfe7b45 fontred">3个月</text>
+        </view>
+        <view class="_view data-v-0dfe7b45 agent-item-rt">
+          <text class="_text data-v-0dfe7b45 fontred">¥179.00</text>
+          <text class="_text data-v-0dfe7b45 lastgary">298.00</text>
+          <text class="_text data-v-0dfe7b45 gray">6折</text>
+        </view>
+      </view>
+      <view class="_view data-v-0dfe7b45 agent-item active-item">
+        <view class="_view data-v-0dfe7b45 agent-item-lf"> 钻石代理
+          <text class="_text data-v-0dfe7b45 fontred">3个月</text>
+        </view>
+        <view class="_view data-v-0dfe7b45 agent-item-rt">
+          <text class="_text data-v-0dfe7b45 fontred">¥179.00</text>
+          <text class="_text data-v-0dfe7b45 lastgary">298.00</text>
+          <text class="_text data-v-0dfe7b45 gray">6折</text>
+        </view>
+        <view class="_view data-v-0dfe7b45 active-icon"></view>
+      </view>
+      <view class="_view data-v-0dfe7b45 agent-item">
+        <view class="_view data-v-0dfe7b45 agent-item-lf"> 钻石代理
+          <text class="_text data-v-0dfe7b45 fontred">3个月</text>
+        </view>
+        <view class="_view data-v-0dfe7b45 agent-item-rt">
+          <text class="_text data-v-0dfe7b45 fontred">¥179.00</text>
+          <text class="_text data-v-0dfe7b45 lastgary">298.00</text>
+          <text class="_text data-v-0dfe7b45 gray">6折</text>
+        </view>
+      </view>
+      <view class="_view data-v-0dfe7b45 agent-item">
+        <view class="_view data-v-0dfe7b45 agent-item-lf"> 钻石代理
+          <text class="_text data-v-0dfe7b45 fontred">3个月</text>
+        </view>
+        <view class="_view data-v-0dfe7b45 agent-item-rt">
+          <text class="_text data-v-0dfe7b45 fontred">¥179.00</text>
+          <text class="_text data-v-0dfe7b45 lastgary">298.00</text>
+          <text class="_text data-v-0dfe7b45 gray">6折</text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-0dfe7b45 fixed-btn-wp">
+      <navigator class="_navigator data-v-0dfe7b45 fixed-btn" url>确认</navigator>
+    </view>
+  </view>
+</template>

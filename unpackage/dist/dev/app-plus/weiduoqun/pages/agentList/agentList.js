@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([[2,1],".",[1],"line20 { background-color: #F4F6FA; height: ",[0,20],"; }\n.",[1],"agent-ls { padding: 0 ",[0,20],"; }\n.",[1],"agent-item { height: ",[0,100],"; border: ",[0,2]," solid #E5E5E5; border-radius: ",[0,6],"; margin: ",[0,20]," 0; -webkit-box-align: center; -webkit-align-items: center; align-items: center; padding: 0 ",[0,20],"; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; }\n.",[1],"agent-item-rt { height: ",[0,30],"; line-height: ",[0,30],"; border-left: ",[0,2]," solid #e5e5e5; padding-left: ",[0,20],"; }\n.",[1],"fontred { color: #e86a38; }\n.",[1],"lastgary { color: #b2b2b2; text-decoration: line-through; padding: 0 ",[0,10],"; }\n.",[1],"gray { color: #b2b2b2; }\n.",[1],"active-item { border-color: #b28431; position: relative; }\n.",[1],"active-item .",[1],"agent-item-lf { color: #b28431; font-weight: 500; }\n.",[1],"active-item .",[1],"agent-item-rt .",[1],"fontred { font-weight: 500; }\n.",[1],"active-item::after { content: \x27\x27; width: 0; height: 0; position: absolute; right: 0; bottom: 0; border: ",[0,16]," solid; border-color: transparent #b28431 #b28431 transparent; }\n.",[1],"active-icon { position: absolute; right: ",[0,4],"; bottom: ",[0,4],"; z-index: 9; -webkit-transform: rotate(225deg); transform: rotate(225deg); }\n.",[1],"active-icon::after, .",[1],"active-icon::before { content: \x22\x22; background-color: #fff; display: block; }\n.",[1],"active-icon::before { width: ",[0,8],"; height: ",[0,2],"; }\n.",[1],"active-icon::after { height: ",[0,12],"; width: ",[0,2],"; }\n.",[1],"fixed-btn-wp { background-color: #fff; padding: ",[0,20],"; position: fixed; bottom: 0; left: 0; right: 0; bottom: 0; }\n.",[1],"fixed-btn { background-color: #b28431; height: ",[0,76],"; line-height: ",[0,76],"; border-radius: ",[0,10],"; text-align: center; color: #fff; font-size: ",[0,30],"; font-weight: 500; }\n",],undefined,{path:"./pages/agentList/agentList.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/agentList/agentList.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

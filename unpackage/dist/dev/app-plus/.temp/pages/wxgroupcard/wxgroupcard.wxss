@@ -3,6 +3,9 @@
 .content {
   background-color: #F4F6FA;
 }
+.block-tl-rt-item .uni-icon {
+  margin-right: 4rpx;
+}
 .wx-item {
   height: 130rpx;
   background-color: #fff;
@@ -141,7 +144,7 @@
   flex: 1;
 }
 .wxgc-sub-sm {
-  padding-left: 50rpx;
+  padding-left: 40rpx;
 }
 .wxgc-code {
   margin: 0 auto;

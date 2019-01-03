@@ -1,0 +1,1 @@
+<import src="/pages/putCircle/putCircle.vue.wxml" /><template is="ba0cbade" data="{{ ...$root['0'], $root }}"/>

@@ -1,7 +1,7 @@
 <import src="/components/uni-icon.vue.wxml" />
 <template name="425966e5">
   <view class="_view data-v-4f405b91 content">
-    <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'tcS-1'}}" data-comkey="{{$k}}" class="_form data-v-4f405b91">
+    <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'zcj-1'}}" data-comkey="{{$k}}" class="_form data-v-4f405b91">
       <view class="_view data-v-4f405b91 wbre-box">
         <view class="_view data-v-4f405b91 wbre-item">
           <view class="_view data-v-4f405b91 wbre-item-con">
@@ -34,7 +34,7 @@
           <view class="_view data-v-4f405b91 wbre-item-con">
             <view class="_view data-v-4f405b91 wbre-item-subtl"> 300微币 </view>
             <view class="_view data-v-4f405b91 wbre-item-info center">
-              <template type="huiyuan" color="#dbba7d" size="12" data="{{...$root['0'], ...$root[$kk+'cHb-0'],$root}}" is="18f61b88"></template>送超级会员1年 </view>
+              <template type="huiyuan" color="#dbba7d" size="12" data="{{...$root['0'], ...$root[$kk+'G5Z-0'],$root}}" is="18f61b88"></template>送超级会员1年 </view>
             <view class="_view data-v-4f405b91 wbre-item-tl"> ¥
               <text class="_text data-v-4f405b91">300元</text>
             </view>
@@ -44,7 +44,7 @@
           <view class="_view data-v-4f405b91 wbre-item-con">
             <view class="_view data-v-4f405b91 wbre-item-subtl"> 600微币 </view>
             <view class="_view data-v-4f405b91 wbre-item-info center">
-              <template type="huiyuan1" color="#dbba7d" size="12" data="{{...$root['0'], ...$root[$kk+'PBj-1'],$root}}" is="18f61b88"></template>送钻石代理一年 </view>
+              <template type="huiyuan1" color="#dbba7d" size="12" data="{{...$root['0'], ...$root[$kk+'jWG-1'],$root}}" is="18f61b88"></template>送钻石代理一年 </view>
             <view class="_view data-v-4f405b91 wbre-item-tl"> ¥
               <text class="_text data-v-4f405b91">600元</text>
             </view>
@@ -62,10 +62,10 @@
             </view>
           </view>
         </view>
-        <radio-group class="_radio-group data-v-4f405b91 pay-box" bindchange="handleProxy" data-eventid="{{'j9K-0'}}" data-comkey="{{$k}}">
+        <radio-group class="_radio-group data-v-4f405b91 pay-box" bindchange="handleProxy" data-eventid="{{'h3M-0'}}" data-comkey="{{$k}}">
           <view class="_view data-v-4f405b91 pay-item" wx:key="item" key="{{item}}" wx:for="{{payList}}" wx:for-index="index" wx:for-item="item">
             <label class="_label data-v-4f405b91 pay-item-con">
-              <template data="{{...$root['0'], ...$root[$kk+'e8Z-2-'+index],$root}}" is="18f61b88"></template>{{item.value}}
+              <template data="{{...$root['0'], ...$root[$kk+'FlG-2-'+index],$root}}" is="18f61b88"></template>{{item.value}}
               <radio class="_radio data-v-4f405b91 pay-radio" value="{{item.name}}" checked="{{item.checked}}" />
             </label>
           </view>
@@ -78,63 +78,63 @@
       <view class="_view data-v-4f405b91 wbre-use">
         <view class="_view data-v-4f405b91 wbre-use-item">
           <view class="_view data-v-4f405b91 tool-item-icon">
-            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'8In-4'],$root}}" is="18f61b88"></template>
+            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'YHQ-4'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-4f405b91 wbre-use-item-tl"> 坐等爆粉 </view>
           <view class="_view data-v-4f405b91 wbre-use-item-info"> 每天被加百人 </view>
         </view>
         <view class="_view data-v-4f405b91 wbre-use-item">
           <view class="_view data-v-4f405b91 tool-item-icon">
-            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'hwk-5'],$root}}" is="18f61b88"></template>
+            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'adW-5'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-4f405b91 wbre-use-item-tl"> 多号爆粉 </view>
           <view class="_view data-v-4f405b91 wbre-use-item-info"> 最多绑定3个号 </view>
         </view>
         <view class="_view data-v-4f405b91 wbre-use-item">
           <view class="_view data-v-4f405b91 tool-item-icon">
-            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'hTG-6'],$root}}" is="18f61b88"></template>
+            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'yW8-6'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-4f405b91 wbre-use-item-tl"> 名片置顶 </view>
           <view class="_view data-v-4f405b91 wbre-use-item-info"> 曝光量+10倍 </view>
         </view>
         <view class="_view data-v-4f405b91 wbre-use-item">
           <view class="_view data-v-4f405b91 tool-item-icon">
-            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'Fv0-7'],$root}}" is="18f61b88"></template>
+            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'qCQ-7'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-4f405b91 wbre-use-item-tl"> 产品推广 </view>
           <view class="_view data-v-4f405b91 wbre-use-item-info"> 帮您招商代理 </view>
         </view>
         <view class="_view data-v-4f405b91 wbre-use-item">
           <view class="_view data-v-4f405b91 tool-item-icon">
-            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'Phs-8'],$root}}" is="18f61b88"></template>
+            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'vQH-8'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-4f405b91 wbre-use-item-tl"> 名片引流 </view>
           <view class="_view data-v-4f405b91 wbre-use-item-info"> 代理名片数量无限制 </view>
         </view>
         <view class="_view data-v-4f405b91 wbre-use-item">
           <view class="_view data-v-4f405b91 tool-item-icon">
-            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'0XV-9'],$root}}" is="18f61b88"></template>
+            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'tDe-9'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-4f405b91 wbre-use-item-tl"> 全网散客 </view>
           <view class="_view data-v-4f405b91 wbre-use-item-info"> 无微商无死粉 </view>
         </view>
         <view class="_view data-v-4f405b91 wbre-use-item">
           <view class="_view data-v-4f405b91 tool-item-icon">
-            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'hRS-10'],$root}}" is="18f61b88"></template>
+            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'lPR-10'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-4f405b91 wbre-use-item-tl"> 抽奖活动 </view>
           <view class="_view data-v-4f405b91 wbre-use-item-info"> 小投入大回报 </view>
         </view>
         <view class="_view data-v-4f405b91 wbre-use-item">
           <view class="_view data-v-4f405b91 tool-item-icon">
-            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'ecY-11'],$root}}" is="18f61b88"></template>
+            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'FKC-11'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-4f405b91 wbre-use-item-tl"> 人物悬赏 </view>
           <view class="_view data-v-4f405b91 wbre-use-item-info"> 即将退出 </view>
         </view>
         <view class="_view data-v-4f405b91 wbre-use-item">
           <view class="_view data-v-4f405b91 tool-item-icon">
-            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'Dof-12'],$root}}" is="18f61b88"></template>
+            <template type="remen" color="#c18f35" size="22" data="{{...$root['0'], ...$root[$kk+'m7Z-12'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-4f405b91 wbre-use-item-tl"> 更多服务 </view>
           <view class="_view data-v-4f405b91 wbre-use-item-info"> 更能不断退出 </view>

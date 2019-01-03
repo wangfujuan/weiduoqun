@@ -3,13 +3,13 @@
   <view class="_view data-v-0263c49d content">
     <view class="_view data-v-0263c49d line20"></view>
     <view class="_view data-v-0263c49d help-item">
-      <template type="fankui-tianchong" size="18" color="#5091e6" data="{{...$root['0'], ...$root[$kk+'BVF-0'],$root}}" is="18f61b88"></template>新手教程 </view>
+      <template type="fankui-tianchong" size="18" color="#5091e6" data="{{...$root['0'], ...$root[$kk+'unZ-0'],$root}}" is="18f61b88"></template>新手教程 </view>
     <view class="_view data-v-0263c49d line20"></view>
     <view class="_view data-v-0263c49d help-item b-line">
-      <template type="fankui-tianchong" size="18" color="#5091e6" data="{{...$root['0'], ...$root[$kk+'VnR-1'],$root}}" is="18f61b88"></template>注册/登录/修改资料 </view>
+      <template type="fankui-tianchong" size="18" color="#5091e6" data="{{...$root['0'], ...$root[$kk+'9Vc-1'],$root}}" is="18f61b88"></template>注册/登录/修改资料 </view>
     <view class="_view data-v-0263c49d help-item b-line">
-      <template type="fankui-tianchong" size="18" color="#5091e6" data="{{...$root['0'], ...$root[$kk+'gVL-2'],$root}}" is="18f61b88"></template>微币充值/积分相关 </view>
+      <template type="fankui-tianchong" size="18" color="#5091e6" data="{{...$root['0'], ...$root[$kk+'BRJ-2'],$root}}" is="18f61b88"></template>微币充值/积分相关 </view>
     <view class="_view data-v-0263c49d help-item">
-      <template type="fankui-tianchong" size="18" color="#5091e6" data="{{...$root['0'], ...$root[$kk+'G0c-3'],$root}}" is="18f61b88"></template>微币充值/积分相关 </view>
+      <template type="fankui-tianchong" size="18" color="#5091e6" data="{{...$root['0'], ...$root[$kk+'QNx-3'],$root}}" is="18f61b88"></template>微币充值/积分相关 </view>
   </view>
 </template>

@@ -1,0 +1,54 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="725b3af1">
+  <view class="_view data-v-08e12ac6 content">
+    <view class="_view data-v-08e12ac6 content-pad">
+      <view class="_view data-v-08e12ac6 white">
+        <view class="_view data-v-08e12ac6 art-item">
+          <view class="_view data-v-08e12ac6 art-item-tl">
+            <image class="_image data-v-08e12ac6 avatar" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+            <view class="_view data-v-08e12ac6 art-user">
+              <view class="_view data-v-08e12ac6 art-user-name"> 慧慧 </view>
+              <view class="_view data-v-08e12ac6 art-usr-time"> 30秒前 </view>
+            </view>
+          </view>
+          <navigator url="../circleDetail/circleDetail" hover-class="none" class="_navigator data-v-08e12ac6">
+            <view class="_view data-v-08e12ac6 art-item-info"> 似乎在😊 很多人眼中，胸针是古板或陈旧的~~，很难和时髦挂上勾❤️。但胸针是个很好搭配的饰品，在个很好搭配的饰上都能有它的存在，可以说它是万能的点缀。 </view>
+          </navigator>
+          <view class="_view data-v-08e12ac6 art-item-pic">
+            <view class="_view data-v-08e12ac6 art-item-img-wp">
+              <image class="_image data-v-08e12ac6 art-item-img" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+            </view>
+            <view class="_view data-v-08e12ac6 art-item-img-wp">
+              <image class="_image data-v-08e12ac6 art-item-img" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+            </view>
+            <view class="_view data-v-08e12ac6 art-item-img-wp">
+              <image class="_image data-v-08e12ac6 art-item-img" src="../../static/avatar/avatar_3.jpg" mode="widthFix"></image>
+            </view>
+          </view>
+          <view class="_view data-v-08e12ac6 user-doings">
+            <view class="_view data-v-08e12ac6 user-doings-item center">
+              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'svI-0'],$root}}" is="18f61b88"></template> 分享 </view>
+            <view class="_view data-v-08e12ac6 m-line"></view>
+            <view class="_view data-v-08e12ac6 user-doings-item center">
+              <template type="huida" data="{{...$root['0'], ...$root[$kk+'okz-1'],$root}}" is="18f61b88"></template> 评论 </view>
+            <view class="_view data-v-08e12ac6 m-line"></view>
+            <view class="_view data-v-08e12ac6 user-doings-item center">
+              <template type="zan" data="{{...$root['0'], ...$root[$kk+'ymv-2'],$root}}" is="18f61b88"></template> 点赞 </view>
+          </view>
+          <view class="_view data-v-08e12ac6 users-con">
+            <view class="_view data-v-08e12ac6 users-zans b-line">
+              <template type="zan-fill" size="16" color="#666666" data="{{...$root['0'], ...$root[$kk+'4BX-3'],$root}}" is="18f61b88"></template>
+              <view class="_view data-v-08e12ac6 userzan-name">小爱同学</view>
+              <view class="_view data-v-08e12ac6 userzan-name">前年等一会</view>
+            </view>
+            <view class="_view data-v-08e12ac6 user-comment-item">
+              <text class="_text data-v-08e12ac6">小爱同学:</text>我们这，不投资不囤货，妹妹有兴趣可以私聊我哦 </view>
+            <view class="_view data-v-08e12ac6 user-comment-item">
+              <text class="_text data-v-08e12ac6">18929281:</text>哈哈 </view>
+          </view>
+        </view>
+      </view>
+      <go-back hidden="{{!(gabackshow)}}" class="_go-back data-v-08e12ac6"></go-back>
+    </view>
+  </view>
+</template>

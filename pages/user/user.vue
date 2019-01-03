@@ -171,18 +171,22 @@
 					会员服务
 				</view>
 				<view class="user-ls">
-					<view class="user-item">
+					<navigator class="user-item" hover-class="none" url="../weibiList/weibiList">
 						<view class="uni-icon color5 uni-icon-shouyitixian"></view>
-						<view class="user-item-info">订单管理</view>
-					</view>
-					<view class="user-item">
+						<view class="user-item-info">微币明细</view>
+					</navigator>
+					<navigator class="user-item" hover-class="none" url="../chargeOrder/chargeOrder">
 						<view class="uni-icon color6 uni-icon-tuiguang"></view>
-						<view class="user-item-info">会员套餐</view>
-					</view>
+						<view class="user-item-info">充值订单</view>
+					</navigator>
 					<view class="user-item">
 						<view class="uni-icon color7 uni-icon-wodehuiyuan"></view>
 						<view class="user-item-info">我的会员</view>
 					</view>
+					<navigator class="user-item" hover-class="none" url="../agent/agent">
+						<view class="uni-icon color7 uni-icon-tuiguang"></view>
+						<view class="user-item-info">代理通道</view>
+					</navigator>
 				</view>
 			</view>
 			<!-- 会员服务 end -->
@@ -216,15 +220,65 @@
 			</view>
 			<!-- 其他服务 end -->
 		</view>
+		<!-- <view class="mask" v-show="showMask" @click="hide"></view> -->
+		<!-- popup 分享 start-->	
+		<!-- <view class="popup popup-bottom" v-show="showState.bottom">
+			<view class="share-bt-wp">
+				<view class="share-bt-item">
+					<view class="share-bt-bg block-tl-color7">
+						<uni-icon type="weixin"></uni-icon>
+					</view>
+					<text>微信好友</text>
+				</view>
+				<view class="share-bt-item">
+					<view class="share-bt-bg block-tl-color7">
+						<uni-icon type="pengyouquan"></uni-icon>
+					</view>
+					<text>朋友圈</text>
+				</view>
+				<view class="share-bt-item">
+					<view class="share-bt-bg block-tl-color6">
+						<uni-icon type="qq02"></uni-icon>
+					</view>
+					<text>QQ好友</text>
+				</view>
+				<view class="share-bt-item">
+					<view class="share-bt-bg block-tl-color1">
+						<uni-icon type="062qqkongjian"></uni-icon>
+					</view>
+					<text>QQ空间</text>
+				</view>
+				<view class="share-bt-item">
+					<view class="share-bt-bg block-tl-color5">
+						<uni-icon type="lianjie"></uni-icon>
+					</view>
+					<text>复制链接</text>
+				</view>
+			</view> 
+			
+			<view class="action-cancel" @click="hide">
+				取消
+			</view>
+		</view>-->
+		<!-- popup 分享 end-->
     </view>
 </template>
 
 <script>
-		import uniIcon from '../../components/uni-icon.vue'
+	import uniIcon from '../../components/uni-icon.vue'
 	 
     import { mapState, mapMutations } from 'vuex'
     
 		export default {
+				data: {
+					showMask: false,
+					showState: {
+						top: false,
+						middle: false,
+						bottom: false,
+					},
+					activePop: 'middle'
+				},
 				components: {
 					uniIcon
 				},
@@ -248,7 +302,29 @@
 												url: '../login/login',
 										});
 								}
-						}
+						},
+						show: function(e) {
+							var pos = e.currentTarget.dataset.position;
+							switch (pos) {
+								case 'top':
+									this.activePop = 'top'
+									break
+								case 'bottom':
+									this.activePop = 'bottom'
+									break
+								case 'bottom1':
+									this.activePop = 'bottom1'
+									break
+								default:
+									this.activePop = 'middle'
+							}
+							this.showMask = true
+							this.showState[this.activePop] = true
+						},
+						hide: function() {
+							this.showMask = false
+							this.showState[this.activePop] = false
+						},
 				}
 		}
 
@@ -515,4 +591,5 @@
 	.color8 {
 		color: #eda1c1;
 	}
+	
 </style>

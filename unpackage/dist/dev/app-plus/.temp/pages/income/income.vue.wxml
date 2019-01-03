@@ -1,0 +1,61 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="08e55771">
+  <view class="_view data-v-6082a91d content">
+    <view class="_view data-v-6082a91d me-top">
+      <view class="_view data-v-6082a91d me-login">
+        <view class="_view data-v-6082a91d income-con">
+          <view class="_view data-v-6082a91d income-con-top">
+            <view class="_view data-v-6082a91d income-con-item">
+              <view class="_view data-v-6082a91d income-con-tl"> 可提现余额 </view>
+              <view class="_view data-v-6082a91d income-con-info">
+                <text class="_text data-v-6082a91d fontred">0.01</text>元 </view>
+            </view>
+            <view class="_view data-v-6082a91d me-line"></view>
+            <view class="_view data-v-6082a91d income-con-item">
+              <view class="_view data-v-6082a91d income-con-tl"> 累计提现 </view>
+              <view class="_view data-v-6082a91d income-con-info">
+                <text class="_text data-v-6082a91d">0.00</text>元 </view>
+            </view>
+          </view>
+          <view class="_view data-v-6082a91d income-pay">
+            <template type="zhifubaozhifu" color="#459ae5" size="20" data="{{...$root['0'], ...$root[$kk+'imM-0'],$root}}" is="18f61b88"></template>
+            <text class="_text data-v-6082a91d">支付宝企业合作 提现自动秒到账</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-6082a91d share-ls">
+      <view class="_view data-v-6082a91d share-item">
+        <view class="_view data-v-6082a91d share-item-lf center">
+          <template size="24" color="#fff" type="dailishouyi" data="{{...$root['0'], ...$root[$kk+'rqp-1'],$root}}" is="18f61b88"></template>
+        </view>
+        <view class="_view data-v-6082a91d share-item-con b-line">
+          <view class="_view data-v-6082a91d share-item-md-tl"> 一级好友注册
+            <text class="_text data-v-6082a91d fontred">+1元</text>
+          </view>
+          <view class="_view data-v-6082a91d share-item-md-des"> 189****837注册奖金
+            <text class="_text data-v-6082a91d">12/06 15:23</text>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-6082a91d share-item">
+        <view class="_view data-v-6082a91d share-item-lf center">
+          <template size="24" color="#fff" type="dailishouyi" data="{{...$root['0'], ...$root[$kk+'L8F-2'],$root}}" is="18f61b88"></template>
+        </view>
+        <view class="_view data-v-6082a91d share-item-con b-line">
+          <view class="_view data-v-6082a91d share-item-md-tl"> 一级好友开通会员
+            <text class="_text data-v-6082a91d fontred">+160元</text>
+          </view>
+          <view class="_view data-v-6082a91d share-item-md-des"> 189****837注册奖金
+            <text class="_text data-v-6082a91d">12/06 15:23</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <navigator hover-class="none" url="../withdraw/withdraw" class="_navigator data-v-6082a91d">
+      <view class="_view data-v-6082a91d submitbtn-wp">
+        <button class="_button data-v-6082a91d block-tl-color8 submitbtn" formType="submit">我要提现</button>
+      </view>
+    </navigator>
+  </view>
+</template>

@@ -3,16 +3,19 @@
 		{
 			"path": "pages/home/home",
 			"style": {
-				"navigationBarTitleText": "微多群"
-// 				"app-plus" : {
-// 					"titleNView" : {
-// 						"buttons" : [
-// 							{
-// 								"type" : "share"
-// 							}
-// 						]	
-// 					}
-// 				}
+				"navigationBarTitleText": "微多群",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue674",
+								"fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+								"color" : "#505050"
+						    }
+						]
+					}
+				}
 			}
 		}, {
             "path": "pages/main/main",
@@ -271,7 +274,36 @@
 		{
 			"path": "pages/withdraw/withdraw",
 			"style": {
-				"navigationBarTitleText": "支付宝提现"
+				"navigationBarTitleText": "支付宝提现",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue615",
+								"fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+								"color" : "#a8a8a8"
+						    }
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/inviteList/inviteList",
+			"style": {
+				"navigationBarTitleText": "邀请记录",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "规则说明",
+						        "fontSize":"12",
+						        "color" : "#333"
+						    }
+						]
+					}
+				}
 			}
 		},
 		{
@@ -285,6 +317,148 @@
 						        "text" : "领取帮助",
 						        "fontSize":"12",
 						        "color" : "#333"
+						    }
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/weibiList/weibiList",
+			"style": {
+				"navigationBarTitleText": "微币明细",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue635",
+								"fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+								"color" : "#a8a8a8"
+						    }
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/agent/agent",
+			"style": {
+				"navigationBarTitleText": "代理充值通道",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue635",
+								"fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+								"color" : "#a8a8a8"
+						    }
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/agentList/agentList",
+			"style": {
+				"navigationBarTitleText": "选择开通类型",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "分享",
+						        "fontSize": "12px",
+								"color" : "#a8a8a8"
+						    }
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/agentRecord/agentRecord",
+			"style": {
+				"navigationBarTitleText": "代理充值记录",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue635",
+						        "fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+						        "color" : "#a8a8a8"
+						    }
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/agentDetail/agentDetail",
+			"style": {
+				"navigationBarTitleText": "开通详情"
+			}
+		},
+		{
+			"path": "pages/openagent/openagent",
+			"style": {
+				"navigationBarTitleText": "开通钻石代理"
+			}
+		},
+		{
+			"path": "pages/allpeople/allpeople",
+			"style": {
+				"navigationBarTitleText": "全网散客",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [   
+							{
+							    "text" : "\ue79c",
+							    "fontSrc": "/static/iconfont.ttf",
+							    "fontSize": "18px",
+							    "color" : "#a8a8a8"
+							},
+							{
+							    "text" : "\ue635",
+							    "fontSrc": "/static/iconfont.ttf",
+							    "fontSize": "18px",
+							    "color" : "#a8a8a8"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/chargeOrder/chargeOrder",
+			"style": {
+				"navigationBarTitleText": "充值订单",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue635",
+								"fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+								"color" : "#a8a8a8"
+						    }
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/note/note",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "编辑",
+						        "fontSize": "14px",
+								"color" : "#505050"
 						    }
 						]
 					}

@@ -1,0 +1,1 @@
+<import src="/pages/willObtain/willObtain.vue.wxml" /><template is="e2200c9e" data="{{ ...$root['0'], $root }}"/>

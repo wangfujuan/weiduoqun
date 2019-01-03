@@ -1,0 +1,36 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="704a1687">
+  <view class="_view data-v-0dde4133 content">
+    <view class="_view data-v-0dde4133 income-con">
+      <view class="_view data-v-0dde4133 income-con-top">
+        <view class="_view data-v-0dde4133 income-con-item">
+          <view class="_view data-v-0dde4133 income-con-tl"> 可提现余额
+            <navigator class="_navigator data-v-0dde4133 income-link" url="../withdraw/withdraw">提现</navigator>
+          </view>
+          <view class="_view data-v-0dde4133 income-con-info">
+            <text class="_text data-v-0dde4133 fontred">0.01</text>元 </view>
+        </view>
+      </view>
+      <view class="_view data-v-0dde4133 income-pay">
+        <template type="mianfei" color="#e86a38" size="20" data="{{...$root['0'], ...$root[$kk+'VZY-0'],$root}}" is="18f61b88"></template>
+        <text class="_text data-v-0dde4133">钻石代理自用省钱 分享赚钱</text>
+        <view class="_view data-v-0dde4133 obtain-boss-open">开通</view>
+      </view>
+    </view>
+    <view class="_view data-v-0dde4133 card-item">
+      <view class="_view data-v-0dde4133 card-item-tl"> 微商货源置顶3天
+        <view class="_view data-v-0dde4133 card-item-sum">
+          <text class="_text data-v-0dde4133">-60个微币</text>
+        </view>
+      </view>
+      <view class="_view data-v-0dde4133 card-item-sub"> 10-20 20:20
+        <view class="_view data-v-0dde4133 card-item-detail" bindtap="handleProxy" data-position="bottom" data-eventid="{{'HKn-0'}}" data-comkey="{{$k}}">查看</view>
+      </view>
+    </view>
+    <view class="_view data-v-0dde4133 card-fixed">
+      <navigator hover-class="none" class="_navigator data-v-0dde4133 card-fixed-item" url="../weibiRecharge/weibiRecharge">
+        <view class="_view data-v-0dde4133 card-fixed-con">充值微币</view>
+      </navigator>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,48 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="66524e9d">
+  <view class="_view data-v-3e301b49 content">
+    <view class="_view data-v-3e301b49 content-pad">
+      <view class="_view data-v-3e301b49 white">
+        <navigator hover-class="none" url="../selectGroup/selectGroup" class="_navigator data-v-3e301b49">
+          <view class="_view data-v-3e301b49 rc-line b-line">
+            <view class="_view data-v-3e301b49 rc-line-lf"> 手机号 </view>
+            <input type="text" placeholder-style="color: #c7c7c7" placeholder="要开通的会员注册手机号" value="" class="_input data-v-3e301b49" />
+          </view>
+        </navigator>
+        <navigator hover-class="none" url="../agentList/agentList" class="_navigator data-v-3e301b49">
+          <view class="_view data-v-3e301b49 rc-line b-line">
+            <view class="_view data-v-3e301b49 rc-line-lf"> 开通类型 </view>
+            <view class="_view data-v-3e301b49 rc-select"> 请选择开通类型 </view>
+            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'Fu9-0'],$root}}" is="18f61b88"></template>
+          </view>
+        </navigator>
+        <view class="_view data-v-3e301b49 rc-line">
+          <view class="_view data-v-3e301b49 rc-line-lf"> 代理价 </view>
+          <view class="_view data-v-3e301b49 rc-select">
+            <view class="_view data-v-3e301b49 fontred"> ¥0.00 </view>
+          </view>
+        </view>
+      </view>
+      <radio-group class="_radio-group data-v-3e301b49 pay-box" bindchange="handleProxy" data-eventid="{{'ipV-0'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-3e301b49 pay-item" wx:key="item" key="{{item}}" wx:for="{{payList}}" wx:for-index="index" wx:for-item="item">
+          <label class="_label data-v-3e301b49 pay-item-con">
+            <template data="{{...$root['0'], ...$root[$kk+'kht-1-'+index],$root}}" is="18f61b88"></template>{{item.value}}
+            <radio class="_radio data-v-3e301b49 pay-radio" value="{{item.name}}" checked="{{item.checked}}" />
+          </label>
+        </view>
+      </radio-group>
+      <view class="_view data-v-3e301b49 paybtn-wp">
+        <button formType="submit" class="_button data-v-3e301b49 fixed-btn">提交</button>
+      </view>
+      <navigator hover-class="none" class="_navigator data-v-3e301b49 morelist" url="../agentRecord/agentRecord">查看开通的会员记录</navigator>
+      <view class="_view data-v-3e301b49 open-tips">
+        <view class="_view data-v-3e301b49 open-tips-tl"> 重要提示 </view>
+        <view class="_view data-v-3e301b49 open-tips-line"> 1.请无比确保您输入的会员手机号是正确的 </view>
+        <view class="_view data-v-3e301b49 open-tips-line"> 2.该手机号 </view>
+        <view class="_view data-v-3e301b49 open-tips-line"> 3.开通则代表同意
+          <text class="_text data-v-3e301b49">会员充值协议</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

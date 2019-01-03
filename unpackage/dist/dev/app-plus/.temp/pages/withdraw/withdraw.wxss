@@ -1,0 +1,67 @@
+@import "../../common/vendor.wxss";
+
+.content {
+  background-color: #F4F6FA;
+}
+.draw-tl {
+  padding: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: 26rpx;
+}
+.draw-tl .uni-icon {
+  margin-right: 10rpx;
+}
+.draw-tl text {
+  color: #bebebe;
+}
+.draw-con {
+  padding: 0 30rpx 10rpx;
+}
+.input-line {
+  border: 2rpx solid #f0f0f0;
+  border-radius: 10rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  padding: 0 20rpx;
+  margin-bottom: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.input-line text {
+  color: #449DFF;
+  font-size: 24rpx;
+}
+.draw-con-tips {
+  color: #bebebe;
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+}
+.draw-bt {
+  text-align: center;
+  font-size: 24rpx;
+  margin-bottom: 10rpx;
+  color: #666;
+}

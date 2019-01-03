@@ -8,8 +8,8 @@
 /* H5 */
 @font-face {
 	font-family: "uniicons";
-  src: url('iconfont.ttf') format('truetype'),
-  url('iconfont.svg') format('svg');
+    src: url('../static/iconfont.ttf') format('truetype'),
+         url('../static/iconfont.svg') format('svg');
 }
 
 .uni-icon {
@@ -214,3 +214,7 @@
 .uni-icon-zan:before { content: "\e66f"; }
 
 .uni-icon-zan-fill:before { content: "\e693"; }
+
+.uni-icon-mianfei:before { content: "\e630"; }
+
+.uni-icon-iconfontlipinduihuanbangzhu:before { content: "\e615"; }

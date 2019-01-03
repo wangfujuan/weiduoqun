@@ -378,6 +378,11 @@
 				});
 				return newItems;
 			}
+		},
+		onNavigationBarButtonTap() {
+			uni.navigateTo({
+				url: '/pages/note/note'
+			})
 		}
 	}
 </script>

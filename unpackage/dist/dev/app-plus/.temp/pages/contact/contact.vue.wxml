@@ -44,20 +44,20 @@
         <view class="_view data-v-f73f9202 block-tl">
           <view class="_view data-v-f73f9202 block-tl-lf">
             <view class="_view data-v-f73f9202 block-tl-icon block-tl-color2">
-              <template size="12" color="#fff" type="ai-tool" data="{{...$root['0'], ...$root[$kk+'ATW-3'],$root}}" is="18f61b88"></template>
+              <template size="12" color="#fff" type="ai-tool" data="{{...$root['0'], ...$root[$kk+'xFx-3'],$root}}" is="18f61b88"></template>
             </view>
             <text class="_text data-v-f73f9202 mdtxt">热门工具</text>
           </view>
           <view class="_view data-v-f73f9202 block-tl-rt">
             <view class="_view data-v-f73f9202 block-tl-rt-item">
-              <template size="13" color="#aaa" type="qinglihuancun" data="{{...$root['0'], ...$root[$kk+'mAx-4'],$root}}" is="18f61b88"></template>
+              <template size="13" color="#aaa" type="qinglihuancun" data="{{...$root['0'], ...$root[$kk+'RCk-4'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-f73f9202 mdtxt">清理</text>
             </view>
           </view>
         </view>
         <view class="_view data-v-f73f9202 trend block-tl-color3">
           <view class="_view data-v-f73f9202 trend-icon">
-            <template type="gerenxinxi" data="{{...$root['0'], ...$root[$kk+'Ryg-5'],$root}}" is="18f61b88"></template>
+            <template type="gerenxinxi" data="{{...$root['0'], ...$root[$kk+'I59-5'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-f73f9202 trend-info">
             <view class="_view data-v-f73f9202 trend-info-tl"> 优质名片 </view>
@@ -73,7 +73,7 @@
             <view class="_view data-v-f73f9202 trend-user-avatar">
               <image src="../../static/avatar/avatar_4.jpg" mode="aspectFill" class="_image data-v-f73f9202"></image>
             </view>
-            <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'TZD-6'],$root}}" is="18f61b88"></template>
+            <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'vny-6'],$root}}" is="18f61b88"></template>
           </view>
         </view>
         <view class="_view data-v-f73f9202 tool-ls">
@@ -81,7 +81,7 @@
             <view class="_view data-v-f73f9202 tool-item-box">
               <view class="_view data-v-f73f9202 tool-item-con">
                 <view class="_view data-v-f73f9202 tool-item-icon block-tl-color1">
-                  <template type="dingwei" data="{{...$root['0'], ...$root[$kk+'Jda-7'],$root}}" is="18f61b88"></template>
+                  <template type="dingwei" data="{{...$root['0'], ...$root[$kk+'D69-7'],$root}}" is="18f61b88"></template>
                   <view class="_view data-v-f73f9202 tool-tip block-tl-color1"> 高通过 </view>
                 </view>
                 <view class="_view data-v-f73f9202 tool-item-info">
@@ -96,7 +96,7 @@
             <view class="_view data-v-f73f9202 tool-item-box">
               <view class="_view data-v-f73f9202 tool-item-con">
                 <view class="_view data-v-f73f9202 tool-item-icon block-tl-color2">
-                  <template type="remen" data="{{...$root['0'], ...$root[$kk+'rBU-8'],$root}}" is="18f61b88"></template>
+                  <template type="remen" data="{{...$root['0'], ...$root[$kk+'XZb-8'],$root}}" is="18f61b88"></template>
                   <view class="_view data-v-f73f9202 tool-tip block-tl-color2"> 可多号 </view>
                 </view>
                 <view class="_view data-v-f73f9202 tool-item-info">
@@ -108,24 +108,26 @@
             </view>
           </view>
           <view class="_view data-v-f73f9202 tool-item">
-            <view class="_view data-v-f73f9202 tool-item-box">
-              <view class="_view data-v-f73f9202 tool-item-con">
-                <view class="_view data-v-f73f9202 tool-item-icon block-tl-color3">
-                  <template type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'tFf-9'],$root}}" is="18f61b88"></template>
+            <navigator hover-class="none" url="../allpeople/allpeople" class="_navigator data-v-f73f9202">
+              <view class="_view data-v-f73f9202 tool-item-box">
+                <view class="_view data-v-f73f9202 tool-item-con">
+                  <view class="_view data-v-f73f9202 tool-item-icon block-tl-color3">
+                    <template type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'Boy-9'],$root}}" is="18f61b88"></template>
+                  </view>
+                  <view class="_view data-v-f73f9202 tool-item-info">
+                    <view class="_view data-v-f73f9202 tool-item-tl"> 全网散客 </view>
+                    <view class="_view data-v-f73f9202 tool-item-des"> 无微商无私粉 </view>
+                  </view>
                 </view>
-                <view class="_view data-v-f73f9202 tool-item-info">
-                  <view class="_view data-v-f73f9202 tool-item-tl"> 全网散客 </view>
-                  <view class="_view data-v-f73f9202 tool-item-des"> 无微商无私粉 </view>
-                </view>
+                <view class="_view data-v-f73f9202 tool-item-btn"> 每次可导入30个 </view>
               </view>
-              <view class="_view data-v-f73f9202 tool-item-btn"> 每次可导入30个 </view>
-            </view>
+            </navigator>
           </view>
           <view class="_view data-v-f73f9202 tool-item">
             <view class="_view data-v-f73f9202 tool-item-box">
               <view class="_view data-v-f73f9202 tool-item-con">
                 <view class="_view data-v-f73f9202 tool-item-icon block-tl-color4">
-                  <template type="licaijingxuan" data="{{...$root['0'], ...$root[$kk+'jTK-10'],$root}}" is="18f61b88"></template>
+                  <template type="licaijingxuan" data="{{...$root['0'], ...$root[$kk+'OUy-10'],$root}}" is="18f61b88"></template>
                 </view>
                 <view class="_view data-v-f73f9202 tool-item-info">
                   <view class="_view data-v-f73f9202 tool-item-tl"> 精选客源 </view>
@@ -139,7 +141,7 @@
             <view class="_view data-v-f73f9202 tool-item-box">
               <view class="_view data-v-f73f9202 tool-item-con">
                 <view class="_view data-v-f73f9202 tool-item-icon block-tl-color5">
-                  <template type="duoren2" data="{{...$root['0'], ...$root[$kk+'t0M-11'],$root}}" is="18f61b88"></template>
+                  <template type="duoren2" data="{{...$root['0'], ...$root[$kk+'JHa-11'],$root}}" is="18f61b88"></template>
                 </view>
                 <view class="_view data-v-f73f9202 tool-item-info">
                   <view class="_view data-v-f73f9202 tool-item-tl"> 微信Q群 </view>
@@ -153,7 +155,7 @@
             <view class="_view data-v-f73f9202 tool-item-box">
               <view class="_view data-v-f73f9202 tool-item-con">
                 <view class="_view data-v-f73f9202 tool-item-icon block-tl-color6">
-                  <template type="clean-up" data="{{...$root['0'], ...$root[$kk+'d9V-12'],$root}}" is="18f61b88"></template>
+                  <template type="clean-up" data="{{...$root['0'], ...$root[$kk+'SJ0-12'],$root}}" is="18f61b88"></template>
                 </view>
                 <view class="_view data-v-f73f9202 tool-item-info">
                   <view class="_view data-v-f73f9202 tool-item-tl"> 清理通讯录 </view>
@@ -169,7 +171,7 @@
         <view class="_view data-v-f73f9202 block-tl">
           <view class="_view data-v-f73f9202 block-tl-lf">
             <view class="_view data-v-f73f9202 block-tl-icon block-tl-color1">
-              <template size="12" color="#fff" type="icon_fuzhugongju-mian" data="{{...$root['0'], ...$root[$kk+'OWM-13'],$root}}" is="18f61b88"></template>
+              <template size="12" color="#fff" type="icon_fuzhugongju-mian" data="{{...$root['0'], ...$root[$kk+'KN8-13'],$root}}" is="18f61b88"></template>
             </view>
             <text class="_text data-v-f73f9202 mdtxt">工具箱</text>
           </view>
@@ -177,14 +179,14 @@
             <view class="_view data-v-f73f9202 block-tl-rt-more">
               <text class="_text data-v-f73f9202 mdtxt">免费好用</text>
               <view class="_view data-v-f73f9202 block-more more-color2">
-                <template size="12" type="qianjin" data="{{...$root['0'], ...$root[$kk+'S7N-14'],$root}}" is="18f61b88"></template>
+                <template size="12" type="qianjin" data="{{...$root['0'], ...$root[$kk+'Q35-14'],$root}}" is="18f61b88"></template>
               </view>
             </view>
           </view>
         </view>
         <view class="_view data-v-f73f9202 trend block-tl-color2">
           <view class="_view data-v-f73f9202 trend-icon">
-            <template type="iconfontzhizuobiaozhun0247" data="{{...$root['0'], ...$root[$kk+'Y58-15'],$root}}" is="18f61b88"></template>
+            <template type="iconfontzhizuobiaozhun0247" data="{{...$root['0'], ...$root[$kk+'1Ow-15'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-f73f9202 trend-info">
             <view class="_view data-v-f73f9202 trend-info-tl"> 九格切图 </view>
@@ -200,7 +202,7 @@
             <view class="_view data-v-f73f9202 trend-user-avatar">
               <image src="../../static/img/sinaweibo.jpg" mode="aspectFill" class="_image data-v-f73f9202"></image>
             </view>
-            <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'Jr7-16'],$root}}" is="18f61b88"></template>
+            <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'OHR-16'],$root}}" is="18f61b88"></template>
           </view>
         </view>
         <view class="_view data-v-f73f9202 tool-ls">
@@ -208,7 +210,7 @@
             <view class="_view data-v-f73f9202 tool-item-box">
               <view class="_view data-v-f73f9202 tool-item-con">
                 <view class="_view data-v-f73f9202 tool-item-icon block-tl-color2">
-                  <template type="zongxiangpingfen" data="{{...$root['0'], ...$root[$kk+'nf8-17'],$root}}" is="18f61b88"></template>
+                  <template type="zongxiangpingfen" data="{{...$root['0'], ...$root[$kk+'5vh-17'],$root}}" is="18f61b88"></template>
                 </view>
                 <view class="_view data-v-f73f9202 tool-item-info">
                   <view class="_view data-v-f73f9202 tool-item-tl"> 纵向拼图 </view>
@@ -222,7 +224,7 @@
             <view class="_view data-v-f73f9202 tool-item-box">
               <view class="_view data-v-f73f9202 tool-item-con">
                 <view class="_view data-v-f73f9202 tool-item-icon block-tl-color3">
-                  <template type="hengxiangpingfen" data="{{...$root['0'], ...$root[$kk+'DwA-18'],$root}}" is="18f61b88"></template>
+                  <template type="hengxiangpingfen" data="{{...$root['0'], ...$root[$kk+'CDi-18'],$root}}" is="18f61b88"></template>
                 </view>
                 <view class="_view data-v-f73f9202 tool-item-info">
                   <view class="_view data-v-f73f9202 tool-item-tl"> 横向拼图 </view>
@@ -236,7 +238,7 @@
             <view class="_view data-v-f73f9202 tool-item-box">
               <view class="_view data-v-f73f9202 tool-item-con">
                 <view class="_view data-v-f73f9202 tool-item-icon block-tl-color4">
-                  <template type="fsux_tubiao_masaiketu" data="{{...$root['0'], ...$root[$kk+'63K-19'],$root}}" is="18f61b88"></template>
+                  <template type="fsux_tubiao_masaiketu" data="{{...$root['0'], ...$root[$kk+'Siw-19'],$root}}" is="18f61b88"></template>
                 </view>
                 <view class="_view data-v-f73f9202 tool-item-info">
                   <view class="_view data-v-f73f9202 tool-item-tl"> 马赛克 </view>
@@ -250,7 +252,7 @@
             <view class="_view data-v-f73f9202 tool-item-box">
               <view class="_view data-v-f73f9202 tool-item-con">
                 <view class="_view data-v-f73f9202 tool-item-icon block-tl-color2">
-                  <template type="zhongbiao" data="{{...$root['0'], ...$root[$kk+'9mt-20'],$root}}" is="18f61b88"></template>
+                  <template type="zhongbiao" data="{{...$root['0'], ...$root[$kk+'SbV-20'],$root}}" is="18f61b88"></template>
                 </view>
                 <view class="_view data-v-f73f9202 tool-item-info">
                   <view class="_view data-v-f73f9202 tool-item-tl"> 圈重点 </view>

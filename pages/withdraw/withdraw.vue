@@ -65,6 +65,11 @@
 			return {
 				
 			};
+		},
+		onNavigationBarButtonTap: function(){
+			uni.navigateTo({
+				url: '/pages/help/help'
+			})
 		}
 	}
 </script>

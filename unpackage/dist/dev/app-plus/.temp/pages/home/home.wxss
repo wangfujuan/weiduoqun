@@ -140,7 +140,7 @@
 .uni-icon-huida:before {
   content: "\E7A0";
 }
-.uni-icon-zan:before {
+.uni-icon-zan-1:before {
   content: "\E7C0";
 }
 .uni-icon-yijianfankui:before {
@@ -289,6 +289,24 @@
 }
 .uni-icon-shuaxin:before {
   content: "\E613";
+}
+.uni-icon-nv:before {
+  content: "\E832";
+}
+.uni-icon-nan:before {
+  content: "\E833";
+}
+.uni-icon-zan:before {
+  content: "\E66F";
+}
+.uni-icon-zan-fill:before {
+  content: "\E693";
+}
+.uni-icon-mianfei:before {
+  content: "\E630";
+}
+.uni-icon-iconfontlipinduihuanbangzhu:before {
+  content: "\E615";
 }
 .content {
   background-color: #f4f6fa;

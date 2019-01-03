@@ -1,0 +1,46 @@
+<template name="40cdb5ff">
+  <view class="_view data-v-433c3eaa content">
+    <view class="_view data-v-433c3eaa openlist">
+      <view class="_view data-v-433c3eaa open-item b-line">
+        <view class="_view data-v-433c3eaa open-item-lf">会员账号:</view>
+        <view class="_view data-v-433c3eaa open-item-rt">
+          <text class="_text data-v-433c3eaa fontyellow">291828282828</text>
+        </view>
+      </view>
+      <view class="_view data-v-433c3eaa open-item b-line">
+        <view class="_view data-v-433c3eaa open-item-lf">开通类型:</view>
+        <view class="_view data-v-433c3eaa open-item-rt">钻石代理 3个月 298元</view>
+      </view>
+      <view class="_view data-v-433c3eaa open-item b-line">
+        <view class="_view data-v-433c3eaa open-item-lf">开通时间:</view>
+        <view class="_view data-v-433c3eaa open-item-rt">2018-12-20 09:20:12</view>
+      </view>
+      <view class="_view data-v-433c3eaa open-item b-line">
+        <view class="_view data-v-433c3eaa open-item-lf">会员状态:</view>
+        <view class="_view data-v-433c3eaa open-item-rt">
+          <view class="_view data-v-433c3eaa"> 钻石代理
+            <text class="_text data-v-433c3eaa fontred">3个月</text>
+          </view>
+          <view class="_view data-v-433c3eaa expiretime"> 截止时间
+            <text class="_text data-v-433c3eaa fontred">2018-20-10</text>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-433c3eaa open-item b-line">
+        <view class="_view data-v-433c3eaa open-item-lf">会员微币账户:</view>
+        <view class="_view data-v-433c3eaa open-item-rt">320.00个</view>
+      </view>
+      <view class="_view data-v-433c3eaa open-item">
+        <view class="_view data-v-433c3eaa open-item-lf">产品价格:</view>
+        <view class="_view data-v-433c3eaa open-item-rt">
+          <text class="_text data-v-433c3eaa fontred larfont">298.00元</text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-433c3eaa open-tips">
+      <view class="_view data-v-433c3eaa open-tips-tl"> 重要提示 </view>
+      <view class="_view data-v-433c3eaa open-tips-line"> 1. 该手机号如果没有注册过微多群，会自动注册后再开通或充值，默认账号密码都是该手机号 </view>
+      <view class="_view data-v-433c3eaa open-tips-line"> 2. 会自动注册后再开通或充值 </view>
+    </view>
+  </view>
+</template>

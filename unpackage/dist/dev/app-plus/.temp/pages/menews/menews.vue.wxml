@@ -1,0 +1,51 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="36473931">
+  <view class="_view data-v-e436ea46 content">
+    <navigator class="_navigator data-v-e436ea46 obtain-boss" url="../member/member" hover-class="none">
+      <template size="20" color="#e86a38" type="huiyuan1" data="{{...$root['0'], ...$root[$kk+'WF8-0'],$root}}" is="18f61b88"></template>
+      <view class="_view data-v-e436ea46 obtain-boss-info"> 钻石代理名片高亮 每天自动刷新 </view>
+      <view class="_view data-v-e436ea46 obtain-boss-open"> 开通 </view>
+    </navigator>
+    <view class="_view data-v-e436ea46 card-item">
+      <view class="_view data-v-e436ea46 card-item-icon">
+        <template type="jiufuqianbaoicon05" size="16" data="{{...$root['0'], ...$root[$kk+'nSl-1'],$root}}" is="18f61b88"></template>
+      </view>
+      <view class="_view data-v-e436ea46 card-item-con">
+        <image src="../../static/goods.jpg" mode="widthFix" class="_image data-v-e436ea46"></image>
+        <view class="_view data-v-e436ea46 card-item-rt">
+          <view class="_view data-v-e436ea46 card-item-info dbellipsis"> 我是一个可爱的妈咪，刚刚微商求带我是一个可爱的妈咪，刚刚微商求带我是一个可爱的妈咪，刚刚微商求带 </view>
+          <view class="_view data-v-e436ea46 card-item-sub">
+            <text class="_text data-v-e436ea46">曝光：68</text>
+            <text class="_text data-v-e436ea46">被添加：3</text>
+            <text class="_text data-v-e436ea46">更新：刚刚</text>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-e436ea46 card-item-edit">
+        <view class="_view data-v-e436ea46 card-item-edit-lf">
+          <view class="_view data-v-e436ea46 card-item-sm"> 编辑 </view>
+          <view class="_view data-v-e436ea46 card-item-sm"> 下架 </view>
+        </view>
+        <view class="_view data-v-e436ea46 card-item-edit-rt">
+          <view class="_view data-v-e436ea46 card-item-sm"> 刷新 </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-e436ea46 card-tips">
+      <view class="_view data-v-e436ea46 card-tips-item">
+        <text class="_text data-v-e436ea46">* 钻石代理每天能发布2条头条文章</text>
+      </view>
+      <view class="_view data-v-e436ea46 card-tips-item">
+        <text class="_text data-v-e436ea46">* 普通会员每天能发布1条头条文章</text>
+      </view>
+    </view>
+    <view class="_view data-v-e436ea46 card-fixed">
+      <navigator class="_navigator data-v-e436ea46 card-fixed-item" hover-class="none" url="../putnews/putnews">
+        <view class="_view data-v-e436ea46 card-fixed-con linearyellow">发布我的微头条</view>
+      </navigator>
+      <navigator class="_navigator data-v-e436ea46 card-fixed-item" hover-class="none" url="../member/member">
+        <view class="_view data-v-e436ea46 card-fixed-con">开通钻石代理</view>
+      </navigator>
+    </view>
+  </view>
+</template>

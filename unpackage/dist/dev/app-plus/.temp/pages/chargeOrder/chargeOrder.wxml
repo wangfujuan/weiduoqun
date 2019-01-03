@@ -1,0 +1,1 @@
+<import src="/pages/chargeOrder/chargeOrder.vue.wxml" /><template is="704a1687" data="{{ ...$root['0'], $root }}"/>

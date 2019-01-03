@@ -198,12 +198,12 @@ page {
 .wxgroup-btn-lf {
   background-color: #44c853;
   border-radius: 76rpx 0 0 76rpx;
-  padding: 0 35rpx;
+  padding: 0 20rpx;
 }
 .wxgroup-btn-rt {
   background-color: #44B549;
   border-radius: 0 76rpx 76rpx 0;
-  padding: 0 35rpx;
+  padding: 0 20rpx;
 }
 .mask {
   position: fixed;

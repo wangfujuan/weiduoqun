@@ -144,6 +144,7 @@
 						</view>
 					</view>
 					<view class="tool-item">
+						<navigator hover-class="none" url="../allpeople/allpeople">
 						<view class="tool-item-box">
 							<view class="tool-item-con">
 								<view class="tool-item-icon block-tl-color3">
@@ -162,6 +163,7 @@
 								每次可导入30个
 							</view>
 						</view>
+						</navigator>
 					</view>
 					<view class="tool-item">
 						<view class="tool-item-box">
