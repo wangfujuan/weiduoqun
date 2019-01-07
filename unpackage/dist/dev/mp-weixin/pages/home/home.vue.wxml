@@ -22,33 +22,75 @@
     <view class="_view data-v-7729375d content-pad">
       <view class="_view data-v-7729375d white">
         <view class="_view data-v-7729375d uni-grid-9 b-line">
-          <navigator url="{{item.url}}" class="_navigator data-v-7729375d uni-grid-9-item" hover-class="none" wx:key="index" key="{{index}}" wx:for="{{grids}}" wx:for-index="index" wx:for-item="item">
-            <view class="_view data-v-7729375d {{item.syicon}}">
-              <template data="{{...$root['0'], ...$root[$kk+'ldk-3-'+index],$root}}" is="18f61b88"></template>
+          <navigator class="_navigator data-v-7729375d uni-grid-9-item" hover-class="none" url="../wxgroup/wxgroup">
+            <view class="_view data-v-7729375d iconwp oneicon">
+              <template type="duoren2" data="{{...$root['0'], ...$root[$kk+'yfe-3'],$root}}" is="18f61b88"></template>
             </view>
-            <text class="_text data-v-7729375d uni-grid-9-text">{{item.name}}</text>
+            <text class="_text data-v-7729375d uni-grid-9-text">微信群</text>
           </navigator>
+          <navigator class="_navigator data-v-7729375d uni-grid-9-item" hover-class="none" url="../wxgroup/wxgroup">
+            <view class="_view data-v-7729375d iconwp fouricon">
+              <template type="qq02" data="{{...$root['0'], ...$root[$kk+'BGF-4'],$root}}" is="18f61b88"></template>
+            </view>
+            <text class="_text data-v-7729375d uni-grid-9-text">QQ群</text>
+          </navigator>
+          <navigator class="_navigator data-v-7729375d uni-grid-9-item" hover-class="none" url="../wxPersonal/wxPersonal">
+            <view class="_view data-v-7729375d iconwp twoicon">
+              <template type="geren2" data="{{...$root['0'], ...$root[$kk+'jqF-5'],$root}}" is="18f61b88"></template>
+            </view>
+            <text class="_text data-v-7729375d uni-grid-9-text">个人微信</text>
+          </navigator>
+          <view class="_view data-v-7729375d uni-grid-9-item" bindtap="handleProxy" data-eventid="{{'ImK-0'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-7729375d iconwp threeicon">
+              <template type="xin2" data="{{...$root['0'], ...$root[$kk+'68l-6'],$root}}" is="18f61b88"></template>
+            </view>
+            <text class="_text data-v-7729375d uni-grid-9-text">人脉多</text>
+          </view>
+          <navigator class="_navigator data-v-7729375d uni-grid-9-item" hover-class="none" url="../wxgroup/wxgroup">
+            <view class="_view data-v-7729375d iconwp fiveicon">
+              <template type="upstagefill" data="{{...$root['0'], ...$root[$kk+'VER-7'],$root}}" is="18f61b88"></template>
+            </view>
+            <text class="_text data-v-7729375d uni-grid-9-text">群交易</text>
+          </navigator>
+          <view class="_view data-v-7729375d uni-grid-9-item" bindtap="handleProxy" data-eventid="{{'hiP-1'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-7729375d iconwp sixicon">
+              <template type="fankui-tianchong" data="{{...$root['0'], ...$root[$kk+'ms8-8'],$root}}" is="18f61b88"></template>
+            </view>
+            <text class="_text data-v-7729375d uni-grid-9-text">微商圈</text>
+          </view>
+          <navigator class="_navigator data-v-7729375d uni-grid-9-item" hover-class="none" url="../sourcegoods/sourcegoods">
+            <view class="_view data-v-7729375d iconwp sevenicon">
+              <template type="chanpin2" data="{{...$root['0'], ...$root[$kk+'IUH-9'],$root}}" is="18f61b88"></template>
+            </view>
+            <text class="_text data-v-7729375d uni-grid-9-text">微商货源</text>
+          </navigator>
+          <view class="_view data-v-7729375d uni-grid-9-item" bindtap="handleProxy" data-eventid="{{'BR5-2'}}" data-comkey="{{$k}}">
+            <view class="_view data-v-7729375d iconwp eighticon">
+              <template type="qiandai-tianchong" data="{{...$root['0'], ...$root[$kk+'zho-10'],$root}}" is="18f61b88"></template>
+            </view>
+            <text class="_text data-v-7729375d uni-grid-9-text">收益中心</text>
+          </view>
         </view>
         <view class="_view data-v-7729375d tips">
           <view class="_view data-v-7729375d tips-text"> 注意：防骗提醒，让你远离骗子！ </view>
-          <template type="arrowright" data="{{...$root['0'], ...$root[$kk+'iaw-4'],$root}}" is="18f61b88"></template>
+          <template type="arrowright" data="{{...$root['0'], ...$root[$kk+'IJO-11'],$root}}" is="18f61b88"></template>
         </view>
       </view>
       <view class="_view data-v-7729375d white">
         <view class="_view data-v-7729375d block-tl">
           <view class="_view data-v-7729375d block-tl-lf">
             <view class="_view data-v-7729375d block-tl-icon block-tl-color1">
-              <template type="geren2" data="{{...$root['0'], ...$root[$kk+'2rq-5'],$root}}" is="18f61b88"></template>
+              <template type="geren2" data="{{...$root['0'], ...$root[$kk+'85w-12'],$root}}" is="18f61b88"></template>
             </view>
             <text class="_text data-v-7729375d mdtxt">推荐名片</text>
           </view>
           <view class="_view data-v-7729375d block-tl-rt">
             <view class="_view data-v-7729375d block-tl-rt-item">
-              <template type="laiyuan" data="{{...$root['0'], ...$root[$kk+'ylo-6'],$root}}" is="18f61b88"></template>
+              <template type="laiyuan" data="{{...$root['0'], ...$root[$kk+'ERr-13'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-7729375d mdtxt">导入</text>
             </view>
             <view class="_view data-v-7729375d block-tl-rt-item">
-              <template type="qinglihuancun" data="{{...$root['0'], ...$root[$kk+'Ygt-7'],$root}}" is="18f61b88"></template>
+              <template type="qinglihuancun" data="{{...$root['0'], ...$root[$kk+'Ehd-14'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-7729375d mdtxt">清理</text>
             </view>
           </view>
@@ -69,17 +111,17 @@
         <view class="_view data-v-7729375d block-tl">
           <view class="_view data-v-7729375d block-tl-lf">
             <view class="_view data-v-7729375d block-tl-icon block-tl-color2">
-              <template type="duoren2" data="{{...$root['0'], ...$root[$kk+'gaQ-8'],$root}}" is="18f61b88"></template>
+              <template type="duoren2" data="{{...$root['0'], ...$root[$kk+'S0M-15'],$root}}" is="18f61b88"></template>
             </view>
             <text class="_text data-v-7729375d mdtxt">热门群</text>
           </view>
           <view class="_view data-v-7729375d block-tl-rt">
             <view class="_view data-v-7729375d block-tl-rt-item">
-              <template type="laiyuan" data="{{...$root['0'], ...$root[$kk+'4La-9'],$root}}" is="18f61b88"></template>
+              <template type="laiyuan" data="{{...$root['0'], ...$root[$kk+'NvI-16'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-7729375d mdtxt">导入</text>
             </view>
             <view class="_view data-v-7729375d block-tl-rt-item">
-              <template type="qinglihuancun" data="{{...$root['0'], ...$root[$kk+'PEp-10'],$root}}" is="18f61b88"></template>
+              <template type="qinglihuancun" data="{{...$root['0'], ...$root[$kk+'bFj-17'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-7729375d mdtxt">清理</text>
             </view>
           </view>
@@ -94,7 +136,7 @@
               <text class="_text data-v-7729375d mdtxt">{{hot.name}}</text>
             </view>
             <view class="_view data-v-7729375d hot-add">
-              <template type="tianjia" data="{{...$root['0'], ...$root[$kk+'5EC-11-'+index],$root}}" is="18f61b88"></template>
+              <template type="tianjia" data="{{...$root['0'], ...$root[$kk+'gpN-18-'+index],$root}}" is="18f61b88"></template>
               <text class="_text data-v-7729375d mdtxt">加群</text>
             </view>
           </view>
@@ -105,7 +147,7 @@
           <view class="_view data-v-7729375d block-tl">
             <view class="_view data-v-7729375d block-tl-lf">
               <view class="_view data-v-7729375d block-tl-icon block-tl-color3">
-                <template type="chanpin2" data="{{...$root['0'], ...$root[$kk+'MMv-12'],$root}}" is="18f61b88"></template>
+                <template type="chanpin2" data="{{...$root['0'], ...$root[$kk+'eiI-19'],$root}}" is="18f61b88"></template>
               </view>
               <text class="_text data-v-7729375d mdtxt">微商货源</text>
             </view>
@@ -113,7 +155,7 @@
               <view class="_view data-v-7729375d block-tl-rt-more">
                 <text class="_text data-v-7729375d mdtxt">更多</text>
                 <view class="_view data-v-7729375d block-more more-color1">
-                  <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'1FG-13'],$root}}" is="18f61b88"></template>
+                  <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'yPS-20'],$root}}" is="18f61b88"></template>
                 </view>
               </view>
             </view>
@@ -145,27 +187,27 @@
       </view>
       <view class="_view data-v-7729375d white">
         <view class="_view data-v-7729375d block-tl">
-          <view class="_view data-v-7729375d block-tl-lf">
+          <navigator class="_navigator data-v-7729375d block-tl-lf" hover-class="none" url="../weinews/weinews">
             <view class="_view data-v-7729375d block-tl-icon block-tl-color4">
-              <template type="chanpin2" data="{{...$root['0'], ...$root[$kk+'fs8-14'],$root}}" is="18f61b88"></template>
+              <template type="chanpin2" data="{{...$root['0'], ...$root[$kk+'CPK-21'],$root}}" is="18f61b88"></template>
             </view>
             <text class="_text data-v-7729375d mdtxt">头条干货</text>
-          </view>
+          </navigator>
           <view class="_view data-v-7729375d block-tl-rt">
             <view class="_view data-v-7729375d block-tl-rt-item">
-              <template type="shoucang1" data="{{...$root['0'], ...$root[$kk+'VeA-15'],$root}}" is="18f61b88"></template>
+              <template type="shoucang1" data="{{...$root['0'], ...$root[$kk+'Fep-22'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-7729375d mdtxt">收藏</text>
             </view>
-            <view class="_view data-v-7729375d block-tl-rt-more">
+            <navigator class="_navigator data-v-7729375d block-tl-rt-more" hover-class="none" url="../weinews/weinews">
               <text class="_text data-v-7729375d mdtxt">更多</text>
               <view class="_view data-v-7729375d block-more more-color2">
-                <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'KL2-16'],$root}}" is="18f61b88"></template>
+                <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'emr-23'],$root}}" is="18f61b88"></template>
               </view>
-            </view>
+            </navigator>
           </view>
         </view>
         <view class="_view data-v-7729375d uni-list">
-          <view class="_view data-v-7729375d uni-list-cell b-line" hover-class="uni-list-cell-hover" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'Oo8-0-'+key}}" data-comkey="{{$k}}" wx:for="{{listData}}" wx:for-index="key" wx:for-item="value">
+          <view class="_view data-v-7729375d uni-list-cell b-line" hover-class="uni-list-cell-hover" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'qhD-3-'+key}}" data-comkey="{{$k}}" wx:for="{{listData}}" wx:for-index="key" wx:for-item="value">
             <view class="_view data-v-7729375d uni-media-list">
               <image class="_image data-v-7729375d uni-media-list-logo" src="{{value.cover}}"></image>
               <view class="_view data-v-7729375d uni-media-list-body">

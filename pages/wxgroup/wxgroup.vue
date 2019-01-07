@@ -1,5 +1,5 @@
 <template>
-	<view class="content">
+	<view class="content">	
 		<view class="b-line"></view>
 		<view class="filter">
 			<view class="filter-item" @click="show" data-position="top">
@@ -25,7 +25,7 @@
 					<navigator class="wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
 						<view class="avatar-wp">
 							<view class="avatar-vip">
-								<uni-icon type="huiyuan" size="12"></uni-icon>会员
+								<uni-icon type="zuanshi" size="10"></uni-icon>超级会员
 							</view>
 							<image class="avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
 						</view>	
@@ -57,8 +57,7 @@
 					</navigator>
 				</view>
 			</view>
-		</view>
-		
+		</view>	
 		<!-- <view class="mask" v-show="showMask" @click="hide"></view> -->
 		<!-- popup 加群 start-->	
 		<view class="popup popup-middle" v-show="showState.middle">
@@ -247,7 +246,10 @@
 			},
 		},
 		onNavigationBarButtonTap(e) {
-			this.rightDrawerVisible = !this.rightDrawerVisible
+			uni.navigateTo({
+				url: '/pages/help/help'
+			})	
+			// this.rightDrawerVisible = !this.rightDrawerVisible
 		}
 	}
 </script>
@@ -329,7 +331,8 @@
 		height: 120upx;
 		flex: 0 0 120upx;
 		border-radius: 6upx;
-		background-color: #f7d46b;
+		background-color: #b28431;
+		background-image: linear-gradient(to bottom, #d9c085 0%, #b39a65 100%);
 		padding: 4upx;
 		position: relative;
 	}
@@ -358,7 +361,7 @@
 	.avatar-vip{
 		position: absolute;
 		bottom: 0;
-		background-color: #f7d46b;
+		background-color: #b39a65;
 		color: #fff;
 		font-size: 20upx;
 		border-radius: 4upx;
@@ -366,6 +369,7 @@
 		text-align: center;
 		left: 50%;
 		margin-left: -45upx;
+		font-size: 18upx;
 	}
 	.wx-item label{
 		position: relative;
@@ -612,5 +616,42 @@
 	}
 	.popup-active{
 		color: #44B549;
+	}
+	.swiper-tab{
+		font-size: 0;
+		width: 60%;
+		height: 84upx;
+		line-height: 84upx;
+		background-color: #44B549;
+		padding-top: 90upx;
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	.swiper-tab-list{
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		font-size: 32upx;
+		width: 50%;
+		text-align: center;
+		color: #fff;
+		
+	}
+	.swiper-tab-list.active::after{
+		content: '';
+		position: absolute;
+		width: 60upx;
+		bottom: 2upx;
+		left: 50%;
+		margin-left: -30upx;
+		height: 4upx;
+		background-color: #fff;	
+		box-shadow: 0 2upx 10upx rgba(0,0,0,.3);
+		border-radius: 4upx;
+	}
+	.swiper-box {
+	    flex: 1;
+	    width: 100%;
+	    height: calc(100% - 84upx);
 	}
 </style>

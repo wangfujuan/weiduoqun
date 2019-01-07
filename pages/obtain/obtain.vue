@@ -117,7 +117,7 @@
 						坚持完成每日计划 送会员红包福利 老板收益稳步上涨
 					</view>
 				</view>
-				<view class="share-ls b-line">
+				<view class="share-ls">
 					<view class="share-item">
 						<view class="share-item-lf center">
 							<uni-icon size="30" color="#44b549" type="pengyouquan"></uni-icon>
@@ -230,10 +230,13 @@
 						</view>
 					</view>
 				</view>
-				<view class="share-more center">
+				<!-- <view class="share-more center">
 					更多奖励计划
 					<uni-icon size="12" color="#44b549" type="qianjin"></uni-icon>
-				</view>
+				</view> -->
+			</view>
+			<view class="share-will-more">
+				更多奖励正在计划中，敬请关注～
 			</view>
 			<!-- 每日计划 end -->
 			<!-- 收益模式 start -->
@@ -241,42 +244,141 @@
 				<view class="block-tl b-line">
 					<view class="block-tl-lf">
 						<view class="block-tl-icon block-tl-color3">
-							<!-- <uni-icon type="chanpin2"></uni-icon> -->
+							<uni-icon type="shoucang-tianchong" color="#fff" size="12"></uni-icon>
 						</view>
 						<text class="mdtxt">收益模式</text>
 					</view>
-					<view class="block-tl-rt">
-						<view class="block-tl-rt-more">
-							<text class="mdtxt">更多</text>
-							<view class="block-more more-color1">
-								<!-- <uni-icon type="qianjin"></uni-icon> -->
-							</view>
+				</view>
+				<view class="get-txt">
+					只需分享 无需囤货 海量用户海量需求 开启躺赚模式
+				</view>
+				<view class="get-m-ls">
+					<view class="get-m-item">
+						<view class="tool-item-icon block-tl-color7">
+							<uni-icon type="diqiuquanqiu" size="22" color="#fff"></uni-icon>
+						</view>
+						<view class="get-m-item-txt">
+							分享好友注册
+						</view>
+						<view class="get-m-item-sub">
+							您的奖励
+						</view>
+						<view class="get-m-item-bt">
+							一级奖励1元，二级奖励0.5元
+						</view>
+					</view>
+					<view class="get-m-item">
+						<view class="tool-item-icon block-tl-color4">
+							<uni-icon type="diqiuquanqiu" size="22" color="#fff"></uni-icon>
+						</view>
+						<view class="get-m-item-txt">
+							好友充值消费
+						</view>
+						<view class="get-m-item-sub">
+							您的奖励 <text>代理独享</text>
+						</view>
+						<view class="get-m-item-bt">
+							一级返现40%，二级返现10%
 						</view>
 					</view>
 				</view>
+				<view class="get-sm-txt">
+					*一旦邀请成功，一级和二级好友充值的所有消费，您都能获得返现
+				</view>
 			</view>
 			<!-- 收益模式 end -->
-			<!-- 代理特权 start -->
+			<!-- 收益预估 start -->
 			<view class="white">
 				<view class="block-tl b-line">
 					<view class="block-tl-lf">
 						<view class="block-tl-icon block-tl-color3">
-							<!-- <uni-icon type="chanpin2"></uni-icon> -->
+							<uni-icon type="likefill" size="13" color="#fff"></uni-icon>
 						</view>
-						<text class="mdtxt">代理特权</text>
+						<text class="mdtxt">收益预估</text>
 					</view>
-					<view class="block-tl-rt">
-						<view class="block-tl-rt-more">
-							<text class="mdtxt">更多</text>
-							<view class="block-more more-color1">
-								<!-- <uni-icon type="qianjin"></uni-icon> -->
-							</view>
-						</view>
+				</view>
+				<view class="calc-wp">
+					<view class="calc-tl">
+						<uni-icon type="qiandai-tianchong" size="12" color="#e86a38"></uni-icon>
+						<text>收益例子</text>
+						（只邀请注册即可 假设每人每天邀请10人）
+					</view>
+					<view class="calc-line">
+						1.每天邀请10名好友注册，注册奖励10人 × 1元 × 30元 = 300元
+					</view>
+					<view class="calc-line">
+						2.10名好友中，假设有1名和您一样开通钻石代理，返现299元 × <text class="fontred">40%</text> × 30天 = 3600
+					</view>
+				</view>
+				<view class="calc-wp">
+					<view class="calc-tl">
+						<uni-icon type="qiandai-tianchong" size="12" color="#e86a38"></uni-icon>
+						<text>每月预估</text>
+						（三级分销 无限裂变 持续躺赚）
+					</view>
+					<view class="calc-sum">
+						300元+8400元+1500元+20940元 = <text class="fontred">31140元</text>
+					</view>
+					<view class="get-sm-txt">
+						*以上收益以钻石代理一级返现40%，二级返现10%计算，仅供参考
 					</view>
 				</view>
 			</view>
-			<!-- 代理特权 end -->	
-			<view>客服中心</view>
+			<!-- 收益预估 end -->	
+			<!-- 收益问题 start -->
+			<view class="white">
+				<view class="block-tl b-line">
+					<view class="block-tl-lf">
+						<view class="block-tl-icon block-tl-color3">
+							<uni-icon type="likefill" size="13" color="#fff"></uni-icon>
+						</view>
+						<text class="mdtxt">收益问题</text>
+					</view>
+				</view>
+				<view class="calc-wp">
+					<view class="calc-tl">
+						<uni-icon type="qiandai-tianchong" size="12" color="#e86a38"></uni-icon>
+						<text>邀请好友的说明</text>
+					</view>
+					<view class="calc-line">
+						新用户
+					</view>
+					<view class="calc-line">
+						所邀请
+					</view>
+				</view>
+				<view class="calc-wp">
+					<view class="calc-tl">
+						<uni-icon type="qiandai-tianchong" size="12" color="#e86a38"></uni-icon>
+						<text>什么是一级好友，什么是二级好友</text>
+					</view>
+					<view class="calc-line">
+						您邀请
+					</view>
+				</view>
+				<view class="calc-wp">
+					<view class="calc-tl">
+						<uni-icon type="qiandai-tianchong" size="12" color="#e86a38"></uni-icon>
+						<text>不是钻石代理会有收益吗？</text>
+					</view>
+					<view class="calc-line">
+						您邀请
+					</view>
+				</view>
+				<view class="calc-wp">
+					<view class="calc-tl">
+						<uni-icon type="qiandai-tianchong" size="12" color="#e86a38"></uni-icon>
+						<text>收益如何提现</text>
+					</view>
+					<view class="calc-line">
+						您邀请
+					</view>
+				</view>
+			</view>
+			<!-- 收益问题 end -->	
+			<view class="servicebtn">
+				<uni-icon type="kefu" color="#44B549" size="14"></uni-icon>客服中心
+			</view>
 		</view> 
 		
     </view>
@@ -502,6 +604,9 @@
 		border-radius: 10upx;
 		text-align: center;
 	}
+	.share-ls{
+		padding-bottom: 10upx;
+	}
 	
 	.share-item {
 		padding: 30upx 20upx 0;
@@ -570,4 +675,115 @@
 	.share-item-md-sum-txt {
 		margin-right: 10upx;
 	}
+	.share-will-more{
+		text-align: center;
+		color: #b2b2b2;
+		font-size: 22upx;
+		margin-bottom: 20upx;
+	}
+	.get-txt{
+		color: #b28431;
+		font-size: 24upx;
+		text-align: center;
+		padding: 20upx 0;
+	}
+	.get-m-ls{
+		display: flex;
+		flex-direction: row;
+		padding: 0 10upx 20upx;
+	}
+	.get-m-item{
+		flex: 1;
+		border: 2upx solid #b29258;
+		border-radius: 10upx;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0 10upx;
+		padding: 30upx 0 80upx;
+		position: relative;
+	}
+	.get-m-item-txt{
+		line-height: 1;
+		margin: 20upx 0 10upx;
+	}
+	.get-m-item-sub{
+		line-height: 1;
+		font-size: 24upx;
+		color: #B2B2B2;
+	}
+	.get-m-item-sub text{
+		border: 2upx solid #b29258;
+		background-color: #f5ecd8;
+		color: #b28431;
+		font-size: 20upx;
+		border-radius: 6upx;
+		padding: 0 6upx;
+	}
+	.get-m-item-bt{
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: #faf5ea;
+		font-size: 22upx;
+		text-align: center;
+		border-top: 2upx solid #b29258;
+		color: #b28431;
+		height: 50upx;
+		line-height: 50upx;
+		border-radius: 0 0 10upx 10upx;
+	}
+	.get-sm-txt{
+		font-size: 20upx;
+		text-align: center;
+		color: #B2B2B2;
+		padding-bottom: 30upx;
+	}
+	.calc-wp{
+		padding: 20upx;
+	}
+	.calc-tl{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		color: #b28431;
+		font-size: 24upx;
+		line-height: 1.6;
+	}
+	.calc-tl text{
+		font-weight: 500;
+		color: #333;
+		padding-left: 6upx;
+	}
+	.calc-line{
+		font-size: 24upx;
+		color: #B2B2B2;
+		line-height: 1.6;	
+	}
+	.fontred{
+		color: #e86a38;
+	}
+	.calc-sum{
+		color: #b28431;
+		text-align: center;
+		font-size: 24upx;
+		margin: 10upx 0;
+	}
+	.servicebtn{
+		height: 100upx;
+		line-height: 100upx;
+		background-color: #fff;
+		color: #44B549;
+		border-radius: 16upx;
+		border: 2upx solid #44B549;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+	.servicebtn .uni-icon{
+		margin-right: 10upx;
+	}
+	
 </style>

@@ -3,7 +3,7 @@
         <view class="postop b-line"></view>
 		<view class="content-pad">
 			<!-- 话题 start -->
-			<view class="white">
+			<!-- <view class="white">
 				<view class="block-tl b-line">
 					<view class="block-tl-lf">
 						<view class="block-tl-icon block-tl-color2">
@@ -73,7 +73,7 @@
 						</view>
 					</swiper-item>
 				</swiper>
-			</view>
+			</view> -->
 			<!-- 话题 end -->
 			<view class="white">
 				<view class="art-item">
@@ -88,10 +88,10 @@
 							</view>
 						</view>
 						<view class="block-tl-rt">
-							<view class="block-tl-rt-item">
+							<navigator hover-class="none" class="block-tl-rt-item" url="../report/report">
 								<uni-icon type="jubao"></uni-icon>
 								<text class="mdtxt">举报</text>
-							</view>
+							</navigator>
 						</view>
 					</view>
 					<navigator url="../circleDetail/circleDetail" hover-class="none">

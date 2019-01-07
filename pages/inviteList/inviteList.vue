@@ -546,7 +546,7 @@
 		padding: 24upx 0;
 		text-align: center;
 		color: #999999;
-		font-size: 10upx;
+		font-size: 22upx;
 		background-color: #f8f8f8;
 		line-height: 1;
 		display: flex;
@@ -562,7 +562,7 @@
 		padding: 0 20upx;
 	}
 	.user-record-title{
-		font-size: 10upx;
+		font-size: 24upx;
 		height: 70upx;
 		line-height: 70upx;
 		padding: 0 20upx;

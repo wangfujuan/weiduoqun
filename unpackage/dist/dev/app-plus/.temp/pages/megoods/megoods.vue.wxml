@@ -1,0 +1,127 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="51ab6d8f">
+  <view class="_view data-v-373b043b content">
+    <navigator hover-class="none" url="../openagent/openagent" class="_navigator data-v-373b043b">
+      <view class="_view data-v-373b043b obtain-boss">
+        <template size="20" color="#e86a38" type="huiyuan1" data="{{...$root['0'], ...$root[$kk+'Rhi-0'],$root}}" is="18f61b88"></template>
+        <view class="_view data-v-373b043b obtain-boss-info"> 钻石代理名片高亮 每天自动刷新 </view>
+        <view class="_view data-v-373b043b obtain-boss-open"> 开通 </view>
+      </view>
+    </navigator>
+    <view class="_view data-v-373b043b card-item">
+      <view class="_view data-v-373b043b card-item-icon">
+        <template type="jiufuqianbaoicon05" size="16" data="{{...$root['0'], ...$root[$kk+'nEo-1'],$root}}" is="18f61b88"></template>
+      </view>
+      <view class="_view data-v-373b043b card-item-tl"> 妮妮小宝贝 </view>
+      <view class="_view data-v-373b043b card-item-info"> 我是一个可爱的妈咪，刚刚微商求带... </view>
+      <view class="_view data-v-373b043b card-item-sub">
+        <text class="_text data-v-373b043b">曝光：68</text>
+        <text class="_text data-v-373b043b">被添加：3</text>
+        <text class="_text data-v-373b043b">更新：刚刚</text>
+      </view>
+      <view class="_view data-v-373b043b card-item-edit">
+        <view class="_view data-v-373b043b card-item-edit-lf">
+          <view class="_view data-v-373b043b card-item-sm"> 编辑 </view>
+          <view class="_view data-v-373b043b card-item-sm"> 下架 </view>
+        </view>
+        <view class="_view data-v-373b043b card-item-edit-rt">
+          <view class="_view data-v-373b043b card-item-sm light"> 置顶 </view>
+          <view class="_view data-v-373b043b card-item-sm"> 自动刷新 </view>
+          <view class="_view data-v-373b043b card-item-sm"> 高亮 </view>
+          <view class="_view data-v-373b043b card-item-sm disabled"> 刷新 </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-373b043b card-item used">
+      <view class="_view data-v-373b043b card-item-icon">
+        <template type="jiufuqianbaoicon05" size="16" data="{{...$root['0'], ...$root[$kk+'JdG-2'],$root}}" is="18f61b88"></template>
+      </view>
+      <view class="_view data-v-373b043b card-item-tl"> 妮妮小宝贝 </view>
+      <view class="_view data-v-373b043b card-item-info"> 我是一个可爱的妈咪，刚刚微商求带... </view>
+      <view class="_view data-v-373b043b card-item-sub">
+        <text class="_text data-v-373b043b">曝光：68</text>
+        <text class="_text data-v-373b043b">被添加：3</text>
+        <text class="_text data-v-373b043b">更新：刚刚</text>
+      </view>
+      <view class="_view data-v-373b043b card-item-edit">
+        <view class="_view data-v-373b043b card-item-edit-lf">
+          <view class="_view data-v-373b043b card-item-sm"> 编辑 </view>
+          <view class="_view data-v-373b043b card-item-sm"> 下架 </view>
+        </view>
+        <view class="_view data-v-373b043b card-item-edit-rt">
+          <view class="_view data-v-373b043b card-item-sm light"> 置顶 </view>
+          <view class="_view data-v-373b043b card-item-sm"> 自动刷新 </view>
+          <view class="_view data-v-373b043b card-item-sm"> 高亮 </view>
+          <view class="_view data-v-373b043b card-item-sm disabled"> 刷新 </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-373b043b card-tips">
+      <view class="_view data-v-373b043b card-tips-item">
+        <text class="_text data-v-373b043b">* 钻石代理能发布20个名片</text>
+        <text class="_text data-v-373b043b">名片红色高亮</text>
+        <text class="_text data-v-373b043b">每天自动刷新2次</text>
+      </view>
+      <view class="_view data-v-373b043b card-tips-item">
+        <text class="_text data-v-373b043b">* 超级会员能发布10个名片</text>
+        <text class="_text data-v-373b043b">名片橙色高亮</text>
+        <text class="_text data-v-373b043b">每天自动刷新1次</text>
+      </view>
+      <view class="_view data-v-373b043b card-tips-item">
+        <text class="_text data-v-373b043b">* 普通会员能发布3个名片</text>
+        <text class="_text data-v-373b043b">无高亮</text>
+        <text class="_text data-v-373b043b">无自动刷新</text>
+      </view>
+    </view>
+    <view class="_view data-v-373b043b card-fixed">
+      <navigator class="_navigator data-v-373b043b card-fixed-item" hover-class="none" url="../releaseGoods/releaseGoods">
+        <view class="_view data-v-373b043b card-fixed-con linearyellow">发布微商货源</view>
+      </navigator>
+      <navigator hover-class="none" class="_navigator data-v-373b043b card-fixed-item" url="../member/member">
+        <view class="_view data-v-373b043b card-fixed-con">开通钻石代理</view>
+      </navigator>
+    </view>
+    <view class="_view data-v-373b043b mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'513-0'}}" data-comkey="{{$k}}"></view>
+    <view class="_view data-v-373b043b popup popup-bottom" hidden="{{!(showState.bottom)}}">
+      <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'UVt-2'}}" data-comkey="{{$k}}" class="_form data-v-373b043b">
+        <view class="_view data-v-373b043b user-do">
+          <view class="_view data-v-373b043b"> 置顶推荐 </view>
+          <view class="_view data-v-373b043b user-do-true" bindtap="handleProxy" data-eventid="{{'EmG-1'}}" data-comkey="{{$k}}">
+            <template type="shachu-xue" color="#8a8a8a" size="16" data="{{...$root['0'], ...$root[$kk+'vIg-3'],$root}}" is="18f61b88"></template>
+          </view>
+        </view>
+        <view class="_view data-v-373b043b card-mask-con">
+          <view class="_view data-v-373b043b card-mask-tl"> 您的账号剩余微币：280个 </view>
+          <view class="_view data-v-373b043b card-mask-sub b-line"> 置顶推荐一天需要微币
+            <text class="_text data-v-373b043b fontred">20个</text>
+          </view>
+          <view class="_view data-v-373b043b card-sl-tl"> 选择开通天数 </view>
+          <view class="_view data-v-373b043b card-sl-ls">
+            <view class="_view data-v-373b043b card-sl-item">
+              <view class="_view data-v-373b043b card-sl-item-con">3天</view>
+            </view>
+            <view class="_view data-v-373b043b card-sl-item">
+              <view class="_view data-v-373b043b card-sl-item-con card-sl-active">5天</view>
+            </view>
+            <view class="_view data-v-373b043b card-sl-item">
+              <view class="_view data-v-373b043b card-sl-item-con">10天</view>
+            </view>
+            <view class="_view data-v-373b043b card-sl-item">
+              <view class="_view data-v-373b043b card-sl-item-con">20天</view>
+            </view>
+            <view class="_view data-v-373b043b card-sl-item">
+              <view class="_view data-v-373b043b card-sl-item-con">30天</view>
+            </view>
+            <view class="_view data-v-373b043b card-sl-item">
+              <input class="_input data-v-373b043b card-sl-item-con" type="text" value="" placeholder="输入天数" />
+            </view>
+          </view>
+          <view class="_view data-v-373b043b card-sl-sum"> 扣除微币：
+            <text class="_text data-v-373b043b fontred fontweight">100个</text>
+          </view>
+          <button class="_button data-v-373b043b cardbtn" formType="submit">提交(支付100个微币)</button>
+        </view>
+      </form>
+    </view>
+  </view>
+</template>

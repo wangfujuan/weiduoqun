@@ -5,7 +5,7 @@
       <view class="_view data-v-ff762a46 me-login">
         <image class="_image data-v-ff762a46 avatar" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
         <view class="_view data-v-ff762a46 me-login-status">
-          <view class="_view data-v-ff762a46 me-login-tl" wx:if="{{!hasLogin}}" bindtap="handleProxy" data-eventid="{{'pL1-0'}}" data-comkey="{{$k}}"> 登录/注册 </view>
+          <view class="_view data-v-ff762a46 me-login-tl" wx:if="{{!hasLogin}}" bindtap="handleProxy" data-eventid="{{'NKd-0'}}" data-comkey="{{$k}}"> 登录/注册 </view>
           <view class="_view data-v-ff762a46 me-login-des"> 登录后可使用更多功能
             <navigator class="_navigator data-v-ff762a46 edituser" url="../meedit/meedit">修改资料
               <view class="_view data-v-ff762a46 uni-icon uni-icon-qianjin"></view>
@@ -24,7 +24,7 @@
               <text class="_text data-v-ff762a46">20</text> 个 </view>
             <view class="_view data-v-ff762a46 user-get-item-info"> 我的微币 </view>
           </navigator>
-          <view class="_view data-v-ff762a46 user-get-item">
+          <view class="_view data-v-ff762a46 user-get-item" bindtap="handleProxy" data-eventid="{{'XS6-1'}}" data-comkey="{{$k}}">
             <view class="_view data-v-ff762a46 user-get-item-sum">
               <text class="_text data-v-ff762a46">18.00</text> 元 </view>
             <view class="_view data-v-ff762a46 user-get-item-info"> 收益余额 </view>
@@ -40,60 +40,58 @@
           <navigator hover-class="none" class="_navigator data-v-ff762a46 member-item" url="../member/member">
             <view class="_view data-v-ff762a46 member-item-lf">
               <view class="_view data-v-ff762a46 member-item-lf-tl">
-                <view class="_view data-v-ff762a46 uni-icon uni-icon-huiyuan"></view>
-                <view class="_view data-v-ff762a46"> 超级会员 </view>
+                <template type="zuanshi" size="13" color="#eb6644" data="{{...$root['0'], ...$root[$kk+'3JX-0'],$root}}" is="18f61b88"></template>
+                <view class="_view data-v-ff762a46 mdtxt"> 超级会员 </view>
                 <view class="_view data-v-ff762a46 haveopen"> 已开通 </view>
               </view>
               <view class="_view data-v-ff762a46 member-item-lf-time"> 2019.01.13到期 </view>
             </view>
-            <view class="_view data-v-ff762a46 member-item-rt"> 查看详细 </view>
           </navigator>
           <view class="_view data-v-ff762a46 line"></view>
-          <view class="_view data-v-ff762a46 member-item">
-            <view class="_view data-v-ff762a46 member-item-lf">
-              <view class="_view data-v-ff762a46 member-item-lf-tl">
-                <view class="_view data-v-ff762a46 uni-icon uni-icon-huiyuan1"></view>
-                <view class="_view data-v-ff762a46 noopen-tl"> 钻石代理 </view>
-                <view class="_view data-v-ff762a46 noopen"> 未开通 </view>
-              </view>
-              <view class="_view data-v-ff762a46 member-item-lf-time share"> 分享就能赚钱 </view>
+          <view class="_view data-v-ff762a46 member-info">
+            <view class="_view data-v-ff762a46 member-info-lf">
+              <view class="_view data-v-ff762a46"> 开通钻石代理 享海量权限 </view>
+              <view class="_view data-v-ff762a46 member-info-txt"> 分享累计最高赚提成50% </view>
             </view>
-            <view class="_view data-v-ff762a46 member-item-rt"> 开 通 </view>
+            <view class="_view data-v-ff762a46 member-info-rt">
+              <view class="_view data-v-ff762a46 member-info-gd"> 钻石代理 </view>
+              <template type="qianjin" color="#a8a8a8" size="12" data="{{...$root['0'], ...$root[$kk+'ajv-1'],$root}}" is="18f61b88"></template>
+            </view>
           </view>
         </view>
       </view>
       <view class="_view data-v-ff762a46 white">
         <view class="_view data-v-ff762a46 user-tl"> 我的名片 </view>
         <view class="_view data-v-ff762a46 user-ls">
-          <navigator hover-class="none" url="../card/card" class="_navigator data-v-ff762a46 user-item">
+          <navigator hover-class="none" url="../card/card?currentTab=0" class="_navigator data-v-ff762a46 user-item">
             <view class="_view data-v-ff762a46 uni-icon color1 uni-icon-weixinqun"></view>
             <view class="_view data-v-ff762a46 user-item-info">微信群</view>
           </navigator>
-          <view class="_view data-v-ff762a46 user-item">
+          <navigator hover-class="none" url="../card/card?currentTab=0" class="_navigator data-v-ff762a46 user-item">
             <view class="_view data-v-ff762a46 uni-icon color2 uni-icon-qqqun"></view>
             <view class="_view data-v-ff762a46 user-item-info">QQ群</view>
-          </view>
-          <navigator class="_navigator data-v-ff762a46 user-item" hover-class="none" url>
+          </navigator>
+          <navigator class="_navigator data-v-ff762a46 user-item" hover-class="none" url="../card/card?currentTab=1">
             <view class="_view data-v-ff762a46 uni-icon color3 uni-icon-gerenweixin"></view>
             <view class="_view data-v-ff762a46 user-item-info">个人微信</view>
           </navigator>
-          <navigator class="_navigator data-v-ff762a46 user-item" hover-class="none" url>
+          <navigator class="_navigator data-v-ff762a46 user-item" hover-class="none" url="../card/card?currentTab=1">
             <view class="_view data-v-ff762a46 uni-icon color4 uni-icon-qqqun"></view>
-            <view class="_view data-v-ff762a46 user-item-info">公众号</view>
+            <view class="_view data-v-ff762a46 user-item-info">个人QQ</view>
           </navigator>
         </view>
       </view>
       <view class="_view data-v-ff762a46 white">
         <view class="_view data-v-ff762a46 user-tl"> 我的发布 </view>
         <view class="_view data-v-ff762a46 user-ls">
-          <view class="_view data-v-ff762a46 user-item">
+          <navigator class="_navigator data-v-ff762a46 user-item" hover-class="none" url="../change/change?currentTab=0">
             <view class="_view data-v-ff762a46 uni-icon color5 uni-icon-qunjiaoyi"></view>
             <view class="_view data-v-ff762a46 user-item-info">群交易</view>
-          </view>
-          <view class="_view data-v-ff762a46 user-item">
+          </navigator>
+          <navigator class="_navigator data-v-ff762a46 user-item" hover-class="none" url="../megoods/megoods">
             <view class="_view data-v-ff762a46 uni-icon color6 uni-icon-weishanghuoyuan"></view>
             <view class="_view data-v-ff762a46 user-item-info">微商货源</view>
-          </view>
+          </navigator>
           <navigator class="_navigator data-v-ff762a46 user-item" hover-class="none" url="../meCircle/meCircle">
             <view class="_view data-v-ff762a46 uni-icon color7 uni-icon-weishangquan"></view>
             <view class="_view data-v-ff762a46 user-item-info">微商圈</view>
@@ -107,11 +105,11 @@
       <view class="_view data-v-ff762a46 white">
         <view class="_view data-v-ff762a46 user-tl"> 收益中心 </view>
         <view class="_view data-v-ff762a46 user-ls">
-          <view class="_view data-v-ff762a46 user-item">
+          <view class="_view data-v-ff762a46 user-item" bindtap="handleProxy" data-eventid="{{'SUm-2'}}" data-comkey="{{$k}}">
             <view class="_view data-v-ff762a46 uni-icon color5 uni-icon-dailishouyi"></view>
             <view class="_view data-v-ff762a46 user-item-info">分享奖现金</view>
           </view>
-          <view class="_view data-v-ff762a46 user-item">
+          <view class="_view data-v-ff762a46 user-item" bindtap="handleProxy" data-eventid="{{'Nlw-3'}}" data-comkey="{{$k}}">
             <view class="_view data-v-ff762a46 uni-icon color6 uni-icon-erweimafenxiang"></view>
             <view class="_view data-v-ff762a46 user-item-info">二维码分享</view>
           </view>
@@ -136,10 +134,10 @@
             <view class="_view data-v-ff762a46 uni-icon color6 uni-icon-tuiguang"></view>
             <view class="_view data-v-ff762a46 user-item-info">充值订单</view>
           </navigator>
-          <view class="_view data-v-ff762a46 user-item">
+          <navigator class="_navigator data-v-ff762a46 user-item" hover-class="none" url="../member/member">
             <view class="_view data-v-ff762a46 uni-icon color7 uni-icon-wodehuiyuan"></view>
-            <view class="_view data-v-ff762a46 user-item-info">我的会员</view>
-          </view>
+            <view class="_view data-v-ff762a46 user-item-info">会员套餐</view>
+          </navigator>
           <navigator class="_navigator data-v-ff762a46 user-item" hover-class="none" url="../agent/agent">
             <view class="_view data-v-ff762a46 uni-icon color7 uni-icon-tuiguang"></view>
             <view class="_view data-v-ff762a46 user-item-info">代理通道</view>
@@ -149,20 +147,16 @@
       <view class="_view data-v-ff762a46 white">
         <view class="_view data-v-ff762a46 user-tl"> 其他服务 </view>
         <view class="_view data-v-ff762a46 user-ls">
-          <view class="_view data-v-ff762a46 user-item">
-            <view class="_view data-v-ff762a46 uni-icon color5 uni-icon-qunjiaoyi"></view>
-            <view class="_view data-v-ff762a46 user-item-info">账号管理</view>
-          </view>
           <navigator class="_navigator data-v-ff762a46 user-item" hover-class="none" url="../feedback/feedback">
-            <template type="fankui-tianchong" size="30" color="#5bc48d" data="{{...$root['0'], ...$root[$kk+'QoS-0'],$root}}" is="18f61b88"></template>
+            <template type="fankui-tianchong" size="30" color="#5bc48d" data="{{...$root['0'], ...$root[$kk+'CUp-2'],$root}}" is="18f61b88"></template>
             <view class="_view data-v-ff762a46 user-item-info">意见反馈</view>
           </navigator>
           <navigator class="_navigator data-v-ff762a46 user-item" hover-class="none" url="../help/help">
-            <template type="bangzhu" color="#e07464" size="30" data="{{...$root['0'], ...$root[$kk+'3IW-1'],$root}}" is="18f61b88"></template>
+            <template type="bangzhu" color="#e07464" size="30" data="{{...$root['0'], ...$root[$kk+'Pz5-3'],$root}}" is="18f61b88"></template>
             <view class="_view data-v-ff762a46 user-item-info">新手帮助</view>
           </navigator>
           <navigator class="_navigator data-v-ff762a46 user-item" hover-class="none" url="../service/service">
-            <template type="kefu" color="#d45a7a" size="30" data="{{...$root['0'], ...$root[$kk+'4i3-2'],$root}}" is="18f61b88"></template>
+            <template type="kefu" color="#d45a7a" size="30" data="{{...$root['0'], ...$root[$kk+'NFK-4'],$root}}" is="18f61b88"></template>
             <view class="_view data-v-ff762a46 user-item-info">联系我们</view>
           </navigator>
           <view class="_view data-v-ff762a46 user-item">
@@ -170,6 +164,44 @@
             <view class="_view data-v-ff762a46 user-item-info">好评送微币</view>
           </view>
         </view>
+      </view>
+    </view>
+    <view class="_view data-v-ff762a46 mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'PXO-4'}}" data-comkey="{{$k}}"></view>
+    <view class="_view data-v-ff762a46 popup popup-middle" hidden="{{!(showMask)}}">
+      <view class="_view data-v-ff762a46 share-bt-wp">
+        <view class="_view data-v-ff762a46 share-bt-item">
+          <view class="_view data-v-ff762a46 share-bt-bg block-tl-color7">
+            <template type="weixin" data="{{...$root['0'], ...$root[$kk+'x3y-5'],$root}}" is="18f61b88"></template>
+          </view>
+          <text class="_text data-v-ff762a46">微信好友</text>
+        </view>
+        <view class="_view data-v-ff762a46 share-bt-item">
+          <view class="_view data-v-ff762a46 share-bt-bg block-tl-color7">
+            <template type="pengyouquan" data="{{...$root['0'], ...$root[$kk+'VzW-6'],$root}}" is="18f61b88"></template>
+          </view>
+          <text class="_text data-v-ff762a46">朋友圈</text>
+        </view>
+        <view class="_view data-v-ff762a46 share-bt-item">
+          <view class="_view data-v-ff762a46 share-bt-bg block-tl-color6">
+            <template type="qq02" data="{{...$root['0'], ...$root[$kk+'YKO-7'],$root}}" is="18f61b88"></template>
+          </view>
+          <text class="_text data-v-ff762a46">QQ好友</text>
+        </view>
+        <view class="_view data-v-ff762a46 share-bt-item">
+          <view class="_view data-v-ff762a46 share-bt-bg block-tl-color1">
+            <template type="062qqkongjian" data="{{...$root['0'], ...$root[$kk+'AZE-8'],$root}}" is="18f61b88"></template>
+          </view>
+          <text class="_text data-v-ff762a46">QQ空间</text>
+        </view>
+        <view class="_view data-v-ff762a46 share-bt-item">
+          <view class="_view data-v-ff762a46 share-bt-bg block-tl-color5">
+            <template type="lianjie" data="{{...$root['0'], ...$root[$kk+'DfH-9'],$root}}" is="18f61b88"></template>
+          </view>
+          <text class="_text data-v-ff762a46">复制链接</text>
+        </view>
+      </view>
+      <view class="_view data-v-ff762a46 action-cancel" bindtap="handleProxy" data-eventid="{{'Wui-5'}}" data-comkey="{{$k}}">
+        <template type="shachu-xue" size="18" color="#505050" data="{{...$root['0'], ...$root[$kk+'kDJ-10'],$root}}" is="18f61b88"></template>
       </view>
     </view>
   </view>

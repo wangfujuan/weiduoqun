@@ -1,0 +1,44 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="205d285e">
+  <view class="_view data-v-a053f106 content">
+    <navigator class="_navigator data-v-a053f106 obtain-boss" url="../openagent/openagent" hover-class="none">
+      <template size="20" color="#e86a38" type="huiyuan1" data="{{...$root['0'], ...$root[$kk+'Imr-0'],$root}}" is="18f61b88"></template>
+      <view class="_view data-v-a053f106 obtain-boss-info"> 钻石代理名片高亮 每天自动刷新 </view>
+      <view class="_view data-v-a053f106 obtain-boss-open"> 开通 </view>
+    </navigator>
+    <view class="_view data-v-a053f106 card-item">
+      <view class="_view data-v-a053f106 card-item-icon">
+        <template type="jiufuqianbaoicon05" size="14" data="{{...$root['0'], ...$root[$kk+'cbP-1'],$root}}" is="18f61b88"></template>
+      </view>
+      <view class="_view data-v-a053f106 card-item-con">
+        <image src="../../static/goods.jpg" mode="widthFix" class="_image data-v-a053f106"></image>
+        <view class="_view data-v-a053f106 card-item-rt">
+          <view class="_view data-v-a053f106 card-item-info dbellipsis"> 我是一个可爱的妈咪，刚刚微商求带我是一个可爱的妈咪，刚刚微商求带我是一个可爱的妈咪，刚刚微商求带 </view>
+          <view class="_view data-v-a053f106 card-item-sub">
+            <text class="_text data-v-a053f106">点赞：68</text>
+            <text class="_text data-v-a053f106">评论：3</text>
+            <text class="_text data-v-a053f106">时间：刚刚</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-a053f106 card-tips">
+      <view class="_view data-v-a053f106 card-tips-item">
+        <text class="_text data-v-a053f106">* 钻石代理能发布20条微商圈</text>
+        <text class="_text data-v-a053f106">文字红色高亮</text>
+      </view>
+      <view class="_view data-v-a053f106 card-tips-item">
+        <text class="_text data-v-a053f106">* 普通会员能发布1条微商圈</text>
+        <text class="_text data-v-a053f106">无高亮</text>
+      </view>
+    </view>
+    <view class="_view data-v-a053f106 card-fixed">
+      <navigator class="_navigator data-v-a053f106 card-fixed-item" hover-class="none" url="../putCircle/putCircle">
+        <view class="_view data-v-a053f106 card-fixed-con linearyellow">发布微商圈</view>
+      </navigator>
+      <navigator class="_navigator data-v-a053f106 card-fixed-item" hover-class="none" url="../member/member">
+        <view class="_view data-v-a053f106 card-fixed-con">开通钻石代理</view>
+      </navigator>
+    </view>
+  </view>
+</template>

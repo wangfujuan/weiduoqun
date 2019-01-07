@@ -1,0 +1,1 @@
+<import src="/pages/withdraw/withdraw.vue.wxml" /><template is="bf0703de" data="{{ ...$root['0'], $root }}"/>

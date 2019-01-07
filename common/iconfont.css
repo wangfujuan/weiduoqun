@@ -1,16 +1,16 @@
 /* App */
-/* @font-face {
+@font-face {
 	font-family: "uniicons";
   src: url('https://www.epingwang.com/static/fonts/iconfont.ttf') format('truetype'),
   url('https://www.epingwang.com/static/fonts/iconfont.svg') format('svg');
-} */
+}
 
 /* H5 */
-@font-face {
+/* @font-face {
 	font-family: "uniicons";
     src: url('../static/iconfont.ttf') format('truetype'),
          url('../static/iconfont.svg') format('svg');
-}
+} */
 
 .uni-icon {
   font-family:"uniicons" !important;
@@ -218,3 +218,5 @@
 .uni-icon-mianfei:before { content: "\e630"; }
 
 .uni-icon-iconfontlipinduihuanbangzhu:before { content: "\e615"; }
+
+.uni-icon-zuanshi:before { content: "\e64a"; }

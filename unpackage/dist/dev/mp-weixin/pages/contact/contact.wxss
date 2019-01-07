@@ -144,6 +144,7 @@ swiper-item image {
   -webkit-flex-direction: row;
   flex-direction: row;
   margin-bottom: 30rpx;
+  white-space: nowrap;
 }
 .tool-tip {
   position: absolute;
@@ -159,6 +160,11 @@ swiper-item image {
   border: 1rpx solid #fff;
   -webkit-transform: scale(0.8);
   transform: scale(0.8);
+}
+.tool-item-icon {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 80rpx;
+  flex: 0 0 80rpx;
 }
 .tool-item-icon .uni-icon {
   color: #fff;
@@ -207,4 +213,77 @@ swiper-item image {
 }
 .whiteborder .trend-user-avatar {
   border-color: #fff;
+}
+.uni-grid-9 {
+  box-sizing: border-box;
+  padding-top: 25rpx;
+}
+.uni-grid-9-item {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 35rpx;
+}
+.uni-grid-9-image {
+  width: 80rpx;
+  height: 80rpx;
+}
+.uni-grid-9-text {
+  display: block;
+  line-height: 1;
+  font-size: 24rpx;
+  margin-top: 16rpx;
+  color: #626262;
+}
+.uni-grid-9-item-hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+.iconwp {
+  width: 90rpx;
+  height: 90rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  background-color: #007AFF;
+  border-radius: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.iconwp .uni-icon {
+  font-size: 44rpx;
+  color: #fff;
+}
+.oneicon {
+  background-image: -webkit-linear-gradient(135deg, #ff9a9e 0%, #ffbdbd 100%);
+  background-image: linear-gradient(-45deg, #ff9a9e 0%, #ffbdbd 100%);
+  box-shadow: 4rpx 0 16rpx rgba(255, 189, 189, .3);
+}
+.twoicon {
+  background-image: -webkit-linear-gradient(135deg, #30D2BE 0%, #80f3e5 100%);
+  background-image: linear-gradient(-45deg, #30D2BE 0%, #80f3e5 100%);
+  box-shadow: 4rpx 0 16rpx rgba(128, 243, 229, .3);
+}
+.threeicon {
+  background-image: -webkit-linear-gradient(135deg, #e7b65f 0%, #f1d199 100%);
+  background-image: linear-gradient(-45deg, #e7b65f 0%, #f1d199 100%);
+  box-shadow: 4rpx 0 16rpx rgba(241, 109, 153, .3);
+}
+.fouricon {
+  background-image: -webkit-linear-gradient(135deg, #21c7ef 0%, #70e3ff 100%);
+  background-image: linear-gradient(-45deg, #21c7ef 0%, #70e3ff 100%);
+  box-shadow: 4rpx 0 16rpx rgba(112, 227, 255, .3);
+}
+.autocolor .tool-item-btn {
+  border-color: #e5e5e5;
+  color: #b2b2b2;
 }

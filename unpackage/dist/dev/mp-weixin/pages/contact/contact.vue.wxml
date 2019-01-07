@@ -1,63 +1,61 @@
 <import src="/components/uni-icon.vue.wxml" />
 <template name="c25ebf5a">
   <view class="_view data-v-f73f9202 content">
-    <view class="_view data-v-f73f9202 shadow"></view>
-    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" next-margin="20rpx" previous-margin="20rpx" class="_swiper data-v-f73f9202">
-      <swiper-item class="_swiper-item data-v-f73f9202">
-        <view class="_view data-v-f73f9202 swiper-item">
-          <image src="../../static/banner.jpg" mode="widthFix" class="_image data-v-f73f9202"></image>
-        </view>
-      </swiper-item>
-      <swiper-item class="_swiper-item data-v-f73f9202">
-        <view class="_view data-v-f73f9202 swiper-item">
-          <image src="../../static/banner.jpg" mode="widthFix" class="_image data-v-f73f9202"></image>
-        </view>
-      </swiper-item>
-      <swiper-item class="_swiper-item data-v-f73f9202">
-        <view class="_view data-v-f73f9202 swiper-item">
-          <image src="../../static/banner.jpg" mode="widthFix" class="_image data-v-f73f9202"></image>
-        </view>
-      </swiper-item>
-    </swiper>
-    <view class="_view data-v-f73f9202 top-ls">
-      <view class="_view data-v-f73f9202 top-item">
-        <view class="_view data-v-f73f9202 top-item-con block-tl-color1">
-          <view class="_view data-v-f73f9202 top-item-tl"> 我的名片 </view>
-          <view class="_view data-v-f73f9202 top-item-des"> 漂亮置顶名片引流 </view>
-        </view>
-      </view>
-      <view class="_view data-v-f73f9202 top-item">
-        <view class="_view data-v-f73f9202 top-item-con block-tl-color2">
-          <view class="_view data-v-f73f9202 top-item-tl"> 多号爆粉 </view>
-          <view class="_view data-v-f73f9202 top-item-des"> 同时可爆粉3个号 </view>
-        </view>
-      </view>
-      <view class="_view data-v-f73f9202 top-item">
-        <view class="_view data-v-f73f9202 top-item-con block-tl-color5">
-          <view class="_view data-v-f73f9202 top-item-tl"> 会员专享 </view>
-          <view class="_view data-v-f73f9202 top-item-des"> 专享16项高级特权 </view>
-        </view>
-      </view>
-    </view>
     <view class="_view data-v-f73f9202 content-pad">
+      <view class="_view data-v-f73f9202 white">
+        <view class="_view data-v-f73f9202 block-tl b-line">
+          <view class="_view data-v-f73f9202 block-tl-lf">
+            <view class="_view data-v-f73f9202 block-tl-icon block-tl-color6">
+              <template size="12" color="#fff" type="gerenweixin" data="{{...$root['0'], ...$root[$kk+'nkT-0'],$root}}" is="18f61b88"></template>
+            </view>
+            <text class="_text data-v-f73f9202 mdtxt">我的名片</text>
+          </view>
+        </view>
+        <view class="_view data-v-f73f9202 uni-grid-9">
+          <navigator class="_navigator data-v-f73f9202 uni-grid-9-item" hover-class="none" url="../card/card?currentTab=0">
+            <view class="_view data-v-f73f9202 iconwp oneicon">
+              <template type="duoren2" data="{{...$root['0'], ...$root[$kk+'CmH-1'],$root}}" is="18f61b88"></template>
+            </view>
+            <text class="_text data-v-f73f9202 uni-grid-9-text">微信群名片</text>
+          </navigator>
+          <navigator class="_navigator data-v-f73f9202 uni-grid-9-item" hover-class="none" url="../card/card?currentTab=0">
+            <view class="_view data-v-f73f9202 iconwp fouricon">
+              <template type="qq02" data="{{...$root['0'], ...$root[$kk+'pXw-2'],$root}}" is="18f61b88"></template>
+            </view>
+            <text class="_text data-v-f73f9202 uni-grid-9-text">QQ群名片</text>
+          </navigator>
+          <navigator class="_navigator data-v-f73f9202 uni-grid-9-item" hover-class="none" url="../card/card?currentTab=1">
+            <view class="_view data-v-f73f9202 iconwp twoicon">
+              <template type="geren2" data="{{...$root['0'], ...$root[$kk+'d79-3'],$root}}" is="18f61b88"></template>
+            </view>
+            <text class="_text data-v-f73f9202 uni-grid-9-text">微信个人名片</text>
+          </navigator>
+          <navigator class="_navigator data-v-f73f9202 uni-grid-9-item" hover-class="none" url="../card/card?currentTab=1">
+            <view class="_view data-v-f73f9202 iconwp threeicon">
+              <template type="xin2" data="{{...$root['0'], ...$root[$kk+'ZD1-4'],$root}}" is="18f61b88"></template>
+            </view>
+            <text class="_text data-v-f73f9202 uni-grid-9-text">QQ个人名片</text>
+          </navigator>
+        </view>
+      </view>
       <view class="_view data-v-f73f9202 white">
         <view class="_view data-v-f73f9202 block-tl">
           <view class="_view data-v-f73f9202 block-tl-lf">
             <view class="_view data-v-f73f9202 block-tl-icon block-tl-color2">
-              <template size="12" color="#fff" type="ai-tool" data="{{...$root['0'], ...$root[$kk+'kbw-3'],$root}}" is="18f61b88"></template>
+              <template size="12" color="#fff" type="ai-tool" data="{{...$root['0'], ...$root[$kk+'f4S-5'],$root}}" is="18f61b88"></template>
             </view>
             <text class="_text data-v-f73f9202 mdtxt">热门工具</text>
           </view>
           <view class="_view data-v-f73f9202 block-tl-rt">
             <view class="_view data-v-f73f9202 block-tl-rt-item">
-              <template size="13" color="#aaa" type="qinglihuancun" data="{{...$root['0'], ...$root[$kk+'0CH-4'],$root}}" is="18f61b88"></template>
+              <template size="13" color="#aaa" type="qinglihuancun" data="{{...$root['0'], ...$root[$kk+'t1E-6'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-f73f9202 mdtxt">清理</text>
             </view>
           </view>
         </view>
         <view class="_view data-v-f73f9202 trend block-tl-color3">
           <view class="_view data-v-f73f9202 trend-icon">
-            <template type="gerenxinxi" data="{{...$root['0'], ...$root[$kk+'X7a-5'],$root}}" is="18f61b88"></template>
+            <template type="gerenxinxi" data="{{...$root['0'], ...$root[$kk+'Ylt-7'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-f73f9202 trend-info">
             <view class="_view data-v-f73f9202 trend-info-tl"> 优质名片 </view>
@@ -73,59 +71,65 @@
             <view class="_view data-v-f73f9202 trend-user-avatar">
               <image src="../../static/avatar/avatar_4.jpg" mode="aspectFill" class="_image data-v-f73f9202"></image>
             </view>
-            <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'WzM-6'],$root}}" is="18f61b88"></template>
+            <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'gf6-8'],$root}}" is="18f61b88"></template>
           </view>
         </view>
         <view class="_view data-v-f73f9202 tool-ls">
           <view class="_view data-v-f73f9202 tool-item">
-            <view class="_view data-v-f73f9202 tool-item-box">
-              <view class="_view data-v-f73f9202 tool-item-con">
-                <view class="_view data-v-f73f9202 tool-item-icon block-tl-color1">
-                  <template type="dingwei" data="{{...$root['0'], ...$root[$kk+'wbb-7'],$root}}" is="18f61b88"></template>
-                  <view class="_view data-v-f73f9202 tool-tip block-tl-color1"> 高通过 </view>
+            <navigator hover-class="none" url="../wxPersonal/wxPersonal" class="_navigator data-v-f73f9202">
+              <view class="_view data-v-f73f9202 tool-item-box">
+                <view class="_view data-v-f73f9202 tool-item-con">
+                  <view class="_view data-v-f73f9202 tool-item-icon block-tl-color1">
+                    <template type="dingwei" data="{{...$root['0'], ...$root[$kk+'bd3-9'],$root}}" is="18f61b88"></template>
+                    <view class="_view data-v-f73f9202 tool-tip block-tl-color1"> 高通过 </view>
+                  </view>
+                  <view class="_view data-v-f73f9202 tool-item-info">
+                    <view class="_view data-v-f73f9202 tool-item-tl"> 精准人脉 </view>
+                    <view class="_view data-v-f73f9202 tool-item-des"> 人脉多赚钱多 </view>
+                  </view>
                 </view>
-                <view class="_view data-v-f73f9202 tool-item-info">
-                  <view class="_view data-v-f73f9202 tool-item-tl"> 精准人脉 </view>
-                  <view class="_view data-v-f73f9202 tool-item-des"> 人脉多赚钱多 </view>
-                </view>
+                <view class="_view data-v-f73f9202 tool-item-btn"> 千万人脉免费加 </view>
               </view>
-              <view class="_view data-v-f73f9202 tool-item-btn"> 千万人脉免费加 </view>
-            </view>
+            </navigator>
+          </view>
+          <view class="_view data-v-f73f9202 tool-item">
+            <navigator hover-class="none" url="../card/card?currentTab=1" class="_navigator data-v-f73f9202">
+              <view class="_view data-v-f73f9202 tool-item-box">
+                <view class="_view data-v-f73f9202 tool-item-con">
+                  <view class="_view data-v-f73f9202 tool-item-icon block-tl-color2">
+                    <template type="remen" data="{{...$root['0'], ...$root[$kk+'cFg-10'],$root}}" is="18f61b88"></template>
+                    <view class="_view data-v-f73f9202 tool-tip block-tl-color2"> 可多号 </view>
+                  </view>
+                  <view class="_view data-v-f73f9202 tool-item-info">
+                    <view class="_view data-v-f73f9202 tool-item-tl"> 坐等爆粉 </view>
+                    <view class="_view data-v-f73f9202 tool-item-des"> 高效简单安全 </view>
+                  </view>
+                </view>
+                <view class="_view data-v-f73f9202 tool-item-btn"> 每日涨粉200人 </view>
+              </view>
+            </navigator>
+          </view>
+          <view class="_view data-v-f73f9202 tool-item">
+            <navigator hover-class="none" url="../allpeople/allpeople" class="_navigator data-v-f73f9202">
+              <view class="_view data-v-f73f9202 tool-item-box">
+                <view class="_view data-v-f73f9202 tool-item-con">
+                  <view class="_view data-v-f73f9202 tool-item-icon block-tl-color3">
+                    <template type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'E8D-11'],$root}}" is="18f61b88"></template>
+                  </view>
+                  <view class="_view data-v-f73f9202 tool-item-info">
+                    <view class="_view data-v-f73f9202 tool-item-tl"> 全网散客 </view>
+                    <view class="_view data-v-f73f9202 tool-item-des"> 无微商无私粉 </view>
+                  </view>
+                </view>
+                <view class="_view data-v-f73f9202 tool-item-btn"> 每次可导入30个 </view>
+              </view>
+            </navigator>
           </view>
           <view class="_view data-v-f73f9202 tool-item">
             <view class="_view data-v-f73f9202 tool-item-box">
               <view class="_view data-v-f73f9202 tool-item-con">
-                <view class="_view data-v-f73f9202 tool-item-icon block-tl-color2">
-                  <template type="remen" data="{{...$root['0'], ...$root[$kk+'rAQ-8'],$root}}" is="18f61b88"></template>
-                  <view class="_view data-v-f73f9202 tool-tip block-tl-color2"> 可多号 </view>
-                </view>
-                <view class="_view data-v-f73f9202 tool-item-info">
-                  <view class="_view data-v-f73f9202 tool-item-tl"> 坐等爆粉 </view>
-                  <view class="_view data-v-f73f9202 tool-item-des"> 高效简单安全 </view>
-                </view>
-              </view>
-              <view class="_view data-v-f73f9202 tool-item-btn"> 每日涨粉200人 </view>
-            </view>
-          </view>
-          <view class="_view data-v-f73f9202 tool-item">
-            <view class="_view data-v-f73f9202 tool-item-box">
-              <view class="_view data-v-f73f9202 tool-item-con">
-                <view class="_view data-v-f73f9202 tool-item-icon block-tl-color3">
-                  <template type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'bCh-9'],$root}}" is="18f61b88"></template>
-                </view>
-                <view class="_view data-v-f73f9202 tool-item-info">
-                  <view class="_view data-v-f73f9202 tool-item-tl"> 全网散客 </view>
-                  <view class="_view data-v-f73f9202 tool-item-des"> 无微商无私粉 </view>
-                </view>
-              </view>
-              <view class="_view data-v-f73f9202 tool-item-btn"> 每次可导入30个 </view>
-            </view>
-          </view>
-          <view class="_view data-v-f73f9202 tool-item">
-            <view class="_view data-v-f73f9202 tool-item-box">
-              <view class="_view data-v-f73f9202 tool-item-con">
-                <view class="_view data-v-f73f9202 tool-item-icon block-tl-color4">
-                  <template type="licaijingxuan" data="{{...$root['0'], ...$root[$kk+'ZLR-10'],$root}}" is="18f61b88"></template>
+                <view class="_view data-v-f73f9202 tool-item-icon block-tl-color7">
+                  <template type="licaijingxuan" data="{{...$root['0'], ...$root[$kk+'TDU-12'],$root}}" is="18f61b88"></template>
                 </view>
                 <view class="_view data-v-f73f9202 tool-item-info">
                   <view class="_view data-v-f73f9202 tool-item-tl"> 精选客源 </view>
@@ -136,24 +140,26 @@
             </view>
           </view>
           <view class="_view data-v-f73f9202 tool-item">
-            <view class="_view data-v-f73f9202 tool-item-box">
-              <view class="_view data-v-f73f9202 tool-item-con">
-                <view class="_view data-v-f73f9202 tool-item-icon block-tl-color5">
-                  <template type="duoren2" data="{{...$root['0'], ...$root[$kk+'5cF-11'],$root}}" is="18f61b88"></template>
+            <navigator hover-class="none" url="../wxgroup/wxgroup" class="_navigator data-v-f73f9202">
+              <view class="_view data-v-f73f9202 tool-item-box">
+                <view class="_view data-v-f73f9202 tool-item-con">
+                  <view class="_view data-v-f73f9202 tool-item-icon block-tl-color5">
+                    <template type="duoren2" data="{{...$root['0'], ...$root[$kk+'GaT-13'],$root}}" is="18f61b88"></template>
+                  </view>
+                  <view class="_view data-v-f73f9202 tool-item-info">
+                    <view class="_view data-v-f73f9202 tool-item-tl"> 微信Q群 </view>
+                    <view class="_view data-v-f73f9202 tool-item-des"> 海量群秒更新 </view>
+                  </view>
                 </view>
-                <view class="_view data-v-f73f9202 tool-item-info">
-                  <view class="_view data-v-f73f9202 tool-item-tl"> 微信Q群 </view>
-                  <view class="_view data-v-f73f9202 tool-item-des"> 海量群秒更新 </view>
-                </view>
+                <view class="_view data-v-f73f9202 tool-item-btn"> 每天更新500+ </view>
               </view>
-              <view class="_view data-v-f73f9202 tool-item-btn"> 每天更新500+ </view>
-            </view>
+            </navigator>
           </view>
           <view class="_view data-v-f73f9202 tool-item">
             <view class="_view data-v-f73f9202 tool-item-box">
               <view class="_view data-v-f73f9202 tool-item-con">
                 <view class="_view data-v-f73f9202 tool-item-icon block-tl-color6">
-                  <template type="clean-up" data="{{...$root['0'], ...$root[$kk+'RU9-12'],$root}}" is="18f61b88"></template>
+                  <template type="clean-up" data="{{...$root['0'], ...$root[$kk+'EKL-14'],$root}}" is="18f61b88"></template>
                 </view>
                 <view class="_view data-v-f73f9202 tool-item-info">
                   <view class="_view data-v-f73f9202 tool-item-tl"> 清理通讯录 </view>
@@ -169,95 +175,102 @@
         <view class="_view data-v-f73f9202 block-tl">
           <view class="_view data-v-f73f9202 block-tl-lf">
             <view class="_view data-v-f73f9202 block-tl-icon block-tl-color1">
-              <template size="12" color="#fff" type="icon_fuzhugongju-mian" data="{{...$root['0'], ...$root[$kk+'QFj-13'],$root}}" is="18f61b88"></template>
+              <template size="12" color="#fff" type="icon_fuzhugongju-mian" data="{{...$root['0'], ...$root[$kk+'Fd6-15'],$root}}" is="18f61b88"></template>
             </view>
-            <text class="_text data-v-f73f9202 mdtxt">工具箱</text>
+            <text class="_text data-v-f73f9202 mdtxt">自动加人</text>
           </view>
           <view class="_view data-v-f73f9202 block-tl-rt">
             <view class="_view data-v-f73f9202 block-tl-rt-more">
-              <text class="_text data-v-f73f9202 mdtxt">免费好用</text>
+              <text class="_text data-v-f73f9202 mdtxt">工具使用教程</text>
               <view class="_view data-v-f73f9202 block-more more-color2">
-                <template size="12" type="qianjin" data="{{...$root['0'], ...$root[$kk+'BQp-14'],$root}}" is="18f61b88"></template>
+                <template size="12" type="qianjin" data="{{...$root['0'], ...$root[$kk+'Uql-16'],$root}}" is="18f61b88"></template>
               </view>
             </view>
           </view>
         </view>
-        <view class="_view data-v-f73f9202 trend block-tl-color2">
-          <view class="_view data-v-f73f9202 trend-icon">
-            <template type="iconfontzhizuobiaozhun0247" data="{{...$root['0'], ...$root[$kk+'ewv-15'],$root}}" is="18f61b88"></template>
-          </view>
-          <view class="_view data-v-f73f9202 trend-info">
-            <view class="_view data-v-f73f9202 trend-info-tl"> 九格切图 </view>
-            <view class="_view data-v-f73f9202 trend-info-des"> 让你的朋友圈更炫酷 </view>
-          </view>
-          <view class="_view data-v-f73f9202 trend-user whiteborder">
-            <view class="_view data-v-f73f9202 trend-user-avatar">
-              <image src="../../static/img/pengyouquan.jpg" mode="aspectFill" class="_image data-v-f73f9202"></image>
-            </view>
-            <view class="_view data-v-f73f9202 trend-user-avatar">
-              <image src="../../static/img/qqkongjian.jpg" mode="aspectFill" class="_image data-v-f73f9202"></image>
-            </view>
-            <view class="_view data-v-f73f9202 trend-user-avatar">
-              <image src="../../static/img/sinaweibo.jpg" mode="aspectFill" class="_image data-v-f73f9202"></image>
-            </view>
-            <template type="qianjin" data="{{...$root['0'], ...$root[$kk+'0RN-16'],$root}}" is="18f61b88"></template>
-          </view>
-        </view>
-        <view class="_view data-v-f73f9202 tool-ls">
+        <view class="_view data-v-f73f9202 tool-ls autocolor">
           <view class="_view data-v-f73f9202 tool-item">
             <view class="_view data-v-f73f9202 tool-item-box">
               <view class="_view data-v-f73f9202 tool-item-con">
-                <view class="_view data-v-f73f9202 tool-item-icon block-tl-color2">
-                  <template type="zongxiangpingfen" data="{{...$root['0'], ...$root[$kk+'PYi-17'],$root}}" is="18f61b88"></template>
+                <view class="_view data-v-f73f9202 tool-item-icon block-tl-color4">
+                  <template type="zongxiangpingfen" data="{{...$root['0'], ...$root[$kk+'WbE-17'],$root}}" is="18f61b88"></template>
                 </view>
                 <view class="_view data-v-f73f9202 tool-item-info">
-                  <view class="_view data-v-f73f9202 tool-item-tl"> 纵向拼图 </view>
-                  <view class="_view data-v-f73f9202 tool-item-des"> 适合做长截图 </view>
+                  <view class="_view data-v-f73f9202 tool-item-tl"> 自动群内加人 </view>
+                  <view class="_view data-v-f73f9202 tool-item-des"> 全自动智能加 </view>
                 </view>
               </view>
-              <view class="_view data-v-f73f9202 tool-item-btn"> 最高支持10张图 </view>
-            </view>
-          </view>
-          <view class="_view data-v-f73f9202 tool-item">
-            <view class="_view data-v-f73f9202 tool-item-box">
-              <view class="_view data-v-f73f9202 tool-item-con">
-                <view class="_view data-v-f73f9202 tool-item-icon block-tl-color3">
-                  <template type="hengxiangpingfen" data="{{...$root['0'], ...$root[$kk+'hph-18'],$root}}" is="18f61b88"></template>
-                </view>
-                <view class="_view data-v-f73f9202 tool-item-info">
-                  <view class="_view data-v-f73f9202 tool-item-tl"> 横向拼图 </view>
-                  <view class="_view data-v-f73f9202 tool-item-des"> 适合拼接横图 </view>
-                </view>
-              </view>
-              <view class="_view data-v-f73f9202 tool-item-btn"> 最高支持10张图 </view>
+              <view class="_view data-v-f73f9202 tool-item-btn"> 最高每日+180人 </view>
             </view>
           </view>
           <view class="_view data-v-f73f9202 tool-item">
             <view class="_view data-v-f73f9202 tool-item-box">
               <view class="_view data-v-f73f9202 tool-item-con">
                 <view class="_view data-v-f73f9202 tool-item-icon block-tl-color4">
-                  <template type="fsux_tubiao_masaiketu" data="{{...$root['0'], ...$root[$kk+'6ln-19'],$root}}" is="18f61b88"></template>
+                  <template type="hengxiangpingfen" data="{{...$root['0'], ...$root[$kk+'8rH-18'],$root}}" is="18f61b88"></template>
                 </view>
                 <view class="_view data-v-f73f9202 tool-item-info">
-                  <view class="_view data-v-f73f9202 tool-item-tl"> 马赛克 </view>
-                  <view class="_view data-v-f73f9202 tool-item-des"> 自由打码涂抹 </view>
+                  <view class="_view data-v-f73f9202 tool-item-tl"> 自动搜索加人 </view>
+                  <view class="_view data-v-f73f9202 tool-item-des"> 自动搜索添加 </view>
                 </view>
               </view>
-              <view class="_view data-v-f73f9202 tool-item-btn"> 3种打码选择 </view>
+              <view class="_view data-v-f73f9202 tool-item-btn"> 每日自动加20人 </view>
             </view>
           </view>
           <view class="_view data-v-f73f9202 tool-item">
             <view class="_view data-v-f73f9202 tool-item-box">
               <view class="_view data-v-f73f9202 tool-item-con">
-                <view class="_view data-v-f73f9202 tool-item-icon block-tl-color2">
-                  <template type="zhongbiao" data="{{...$root['0'], ...$root[$kk+'1WC-20'],$root}}" is="18f61b88"></template>
+                <view class="_view data-v-f73f9202 tool-item-icon block-tl-color4">
+                  <template type="fsux_tubiao_masaiketu" data="{{...$root['0'], ...$root[$kk+'Nws-19'],$root}}" is="18f61b88"></template>
                 </view>
                 <view class="_view data-v-f73f9202 tool-item-info">
-                  <view class="_view data-v-f73f9202 tool-item-tl"> 圈重点 </view>
-                  <view class="_view data-v-f73f9202 tool-item-des"> 快速标记涂鸦 </view>
+                  <view class="_view data-v-f73f9202 tool-item-tl"> 自动扫码加人 </view>
+                  <view class="_view data-v-f73f9202 tool-item-des"> 自动批量扫码 </view>
                 </view>
               </view>
-              <view class="_view data-v-f73f9202 tool-item-btn"> 3种画笔风格 </view>
+              <view class="_view data-v-f73f9202 tool-item-btn"> 每天可加20人 </view>
+            </view>
+          </view>
+          <view class="_view data-v-f73f9202 tool-item">
+            <view class="_view data-v-f73f9202 tool-item-box">
+              <view class="_view data-v-f73f9202 tool-item-con">
+                <view class="_view data-v-f73f9202 tool-item-icon block-tl-color4">
+                  <template type="zhongbiao" data="{{...$root['0'], ...$root[$kk+'Ek2-20'],$root}}" is="18f61b88"></template>
+                </view>
+                <view class="_view data-v-f73f9202 tool-item-info">
+                  <view class="_view data-v-f73f9202 tool-item-tl"> 自动附近加人 </view>
+                  <view class="_view data-v-f73f9202 tool-item-des"> 自动批量添加 </view>
+                </view>
+              </view>
+              <view class="_view data-v-f73f9202 tool-item-btn"> 每日可加30人 </view>
+            </view>
+          </view>
+          <view class="_view data-v-f73f9202 tool-item">
+            <view class="_view data-v-f73f9202 tool-item-box">
+              <view class="_view data-v-f73f9202 tool-item-con">
+                <view class="_view data-v-f73f9202 tool-item-icon block-tl-color4">
+                  <template type="zhongbiao" data="{{...$root['0'], ...$root[$kk+'vie-21'],$root}}" is="18f61b88"></template>
+                </view>
+                <view class="_view data-v-f73f9202 tool-item-info">
+                  <view class="_view data-v-f73f9202 tool-item-tl"> 自动扫码加群 </view>
+                  <view class="_view data-v-f73f9202 tool-item-des"> 批量扫码加群 </view>
+                </view>
+              </view>
+              <view class="_view data-v-f73f9202 tool-item-btn"> 每日可加30群 </view>
+            </view>
+          </view>
+          <view class="_view data-v-f73f9202 tool-item">
+            <view class="_view data-v-f73f9202 tool-item-box">
+              <view class="_view data-v-f73f9202 tool-item-con">
+                <view class="_view data-v-f73f9202 tool-item-icon block-tl-color4">
+                  <template type="zhongbiao" data="{{...$root['0'], ...$root[$kk+'2bF-22'],$root}}" is="18f61b88"></template>
+                </view>
+                <view class="_view data-v-f73f9202 tool-item-info">
+                  <view class="_view data-v-f73f9202 tool-item-tl"> 自动通过验证 </view>
+                  <view class="_view data-v-f73f9202 tool-item-des"> 被加自动通过 </view>
+                </view>
+              </view>
+              <view class="_view data-v-f73f9202 tool-item-btn"> 每天不限次数 </view>
             </view>
           </view>
         </view>

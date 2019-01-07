@@ -216,6 +216,9 @@
   border-radius: 10rpx;
   text-align: center;
 }
+.share-ls {
+  padding-bottom: 10rpx;
+}
 .share-item {
   padding: 30rpx 20rpx 0;
   display: -webkit-box;
@@ -291,5 +294,145 @@
   color: #44b549;
 }
 .share-item-md-sum-txt {
+  margin-right: 10rpx;
+}
+.share-will-more {
+  text-align: center;
+  color: #b2b2b2;
+  font-size: 22rpx;
+  margin-bottom: 20rpx;
+}
+.get-txt {
+  color: #b28431;
+  font-size: 24rpx;
+  text-align: center;
+  padding: 20rpx 0;
+}
+.get-m-ls {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  padding: 0 10rpx 20rpx;
+}
+.get-m-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  border: 2rpx solid #b29258;
+  border-radius: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin: 0 10rpx;
+  padding: 30rpx 0 80rpx;
+  position: relative;
+}
+.get-m-item-txt {
+  line-height: 1;
+  margin: 20rpx 0 10rpx;
+}
+.get-m-item-sub {
+  line-height: 1;
+  font-size: 24rpx;
+  color: #B2B2B2;
+}
+.get-m-item-sub text {
+  border: 2rpx solid #b29258;
+  background-color: #f5ecd8;
+  color: #b28431;
+  font-size: 20rpx;
+  border-radius: 6rpx;
+  padding: 0 6rpx;
+}
+.get-m-item-bt {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #faf5ea;
+  font-size: 22rpx;
+  text-align: center;
+  border-top: 2rpx solid #b29258;
+  color: #b28431;
+  height: 50rpx;
+  line-height: 50rpx;
+  border-radius: 0 0 10rpx 10rpx;
+}
+.get-sm-txt {
+  font-size: 20rpx;
+  text-align: center;
+  color: #B2B2B2;
+  padding-bottom: 30rpx;
+}
+.calc-wp {
+  padding: 20rpx;
+}
+.calc-tl {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  color: #b28431;
+  font-size: 24rpx;
+  line-height: 1.6;
+}
+.calc-tl text {
+  font-weight: 500;
+  color: #333;
+  padding-left: 6rpx;
+}
+.calc-line {
+  font-size: 24rpx;
+  color: #B2B2B2;
+  line-height: 1.6;
+}
+.fontred {
+  color: #e86a38;
+}
+.calc-sum {
+  color: #b28431;
+  text-align: center;
+  font-size: 24rpx;
+  margin: 10rpx 0;
+}
+.servicebtn {
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #fff;
+  color: #44B549;
+  border-radius: 16rpx;
+  border: 2rpx solid #44B549;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.servicebtn .uni-icon {
   margin-right: 10rpx;
 }

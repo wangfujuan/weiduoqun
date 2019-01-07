@@ -11,8 +11,16 @@
 						        "text" : "\ue674",
 								"fontSrc": "/static/iconfont.ttf",
 						        "fontSize": "18px",
-								"color" : "#505050"
-						    }
+								"color" : "#505050",
+								"float": "left"
+						    },
+							{
+							    "text" : "\ue614",
+								"fontSrc": "/static/iconfont.ttf",
+							    "fontSize": "18px",
+								"color" : "#eb6644",
+								"float": "right"
+							}
 						]
 					}
 				}
@@ -52,7 +60,27 @@
         }, {
 			"path": "pages/circle/circle",
 			"style": {
-				"navigationBarTitleText": "微商圈"
+				"navigationBarTitleText": "微商圈",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue674",
+								"fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+								"color" : "#505050",
+								"float": "left"
+						    },
+							{
+							    "text" : "\ue614",
+								"fontSrc": "/static/iconfont.ttf",
+							    "fontSize": "18px",
+								"color" : "#eb6644",
+								"float": "right"
+							}
+						]
+					}
+				}
 			}
 		}, 
 		{
@@ -64,24 +92,88 @@
 		{
 			"path": "pages/meCircle/meCircle",
 			"style": {
-				"navigationBarTitleText": "我的微商圈"
+				"navigationBarTitleText": "我的微商圈",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue60c",
+						        "fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+						        "color" : "#505050"
+						    }
+						]
+					}
+				}
 			}
 		},
 		{
 			"path": "pages/putCircle/putCircle",
 			"style": {
-				"navigationBarTitleText": "发布微商圈"
+				"navigationBarTitleText": "发布微商圈",
+				"app-plus": {
+					"titleNView": {	
+						"buttons": [
+							{
+								"text" : "\ue615",
+				                "fontSrc" : "/static/iconfont.ttf",
+				                "fontSize" : "16px",
+				                "color" : "#333"
+							}
+						]
+					}
+				}
 			}
 		},
 		{
 			"path": "pages/contact/contact",
 			"style": {
-				"navigationBarTitleText": "人脉多"
+				"navigationBarTitleText": "人脉多",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue674",
+								"fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+								"color" : "#505050",
+								"float": "left"
+						    },
+							{
+							    "text" : "\ue614",
+								"fontSrc": "/static/iconfont.ttf",
+							    "fontSize": "18px",
+								"color" : "#eb6644",
+								"float": "right"
+							}
+						]
+					}
+				}
 			}
 		}, {
 			"path": "pages/obtain/obtain",
 			"style": {
-				"navigationBarTitleText": "收益中心"
+				"navigationBarTitleText": "收益中心",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue674",
+								"fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+								"color" : "#505050",
+								"float": "left"
+						    },
+							{
+							    "text" : "\ue614",
+								"fontSrc": "/static/iconfont.ttf",
+							    "fontSize": "18px",
+								"color" : "#eb6644",
+								"float": "right"
+							}
+						]
+					}
+				}
 			}
 		},{
 			"path": "pages/meedit/meedit",
@@ -98,13 +190,25 @@
 		{
 			"path": "pages/weibi/weibi",
 			"style": {
-				"navigationBarTitleText": "我的微币"
+				"navigationBarTitleText": "我的微币",
+				"app-plus": {
+					"titleNView": {	
+						"buttons": [
+							{
+								"text" : "\ue79c",
+				                "fontSrc" : "/static/iconfont.ttf",
+				                "fontSize" : "16px",
+				                "color" : "#333"
+							}
+						]
+					}
+				}
 			}
 		},
 		{
 			"path": "pages/weibiRecharge/weibiRecharge",
 			"style": {
-				"navigationBarTitleText": "微币充值",
+				"navigationBarTitleText": "充值中心",
 				"navigationBarBackgroundColor":"#090702",
 				"app-plus": {
 					"titleNView": {
@@ -124,9 +228,49 @@
 						"buttons": [
 							{
 								"text" : "\ue60c",
-                                "fontSrc" : "/common/iconfont.ttf",
-                                "fontSize" : "22px",
+                                "fontSrc" : "/static/iconfont.ttf",
+                                "fontSize" : "14px",
                                 "color" : "#fff"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/megoods/megoods",
+			"style": {
+				"navigationBarTitleText": "我的微商货源",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#44b549",
+						"titleColor": "#fff",
+						"buttons": [
+							{
+								"text" : "\ue60c",
+		                        "fontSrc" : "/static/iconfont.ttf",
+		                        "fontSize" : "14px",
+		                        "color" : "#fff"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/change/change",
+			"style": {
+				"navigationBarTitleText": "群交易",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#44b549",
+						"titleColor": "#fff",
+						"buttons": [
+							{
+								"text" : "\ue60c",
+		                        "fontSrc" : "/static/iconfont.ttf",
+		                        "fontSize" : "14px",
+		                        "color" : "#fff"
 							}
 						]
 					}
@@ -165,7 +309,19 @@
 		{
 			"path": "pages/releaseCard/releaseCard",
 			"style": {
-				"navigationBarTitleText": "个人微信名片发布"
+				"navigationBarTitleText": "发布微信个人名片",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue615",
+						        "fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+						        "color" : "#505050"
+						    }
+						]
+					}
+				}
 			}
 		},
 		{
@@ -177,7 +333,55 @@
 		{
 			"path": "pages/releaseGroup/releaseGroup",
 			"style": {
-				"navigationBarTitleText": "发布微信群名片"
+				"navigationBarTitleText": "发布微信群名片",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue615",
+						        "fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+						        "color" : "#505050"
+						    }
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/releaseGoods/releaseGoods",
+			"style": {
+				"navigationBarTitleText": "发布微商货源",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue615",
+						        "fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+						        "color" : "#505050"
+						    }
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/releaseChange/releaseChange",
+			"style": {
+				"navigationBarTitleText": "发布微信群交易",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue615",
+						        "fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+						        "color" : "#505050"
+						    }
+						]
+					}
+				}
 			}
 		},
 		{
@@ -189,7 +393,55 @@
 		{
 			"path": "pages/wxgroup/wxgroup",
 			"style": {
-				"navigationBarTitleText": "微信群"
+				"navigationBarTitleText": "微信群",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue615",
+						        "fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+						        "color" : "#505050"
+						    }
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/deal/deal",
+			"style": {
+				"navigationBarTitleText": "微信群交易",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue615",
+						        "fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+						        "color" : "#505050"
+						    }
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/wxPersonal/wxPersonal",
+			"style": {
+				"navigationBarTitleText": "微信个人",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue615",
+						        "fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+						        "color" : "#505050"
+						    }
+						]
+					}
+				}
 			}
 		},
 		{
@@ -213,7 +465,19 @@
 		{
 			"path": "pages/sourcegoods/sourcegoods",
 			"style": {
-				"navigationBarTitleText": "微商货源"
+				"navigationBarTitleText": "微商货源",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue60c",
+						        "fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "14px",
+						        "color" : "#505050"
+						    }
+						]
+					}
+				}
 			}
 		},
 		{
@@ -228,7 +492,15 @@
 				"navigationBarTitleText": "",
 				"app-plus" : {
 					"titleNView" : {
-						"type" : "transparent"
+						"type" : "transparent",
+						"buttons" : [
+							{
+								"text" : "\ue61e",
+								"fontSrc": "/static/iconfont.ttf",
+								"fontSize": "18px",
+								"color" : "#505050"
+							}
+						]			
 					}
 				}
 			}
@@ -236,7 +508,18 @@
 		{
 			"path": "pages/weinews/weinews",
 			"style": {
-				"navigationBarTitleText": "微头条"
+				"navigationBarTitleText": "微头条",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "人脉多",
+						        "fontSize":"12",
+						        "color" : "#333"
+						    }
+						]
+					}
+				}
 			}
 		},
 		{
@@ -254,7 +537,20 @@
 		{
 			"path": "pages/menews/menews",
 			"style": {
-				"navigationBarTitleText": "更多评论"
+				"navigationBarTitleText": "我的微头条",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue60c",
+						        "fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "14px",
+						        "color" : "#505050"
+						    }
+						]
+					}
+				}
+				
 			}
 		},
 		{
@@ -268,7 +564,19 @@
 			"style": {
 				"navigationBarTitleText": "收益明细",
 				"navigationBarBackgroundColor":"#44B549",
-				"navigationBarTextStyle":"white"
+				"navigationBarTextStyle":"white",
+				"app-plus" : {
+					"titleNView" : {
+						"buttons" : [
+						    {
+						        "text" : "\ue615",
+								"fontSrc": "/static/iconfont.ttf",
+						        "fontSize": "18px",
+								"color" : "#fff"
+						    }
+						]
+					}
+				}
 			}
 		},
 		{
@@ -297,7 +605,7 @@
 					"titleNView" : {
 						"buttons" : [
 						    {
-						        "text" : "规则说明",
+						        "text" : "规则",
 						        "fontSize":"12",
 						        "color" : "#333"
 						    }
@@ -362,18 +670,7 @@
 		{
 			"path": "pages/agentList/agentList",
 			"style": {
-				"navigationBarTitleText": "选择开通类型",
-				"app-plus" : {
-					"titleNView" : {
-						"buttons" : [
-						    {
-						        "text" : "分享",
-						        "fontSize": "12px",
-								"color" : "#a8a8a8"
-						    }
-						]
-					}
-				}
+				"navigationBarTitleText": "选择开通类型"
 			}
 		},
 		{

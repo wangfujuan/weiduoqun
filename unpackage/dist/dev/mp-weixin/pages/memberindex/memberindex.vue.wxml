@@ -1,0 +1,140 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="252ebe83">
+  <view class="_view data-v-7a7a2da2 content">
+    <view class="_view data-v-7a7a2da2 mi-top">
+      <view class="_view data-v-7a7a2da2 mi-bg" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjjrz-71ByWB7WRMvrvYPWIfaW_00G5YeXAZLK0j1RyPPD9ETP');"></view>
+      <view class="_view data-v-7a7a2da2 avatar-wp-top">
+        <view class="_view data-v-7a7a2da2 avatar-vip-top">
+          <template type="huiyuan" size="10" data="{{...$root['0'], ...$root[$kk+'TeM-0'],$root}}" is="18f61b88"></template>
+        </view>
+        <image class="_image data-v-7a7a2da2 avatar-100-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjjrz-71ByWB7WRMvrvYPWIfaW_00G5YeXAZLK0j1RyPPD9ETP" mode="widthFix"></image>
+      </view>
+      <view class="_view data-v-7a7a2da2 mi-top-con">
+        <view class="_view data-v-7a7a2da2 mi-top-phone"> 139****0909
+          <template type="nv" color="#f96547" size="14" data="{{...$root['0'], ...$root[$kk+'YSF-1'],$root}}" is="18f61b88"></template>
+        </view>
+        <view class="_view data-v-7a7a2da2 mi-top-id"> ID: 10293939 </view>
+        <view class="_view data-v-7a7a2da2 mi-top-wx"> 微信号：15010200383
+          <text class="_text data-v-7a7a2da2">复制</text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-7a7a2da2 mi-tab">
+      <view bindtap="handleProxy" data-eventid="{{'kNB-0'}}" data-comkey="{{$k}}" class="_view data-v-7a7a2da2 {{['mi-tab-item', currentTab == 1 ? 'mi-tab-active' : '']}}"> 名片 </view>
+      <view bindtap="handleProxy" data-eventid="{{'P7e-1'}}" data-comkey="{{$k}}" class="_view data-v-7a7a2da2 {{['mi-tab-item', currentTab == 2 ? 'mi-tab-active' : '']}}"> 群交易 </view>
+      <view bindtap="handleProxy" data-eventid="{{'Aqv-2'}}" data-comkey="{{$k}}" class="_view data-v-7a7a2da2 {{['mi-tab-item', currentTab == 3 ? 'mi-tab-active' : '']}}"> 微商圈 </view>
+      <view bindtap="handleProxy" data-eventid="{{'MVI-3'}}" data-comkey="{{$k}}" class="_view data-v-7a7a2da2 {{['mi-tab-item', currentTab == 4 ? 'mi-tab-active' : '']}}"> 微商货源 </view>
+    </view>
+    <view class="_view data-v-7a7a2da2 mi-card-tabcon" hidden="{{!(currentTab == 1)}}">
+      <navigator class="_navigator data-v-7a7a2da2 wx-item" hover-class="none" url="../wxgroupcard/wxgroupcard">
+        <view class="_view data-v-7a7a2da2 wx-item-md">
+          <view class="_view data-v-7a7a2da2 avatar-wp">
+            <view class="_view data-v-7a7a2da2 avatar-vip"> 微信个人 </view>
+            <image class="_image data-v-7a7a2da2 avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+          </view>
+          <view class="_view data-v-7a7a2da2 wx-item-con">
+            <view class="_view data-v-7a7a2da2 wx-item-tl">
+              <text class="_text data-v-7a7a2da2 ding">顶</text>
+              <text class="_text data-v-7a7a2da2 mdtxt">妮妮小宝贝</text>
+            </view>
+            <view class="_view data-v-7a7a2da2 wx-item-wx"> 进群加群主，不加秒踢 </view>
+          </view>
+        </view>
+        <template type="qianjin" size="16" color="#ddd" data="{{...$root['0'], ...$root[$kk+'u1Q-2'],$root}}" is="18f61b88"></template>
+      </navigator>
+      <navigator class="_navigator data-v-7a7a2da2 wx-item" hover-class="none" url="../wxgroupcard/wxgroupcard">
+        <view class="_view data-v-7a7a2da2 wx-item-md">
+          <view class="_view data-v-7a7a2da2 avatar-wp">
+            <view class="_view data-v-7a7a2da2 avatar-vip"> 微信群 </view>
+            <image class="_image data-v-7a7a2da2 avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+          </view>
+          <view class="_view data-v-7a7a2da2 wx-item-con">
+            <view class="_view data-v-7a7a2da2 wx-item-tl">
+              <text class="_text data-v-7a7a2da2 mdtxt">妮妮小宝贝</text>
+            </view>
+            <view class="_view data-v-7a7a2da2 wx-item-wx"> 进群加群主，不加秒踢 </view>
+          </view>
+        </view>
+        <template type="qianjin" size="16" color="#ddd" data="{{...$root['0'], ...$root[$kk+'FUE-3'],$root}}" is="18f61b88"></template>
+      </navigator>
+    </view>
+    <view class="_view data-v-7a7a2da2 mi-card-tabcon" hidden="{{!(currentTab == 2)}}">
+      <navigator class="_navigator data-v-7a7a2da2 wx-item" hover-class="none" url="../wxgroupcard/wxgroupcard">
+        <view class="_view data-v-7a7a2da2 wx-item-md">
+          <view class="_view data-v-7a7a2da2 avatar-wp">
+            <view class="_view data-v-7a7a2da2 avatar-vip"> 微信个人 </view>
+            <image class="_image data-v-7a7a2da2 avatar-100" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+          </view>
+          <view class="_view data-v-7a7a2da2 wx-item-con">
+            <view class="_view data-v-7a7a2da2 wx-item-tl">
+              <text class="_text data-v-7a7a2da2 ding">顶</text>
+              <text class="_text data-v-7a7a2da2 mdtxt">妮妮小宝贝</text>
+              <text class="_text data-v-7a7a2da2 truetag">客服担保</text>
+            </view>
+            <view class="_view data-v-7a7a2da2 wx-item-wx">
+              <text class="_text data-v-7a7a2da2">¥ </text>
+              <text style="font-size: 30rpx;font-weight: 500;" class="_text data-v-7a7a2da2">129 </text>389人关注 广州 </view>
+            <view class="_view data-v-7a7a2da2 mi-card-name"> 最爱你的轩轩 </view>
+          </view>
+        </view>
+        <template type="qianjin" size="16" color="#ddd" data="{{...$root['0'], ...$root[$kk+'6lf-4'],$root}}" is="18f61b88"></template>
+      </navigator>
+      <navigator class="_navigator data-v-7a7a2da2 wx-item" hover-class="none" url="../wxgroupcard/wxgroupcard">
+        <view class="_view data-v-7a7a2da2 wx-item-md">
+          <view class="_view data-v-7a7a2da2 avatar-wp">
+            <view class="_view data-v-7a7a2da2 avatar-vip"> 微信群 </view>
+            <image class="_image data-v-7a7a2da2 avatar-100" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+          </view>
+          <view class="_view data-v-7a7a2da2 wx-item-con">
+            <view class="_view data-v-7a7a2da2 wx-item-tl">
+              <text class="_text data-v-7a7a2da2 mdtxt">妮妮小宝贝</text>
+            </view>
+            <view class="_view data-v-7a7a2da2 wx-item-wx">
+              <text class="_text data-v-7a7a2da2">¥ </text>
+              <text style="font-size: 30rpx;font-weight: 500;" class="_text data-v-7a7a2da2">289 </text>389人关注 广州 </view>
+            <view class="_view data-v-7a7a2da2 mi-card-name"> 最爱你的轩轩 </view>
+          </view>
+        </view>
+        <template type="qianjin" size="16" color="#ddd" data="{{...$root['0'], ...$root[$kk+'lZn-5'],$root}}" is="18f61b88"></template>
+      </navigator>
+    </view>
+    <view class="_view data-v-7a7a2da2 mi-card-tabcon" hidden="{{!(currentTab == 3)}}">
+      <navigator class="_navigator data-v-7a7a2da2 wx-item" hover-class="none" url="../wxgroupcard/wxgroupcard">
+        <view class="_view data-v-7a7a2da2 wx-item-md">
+          <image class="_image data-v-7a7a2da2 avatar-100" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+          <view class="_view data-v-7a7a2da2 wx-item-con vertical">
+            <view class="_view data-v-7a7a2da2 wx-item-tl dbellipsis"> 妮妮小宝贝我们的货源有男装，女装，童装，男鞋，女包，小宝贝我们的货源有男装 </view>
+            <view class="_view data-v-7a7a2da2 mi-card-name">
+              <text class="_text data-v-7a7a2da2">点赞：0</text>
+              <text class="_text data-v-7a7a2da2">评论：0</text>
+              <text class="_text data-v-7a7a2da2">时间：07-09</text>
+            </view>
+          </view>
+        </view>
+      </navigator>
+      <navigator class="_navigator data-v-7a7a2da2 wx-item" hover-class="none" url="../wxgroupcard/wxgroupcard">
+        <view class="_view data-v-7a7a2da2 wx-item-md">
+          <image class="_image data-v-7a7a2da2 avatar-100" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+          <view class="_view data-v-7a7a2da2 wx-item-con vertical">
+            <view class="_view data-v-7a7a2da2 wx-item-tl dbellipsis"> 妮妮小宝贝 </view>
+            <view class="_view data-v-7a7a2da2 mi-card-name">
+              <text class="_text data-v-7a7a2da2">点赞：0</text>
+              <text class="_text data-v-7a7a2da2">评论：0</text>
+              <text class="_text data-v-7a7a2da2">时间：07-09</text>
+            </view>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <view class="_view data-v-7a7a2da2 content-pad" hidden="{{!(currentTab == 4)}}">
+      <view class="_view data-v-7a7a2da2 white">
+        <view class="_view data-v-7a7a2da2 content-pad">
+          <view class="_view data-v-7a7a2da2 mi-goods-tl"> SKV生态玻璃酸原液/三生态/六生态 </view>
+          <view class="_view data-v-7a7a2da2 mi-goods-info"> SKV新款冰山雪绒花，超补水，没有效果包退款 </view>
+          <image class="_image data-v-7a7a2da2 mi-goods-img" src="../../static/product.png" mode="widthFix"></image>
+          <view class="_view data-v-7a7a2da2 mi-goods-eye"> 阅读：199 </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,103 @@
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/mpvue-picker/mpvuePicker.vue.wxml" />
+<template name="34f71241">
+  <view class="_view data-v-41de06ed content">
+    <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'8Th-3'}}" data-comkey="{{$k}}" class="_form data-v-41de06ed">
+      <view class="_view data-v-41de06ed content-pad">
+        <view class="_view data-v-41de06ed white">
+          <view class="_view data-v-41de06ed summary">
+            <view class="_view data-v-41de06ed summary-con"> 当前微币：
+              <text class="_text data-v-41de06ed">55</text> 发布扣除：
+              <text class="_text data-v-41de06ed">1</text>
+            </view>
+            <view class="_view data-v-41de06ed center">
+              <template type="bangzhu" size="12" color="#8a8a8a" data="{{...$root['0'], ...$root[$kk+'th8-0'],$root}}" is="18f61b88"></template> 微币使用规则 </view>
+          </view>
+        </view>
+        <view class="_view data-v-41de06ed white">
+          <view class="_view data-v-41de06ed rc-line b-line">
+            <view class="_view data-v-41de06ed rc-line-lf"> 群名 </view>
+            <input type="text" placeholder-style="color: #c7c7c7" placeholder="想个吸引人的群名,不超过10个字" value="" class="_input data-v-41de06ed" />
+          </view>
+          <view class="_view data-v-41de06ed twosum">
+            <view class="_view data-v-41de06ed rc-line b-line">
+              <view class="_view data-v-41de06ed rc-line-lf"> 群主 </view>
+              <view class="_view data-v-41de06ed rc-select"> 请选择 </view>
+              <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'C3Q-1'],$root}}" is="18f61b88"></template>
+            </view>
+            <view class="_view data-v-41de06ed rc-line b-line">
+              <view class="_view data-v-41de06ed rc-line-lf"> 群人数 </view>
+              <input type="text" placeholder-style="color: #c7c7c7" placeholder value="" class="_input data-v-41de06ed" />
+              <text style="color: #c7c7c7;" class="_text data-v-41de06ed">个</text>
+            </view>
+          </view>
+          <view class="_view data-v-41de06ed twosum">
+            <view class="_view data-v-41de06ed rc-line b-line">
+              <view class="_view data-v-41de06ed rc-line-lf"> 售价 </view>
+              <input type="text" placeholder-style="color: #c7c7c7" placeholder="￥0.00" value="" class="_input data-v-41de06ed" />
+              <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'yB4-2'],$root}}" is="18f61b88"></template>
+            </view>
+            <view class="_view data-v-41de06ed rc-line b-line">
+              <view class="_view data-v-41de06ed rc-line-lf"> 标签 </view>
+              <view class="_view data-v-41de06ed rc-select"> 请选择标签 </view>
+              <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'liC-3'],$root}}" is="18f61b88"></template>
+            </view>
+          </view>
+          <view class="_view data-v-41de06ed twosum">
+            <view class="_view data-v-41de06ed rc-line" bindtap="handleProxy" data-eventid="{{'Fhc-0'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-41de06ed rc-line-lf"> 地区 </view>
+              <view class="_view data-v-41de06ed rc-select"> 请选择地区 </view>
+              <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'phC-4'],$root}}" is="18f61b88"></template>
+            </view>
+            <view class="_view data-v-41de06ed rc-line" bindtap="handleProxy" data-eventid="{{'blA-1'}}" data-comkey="{{$k}}">
+              <view class="_view data-v-41de06ed rc-line-lf"> 行业 </view>
+              <view class="_view data-v-41de06ed rc-select"> 请选择行业 </view>
+              <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'Che-5'],$root}}" is="18f61b88"></template>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-41de06ed white">
+          <view class="_view data-v-41de06ed rc-line">
+            <view class="_view data-v-41de06ed rc-line-lf"> 描述 </view>
+            <input type="text" placeholder-style="color: #c7c7c7" placeholder="认真填写描述,要一鸣惊人哦" value="" class="_input data-v-41de06ed" />
+          </view>
+        </view>
+        <view class="_view data-v-41de06ed white">
+          <view class="_view data-v-41de06ed rc-upload">
+            <view class="_view data-v-41de06ed up-avatar">
+              <template type="tianjia" color="#b9b9b9" data="{{...$root['0'], ...$root[$kk+'hgy-6'],$root}}" is="18f61b88"></template>
+            </view>
+            <view class="_view data-v-41de06ed rc-upload-info"> 上传微信头像 </view>
+          </view>
+        </view>
+        <view class="_view data-v-41de06ed white">
+          <view class="_view data-v-41de06ed rc-upload">
+            <view class="_view data-v-41de06ed up-avatar">
+              <template type="tianjia" color="#b9b9b9" data="{{...$root['0'], ...$root[$kk+'xrd-7'],$root}}" is="18f61b88"></template>
+            </view>
+            <view class="_view data-v-41de06ed rc-upload-info"> 上传微信二维码
+              <text class="_text data-v-41de06ed">(限1张)</text>
+            </view>
+            <view class="_view data-v-41de06ed rc-upload-rt center">
+              <template type="bangzhu" size="12" data="{{...$root['0'], ...$root[$kk+'K7C-8'],$root}}" is="18f61b88"></template> 如何获取 </view>
+          </view>
+        </view>
+        <view class="_view data-v-41de06ed white">
+          <view class="_view data-v-41de06ed rc-upload">
+            <switch checked color="#44B549" bindchange="handleProxy" data-eventid="{{'c3l-2'}}" data-comkey="{{$k}}" class="_switch data-v-41de06ed" />
+            <view class="_view data-v-41de06ed rc-upload-info"> 开启防止机器人进群验证 </view>
+            <view class="_view data-v-41de06ed rc-upload-rt center">
+              <template type="bangzhu" size="12" data="{{...$root['0'], ...$root[$kk+'T5D-9'],$root}}" is="18f61b88"></template> 了解详情 </view>
+          </view>
+        </view>
+        <view class="_view data-v-41de06ed user-agree"> 发布代表同意
+          <navigator url class="_navigator data-v-41de06ed">《用户使用服务协议》</navigator>
+        </view>
+        <view class="_view data-v-41de06ed submitbtn-wp">
+          <button class="_button data-v-41de06ed block-tl-color8 submitbtn" formType="submit">确认发布</button>
+        </view>
+      </view>
+    </form>
+    <template ref="mpvuePicker" bindonConfirm="handleProxy" bindonCancel="handleProxy" data-eventid="{{'aMT-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'j3N-10'],$root}}" is="ec834500"></template>
+  </view>
+</template>

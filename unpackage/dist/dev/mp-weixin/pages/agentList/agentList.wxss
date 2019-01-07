@@ -1,0 +1,108 @@
+@import "../../common/vendor.wxss";
+
+.line20 {
+  background-color: #F4F6FA;
+  height: 20rpx;
+}
+.agent-ls {
+  padding: 0 20rpx;
+}
+.agent-item {
+  height: 100rpx;
+  border: 2rpx solid #E5E5E5;
+  border-radius: 6rpx;
+  margin: 20rpx 0;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 0 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.agent-item-rt {
+  height: 30rpx;
+  line-height: 30rpx;
+  border-left: 2rpx solid #e5e5e5;
+  padding-left: 20rpx;
+}
+.fontred {
+  color: #e86a38;
+}
+.lastgary {
+  color: #b2b2b2;
+  text-decoration: line-through;
+  padding: 0 10rpx;
+}
+.gray {
+  color: #b2b2b2;
+}
+.active-item {
+  border-color: #b28431;
+  position: relative;
+}
+.active-item .agent-item-lf {
+  color: #b28431;
+  font-weight: 500;
+}
+.active-item .agent-item-rt .fontred {
+  font-weight: 500;
+}
+.active-item::after {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: 16rpx solid;
+  border-color: transparent #b28431 #b28431 transparent;
+}
+.active-icon {
+  position: absolute;
+  right: 4rpx;
+  bottom: 4rpx;
+  z-index: 9;
+  -webkit-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+.active-icon::after,
+.active-icon::before {
+  content: "";
+  background-color: #fff;
+  display: block;
+}
+.active-icon::before {
+  width: 8rpx;
+  height: 2rpx;
+}
+.active-icon::after {
+  height: 12rpx;
+  width: 2rpx;
+}
+.fixed-btn-wp {
+  background-color: #fff;
+  padding: 20rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.fixed-btn {
+  background-color: #b28431;
+  height: 76rpx;
+  line-height: 76rpx;
+  border-radius: 10rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 30rpx;
+  font-weight: 500;
+}

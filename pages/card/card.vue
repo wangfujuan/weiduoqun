@@ -2,11 +2,12 @@
     <view class="content">
 		<view class="swiper-tab">  
 		  <view :class="['swiper-tab-list', currentTab==0 ? 'active' : '']" data-current="0" @click="swichNav">微信群名片</view>  
-		  <view :class="['swiper-tab-list', currentTab==1 ? 'active' : '']" data-current="1" @click="swichNav">QQ群名片</view>  
+		  <view :class="['swiper-tab-list', currentTab==1 ? 'active' : '']" data-current="1" @click="swichNav">微信个人名片</view>  
 		</view>
 		<swiper :current="currentTab" class="swiper-box" duration="300" @change="bindChange">
 			<swiper-item>
 				<scroll-view class="list" scroll-y>
+					<navigator hover-class="none" url="../openagent/openagent">
 					<view class="obtain-boss">
 						<uni-icon size="20" color="#e86a38" type="huiyuan1"></uni-icon>
 						<view class="obtain-boss-info">
@@ -16,6 +17,7 @@
 							开通
 						</view>
 					</view>
+					</navigator>
 					<view class="card-item">
 						<view class="card-item-icon">
 							<uni-icon type="jiufuqianbaoicon05" size="16"></uni-icon>
@@ -41,11 +43,11 @@
 								</view>
 							</view>
 							<view class="card-item-edit-rt">
-								<view class="card-item-sm light" @click="show" data-position="bottom">
+								<view class="card-item-sm light">
 									置顶
 								</view>
-								<view class="card-item-sm">
-									被动爆粉
+								<view class="card-item-sm"  @click="show" data-position="bottom">
+									自动加人
 								</view>
 								<view class="card-item-sm">
 									高亮
@@ -85,7 +87,7 @@
 									置顶
 								</view>
 								<view class="card-item-sm">
-									被动爆粉
+									自动加人
 								</view>
 								<view class="card-item-sm">
 									高亮
@@ -145,7 +147,7 @@
 								<view class="card-item-sm light">
 									置顶
 								</view>
-								<view class="card-item-sm">
+								<view class="card-item-sm" @click="show" data-position="bottom1">
 									被动爆粉
 								</view>
 								<view class="card-item-sm">
@@ -161,12 +163,15 @@
 			</swiper-item>
 		</swiper>	
 		<view class="card-fixed">
-			<navigator class="card-fixed-item" hover-class="none" url="../releaseGroup/releaseGroup">
-				<view class="card-fixed-con linearyellow">添加个人微信名片</view>
+			<!-- <view class="card-fixed-item" @click="toAddCard">
+				<view class="card-fixed-con linearyellow">{{btninfo}}</view>
+			</view> -->
+			<navigator class="card-fixed-item" hover-class="none" :url="addCard">
+				<view class="card-fixed-con linearyellow">{{btninfo}}</view>
 			</navigator>
-			<view class="card-fixed-item">
+			<navigator hover-class="none" class="card-fixed-item" url="../member/member">
 				<view class="card-fixed-con">开通钻石代理</view>
-			</view>
+			</navigator>
 		</view>
 		<view class="mask" v-show="showMask" @click="hide"></view>
 		<!-- popup 置顶 start-->	
@@ -206,6 +211,62 @@
 			</form>
 		</view>
 		<!-- popup 置顶 end-->
+		<!-- popup 被动爆粉 start-->	
+		<view class="popup popup-bottom" v-show="showState.bottom1">
+			<form @submit="formSubmit" @reset="formReset">
+				<view class="user-do">
+					<view class="">
+						被动爆粉详情
+					</view>
+					<view class="user-do-true" @click="hide">
+						<uni-icon type="shachu-xue" color="#8a8a8a" size="16"></uni-icon>
+					</view>
+				</view>
+				<view class="wx-item-md">
+					<image class="avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+					<view class="wx-item-con">
+						<view class="wx-item-tl">
+							<text class="mdtxt">妮妮小宝贝</text>
+						</view>
+						<view class="wx-item-wx">
+							进群加群主，不加秒踢进群加群主
+						</view>
+					</view>	
+				</view>
+				<view class="user-self-title">
+					开通钻石代理后，您可以获得他消费的<text class="fontred">40%</text>提成 
+					<navigator hover-class="none" class="obtain-boss-open" url="../openagent/openagent">开通</navigator>
+				</view>
+				<view class="openlist">
+					<view class="open-item b-line">
+						<view class="open-item-lf">开通项目:</view>
+						<view class="open-item-rt">微信个人名片被动爆粉 30天</view>
+					</view>
+					<view class="open-item b-line">
+						<view class="open-item-lf">开通时间:</view>
+						<view class="open-item-rt">2018-12-20 09:20:12</view>
+					</view>
+					<view class="open-item b-line">
+						<view class="open-item-lf">截止时间:</view>
+						<view class="open-item-rt">2018-12-20 09:20:12</view>
+					</view>
+					<view class="open-item b-line">
+						<view class="open-item-lf">剩余时间:</view>
+						<view class="open-item-rt"><text class="fontred">3天22小时44分</text></view>
+					</view>
+					<view class="open-item b-line">
+						<view class="open-item-lf">被动爆粉状态:</view>
+						<view class="open-item-rt"><text class="fontred larfont">被动爆粉中</text> <text class="user-status">暂停</text></view>
+					</view>
+				</view>
+				
+				<view class="card-mask-con">
+					
+					<button class="cardbtn" formType="submit">换号被动爆粉</button>				
+				</view>
+			</form>
+		</view>
+		<!-- popup 被动爆粉 end-->
     </view>
 </template>
 <script>
@@ -217,46 +278,83 @@
         },
         data() {
             return {
-							currentTab: 0,
-							showMask: false,
-							showState: {
-								top: false,
-								middle: false,
-								bottom: false,
-								bottom1: false
-							},
+				currentTab: 0,
+				showMask: false,
+				showState: {
+					top: false,
+					middle: false,
+					bottom: false,
+					bottom1: false
+				},
+				btninfo: '',
+				addCard: ''
             }
         },
+		onLoad(options) {
+			this.currentTab = parseInt(options.currentTab);
+			console.log(this.currentTab);
+			if(this.currentTab == 0){
+				this.btninfo = '添加微信群名片';
+				this.addCard = '/pages/releaseGroup/releaseGroup';
+			}else{
+				this.btninfo = '添加个人微信名片';
+				this.addCard = '/pages/releaseCard/releaseCard';
+			}
+		},
         methods: {
             bindChange: function (e) {	
-							this.currentTab = e.detail.current;
-						},
-						swichNav: function(e){
-							this.currentTab = e.currentTarget.dataset.current;
-						},
-						show: function(e) {
-							var pos = e.currentTarget.dataset.position;
-							switch (pos) {
-								case 'top':
-									this.activePop = 'top'
-									break
-								case 'bottom':
-									this.activePop = 'bottom'
-									break
-								case 'bottom1':
-									this.activePop = 'bottom1'
-									break
-								default:
-									this.activePop = 'middle'
-							}
-							this.showMask = true
-							this.showState[this.activePop] = true
-						},
-						hide: function() {
-							this.showMask = false
-							this.showState[this.activePop] = false
-						},
-        }
+				this.currentTab = e.detail.current;
+			},
+			swichNav: function(e){
+				this.currentTab = e.currentTarget.dataset.current;
+				if(e.currentTarget.dataset.current == 0){
+					this.btninfo = '添加微信群名片';
+					this.addCard = '/pages/releaseGroup/releaseGroup';
+				}else{
+					this.btninfo = '添加个人微信名片';
+					this.addCard = '/pages/releaseCard/releaseCard';
+				}
+			},
+// 			toAddCard: function(){
+// 				uni.navigateTo({
+// 					url: '/pages/releaseGroup/releaseGroup'
+// 				})
+// 			},
+			show: function(e) {
+				var pos = e.currentTarget.dataset.position;
+				switch (pos) {
+					case 'top':
+						this.activePop = 'top'
+						break
+					case 'bottom':
+						this.activePop = 'bottom'
+						break
+					case 'bottom1':
+						this.activePop = 'bottom1'
+						break
+					default:
+						this.activePop = 'middle'
+				}
+				this.showMask = true
+				this.showState[this.activePop] = true
+			},
+			hide: function() {
+				this.showMask = false
+				this.showState[this.activePop] = false
+			},
+        },
+		onNavigationBarButtonTap: function(){
+			if(this.currentTab == 0){
+				uni.navigateTo({
+					url: '/pages/releaseGroup/releaseGroup'
+				})
+			}else{
+				uni.navigateTo({
+					url: '/pages/releaseCard/releaseCard'
+				})
+			}
+			
+		},
     }
 </script>
 
@@ -493,8 +591,9 @@
 		line-height: 80upx;
 		text-align: center;
 		position: relative;
-		background-color: #F4F6FA;
+		background-color: #fff;
 		color: #44B549;
+		border-bottom: 2upx solid #e5e5e5;
 	}
 	.user-do-true{
 		position: absolute;
@@ -564,6 +663,75 @@
 	}
 	.cardbtn::after{
 		border: none;
+	}
+	.user-self-title{
+		margin-top: 20upx;
+		padding: 24upx 0;
+		text-align: center;
+		color: #999999;
+		font-size: 22upx;
+		background-color: #f8f8f8;
+		line-height: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/* position: relative; */
+	}
+	.user-self-title .obtain-boss-open{
+		position: static;
+		margin-left: 10upx;
+	}
+	.openlist{
+		background-color: #fff;
+		margin-bottom: 20upx;
+	}
+	.open-item{
+		padding: 24upx 0;
+		color: #b2b2b2;
+		display: flex;
+		font-size: 24upx;
+	}
+	.open-item-lf{
+		flex: 0 0 200upx;
+		text-align: right;
+	}
+	.open-item-rt{
+		flex: 1;
+		padding-left: 20upx;
+		color: #333;
+	}
+	.user-status{
+		color: #b28431;
+		border: 2upx solid #b28431;
+		border-radius: 6upx;
+		padding: 4upx 16upx;
+		margin: 0 10upx;
+	}
+	.wx-item-md{
+		flex: 1;
+		display: flex;
+		flex-direction: row;
+		padding-left: 10upx;
+		justify-content: center;
+		padding: 20upx 0 0;
+	}
+	.avatar-100{
+		width: 100upx;
+		height: 100upx;
+		flex: 0 0 100upx;
+		border-radius: 6upx;
+	}
+	.wx-item-con{
+		padding-left: 20upx;
+	}
+	.wx-item-tl{
+		font-weight: 500;
+		font-size: 30upx;
+	}
+	.wx-item-wx{
+		margin-top: 10upx;
+		color: #b2b2b2;
+		font-size: 24upx;
 	}
 </style>
 

@@ -2,44 +2,22 @@
 <template name="c0e5d35e">
   <view class="_view data-v-738e1dfd content">
     <view class="_view data-v-738e1dfd swiper-tab">
-      <view data-current="0" bindtap="handleProxy" data-eventid="{{'RUB-0'}}" data-comkey="{{$k}}" class="_view data-v-738e1dfd {{['swiper-tab-list', currentTab == 0 ? 'active' : '']}}">微信群名片</view>
-      <view data-current="1" bindtap="handleProxy" data-eventid="{{'Dfp-1'}}" data-comkey="{{$k}}" class="_view data-v-738e1dfd {{['swiper-tab-list', currentTab == 1 ? 'active' : '']}}">QQ群名片</view>
+      <view data-current="0" bindtap="handleProxy" data-eventid="{{'CGR-0'}}" data-comkey="{{$k}}" class="_view data-v-738e1dfd {{['swiper-tab-list', currentTab == 0 ? 'active' : '']}}">微信群名片</view>
+      <view data-current="1" bindtap="handleProxy" data-eventid="{{'fv4-1'}}" data-comkey="{{$k}}" class="_view data-v-738e1dfd {{['swiper-tab-list', currentTab == 1 ? 'active' : '']}}">微信个人名片</view>
     </view>
-    <swiper current="{{currentTab}}" class="_swiper data-v-738e1dfd swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'YK8-3'}}" data-comkey="{{$k}}">
+    <swiper current="{{currentTab}}" class="_swiper data-v-738e1dfd swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'GWm-4'}}" data-comkey="{{$k}}">
       <swiper-item class="_swiper-item data-v-738e1dfd">
         <scroll-view class="_scroll-view data-v-738e1dfd list" scroll-y>
-          <view class="_view data-v-738e1dfd obtain-boss">
-            <template size="20" color="#e86a38" type="huiyuan1" data="{{...$root['0'], ...$root[$kk+'U3K-0'],$root}}" is="18f61b88"></template>
-            <view class="_view data-v-738e1dfd obtain-boss-info"> 钻石代理名片高亮 每天自动刷新 </view>
-            <view class="_view data-v-738e1dfd obtain-boss-open"> 开通 </view>
-          </view>
+          <navigator hover-class="none" url="../openagent/openagent" class="_navigator data-v-738e1dfd">
+            <view class="_view data-v-738e1dfd obtain-boss">
+              <template size="20" color="#e86a38" type="huiyuan1" data="{{...$root['0'], ...$root[$kk+'0Ed-0'],$root}}" is="18f61b88"></template>
+              <view class="_view data-v-738e1dfd obtain-boss-info"> 钻石代理名片高亮 每天自动刷新 </view>
+              <view class="_view data-v-738e1dfd obtain-boss-open"> 开通 </view>
+            </view>
+          </navigator>
           <view class="_view data-v-738e1dfd card-item">
             <view class="_view data-v-738e1dfd card-item-icon">
-              <template type="jiufuqianbaoicon05" size="16" data="{{...$root['0'], ...$root[$kk+'cd6-1'],$root}}" is="18f61b88"></template>
-            </view>
-            <view class="_view data-v-738e1dfd card-item-tl"> 妮妮小宝贝 </view>
-            <view class="_view data-v-738e1dfd card-item-info"> 我是一个可爱的妈咪，刚刚微商求带... </view>
-            <view class="_view data-v-738e1dfd card-item-sub">
-              <text class="_text data-v-738e1dfd">曝光：68</text>
-              <text class="_text data-v-738e1dfd">被添加：3</text>
-              <text class="_text data-v-738e1dfd">更新：刚刚</text>
-            </view>
-            <view class="_view data-v-738e1dfd card-item-edit">
-              <view class="_view data-v-738e1dfd card-item-edit-lf">
-                <view class="_view data-v-738e1dfd card-item-sm"> 编辑 </view>
-                <view class="_view data-v-738e1dfd card-item-sm"> 下架 </view>
-              </view>
-              <view class="_view data-v-738e1dfd card-item-edit-rt">
-                <view class="_view data-v-738e1dfd card-item-sm light" bindtap="handleProxy" data-position="bottom" data-eventid="{{'EWg-2'}}" data-comkey="{{$k}}"> 置顶 </view>
-                <view class="_view data-v-738e1dfd card-item-sm"> 被动爆粉 </view>
-                <view class="_view data-v-738e1dfd card-item-sm"> 高亮 </view>
-                <view class="_view data-v-738e1dfd card-item-sm disabled"> 刷新 </view>
-              </view>
-            </view>
-          </view>
-          <view class="_view data-v-738e1dfd card-item used">
-            <view class="_view data-v-738e1dfd card-item-icon">
-              <template type="jiufuqianbaoicon05" size="16" data="{{...$root['0'], ...$root[$kk+'0zY-2'],$root}}" is="18f61b88"></template>
+              <template type="jiufuqianbaoicon05" size="16" data="{{...$root['0'], ...$root[$kk+'9tF-1'],$root}}" is="18f61b88"></template>
             </view>
             <view class="_view data-v-738e1dfd card-item-tl"> 妮妮小宝贝 </view>
             <view class="_view data-v-738e1dfd card-item-info"> 我是一个可爱的妈咪，刚刚微商求带... </view>
@@ -55,7 +33,31 @@
               </view>
               <view class="_view data-v-738e1dfd card-item-edit-rt">
                 <view class="_view data-v-738e1dfd card-item-sm light"> 置顶 </view>
-                <view class="_view data-v-738e1dfd card-item-sm"> 被动爆粉 </view>
+                <view class="_view data-v-738e1dfd card-item-sm" bindtap="handleProxy" data-position="bottom" data-eventid="{{'5kz-2'}}" data-comkey="{{$k}}"> 自动加人 </view>
+                <view class="_view data-v-738e1dfd card-item-sm"> 高亮 </view>
+                <view class="_view data-v-738e1dfd card-item-sm disabled"> 刷新 </view>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-738e1dfd card-item used">
+            <view class="_view data-v-738e1dfd card-item-icon">
+              <template type="jiufuqianbaoicon05" size="16" data="{{...$root['0'], ...$root[$kk+'TMS-2'],$root}}" is="18f61b88"></template>
+            </view>
+            <view class="_view data-v-738e1dfd card-item-tl"> 妮妮小宝贝 </view>
+            <view class="_view data-v-738e1dfd card-item-info"> 我是一个可爱的妈咪，刚刚微商求带... </view>
+            <view class="_view data-v-738e1dfd card-item-sub">
+              <text class="_text data-v-738e1dfd">曝光：68</text>
+              <text class="_text data-v-738e1dfd">被添加：3</text>
+              <text class="_text data-v-738e1dfd">更新：刚刚</text>
+            </view>
+            <view class="_view data-v-738e1dfd card-item-edit">
+              <view class="_view data-v-738e1dfd card-item-edit-lf">
+                <view class="_view data-v-738e1dfd card-item-sm"> 编辑 </view>
+                <view class="_view data-v-738e1dfd card-item-sm"> 下架 </view>
+              </view>
+              <view class="_view data-v-738e1dfd card-item-edit-rt">
+                <view class="_view data-v-738e1dfd card-item-sm light"> 置顶 </view>
+                <view class="_view data-v-738e1dfd card-item-sm"> 自动加人 </view>
                 <view class="_view data-v-738e1dfd card-item-sm"> 高亮 </view>
                 <view class="_view data-v-738e1dfd card-item-sm disabled"> 刷新 </view>
               </view>
@@ -84,7 +86,7 @@
         <scroll-view class="_scroll-view data-v-738e1dfd list" scroll-y>
           <view class="_view data-v-738e1dfd card-item">
             <view class="_view data-v-738e1dfd card-item-icon">
-              <template type="jiufuqianbaoicon05" size="16" data="{{...$root['0'], ...$root[$kk+'GbS-4'],$root}}" is="18f61b88"></template>
+              <template type="jiufuqianbaoicon05" size="16" data="{{...$root['0'], ...$root[$kk+'9Fr-4'],$root}}" is="18f61b88"></template>
             </view>
             <view class="_view data-v-738e1dfd card-item-tl"> 妮妮小宝贝 </view>
             <view class="_view data-v-738e1dfd card-item-info"> 我是一个可爱的妈咪，刚刚微商求带... </view>
@@ -100,7 +102,7 @@
               </view>
               <view class="_view data-v-738e1dfd card-item-edit-rt">
                 <view class="_view data-v-738e1dfd card-item-sm light"> 置顶 </view>
-                <view class="_view data-v-738e1dfd card-item-sm"> 被动爆粉 </view>
+                <view class="_view data-v-738e1dfd card-item-sm" bindtap="handleProxy" data-position="bottom1" data-eventid="{{'YCd-3'}}" data-comkey="{{$k}}"> 被动爆粉 </view>
                 <view class="_view data-v-738e1dfd card-item-sm"> 高亮 </view>
                 <view class="_view data-v-738e1dfd card-item-sm disabled"> 刷新 </view>
               </view>
@@ -110,20 +112,20 @@
       </swiper-item>
     </swiper>
     <view class="_view data-v-738e1dfd card-fixed">
-      <navigator class="_navigator data-v-738e1dfd card-fixed-item" hover-class="none" url="../releaseGroup/releaseGroup">
-        <view class="_view data-v-738e1dfd card-fixed-con linearyellow">添加个人微信名片</view>
+      <navigator class="_navigator data-v-738e1dfd card-fixed-item" hover-class="none" url="{{addCard}}">
+        <view class="_view data-v-738e1dfd card-fixed-con linearyellow">{{btninfo}}</view>
       </navigator>
-      <view class="_view data-v-738e1dfd card-fixed-item">
+      <navigator hover-class="none" class="_navigator data-v-738e1dfd card-fixed-item" url="../member/member">
         <view class="_view data-v-738e1dfd card-fixed-con">开通钻石代理</view>
-      </view>
+      </navigator>
     </view>
-    <view class="_view data-v-738e1dfd mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'Yl8-4'}}" data-comkey="{{$k}}"></view>
+    <view class="_view data-v-738e1dfd mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'YiM-5'}}" data-comkey="{{$k}}"></view>
     <view class="_view data-v-738e1dfd popup popup-bottom" hidden="{{!(showState.bottom)}}">
-      <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'jad-6'}}" data-comkey="{{$k}}" class="_form data-v-738e1dfd">
+      <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'yC4-7'}}" data-comkey="{{$k}}" class="_form data-v-738e1dfd">
         <view class="_view data-v-738e1dfd user-do">
           <view class="_view data-v-738e1dfd"> 置顶推荐 </view>
-          <view class="_view data-v-738e1dfd user-do-true" bindtap="handleProxy" data-eventid="{{'Rp0-5'}}" data-comkey="{{$k}}">
-            <template type="shachu-xue" color="#8a8a8a" size="16" data="{{...$root['0'], ...$root[$kk+'TC3-6'],$root}}" is="18f61b88"></template>
+          <view class="_view data-v-738e1dfd user-do-true" bindtap="handleProxy" data-eventid="{{'nc5-6'}}" data-comkey="{{$k}}">
+            <template type="shachu-xue" color="#8a8a8a" size="16" data="{{...$root['0'], ...$root[$kk+'Hao-6'],$root}}" is="18f61b88"></template>
           </view>
         </view>
         <view class="_view data-v-738e1dfd card-mask-con">
@@ -156,6 +158,59 @@
             <text class="_text data-v-738e1dfd fontred fontweight">100个</text>
           </view>
           <button class="_button data-v-738e1dfd cardbtn" formType="submit">提交(支付100个微币)</button>
+        </view>
+      </form>
+    </view>
+    <view class="_view data-v-738e1dfd popup popup-bottom" hidden="{{!(showState.bottom1)}}">
+      <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'FEo-9'}}" data-comkey="{{$k}}" class="_form data-v-738e1dfd">
+        <view class="_view data-v-738e1dfd user-do">
+          <view class="_view data-v-738e1dfd"> 被动爆粉详情 </view>
+          <view class="_view data-v-738e1dfd user-do-true" bindtap="handleProxy" data-eventid="{{'ljS-8'}}" data-comkey="{{$k}}">
+            <template type="shachu-xue" color="#8a8a8a" size="16" data="{{...$root['0'], ...$root[$kk+'2kk-7'],$root}}" is="18f61b88"></template>
+          </view>
+        </view>
+        <view class="_view data-v-738e1dfd wx-item-md">
+          <image class="_image data-v-738e1dfd avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+          <view class="_view data-v-738e1dfd wx-item-con">
+            <view class="_view data-v-738e1dfd wx-item-tl">
+              <text class="_text data-v-738e1dfd mdtxt">妮妮小宝贝</text>
+            </view>
+            <view class="_view data-v-738e1dfd wx-item-wx"> 进群加群主，不加秒踢进群加群主 </view>
+          </view>
+        </view>
+        <view class="_view data-v-738e1dfd user-self-title"> 开通钻石代理后，您可以获得他消费的
+          <text class="_text data-v-738e1dfd fontred">40%</text>提成
+          <navigator hover-class="none" class="_navigator data-v-738e1dfd obtain-boss-open" url="../openagent/openagent">开通</navigator>
+        </view>
+        <view class="_view data-v-738e1dfd openlist">
+          <view class="_view data-v-738e1dfd open-item b-line">
+            <view class="_view data-v-738e1dfd open-item-lf">开通项目:</view>
+            <view class="_view data-v-738e1dfd open-item-rt">微信个人名片被动爆粉 30天</view>
+          </view>
+          <view class="_view data-v-738e1dfd open-item b-line">
+            <view class="_view data-v-738e1dfd open-item-lf">开通时间:</view>
+            <view class="_view data-v-738e1dfd open-item-rt">2018-12-20 09:20:12</view>
+          </view>
+          <view class="_view data-v-738e1dfd open-item b-line">
+            <view class="_view data-v-738e1dfd open-item-lf">截止时间:</view>
+            <view class="_view data-v-738e1dfd open-item-rt">2018-12-20 09:20:12</view>
+          </view>
+          <view class="_view data-v-738e1dfd open-item b-line">
+            <view class="_view data-v-738e1dfd open-item-lf">剩余时间:</view>
+            <view class="_view data-v-738e1dfd open-item-rt">
+              <text class="_text data-v-738e1dfd fontred">3天22小时44分</text>
+            </view>
+          </view>
+          <view class="_view data-v-738e1dfd open-item b-line">
+            <view class="_view data-v-738e1dfd open-item-lf">被动爆粉状态:</view>
+            <view class="_view data-v-738e1dfd open-item-rt">
+              <text class="_text data-v-738e1dfd fontred larfont">被动爆粉中</text>
+              <text class="_text data-v-738e1dfd user-status">暂停</text>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-738e1dfd card-mask-con">
+          <button class="_button data-v-738e1dfd cardbtn" formType="submit">换号被动爆粉</button>
         </view>
       </form>
     </view>

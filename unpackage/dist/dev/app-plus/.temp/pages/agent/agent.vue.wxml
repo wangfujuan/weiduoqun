@@ -13,7 +13,7 @@
           <view class="_view data-v-3e301b49 rc-line b-line">
             <view class="_view data-v-3e301b49 rc-line-lf"> 开通类型 </view>
             <view class="_view data-v-3e301b49 rc-select"> 请选择开通类型 </view>
-            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'Fu9-0'],$root}}" is="18f61b88"></template>
+            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'Y9i-0'],$root}}" is="18f61b88"></template>
           </view>
         </navigator>
         <view class="_view data-v-3e301b49 rc-line">
@@ -23,10 +23,10 @@
           </view>
         </view>
       </view>
-      <radio-group class="_radio-group data-v-3e301b49 pay-box" bindchange="handleProxy" data-eventid="{{'ipV-0'}}" data-comkey="{{$k}}">
+      <radio-group class="_radio-group data-v-3e301b49 pay-box" bindchange="handleProxy" data-eventid="{{'xXz-0'}}" data-comkey="{{$k}}">
         <view class="_view data-v-3e301b49 pay-item" wx:key="item" key="{{item}}" wx:for="{{payList}}" wx:for-index="index" wx:for-item="item">
           <label class="_label data-v-3e301b49 pay-item-con">
-            <template data="{{...$root['0'], ...$root[$kk+'kht-1-'+index],$root}}" is="18f61b88"></template>{{item.value}}
+            <template data="{{...$root['0'], ...$root[$kk+'HQA-1-'+index],$root}}" is="18f61b88"></template>{{item.value}}
             <radio class="_radio data-v-3e301b49 pay-radio" value="{{item.name}}" checked="{{item.checked}}" />
           </label>
         </view>

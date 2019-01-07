@@ -1,5 +1,6 @@
 <template>
 	<view class="content">
+		<navigator hover-class="none" url="../member/member">
 		<view class="openagent-top">
 			<view class="openagent-top-subtl">
 				30多项高级特权
@@ -11,6 +12,7 @@
 				每天几分钱 开启百万大生意
 			</view>
 		</view>
+		</navigator>
 		<view class="wbre-box">
 			<view class="wbre-item">
 				<view class="wbre-item-con">
@@ -127,6 +129,7 @@
 <style>
 	.content{
 		background-color: #F4F6FA;
+		padding-bottom: 300upx;
 	}
 	.openagent-top{
 		padding: 50upx 0;
@@ -315,10 +318,14 @@
 		width: 2upx;
 	}
 	.opensum{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
 		background-color: #fff;
-		margin: 20upx 0;
 		padding: 20upx 20upx;
 		font-size: 26upx;
+		border-top: 2upx solid #e5e5e5;
 	}
 	.opensum-line{
 		/* height: 70upx;

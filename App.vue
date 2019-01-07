@@ -1,10 +1,12 @@
 <script>
+	import util from './common/util.js';
     export default {
         onLaunch: function () {
             console.log('App Launch');
         },
         onShow: function () {
             console.log('App Show');
+			console.log(util.PATH_API);
         },
         onHide: function () {
             console.log('App Hide');

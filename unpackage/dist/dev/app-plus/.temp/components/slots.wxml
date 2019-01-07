@@ -56,18 +56,994 @@
 <import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
 <import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
 <import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
-<template name="data-v-1308e98a-default-Wzz-15">
+<template name="data-v-2bdefdc6-default-a5V-15">
+  <view class="_view data-v-2bdefdc6 drawer-content">
+    <view class="_view data-v-2bdefdc6 drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-2bdefdc6 st-title"> 微信商家 </view>
+    <view class="_view data-v-2bdefdc6 user-sl-ls">
+      <view class="_view data-v-2bdefdc6 user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-2bdefdc6 user-sl-item-con" bindtap="handleProxy" data-eventid="{{'oIX-7-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-2bdefdc6 {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-2bdefdc6 submitbtn-wp">
+        <view class="_view data-v-2bdefdc6 block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'9b7-8'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-1308e98a-default-wog-15">
   <view class="_view data-v-1308e98a drawer-content">
     <view class="_view data-v-1308e98a drawer-title b-line"> 行业筛选 </view>
     <view class="_view data-v-1308e98a st-title"> 微信商家 </view>
     <view class="_view data-v-1308e98a user-sl-ls">
       <view class="_view data-v-1308e98a user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
-        <view class="_view data-v-1308e98a user-sl-item-con" bindtap="handleProxy" data-eventid="{{'YyA-7-'+index}}" data-comkey="{{$k}}">
+        <view class="_view data-v-1308e98a user-sl-item-con" bindtap="handleProxy" data-eventid="{{'QnT-7-'+index}}" data-comkey="{{$k}}">
           <text class="_text data-v-1308e98a {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
         </view>
       </view>
       <view class="_view data-v-1308e98a submitbtn-wp">
-        <view class="_view data-v-1308e98a block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'TRH-8'}}" data-comkey="{{$k}}">确定</view>
+        <view class="_view data-v-1308e98a block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'cL8-8'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-1308e98a-default-K85-15">
+  <view class="_view data-v-1308e98a drawer-content">
+    <view class="_view data-v-1308e98a drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-1308e98a st-title"> 微信商家 </view>
+    <view class="_view data-v-1308e98a user-sl-ls">
+      <view class="_view data-v-1308e98a user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-1308e98a user-sl-item-con" bindtap="handleProxy" data-eventid="{{'6ZL-7-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-1308e98a {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-1308e98a submitbtn-wp">
+        <view class="_view data-v-1308e98a block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'6o7-8'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-1308e98a-default-n6X-15">
+  <view class="_view data-v-1308e98a drawer-content">
+    <view class="_view data-v-1308e98a drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-1308e98a st-title"> 微信商家 </view>
+    <view class="_view data-v-1308e98a user-sl-ls">
+      <view class="_view data-v-1308e98a user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-1308e98a user-sl-item-con" bindtap="handleProxy" data-eventid="{{'w12-7-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-1308e98a {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-1308e98a submitbtn-wp">
+        <view class="_view data-v-1308e98a block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'dHg-8'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-1308e98a-default-nta-15">
+  <view class="_view data-v-1308e98a drawer-content">
+    <view class="_view data-v-1308e98a drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-1308e98a st-title"> 微信商家 </view>
+    <view class="_view data-v-1308e98a user-sl-ls">
+      <view class="_view data-v-1308e98a user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-1308e98a user-sl-item-con" bindtap="handleProxy" data-eventid="{{'Zjd-7-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-1308e98a {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-1308e98a submitbtn-wp">
+        <view class="_view data-v-1308e98a block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'Imi-8'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-1308e98a-default-hwM-15">
+  <view class="_view data-v-1308e98a drawer-content">
+    <view class="_view data-v-1308e98a drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-1308e98a st-title"> 微信商家 </view>
+    <view class="_view data-v-1308e98a user-sl-ls">
+      <view class="_view data-v-1308e98a user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-1308e98a user-sl-item-con" bindtap="handleProxy" data-eventid="{{'ixW-7-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-1308e98a {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-1308e98a submitbtn-wp">
+        <view class="_view data-v-1308e98a block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'c1y-8'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-1308e98a-default-JMv-15">
+  <view class="_view data-v-1308e98a drawer-content">
+    <view class="_view data-v-1308e98a drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-1308e98a st-title"> 微信商家 </view>
+    <view class="_view data-v-1308e98a user-sl-ls">
+      <view class="_view data-v-1308e98a user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-1308e98a user-sl-item-con" bindtap="handleProxy" data-eventid="{{'o9N-7-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-1308e98a {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-1308e98a submitbtn-wp">
+        <view class="_view data-v-1308e98a block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'Z11-8'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-1308e98a-default-Gvx-15">
+  <view class="_view data-v-1308e98a drawer-content">
+    <view class="_view data-v-1308e98a drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-1308e98a st-title"> 微信商家 </view>
+    <view class="_view data-v-1308e98a user-sl-ls">
+      <view class="_view data-v-1308e98a user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-1308e98a user-sl-item-con" bindtap="handleProxy" data-eventid="{{'gB1-7-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-1308e98a {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-1308e98a submitbtn-wp">
+        <view class="_view data-v-1308e98a block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'xmg-8'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-1308e98a-default-lB1-15">
+  <view class="_view data-v-1308e98a drawer-content">
+    <view class="_view data-v-1308e98a drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-1308e98a st-title"> 微信商家 </view>
+    <view class="_view data-v-1308e98a user-sl-ls">
+      <view class="_view data-v-1308e98a user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-1308e98a user-sl-item-con" bindtap="handleProxy" data-eventid="{{'Dje-7-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-1308e98a {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-1308e98a submitbtn-wp">
+        <view class="_view data-v-1308e98a block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'pcr-8'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-1308e98a-default-MuY-15">
+  <view class="_view data-v-1308e98a drawer-content">
+    <view class="_view data-v-1308e98a drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-1308e98a st-title"> 微信商家 </view>
+    <view class="_view data-v-1308e98a user-sl-ls">
+      <view class="_view data-v-1308e98a user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-1308e98a user-sl-item-con" bindtap="handleProxy" data-eventid="{{'23Q-7-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-1308e98a {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-1308e98a submitbtn-wp">
+        <view class="_view data-v-1308e98a block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'3GD-8'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-1308e98a-default-B2t-15">
+  <view class="_view data-v-1308e98a drawer-content">
+    <view class="_view data-v-1308e98a drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-1308e98a st-title"> 微信商家 </view>
+    <view class="_view data-v-1308e98a user-sl-ls">
+      <view class="_view data-v-1308e98a user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-1308e98a user-sl-item-con" bindtap="handleProxy" data-eventid="{{'mHg-7-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-1308e98a {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-1308e98a submitbtn-wp">
+        <view class="_view data-v-1308e98a block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'xaz-8'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-1308e98a-default-Sc5-15">
+  <view class="_view data-v-1308e98a drawer-content">
+    <view class="_view data-v-1308e98a drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-1308e98a st-title"> 微信商家 </view>
+    <view class="_view data-v-1308e98a user-sl-ls">
+      <view class="_view data-v-1308e98a user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-1308e98a user-sl-item-con" bindtap="handleProxy" data-eventid="{{'I2s-7-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-1308e98a {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-1308e98a submitbtn-wp">
+        <view class="_view data-v-1308e98a block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'Ex1-8'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-JzS-15">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'EMq-7-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'6iA-8'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-ZTX-14">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'ZSz-7-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'09K-8'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-NgP-14">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'KSq-6-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'1Nq-7'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-AIx-14">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'uoA-6-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'H5Y-7'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-tiJ-15">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'1Fl-6-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'LnV-7'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-z6w-15">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'eiB-6-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'kJU-7'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-VC8-15">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'Vfl-6-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'AVB-7'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-Lp9-6">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'gh8-4-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'Jjc-5'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-Jnt-6">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'6ka-4-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'Kyu-5'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-qDe-5">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'aCy-3-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'smY-4'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-oiL-5">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'xLd-3-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'nqX-4'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-Vro-5">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'rDP-3-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'hqw-4'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-igU-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'Y7S-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'vlG-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-gip-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'PwL-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'Xud-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-0qI-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'NtJ-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'EhG-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-eI7-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'Ozy-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'Q7i-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-O1A-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'b71-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'Hm5-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-hj3-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'8gI-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'sSX-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-w6u-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'s9Y-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'aiE-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-tMq-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'LnG-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'YcI-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-Pua-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'CVp-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'PdO-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-oR8-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'BG1-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'tUc-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-Whh-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'mAd-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'ylM-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-Y9y-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'zZK-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'juW-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-mFj-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'j1Z-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'Vvl-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-6TX-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'Q8u-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'E1G-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-ylO-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'s9E-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'Udt-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-n19-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'NCU-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'TvT-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-s81-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'C5u-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'OH9-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-HrJ-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'nM6-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'8sO-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-EWj-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'u9U-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'SHV-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-4EW-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'22g-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'NUO-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-aS3-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'S9S-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'uPW-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-MrB-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'bjz-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'S9l-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-Y2m-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'2dq-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'10A-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-bv2-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'NlL-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'Xwz-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-lhd-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'Am8-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'B7a-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-b3V-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'N1F-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'Qch-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-usH-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'0eE-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'92r-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-9sM-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'mqR-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'dXY-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-iik-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'O9V-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'jRI-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-ast-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'TN0-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'vyu-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-elt-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'lJZ-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'0Oa-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-4L9-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'0E2-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'Xca-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-jmG-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'GPW-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'qX1-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-vzt-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'Ajy-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'PCl-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-68x-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'OKz-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'41Z-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-XYt-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'lg5-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'sgw-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-AAG-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'HrV-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'oW1-3'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-5edbd77d-default-kXQ-2">
+  <view class="_view data-v-5edbd77d drawer-content">
+    <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
+    <view class="_view data-v-5edbd77d user-sl-ls">
+      <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'LBY-2-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-5edbd77d submitbtn-wp">
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'3Vr-3'}}" data-comkey="{{$k}}">确定</view>
       </view>
     </view>
   </view>

@@ -4,7 +4,7 @@
 			<view class="mi-bg" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjjrz-71ByWB7WRMvrvYPWIfaW_00G5YeXAZLK0j1RyPPD9ETP');"></view>
 			<view class="avatar-wp-top">
 				<view class="avatar-vip-top">
-					<uni-icon type="huiyuan" size="10"></uni-icon>
+					<uni-icon type="zuanshi" size="12"></uni-icon>
 				</view>
 				<image class="avatar-100-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjjrz-71ByWB7WRMvrvYPWIfaW_00G5YeXAZLK0j1RyPPD9ETP" mode="widthFix"></image>
 			</view>	
@@ -172,6 +172,20 @@
 			</view>
 		</view>
 		<!-- 微商货源 end -->
+		<view class="nav-ls" v-show="isNav">
+			<view class="nav-item b-line">
+				<uni-icon type="tianjia" size="12" color="#333"></uni-icon>
+				添加微信
+			</view>
+			<view class="nav-item b-line">
+				<uni-icon type="jubao" size="12" color="#333"></uni-icon>
+				投诉举报
+			</view>
+			<view class="nav-item">
+				<uni-icon type="iconzhuyenor" size="12" color="#333"></uni-icon>
+				回到首页
+			</view>
+		</view>
 	</view>
 </template>
 
@@ -184,13 +198,17 @@
 		},
 		data() {
 			return {
-				currentTab: 3
+				currentTab: 3,
+				isNav: false
 			};
 		},
 		methods: {
 			changeTab: function(e){
 				this.currentTab = e;
 			}
+		},
+		onNavigationBarButtonTap() {
+			this.isNav = !this.isNav
 		}
 	}
 </script>
@@ -282,6 +300,7 @@
 		background-color: #f7d46b;
 		padding: 4upx;
 		position: relative;
+		background-image: linear-gradient(to bottom, #d9c085 0%, #b39a65 100%);
 	}
 	.avatar-100{
 		width: 120upx;
@@ -291,9 +310,9 @@
 	.avatar-vip{
 		position: absolute;
 		bottom: 0;
-		background-color: #f7d46b;
+		background-color: #b39a65;
 		color: #fff;
-		font-size: 20upx;
+		font-size: 18upx;
 		border-radius: 4upx;
 		width: 110upx;
 		text-align: center;
@@ -385,7 +404,7 @@
 		width: 122upx;
 		height: 122upx;
 		flex: 0 0 122upx;
-		border: 4upx solid #f7d46b;
+		border: 4upx solid #b39a65;
 		padding: 2upx;
 		position: relative;
 		border-radius: 100%;
@@ -406,7 +425,7 @@
 		text-align: center;
 		right: 0;
 		border: 2upx solid #fff;
-		background-color: #f7d46b;
+		background-color: #b39a65;
 		color: #fff;
 	}
 	.avatar-vip-top .uni-icon{
@@ -440,6 +459,30 @@
 		flex-direction: column;
 		justify-content: space-between;
 		padding-bottom: 5upx;
+	}
+	.nav-ls{
+		position: fixed;
+		top: 120upx;
+		right: 20upx;
+		background-color: #fff;
+		width: 200upx;
+		border-radius: 10upx;
+	}
+	.nav-ls::before{
+		content: '';
+		width: 0;
+		height: 0;
+		position: absolute;
+		top: -16upx;
+		right: 20upx;
+		border: 10upx solid #fff;
+		border-color: transparent transparent #fff;
+	}
+	.nav-item{
+		height: 80upx;
+		line-height: 80upx;
+		font-size: 24upx;
+		text-align: center;
 	}
 </style>
 

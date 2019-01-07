@@ -1,0 +1,31 @@
+<template name="2dac6727">
+  <view class="_view data-v-697edc5a content">
+    <view class="_view data-v-697edc5a content-pad">
+      <view class="_view data-v-697edc5a white">
+        <view class="_view data-v-697edc5a comment-con">
+          <view class="_view data-v-697edc5a comment-item">
+            <view class="_view data-v-697edc5a comment-user">
+              <image class="_image data-v-697edc5a avatar-60" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+              <view class="_view data-v-697edc5a comment-user-name"> 微商童装诚招代理一件代发 </view>
+            </view>
+            <view class="_view data-v-697edc5a comment-info">
+              <view class="_view data-v-697edc5a comment-info-txt"> 所有宝宝们可以叫我微信私聊 </view>
+              <view class="_view data-v-697edc5a comment-info-time"> 2018-12-12 09:40:30 </view>
+            </view>
+          </view>
+          <view class="_view data-v-697edc5a comment-item">
+            <view class="_view data-v-697edc5a comment-user">
+              <image class="_image data-v-697edc5a avatar-60" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+              <view class="_view data-v-697edc5a comment-user-name"> 身心康 </view>
+            </view>
+            <view class="_view data-v-697edc5a comment-info">
+              <view class="_view data-v-697edc5a comment-info-txt"> 麦吉丽，卡瘦 </view>
+              <view class="_view data-v-697edc5a comment-info-time"> 2018-12-12 09:40:30 </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <go-back hidden="{{!(gabackshow)}}" class="_go-back data-v-697edc5a"></go-back>
+  </view>
+</template>

@@ -11,11 +11,13 @@
 					</view>
 				</view>
 			</view>
-			<view class="income-pay">
-				<uni-icon type="mianfei" color="#e86a38" size="20"></uni-icon>
-				<text>钻石代理自用省钱 分享赚钱</text>
-				<view class="obtain-boss-open">开通</view>
-			</view>
+			<navigator url="../member/member" hover-class="none">
+				<view class="income-pay">
+					<uni-icon type="mianfei" color="#e86a38" size="20"></uni-icon>
+					<text>钻石代理自用省钱 分享赚钱</text>
+					<view class="obtain-boss-open">开通</view>
+				</view>
+			</navigator>
 		</view>
 		<view class="card-item">
 			<view class="card-item-tl">
@@ -26,7 +28,6 @@
 			</view>
 			<view class="card-item-sub">
 				10-20 20:20
-				<view class="card-item-detail" @click="show" data-position="bottom">查看</view>
 			</view>
 		</view>      
 		<view class="card-fixed">

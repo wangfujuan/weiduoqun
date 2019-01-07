@@ -1,0 +1,197 @@
+@import "../../common/vendor.wxss";
+
+.content {
+  border-top: 2rpx solid #e5e5e5;
+  padding: 0 30rpx;
+}
+.news-tl {
+  font-size: 38rpx;
+  font-weight: 500;
+  margin: 40rpx 0;
+}
+.news-sub-tl {
+  font-size: 22rpx;
+  color: #9f9f9f;
+  line-height: 1;
+  margin: 40rpx 0;
+}
+.news-sub-tl text {
+  margin-right: 30rpx;
+}
+.newsdetail {
+  padding-bottom: 100rpx;
+}
+.newsdetail image {
+  width: 100%;
+}
+.news-info view {
+  margin: 40rpx 0;
+  text-indent: 2em;
+  font-size: 30rpx;
+}
+.block-tl-rt-item .uni-icon {
+  margin-right: 4rpx;
+}
+.detail-tips {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+.detail-tips-lf {
+  color: #a1a1a1;
+  font-size: 22rpx;
+  line-height: 1.2;
+}
+.comment-con {
+  padding-bottom: 26rpx;
+}
+.comment-item {
+  padding: 26rpx 0 0;
+}
+.comment-user {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.avatar-60 {
+  width: 60rpx;
+  height: 60rpx;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 60rpx;
+  flex: 0 0 60rpx;
+  border-radius: 50%;
+}
+.comment-user-name {
+  font-weight: 500;
+  padding-left: 20rpx;
+  font-size: 26rpx;
+}
+.comment-info {
+  padding-left: 80rpx;
+  padding-top: 10rpx;
+}
+.comment-info-time {
+  padding-top: 20rpx;
+  font-size: 26rpx;
+  color: #9d9d9d;
+}
+.comment-tl {
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+  padding-bottom: 10rpx;
+  margin: 60rpx 0 30rpx;
+}
+.comment-tl::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 40rpx;
+  height: 4rpx;
+  border-radius: 4rpx;
+  background-color: #44B549;
+  left: 50%;
+  margin-left: -20rpx;
+  box-shadow: 0 1rpx 5rpx rgba(68,181,73,.3);
+}
+.wd-fixed-bt {
+  position: fixed;
+  bottom: 0;
+  height: 100rpx;
+  background-color: #fff;
+  border-top: 2rpx solid #e5e5e5;
+  left: 0;
+  right: 0;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.wd-fixed-item {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100rpx;
+  flex: 0 0 100rpx;
+  width: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  font-size: 20rpx;
+  color: #505050;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.wx-fixed-input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  height: 56rpx;
+  background-color: #f6f6f6;
+  margin-left: 20rpx;
+  border-radius: 56rpx;
+  padding: 0 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: 24rpx;
+}
+.wx-fixed-input .uni-icon {
+  margin-right: 6rpx;
+}
+.share-more {
+  color: #999;
+  font-size: 24rpx;
+  padding: 30rpx 0;
+}
+.goback {
+  position: fixed;
+  width: 96rpx;
+  height: 96rpx;
+  border-radius: 100%;
+  background-color: rgba(255,255,255,.5);
+  border: 2rpx solid #eeeeee;
+  right: 0;
+  bottom: 130rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  font-size: 24rpx;
+  color: #989898;
+}

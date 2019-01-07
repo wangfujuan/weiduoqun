@@ -1,3 +1,5 @@
+const PATH_API = 'http://39.104.128.20:8080/wmg/api/'
+
 function formatTime(time) {
 	if (typeof time !== 'number' || time < 0) {
 		return time
@@ -67,6 +69,7 @@ var dateUtils = {
 };
 
 module.exports = {
+	PATH_API: PATH_API,
 	formatTime: formatTime,
 	formatLocation: formatLocation,
 	dateUtils: dateUtils

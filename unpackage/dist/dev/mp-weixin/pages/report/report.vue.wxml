@@ -1,22 +1,22 @@
 <import src="/components/uni-icon.vue.wxml" />
 <template name="4cd18511">
   <view class="_view data-v-b7225286 content">
-    <form bindsubmit="handleProxy" data-eventid="{{'wkz-1'}}" data-comkey="{{$k}}" class="_form data-v-b7225286">
+    <form bindsubmit="handleProxy" data-eventid="{{'bls-1'}}" data-comkey="{{$k}}" class="_form data-v-b7225286">
       <view class="_view data-v-b7225286 content-pad">
         <view class="_view data-v-b7225286 white">
           <view class="_view data-v-b7225286 report-tl"> 请选择举报的原因 </view>
           <view class="_view data-v-b7225286 report-con">
             <view class="_view data-v-b7225286 radio-group">
-              <view class="_view data-v-b7225286 radio" wx:key="item" key="{{item}}" bindtap="handleProxy" data-eventid="{{'ZV4-0-'+index}}" data-comkey="{{$k}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+              <view class="_view data-v-b7225286 radio" wx:key="item" key="{{item}}" bindtap="handleProxy" data-eventid="{{'SiZ-0-'+index}}" data-comkey="{{$k}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
                 <text class="_text data-v-b7225286 {{[item.checked ? 'active' : '']}}">{{item.value}}</text>
-                <template wx:if="{{item.checked}}" type="right-1" size="20" color="#e74323" data="{{...$root['0'], ...$root[$kk+'fs0-0-'+index],$root}}" is="18f61b88"></template>
+                <template wx:if="{{item.checked}}" type="right-1" size="20" color="#e74323" data="{{...$root['0'], ...$root[$kk+'3gr-0-'+index],$root}}" is="18f61b88"></template>
               </view>
             </view>
             <textarea class="_textarea data-v-b7225286 textarea" value="" maxlength="200" placeholder-style="color: #c8c8c8;font-size: 28upx;line-height:1.4" placeholder="请填入200字以内的描述,我们将优先处理较详细的举报反馈!" />
           </view>
           <view class="_view data-v-b7225286 rc-upload">
             <view class="_view data-v-b7225286 up-avatar">
-              <template type="tianjia" color="#b9b9b9" data="{{...$root['0'], ...$root[$kk+'8v4-1'],$root}}" is="18f61b88"></template>
+              <template type="tianjia" color="#b9b9b9" data="{{...$root['0'], ...$root[$kk+'RF8-1'],$root}}" is="18f61b88"></template>
             </view>
             <view class="_view data-v-b7225286 rc-upload-info"> 上传图片
               <text class="_text data-v-b7225286">(最多5张)</text>

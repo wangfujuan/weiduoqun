@@ -67,7 +67,9 @@
 			</view>
 		</view>
 		<view class="line20"></view>
-		<image class="wbbanner" src="../../static/wbbanner.jpg" mode="widthFix"></image>
+		<navigator hover-class="none" url="../weibiRecharge/weibiRecharge">
+			<image class="wbbanner" src="../../static/wbbanner.jpg" mode="widthFix"></image>
+		</navigator>
 		<view class="line20"></view>
 		<view class="wb-earn">
 			<view class="wb-earn-tl b-line">

@@ -25,12 +25,60 @@
 		<view class="content-pad">
 			<view class="white">
 				<view class="uni-grid-9 b-line">
-					<navigator :url="item.url" class="uni-grid-9-item" hover-class="none" v-for="(item,index) in grids" :key="index">
+					<navigator class="uni-grid-9-item" hover-class="none" url="../wxgroup/wxgroup">
+						<view class="iconwp oneicon">
+							<uni-icon type="duoren2"></uni-icon>
+						</view>
+						<text class="uni-grid-9-text">微信群</text>	
+					</navigator>
+					<navigator class="uni-grid-9-item" hover-class="none" url="../wxgroup/wxgroup">
+						<view class="iconwp fouricon">
+							<uni-icon type="qq02"></uni-icon>
+						</view>
+						<text class="uni-grid-9-text">QQ群</text>	
+					</navigator>
+					<navigator class="uni-grid-9-item" hover-class="none" url="../wxPersonal/wxPersonal">
+						<view class="iconwp twoicon">
+							<uni-icon type="geren2"></uni-icon>
+						</view>
+						<text class="uni-grid-9-text">个人微信</text>	
+					</navigator>
+					<view class="uni-grid-9-item" @click="toContact">
+						<view class="iconwp threeicon">
+							<uni-icon type="xin2"></uni-icon>
+						</view>
+						<text class="uni-grid-9-text">人脉多</text>	
+					</view>
+					<navigator class="uni-grid-9-item" hover-class="none" url="../deal/deal">
+						<view class="iconwp fiveicon">
+							<uni-icon type="upstagefill"></uni-icon>
+						</view>
+						<text class="uni-grid-9-text">群交易</text>	
+					</navigator>
+					<view class="uni-grid-9-item" @click="toCircle">
+						<view class="iconwp sixicon">
+							<uni-icon type="fankui-tianchong"></uni-icon>
+						</view>
+						<text class="uni-grid-9-text">微商圈</text>	
+					</view>
+					<navigator class="uni-grid-9-item" hover-class="none" url="../sourcegoods/sourcegoods">
+						<view class="iconwp sevenicon">
+							<uni-icon type="chanpin2"></uni-icon>
+						</view>
+						<text class="uni-grid-9-text">微商货源</text>	
+					</navigator>
+					<view class="uni-grid-9-item" @click="toObtain">
+						<view class="iconwp eighticon">
+							<uni-icon type="qiandai-tianchong"></uni-icon>
+						</view>
+						<text class="uni-grid-9-text">收益中心</text>	
+					</view>
+					<!-- <navigator :url="item.url" class="uni-grid-9-item" hover-class="none" v-for="(item,index) in grids" :key="index">
 						<view :class="item.syicon">
 							<uni-icon :type="item.icon"></uni-icon>
 						</view>
 						<text class="uni-grid-9-text">{{item.name}}</text>
-					</navigator>
+					</navigator> -->
 				</view>
 				<view class="tips">
 					<view class="tips-text">
@@ -222,37 +270,38 @@
 						url: '../wxgroup/wxgroup'
 					},
 					{
-						name: "个人微信",
+						name: "QQ群",
 						icon: "geren2",
 						syicon: "iconwp twoicon"
 					},
 					{
-						name: "加粉神器",
+						name: "个人微信",
 						icon: "xin2",
 						syicon: "iconwp threeicon"
 					},
 					{
-						name: "QQ名片",
+						name: "人脉多",
 						icon: "qq02",
-						syicon: "iconwp fouricon"
+						syicon: "iconwp fouricon",
+						url: '../contact/contact'
 					},
 					{
-						name: "微信访问",
+						name: "群交易",
 						icon: "qq02",
 						syicon: "iconwp fiveicon"
 					},
 					{
-						name: "好品牌",
+						name: "微商圈",
 						icon: "upstagefill",
 						syicon: "iconwp sixicon"
 					},
 					{
-						name: "产品秀",
+						name: "微商货源",
 						icon: "chanpin2",
 						syicon: "iconwp sevenicon"
 					},
 					{
-						name: "工具箱",
+						name: "收益中心",
 						icon: "icon_fuzhugongju-mian",
 						syicon: "iconwp eighticon"
 					}
@@ -377,11 +426,26 @@
 					});
 				});
 				return newItems;
+			},
+			toContact: function(){
+				uni.switchTab({
+					url: '/pages/contact/contact'
+				})
+			},
+			toCircle: function(){
+				uni.switchTab({
+					url: '/pages/circle/circle'
+				})
+			},
+			toObtain: function(){
+				uni.switchTab({
+					url: '/pages/obtain/obtain'
+				})
 			}
 		},
 		onNavigationBarButtonTap() {
 			uni.navigateTo({
-				url: '/pages/note/note'
+				url: '/pages/weibi/weibi'
 			})
 		}
 	}

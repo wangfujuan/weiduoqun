@@ -8,9 +8,11 @@
 			<view class="member-id">
 				UID: 1029292929
 			</view>
-			<view class="member-btn" @click="openClick">
-				开通超级会员
+			<navigator hover-class="none" url="../openagent/openagent">
+			<view class="member-btn">
+				开通钻石代理
 			</view>
+			</navigator>
 		</view>
 		<view class="member-cl b-line">
 			<view class="member-cl-item center" :class="isActive == 0 ? 'member-active':''" @click="levelOne">
@@ -18,11 +20,7 @@
 			</view>
 			<view class="line"></view>
 			<view class="member-cl-item center" :class="isActive == 1 ? 'member-active':''" @click="levelTwo">
-				<uni-icon color="#b28431" size="18" type="huiyuan"></uni-icon>超级会员 <text class="coupons">折扣</text>
-			</view>
-			<view class="line"></view>
-			<view class="member-cl-item center" :class="isActive == 2 ? 'member-active':''" @click="levelThree">
-				<uni-icon type="huiyuan1" color="#b28431" size="18"></uni-icon>钻石代理
+				<uni-icon type="zuanshi" color="#b28431" size="18"></uni-icon>钻石代理 <text class="coupons">折扣</text>
 			</view>
 		</view>
 		<!-- 普通会员列表 start -->
@@ -137,103 +135,8 @@
 			</view>
 		</view>
 		<!-- 普通会员列表 end -->
-		<!-- 超级会员列表 start -->
-		<view class="member-box" :class="isActive == 1 ? 'displaybox':''">
-			<view class="member-box-item b-line">
-				<view class="member-box-item-lf">
-					<view class="tool-item-icon block-tl-color1">
-						<uni-icon size="22" color="#fff" type="diqiuquanqiu"></uni-icon>
-					</view>
-					<view class="member-box-item-tl">
-						尊贵身份标识
-					</view>
-				</view>
-				<view class="member-box-item-rt">
-					<view class="member-box-info">
-						不能自动刷新
-					</view>
-					<view class="member-box-info">
-						名片数量，每个分类下可发布<text class="fontred">3</text>个
-					</view>
-				</view>
-			</view>
-			<view class="member-box-item b-line">
-				<view class="member-box-item-lf">
-					<view class="tool-item-icon block-tl-color1">
-						<uni-icon size="22" color="#fff" type="diqiuquanqiu"></uni-icon>
-					</view>
-					<view class="member-box-item-tl">
-						尊贵身份标识
-					</view>
-				</view>
-				<view class="member-box-item-rt">
-					<view class="member-box-info">
-						不能自动刷新
-					</view>
-					<view class="member-box-info">
-						名片数量，每个分类下可发布<text class="fontred">3</text>个
-					</view>
-				</view>
-			</view>
-			<view class="member-box-item b-line">
-				<view class="member-box-item-lf">
-					<view class="tool-item-icon block-tl-color1">
-						<uni-icon size="22" color="#fff" type="diqiuquanqiu"></uni-icon>
-					</view>
-					<view class="member-box-item-tl">
-						尊贵身份标识
-					</view>
-				</view>
-				<view class="member-box-item-rt">
-					<view class="member-box-info">
-						不能自动刷新
-					</view>
-					<view class="member-box-info">
-						名片数量，每个分类下可发布<text class="fontred">3</text>个
-					</view>
-				</view>
-			</view>
-			<view class="member-box-item b-line">
-				<view class="member-box-item-lf">
-					<view class="tool-item-icon block-tl-color1">
-						<uni-icon size="22" color="#fff" type="diqiuquanqiu"></uni-icon>
-					</view>
-					<view class="member-box-item-tl">
-						尊贵身份标识
-					</view>
-				</view>
-				<view class="member-box-item-rt">
-					<view class="member-box-info">
-						不能自动刷新
-					</view>
-					<view class="member-box-info">
-						名片数量，每个分类下可发布<text class="fontred">3</text>个
-					</view>
-				</view>
-			</view>
-			<view class="member-box-item b-line">
-				<view class="member-box-item-lf">
-					<view class="tool-item-icon block-tl-color1">
-						<uni-icon size="22" color="#fff" type="diqiuquanqiu"></uni-icon>
-					</view>
-					<view class="member-box-item-tl">
-						会员价格
-					</view>
-				</view>
-				<view class="member-box-item-rt">
-					<view class="member-box-price center">
-						<view class="fontred">
-							¥<text class="fontsize">199.00</text> 
-						</view>
-						<text class="fontunder">¥299.00</text>
-						<text>1年</text>
-					</view>
-				</view>
-			</view>
-		</view>
-		<!-- 超级会员列表 end -->
 		<!-- 钻石代理列表 start -->
-		<view class="member-box" :class="isActive == 2 ? 'displaybox':''">
+		<view class="member-box" :class="isActive == 1 ? 'displaybox':''">
 			<view class="member-box-item b-line">
 				<view class="member-box-item-lf">
 					<view class="tool-item-icon block-tl-color1">
@@ -273,18 +176,11 @@
 			</view>
 		</view>
 		<!-- 钻石代理列表 end -->
-		<view v-if="isActive > 0">
-			<radio-group class="pay-box" @change="radioChange">
-				<view class="pay-item" v-for="item in payList" :key="item">
-					<label class="pay-item-con">
-						<uni-icon :size="item.size" :color="item.color" :type="item.icon"></uni-icon>{{item.value}}<radio class="pay-radio" :value="item.name" :checked="item.checked" />
-					</label>
-				</view>
-			</radio-group>		
-		</view>
+		<navigator hover-class="none" url="../openagent/openagent">
 		<view class="fixed-btn-wp">
-			<navigator class="fixed-btn" url="">开通超级会员</navigator>
+			<navigator class="fixed-btn" url="">{{btninfo}}</navigator>
 		</view>
+		</navigator>
 	</view>
 </template>
 
@@ -295,23 +191,7 @@
 		data() {
 			return {
 				isActive: 1,
-				payList: [
-					{
-						name: 'zhifubaozhifu',
-						value: '支付宝支付',
-						icon: 'zhifubaozhifu',
-						color: '#459ae5',
-						size: '22',
-						checked: true
-					},
-					{
-						name: 'weixinzhifu',
-						value: '微信支付',
-						icon: 'weixinzhifu',
-						color: '#44b549',
-						size: '21'
-					}
-				]
+				btninfo: '立即加入'
 			};
 		},
 		components: {
@@ -319,21 +199,12 @@
 		},
 		methods: {
 			levelOne: function(){
-				this.isActive = 0
+				this.isActive = 0;
+				this.btninfo = '开通钻石代理';
 			},
 			levelTwo: function(){
-				this.isActive = 1
-			},
-			levelThree: function(){
-				this.isActive = 2
-			},
-			openClick: function(){
-				uni.pageScrollTo({
-					scrollTop: 2000
-				})
-				if(this.isActive == 0){
-					this.isActive = 1;				
-				}	
+				this.isActive = 1;
+				this.btninfo = '立即加入';
 			}
 		}
 	}

@@ -38,31 +38,33 @@
     </view>
     <view class="_view data-v-50516f7a wb-get">
       <view class="_view data-v-50516f7a wb-get-item center">
-        <template size="20" color="#ffa300" type="choujiang" data="{{...$root['0'], ...$root[$kk+'yug-0'],$root}}" is="18f61b88"></template>
+        <template size="20" color="#ffa300" type="choujiang" data="{{...$root['0'], ...$root[$kk+'1gd-0'],$root}}" is="18f61b88"></template>
         <text class="_text data-v-50516f7a">每日抽奖</text>
       </view>
       <view class="_view data-v-50516f7a wb-get-line"></view>
       <view class="_view data-v-50516f7a wb-get-item center">
-        <template size="24" color="#ffa300" type="youhuiquan01" data="{{...$root['0'], ...$root[$kk+'JHg-1'],$root}}" is="18f61b88"></template>
+        <template size="24" color="#ffa300" type="youhuiquan01" data="{{...$root['0'], ...$root[$kk+'tbO-1'],$root}}" is="18f61b88"></template>
         <text class="_text data-v-50516f7a">会员领福利</text>
       </view>
     </view>
     <view class="_view data-v-50516f7a line20"></view>
-    <image class="_image data-v-50516f7a wbbanner" src="../../static/wbbanner.jpg" mode="widthFix"></image>
+    <navigator hover-class="none" url="../weibiRecharge/weibiRecharge" class="_navigator data-v-50516f7a">
+      <image class="_image data-v-50516f7a wbbanner" src="../../static/wbbanner.jpg" mode="widthFix"></image>
+    </navigator>
     <view class="_view data-v-50516f7a line20"></view>
     <view class="_view data-v-50516f7a wb-earn">
       <view class="_view data-v-50516f7a wb-earn-tl b-line"> 快速赚微币 </view>
       <view class="_view data-v-50516f7a share-ls b-line">
         <view class="_view data-v-50516f7a share-item">
           <view class="_view data-v-50516f7a share-item-lf block-tl-color2 center">
-            <template size="22" color="#fff" type="dingwei" data="{{...$root['0'], ...$root[$kk+'2Fu-2'],$root}}" is="18f61b88"></template>
+            <template size="22" color="#fff" type="dingwei" data="{{...$root['0'], ...$root[$kk+'EGu-2'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-50516f7a share-item-con b-line">
             <view class="_view data-v-50516f7a share-item-md">
               <view class="_view data-v-50516f7a share-item-md-tl"> 精准人脉
                 <view class="_view data-v-50516f7a share-item-md-sum-item center">
                   <text class="_text data-v-50516f7a share-item-md-sum-txt">每次+10</text>
-                  <template size="13" color="#e9526e" type="hua" data="{{...$root['0'], ...$root[$kk+'GJl-3'],$root}}" is="18f61b88"></template>
+                  <template size="13" color="#e9526e" type="hua" data="{{...$root['0'], ...$root[$kk+'hlI-3'],$root}}" is="18f61b88"></template>
                 </view>
               </view>
               <view class="_view data-v-50516f7a share-item-md-des"> 导入通讯录并完成加粉，每天奖励一次 </view>
@@ -74,14 +76,14 @@
         </view>
         <view class="_view data-v-50516f7a share-item">
           <view class="_view data-v-50516f7a share-item-lf block-tl-color3 center">
-            <template size="22" color="#fff" type="licaijingxuan" data="{{...$root['0'], ...$root[$kk+'MFf-4'],$root}}" is="18f61b88"></template>
+            <template size="22" color="#fff" type="licaijingxuan" data="{{...$root['0'], ...$root[$kk+'m2V-4'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-50516f7a share-item-con b-line">
             <view class="_view data-v-50516f7a share-item-md">
               <view class="_view data-v-50516f7a share-item-md-tl"> 精选客源
                 <view class="_view data-v-50516f7a share-item-md-sum-item center">
                   <text class="_text data-v-50516f7a share-item-md-sum-txt">每次+10</text>
-                  <template size="13" color="#e9526e" type="hua" data="{{...$root['0'], ...$root[$kk+'S17-5'],$root}}" is="18f61b88"></template>
+                  <template size="13" color="#e9526e" type="hua" data="{{...$root['0'], ...$root[$kk+'0X7-5'],$root}}" is="18f61b88"></template>
                 </view>
               </view>
               <view class="_view data-v-50516f7a share-item-md-des"> 导入通讯录并完成加粉，每天奖励一次 </view>
@@ -93,14 +95,14 @@
         </view>
         <view class="_view data-v-50516f7a share-item">
           <view class="_view data-v-50516f7a share-item-lf block-tl-color7 center">
-            <template size="22" color="#fff" type="fenxiang" data="{{...$root['0'], ...$root[$kk+'9yC-6'],$root}}" is="18f61b88"></template>
+            <template size="22" color="#fff" type="fenxiang" data="{{...$root['0'], ...$root[$kk+'UMl-6'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-50516f7a share-item-con b-line">
             <view class="_view data-v-50516f7a share-item-md">
               <view class="_view data-v-50516f7a share-item-md-tl"> 每日分享
                 <view class="_view data-v-50516f7a share-item-md-sum-item center">
                   <text class="_text data-v-50516f7a share-item-md-sum-txt">每次+10</text>
-                  <template size="13" color="#e9526e" type="hua" data="{{...$root['0'], ...$root[$kk+'U9P-7'],$root}}" is="18f61b88"></template>
+                  <template size="13" color="#e9526e" type="hua" data="{{...$root['0'], ...$root[$kk+'5qg-7'],$root}}" is="18f61b88"></template>
                 </view>
               </view>
               <view class="_view data-v-50516f7a share-item-md-des"> 分享邀请图片到微信群，每天+5 </view>
@@ -112,14 +114,14 @@
         </view>
         <view class="_view data-v-50516f7a share-item">
           <view class="_view data-v-50516f7a share-item-lf block-tl-color6 center">
-            <template size="22" color="#fff" type="huxiangganxingqu" data="{{...$root['0'], ...$root[$kk+'vNb-8'],$root}}" is="18f61b88"></template>
+            <template size="22" color="#fff" type="huxiangganxingqu" data="{{...$root['0'], ...$root[$kk+'3MH-8'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-50516f7a share-item-con b-line">
             <view class="_view data-v-50516f7a share-item-md">
               <view class="_view data-v-50516f7a share-item-md-tl"> 名片互粉
                 <view class="_view data-v-50516f7a share-item-md-sum-item center">
                   <text class="_text data-v-50516f7a share-item-md-sum-txt">每次+10</text>
-                  <template size="13" color="#e9526e" type="hua" data="{{...$root['0'], ...$root[$kk+'emV-9'],$root}}" is="18f61b88"></template>
+                  <template size="13" color="#e9526e" type="hua" data="{{...$root['0'], ...$root[$kk+'TNV-9'],$root}}" is="18f61b88"></template>
                 </view>
               </view>
               <view class="_view data-v-50516f7a share-item-md-des"> 保存10张名片二维码，并扫码加好友 </view>
@@ -131,14 +133,14 @@
         </view>
         <view class="_view data-v-50516f7a share-item">
           <view class="_view data-v-50516f7a share-item-lf block-tl-color5 center">
-            <template size="22" color="#fff" type="qunjiaoyi" data="{{...$root['0'], ...$root[$kk+'qQ9-10'],$root}}" is="18f61b88"></template>
+            <template size="22" color="#fff" type="qunjiaoyi" data="{{...$root['0'], ...$root[$kk+'QbL-10'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-50516f7a share-item-con b-line">
             <view class="_view data-v-50516f7a share-item-md">
               <view class="_view data-v-50516f7a share-item-md-tl"> 免费抽奖
                 <view class="_view data-v-50516f7a share-item-md-sum-item center">
                   <text class="_text data-v-50516f7a share-item-md-sum-txt">每次+5</text>
-                  <template size="13" color="#e9526e" type="hua" data="{{...$root['0'], ...$root[$kk+'bX1-11'],$root}}" is="18f61b88"></template>
+                  <template size="13" color="#e9526e" type="hua" data="{{...$root['0'], ...$root[$kk+'eAM-11'],$root}}" is="18f61b88"></template>
                 </view>
               </view>
               <view class="_view data-v-50516f7a share-item-md-des"> 今日免费抽奖，每天完成抽奖3次 </view>
@@ -150,14 +152,14 @@
         </view>
         <view class="_view data-v-50516f7a share-item">
           <view class="_view data-v-50516f7a share-item-lf block-tl-color4 center">
-            <template size="22" color="#fff" type="gerenxinxi" data="{{...$root['0'], ...$root[$kk+'E8x-12'],$root}}" is="18f61b88"></template>
+            <template size="22" color="#fff" type="gerenxinxi" data="{{...$root['0'], ...$root[$kk+'v4i-12'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-50516f7a share-item-con b-line">
             <view class="_view data-v-50516f7a share-item-md">
               <view class="_view data-v-50516f7a share-item-md-tl"> 完善资料
                 <view class="_view data-v-50516f7a share-item-md-sum-item center">
                   <text class="_text data-v-50516f7a share-item-md-sum-txt">首次+20</text>
-                  <template size="13" color="#e9526e" type="hua" data="{{...$root['0'], ...$root[$kk+'srl-13'],$root}}" is="18f61b88"></template>
+                  <template size="13" color="#e9526e" type="hua" data="{{...$root['0'], ...$root[$kk+'0FD-13'],$root}}" is="18f61b88"></template>
                 </view>
               </view>
               <view class="_view data-v-50516f7a share-item-md-des"> 在个人中心完善个人资料，限做一次 </view>
@@ -169,7 +171,7 @@
         </view>
       </view>
       <view class="_view data-v-50516f7a share-more center"> 免费获取更多小红花
-        <template size="12" color="#44b549" type="qianjin" data="{{...$root['0'], ...$root[$kk+'xnw-14'],$root}}" is="18f61b88"></template>
+        <template size="12" color="#44b549" type="qianjin" data="{{...$root['0'], ...$root[$kk+'yOs-14'],$root}}" is="18f61b88"></template>
       </view>
     </view>
     <view class="_view data-v-50516f7a submitbtn-wp">

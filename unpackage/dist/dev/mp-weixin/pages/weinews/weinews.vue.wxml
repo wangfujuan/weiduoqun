@@ -1,0 +1,28 @@
+<template name="08054522">
+  <view class="_view data-v-3ce617ca index">
+    <scroll-view id="tab-bar" class="_scroll-view data-v-3ce617ca swiper-tab" scroll-x scroll-left="{{scrollLeft}}">
+      <view wx:key="tab.id" key="{{tab.id}}" id="{{tab.id}}" data-current="{{index}}" bindtap="handleProxy" data-eventid="{{'nfP-0-'+index}}" data-comkey="{{$k}}" wx:for="{{tabBars}}" wx:for-index="index" wx:for-item="tab" class="_view data-v-3ce617ca {{['swiper-tab-list', tabIndex == index ? 'active' : '']}}">{{tab.name}}</view>
+    </scroll-view>
+    <swiper current="{{tabIndex}}" class="_swiper data-v-3ce617ca swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'rDZ-3'}}" data-comkey="{{$k}}">
+      <swiper-item wx:key="tab.id" key="{{tab.id}}" wx:for="{{newsitems}}" wx:for-index="index1" wx:for-item="tab" class="_swiper-item data-v-3ce617ca">
+        <scroll-view class="_scroll-view data-v-3ce617ca list" scroll-y bindscrolltolower="handleProxy" data-eventid="{{'aYX-2-'+index1}}" data-comkey="{{$k}}">
+          <view class="_view data-v-3ce617ca uni-list">
+            <view class="_view data-v-3ce617ca uni-list-cell b-line" hover-class="uni-list-cell-hover" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'lbd-1-'+index1+'-'+key}}" data-comkey="{{$k}}" wx:for="{{listData}}" wx:for-index="key"
+              wx:for-item="value">
+              <view class="_view data-v-3ce617ca uni-media-list">
+                <image class="_image data-v-3ce617ca uni-media-list-logo" src="{{value.cover}}"></image>
+                <view class="_view data-v-3ce617ca uni-media-list-body">
+                  <view class="_view data-v-3ce617ca uni-media-list-text-top">{{value.title}}</view>
+                  <view class="_view data-v-3ce617ca uni-media-list-text-bottom">
+                    <text class="_text data-v-3ce617ca">{{value.author_name}}</text>
+                    <text class="_text data-v-3ce617ca">{{value.published_at}}</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </scroll-view>
+      </swiper-item>
+    </swiper>
+  </view>
+</template>

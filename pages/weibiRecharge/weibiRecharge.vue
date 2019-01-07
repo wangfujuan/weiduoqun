@@ -91,9 +91,6 @@
 				</view>
 			</radio-group>	
 		</view>
-		<view class="paybtn-wp">
-			<button formType="submit" class="submitbtn">立即充值</button>		
-		</view>
 		<!-- <view class="wbre-tips">
 			<view class="">
 				点击支付表示你同意<text class="greenfont">《微多群用户服务协议》</text>
@@ -214,7 +211,22 @@
 			<view class="wbre-rule-item">4.充值微币后不可以退款</view>
 			<view class="wbre-rule-item">5.每次充值微币不小于10元</view>
 		</view>
-		</form>
+		<view class="opensum">
+			<view class="opensum-line opengray">
+				<text>原价：</text>
+				<text>¥999.00</text>
+			</view>
+			<view class="opensum-line opengray">
+				<text>优惠立减：</text>
+				<text>¥621.00</text>
+			</view>
+			<view class="opensum-line">
+				<text>应付金额：</text>
+				<text class="fontred">¥368.00</text>
+			</view>
+			<button formType="submit" class="fixed-btn">确认开通</button>
+		</view>
+		</form>	
 	</view>
 </template>
 
@@ -260,9 +272,13 @@
 </script>
 
 <style>
+	button::after{
+		border: none
+	}
 	.content{
 		background-color: #090702;
 		color: #c18f35;
+		padding-bottom: 300upx;
 	}
 	.wbre-box{
 		display: flex;
@@ -457,5 +473,40 @@
 		margin: 100upx 0 40upx;
 		line-height: 1.8;
 		color: #745620;
+	}
+	.opensum{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: rgba(255,255,255,.99);
+		padding: 20upx 20upx;
+		font-size: 26upx;
+	}
+	.opensum-line{
+		/* height: 70upx;
+		line-height: 70upx; */
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.opengray{
+		color: #b2b2b2;
+	}
+	.fontred{
+		color: #e86a38;
+		font-size: 34upx;
+		font-weight: 500;
+	}
+	.fixed-btn{
+		background-color: #b28431;
+		height: 76upx;
+		line-height: 76upx;
+		border-radius: 10upx;
+		text-align: center;
+		color: #fff;
+		font-size: 30upx;
+		font-weight: 500;
+		margin-top: 10upx;
 	}
 </style>

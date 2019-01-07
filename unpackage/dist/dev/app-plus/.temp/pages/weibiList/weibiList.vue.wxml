@@ -2,13 +2,13 @@
 <template name="01756413">
   <view class="_view data-v-5a7c7682 content">
     <view class="_view data-v-5a7c7682 swiper-tab">
-      <view data-current="0" bindtap="handleProxy" data-eventid="{{'lIS-0'}}" data-comkey="{{$k}}" class="_view data-v-5a7c7682 {{['swiper-tab-list', currentTab == 0 ? 'active' : '']}}">所有</view>
+      <view data-current="0" bindtap="handleProxy" data-eventid="{{'bvX-0'}}" data-comkey="{{$k}}" class="_view data-v-5a7c7682 {{['swiper-tab-list', currentTab == 0 ? 'active' : '']}}">所有</view>
       <view class="_view data-v-5a7c7682 swiper-line"></view>
-      <view data-current="1" bindtap="handleProxy" data-eventid="{{'VcC-1'}}" data-comkey="{{$k}}" class="_view data-v-5a7c7682 {{['swiper-tab-list', currentTab == 1 ? 'active' : '']}}">收入</view>
+      <view data-current="1" bindtap="handleProxy" data-eventid="{{'9YF-1'}}" data-comkey="{{$k}}" class="_view data-v-5a7c7682 {{['swiper-tab-list', currentTab == 1 ? 'active' : '']}}">收入</view>
       <view class="_view data-v-5a7c7682 swiper-line"></view>
-      <view data-current="2" bindtap="handleProxy" data-eventid="{{'4hL-2'}}" data-comkey="{{$k}}" class="_view data-v-5a7c7682 {{['swiper-tab-list', currentTab == 2 ? 'active' : '']}}">支出</view>
+      <view data-current="2" bindtap="handleProxy" data-eventid="{{'5op-2'}}" data-comkey="{{$k}}" class="_view data-v-5a7c7682 {{['swiper-tab-list', currentTab == 2 ? 'active' : '']}}">支出</view>
     </view>
-    <swiper current="{{currentTab}}" class="_swiper data-v-5a7c7682 swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'YeE-5'}}" data-comkey="{{$k}}">
+    <swiper current="{{currentTab}}" class="_swiper data-v-5a7c7682 swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'PxH-5'}}" data-comkey="{{$k}}">
       <swiper-item class="_swiper-item data-v-5a7c7682">
         <scroll-view class="_scroll-view data-v-5a7c7682 list" scroll-y>
           <view class="_view data-v-5a7c7682 income-con">
@@ -21,11 +21,13 @@
                   <text class="_text data-v-5a7c7682 fontred">0.01</text>元 </view>
               </view>
             </view>
-            <view class="_view data-v-5a7c7682 income-pay">
-              <template type="mianfei" color="#e86a38" size="20" data="{{...$root['0'], ...$root[$kk+'FGE-0'],$root}}" is="18f61b88"></template>
-              <text class="_text data-v-5a7c7682">钻石代理自用省钱 分享赚钱</text>
-              <view class="_view data-v-5a7c7682 obtain-boss-open">开通</view>
-            </view>
+            <navigator hover-class="none" url="../openagent/openagent" class="_navigator data-v-5a7c7682">
+              <view class="_view data-v-5a7c7682 income-pay">
+                <template type="mianfei" color="#e86a38" size="20" data="{{...$root['0'], ...$root[$kk+'cbb-0'],$root}}" is="18f61b88"></template>
+                <text class="_text data-v-5a7c7682">钻石代理自用省钱 分享赚钱</text>
+                <view class="_view data-v-5a7c7682 obtain-boss-open">开通</view>
+              </view>
+            </navigator>
           </view>
           <view class="_view data-v-5a7c7682 card-item">
             <view class="_view data-v-5a7c7682 card-item-tl"> 微商货源置顶3天
@@ -34,7 +36,7 @@
               </view>
             </view>
             <view class="_view data-v-5a7c7682 card-item-sub"> 10-20 20:20
-              <view class="_view data-v-5a7c7682 card-item-detail" bindtap="handleProxy" data-position="bottom" data-eventid="{{'x21-3'}}" data-comkey="{{$k}}">查看</view>
+              <view class="_view data-v-5a7c7682 card-item-detail" bindtap="handleProxy" data-position="bottom" data-eventid="{{'viX-3'}}" data-comkey="{{$k}}">查看</view>
             </view>
           </view>
         </scroll-view>
@@ -48,7 +50,7 @@
               </view>
             </view>
             <view class="_view data-v-5a7c7682 card-item-sub"> 10-20 20:20
-              <view class="_view data-v-5a7c7682 card-item-detail" bindtap="handleProxy" data-position="bottom" data-eventid="{{'vf7-4'}}" data-comkey="{{$k}}">查看</view>
+              <view class="_view data-v-5a7c7682 card-item-detail" bindtap="handleProxy" data-position="bottom" data-eventid="{{'L4s-4'}}" data-comkey="{{$k}}">查看</view>
             </view>
           </view>
         </scroll-view>

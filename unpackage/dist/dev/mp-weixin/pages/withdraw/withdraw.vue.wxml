@@ -1,0 +1,51 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="bf0703de">
+  <view class="_view data-v-608119bd content">
+    <view class="_view data-v-608119bd content-pad">
+      <view class="_view data-v-608119bd white">
+        <view class="_view data-v-608119bd draw-tl">
+          <view class="_view data-v-608119bd center">
+            <template type="zhifubaozhifu" color="#459ae5" size="20" data="{{...$root['0'], ...$root[$kk+'EyP-0'],$root}}" is="18f61b88"></template> 支付宝 </view>
+          <text class="_text data-v-608119bd">提现规则</text>
+        </view>
+        <view class="_view data-v-608119bd draw-con">
+          <input class="_input data-v-608119bd input-line" placeholder-style="color: #bebebe; font-size: 30upx" type="text" value="支付宝号" />
+          <input class="_input data-v-608119bd input-line" placeholder-style="color: #bebebe; font-size: 30upx" type="text" value="支付宝姓名(非昵称)" />
+          <view class="_view data-v-608119bd draw-con-tips">*支付宝账号与姓名(非昵称)必须一致，否则会转账失败</view>
+        </view>
+      </view>
+      <view class="_view data-v-608119bd white">
+        <view class="_view data-v-608119bd draw-tl">
+          <view class="_view data-v-608119bd center">
+            <template type="dailishouyi" color="#e74c2d" size="20" data="{{...$root['0'], ...$root[$kk+'4j8-1'],$root}}" is="18f61b88"></template> 提现金额(元) </view>
+          <text class="_text data-v-608119bd">手续费：0元</text>
+        </view>
+        <view class="_view data-v-608119bd draw-con">
+          <view class="_view data-v-608119bd input-line">
+            <input placeholder-style="color: #bebebe; font-size: 30upx" type="text" value="输入本次提现金额" class="_input data-v-608119bd" />
+            <text class="_text data-v-608119bd">余额0.10元</text>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-608119bd white">
+        <view class="_view data-v-608119bd draw-tl">
+          <view class="_view data-v-608119bd center">
+            <template type="ai-phone" color="#44b549" size="20" data="{{...$root['0'], ...$root[$kk+'nHT-2'],$root}}" is="18f61b88"></template> 注册手机号
+            <text class="_text data-v-608119bd">128****2311</text>
+          </view>
+          <text class="_text data-v-608119bd">不能接受验证码？</text>
+        </view>
+        <view class="_view data-v-608119bd draw-con">
+          <view class="_view data-v-608119bd input-line">
+            <input placeholder-style="color: #bebebe; font-size: 30upx" type="text" value="请输入4位手机验证码" class="_input data-v-608119bd" />
+            <text class="_text data-v-608119bd">获取验证码</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-608119bd submitbtn-wp">
+      <view class="_view data-v-608119bd draw-bt"> 每天可提现5次，每天最高10000元 </view>
+      <button class="_button data-v-608119bd block-tl-color8 submitbtn" formType="submit">申请提现</button>
+    </view>
+  </view>
+</template>

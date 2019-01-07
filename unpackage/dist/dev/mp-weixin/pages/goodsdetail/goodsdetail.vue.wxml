@@ -1,0 +1,91 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="bb3c3b3e">
+  <view class="_view data-v-3ff60d0d content">
+    <view class="_view data-v-3ff60d0d content-pad">
+      <view class="_view data-v-3ff60d0d white fixed">
+        <view class="_view data-v-3ff60d0d wx-item">
+          <navigator class="_navigator data-v-3ff60d0d wx-item-md" hover-class="none" url="../memberindex/memberindex">
+            <view class="_view data-v-3ff60d0d avatar-wp">
+              <view class="_view data-v-3ff60d0d avatar-vip">
+                <template type="huiyuan" size="10" data="{{...$root['0'], ...$root[$kk+'3mA-0'],$root}}" is="18f61b88"></template>
+              </view>
+              <image class="_image data-v-3ff60d0d avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+            </view>
+            <view class="_view data-v-3ff60d0d wx-item-con">
+              <view class="_view data-v-3ff60d0d wx-item-tl">
+                <text class="_text data-v-3ff60d0d mdtxt">妮妮小宝贝</text>
+              </view>
+              <view class="_view data-v-3ff60d0d wx-item-wx">
+                <template type="kejian" size="18" data="{{...$root['0'], ...$root[$kk+'kQV-1'],$root}}" is="18f61b88"></template>
+                <text class="_text data-v-3ff60d0d mdtxt">2029</text>
+              </view>
+            </view>
+          </navigator>
+          <view class="_view data-v-3ff60d0d wx-item-rt" bindtap="handleProxy" data-position="middle" data-eventid="{{'i56-0'}}" data-comkey="{{$k}}">
+            <template type="tianjia" size="12" color="#44B549" data="{{...$root['0'], ...$root[$kk+'CCq-2'],$root}}" is="18f61b88"></template>加微信 </view>
+        </view>
+      </view>
+      <view class="_view data-v-3ff60d0d fixed-padtop">
+        <view class="_view data-v-3ff60d0d white">
+          <view class="_view data-v-3ff60d0d wxgc-title"> 智能儿童早教机
+            <view class="_view data-v-3ff60d0d block-tl-rt">
+              <navigator url="../report/report" hover-class="none" class="_navigator data-v-3ff60d0d block-tl-rt-item">
+                <template type="jubao" size="13" data="{{...$root['0'], ...$root[$kk+'seE-3'],$root}}" is="18f61b88"></template>
+                <text class="_text data-v-3ff60d0d mdtxt">举报</text>
+              </navigator>
+            </view>
+          </view>
+          <view class="_view data-v-3ff60d0d padding10">
+            <view class="_view data-v-3ff60d0d wxgc-sub-title"> 可以连WiFi，只有你想不到的，没有它做不到的，你懂得，让孩子实现一个不一样的童年吧 </view>
+            <image class="_image data-v-3ff60d0d goodsdetail-img" src="../../static/goods.jpg" mode="widthFix"></image>
+          </view>
+        </view>
+        <view class="_view data-v-3ff60d0d white">
+          <view class="_view data-v-3ff60d0d block-tl">
+            <view class="_view data-v-3ff60d0d block-tl-lf">
+              <view class="_view data-v-3ff60d0d block-tl-icon block-tl-color2">
+                <template type="huida" size="13" color="#fff" data="{{...$root['0'], ...$root[$kk+'n7t-4'],$root}}" is="18f61b88"></template>
+              </view>
+              <text class="_text data-v-3ff60d0d mdtxt">评论</text>
+            </view>
+          </view>
+          <view class="_view data-v-3ff60d0d comment-con">
+            <view class="_view data-v-3ff60d0d comment-item">
+              <view class="_view data-v-3ff60d0d comment-user">
+                <image class="_image data-v-3ff60d0d avatar-60" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+                <view class="_view data-v-3ff60d0d comment-user-name"> 微商童装诚招代理一件代发 </view>
+              </view>
+              <view class="_view data-v-3ff60d0d comment-info">
+                <view class="_view data-v-3ff60d0d comment-info-txt"> 所有宝宝们可以叫我微信私聊 </view>
+                <view class="_view data-v-3ff60d0d comment-info-time"> 2018-12-12 09:40:30 </view>
+              </view>
+            </view>
+            <view class="_view data-v-3ff60d0d comment-item">
+              <view class="_view data-v-3ff60d0d comment-user">
+                <image class="_image data-v-3ff60d0d avatar-60" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
+                <view class="_view data-v-3ff60d0d comment-user-name"> 身心康 </view>
+              </view>
+              <view class="_view data-v-3ff60d0d comment-info">
+                <view class="_view data-v-3ff60d0d comment-info-txt"> 麦吉丽，卡瘦 </view>
+                <view class="_view data-v-3ff60d0d comment-info-time"> 2018-12-12 09:40:30 </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-3ff60d0d fixed-bt">
+      <view class="_view data-v-3ff60d0d fixed-bt-item">
+        <template type="fenxiang" size="20" data="{{...$root['0'], ...$root[$kk+'sul-5'],$root}}" is="18f61b88"></template>
+        <text class="_text data-v-3ff60d0d">分享</text>
+      </view>
+      <view class="_view data-v-3ff60d0d fixed-bt-item">
+        <template type="huida" size="22" data="{{...$root['0'], ...$root[$kk+'oyA-6'],$root}}" is="18f61b88"></template>
+        <text class="_text data-v-3ff60d0d">评论 0</text>
+      </view>
+      <view class="_view data-v-3ff60d0d fixed-bt-btn-wp">
+        <view class="_view data-v-3ff60d0d fixed-bt-btn block-tl-color8"> 我要发表评论 </view>
+      </view>
+    </view>
+  </view>
+</template>

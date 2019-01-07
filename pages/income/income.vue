@@ -80,6 +80,11 @@
 			return {
 				
 			};
+		},
+		onNavigationBarButtonTap() {
+			uni.navigateTo({
+				url: '/pages/help/help'
+			})
 		}
 	}
 </script>
@@ -87,6 +92,7 @@
 <style>
 	.content{
 		background-color: #F4F6FA;
+		overflow: hidden;
 	}
 	.me-top {
 		position: relative;

@@ -1,0 +1,1 @@
+<import src="/pages/weinews/weinews.vue.wxml" /><template is="08054522" data="{{ ...$root['0'], $root }}"/>

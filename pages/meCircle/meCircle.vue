@@ -1,6 +1,6 @@
 <template>
     <view class="content">
-			<navigator class="obtain-boss" url="../member/member" hover-class="none">
+			<navigator class="obtain-boss" url="../openagent/openagent" hover-class="none">
 				<uni-icon size="20" color="#e86a38" type="huiyuan1"></uni-icon>
 				<view class="obtain-boss-info">
 					钻石代理名片高亮 每天自动刷新
@@ -56,46 +56,51 @@
         },
         data() {
             return {
-							currentTab: 0,
-							showMask: false,
-							showState: {
-								top: false,
-								middle: false,
-								bottom: false,
-								bottom1: false
-							},
+				currentTab: 0,
+				showMask: false,
+				showState: {
+					top: false,
+					middle: false,
+					bottom: false,
+					bottom1: false
+				},
             }
         },
         methods: {
             bindChange: function (e) {	
-							this.currentTab = e.detail.current;
-						},
-						swichNav: function(e){
-							this.currentTab = e.currentTarget.dataset.current;
-						},
-						show: function(e) {
-							var pos = e.currentTarget.dataset.position;
-							switch (pos) {
-								case 'top':
-									this.activePop = 'top'
-									break
-								case 'bottom':
-									this.activePop = 'bottom'
-									break
-								case 'bottom1':
-									this.activePop = 'bottom1'
-									break
-								default:
-									this.activePop = 'middle'
-							}
-							this.showMask = true
-							this.showState[this.activePop] = true
-						},
-						hide: function() {
-							this.showMask = false
-							this.showState[this.activePop] = false
-						},
-        }
+				this.currentTab = e.detail.current;
+			},
+			swichNav: function(e){
+				this.currentTab = e.currentTarget.dataset.current;
+			},
+			show: function(e) {
+				var pos = e.currentTarget.dataset.position;
+				switch (pos) {
+					case 'top':
+						this.activePop = 'top'
+						break
+					case 'bottom':
+						this.activePop = 'bottom'
+						break
+					case 'bottom1':
+						this.activePop = 'bottom1'
+						break
+					default:
+						this.activePop = 'middle'
+				}
+				this.showMask = true
+				this.showState[this.activePop] = true
+			},
+			hide: function() {
+				this.showMask = false
+				this.showState[this.activePop] = false
+			},
+        },
+		onNavigationBarButtonTap: function(){
+			uni.navigateTo({
+				url: '/pages/putCircle/putCircle'
+			})	
+		},
     }
 </script>
 

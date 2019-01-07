@@ -4,65 +4,6 @@
     <view class="_view data-v-6377e186 postop b-line"></view>
     <view class="_view data-v-6377e186 content-pad">
       <view class="_view data-v-6377e186 white">
-        <view class="_view data-v-6377e186 block-tl b-line">
-          <view class="_view data-v-6377e186 block-tl-lf">
-            <view class="_view data-v-6377e186 block-tl-icon block-tl-color2">
-              <template type="huati" data="{{...$root['0'], ...$root[$kk+'7PA-0'],$root}}" is="18f61b88"></template>
-            </view>
-            <text class="_text data-v-6377e186 mdtxt">话题</text>
-          </view>
-          <view class="_view data-v-6377e186 block-tl-rt">
-            <view class="_view data-v-6377e186 block-tl-rt-more">
-              <text class="_text data-v-6377e186 mdtxt">前往话题广场</text>
-              <view class="_view data-v-6377e186 block-more more-color4">
-                <template color="#fff" size="12" type="qianjin" data="{{...$root['0'], ...$root[$kk+'ccX-1'],$root}}" is="18f61b88"></template>
-              </view>
-            </view>
-          </view>
-        </view>
-        <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" next-margin="40px" class="_swiper data-v-6377e186">
-          <swiper-item class="_swiper-item data-v-6377e186">
-            <view class="_view data-v-6377e186 topic-item">
-              <image class="_image data-v-6377e186 topic-item-avatar" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
-              <view class="_view data-v-6377e186 topic-item-info">
-                <view class="_view data-v-6377e186 topic-item-tl"> #微商故事# </view>
-                <view class="_view data-v-6377e186 topic-item-des"> 骗子公司，TT系统。骗我辛苦钱 </view>
-                <view class="_view data-v-6377e186 topic-item-num">
-                  <text class="_text data-v-6377e186">2赞</text>
-                  <text class="_text data-v-6377e186">10评论</text>
-                </view>
-              </view>
-            </view>
-          </swiper-item>
-          <swiper-item class="_swiper-item data-v-6377e186">
-            <view class="_view data-v-6377e186 topic-item">
-              <image class="_image data-v-6377e186 topic-item-avatar" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
-              <view class="_view data-v-6377e186 topic-item-info">
-                <view class="_view data-v-6377e186 topic-item-tl"> #微商故事# </view>
-                <view class="_view data-v-6377e186 topic-item-des"> 骗子公司，TT系统。骗我辛苦钱 </view>
-                <view class="_view data-v-6377e186 topic-item-num">
-                  <text class="_text data-v-6377e186">2赞</text>
-                  <text class="_text data-v-6377e186">10评论</text>
-                </view>
-              </view>
-            </view>
-          </swiper-item>
-          <swiper-item class="_swiper-item data-v-6377e186">
-            <view class="_view data-v-6377e186 topic-item">
-              <image class="_image data-v-6377e186 topic-item-avatar" src="../../static/avatar/avatar_3.jpg" mode="widthFix"></image>
-              <view class="_view data-v-6377e186 topic-item-info">
-                <view class="_view data-v-6377e186 topic-item-tl"> #微商故事# </view>
-                <view class="_view data-v-6377e186 topic-item-des"> 骗子公司，TT系统。骗我辛苦钱 </view>
-                <view class="_view data-v-6377e186 topic-item-num">
-                  <text class="_text data-v-6377e186">2赞</text>
-                  <text class="_text data-v-6377e186">10评论</text>
-                </view>
-              </view>
-            </view>
-          </swiper-item>
-        </swiper>
-      </view>
-      <view class="_view data-v-6377e186 white">
         <view class="_view data-v-6377e186 art-item">
           <view class="_view data-v-6377e186 art-item-tl">
             <image class="_image data-v-6377e186 avatar" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
@@ -71,10 +12,10 @@
               <view class="_view data-v-6377e186 art-usr-time"> 30秒前 </view>
             </view>
             <view class="_view data-v-6377e186 block-tl-rt">
-              <view class="_view data-v-6377e186 block-tl-rt-item">
-                <template type="jubao" data="{{...$root['0'], ...$root[$kk+'IxG-5'],$root}}" is="18f61b88"></template>
+              <navigator hover-class="none" class="_navigator data-v-6377e186 block-tl-rt-item" url="../report/report">
+                <template type="jubao" data="{{...$root['0'], ...$root[$kk+'cWr-0'],$root}}" is="18f61b88"></template>
                 <text class="_text data-v-6377e186 mdtxt">举报</text>
-              </view>
+              </navigator>
             </view>
           </view>
           <navigator url="../circleDetail/circleDetail" hover-class="none" class="_navigator data-v-6377e186">
@@ -93,17 +34,17 @@
           </view>
           <view class="_view data-v-6377e186 user-doings">
             <view class="_view data-v-6377e186 user-doings-item">
-              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'mua-6'],$root}}" is="18f61b88"></template>
+              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'qme-1'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">分享</text>
             </view>
             <view class="_view data-v-6377e186 m-line"></view>
             <view class="_view data-v-6377e186 user-doings-item">
-              <template type="huida" data="{{...$root['0'], ...$root[$kk+'1wA-7'],$root}}" is="18f61b88"></template>
+              <template type="huida" data="{{...$root['0'], ...$root[$kk+'VWs-2'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">评论</text>
             </view>
             <view class="_view data-v-6377e186 m-line"></view>
             <view class="_view data-v-6377e186 user-doings-item">
-              <template type="zan" data="{{...$root['0'], ...$root[$kk+'skA-8'],$root}}" is="18f61b88"></template>
+              <template type="zan" data="{{...$root['0'], ...$root[$kk+'KUx-3'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">点赞</text>
             </view>
           </view>
@@ -119,7 +60,7 @@
             </view>
             <view class="_view data-v-6377e186 block-tl-rt">
               <view class="_view data-v-6377e186 block-tl-rt-item">
-                <template type="jubao" data="{{...$root['0'], ...$root[$kk+'KA3-9'],$root}}" is="18f61b88"></template>
+                <template type="jubao" data="{{...$root['0'], ...$root[$kk+'y6g-4'],$root}}" is="18f61b88"></template>
                 <text class="_text data-v-6377e186 mdtxt">举报</text>
               </view>
             </view>
@@ -140,17 +81,17 @@
           </view>
           <view class="_view data-v-6377e186 user-doings">
             <view class="_view data-v-6377e186 user-doings-item">
-              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'nkT-10'],$root}}" is="18f61b88"></template>
+              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'ip5-5'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">分享</text>
             </view>
             <view class="_view data-v-6377e186 m-line"></view>
             <view class="_view data-v-6377e186 user-doings-item">
-              <template type="huida" data="{{...$root['0'], ...$root[$kk+'WqB-11'],$root}}" is="18f61b88"></template>
+              <template type="huida" data="{{...$root['0'], ...$root[$kk+'eAo-6'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">评论</text>
             </view>
             <view class="_view data-v-6377e186 m-line"></view>
             <view class="_view data-v-6377e186 user-doings-item">
-              <template type="zan" data="{{...$root['0'], ...$root[$kk+'Kuo-12'],$root}}" is="18f61b88"></template>
+              <template type="zan" data="{{...$root['0'], ...$root[$kk+'4dr-7'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">点赞</text>
             </view>
           </view>

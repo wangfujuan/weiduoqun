@@ -1,17 +1,19 @@
 <import src="/components/uni-icon.vue.wxml" />
 <template name="3b4c5809">
   <view class="_view data-v-0c98b8b5 content">
-    <view class="_view data-v-0c98b8b5 openagent-top">
-      <view class="_view data-v-0c98b8b5 openagent-top-subtl"> 30多项高级特权 </view>
-      <view class="_view data-v-0c98b8b5 openagent-top-tl">
-        <template type="huiyuan1" size="30" data="{{...$root['0'], ...$root[$kk+'46e-0'],$root}}" is="18f61b88"></template>尊贵钻石代理 </view>
-      <view class="_view data-v-0c98b8b5 openagent-top-btn"> 每天几分钱 开启百万大生意 </view>
-    </view>
+    <navigator hover-class="none" url="../member/member" class="_navigator data-v-0c98b8b5">
+      <view class="_view data-v-0c98b8b5 openagent-top">
+        <view class="_view data-v-0c98b8b5 openagent-top-subtl"> 30多项高级特权 </view>
+        <view class="_view data-v-0c98b8b5 openagent-top-tl">
+          <template type="huiyuan1" size="30" data="{{...$root['0'], ...$root[$kk+'Z4U-0'],$root}}" is="18f61b88"></template>尊贵钻石代理 </view>
+        <view class="_view data-v-0c98b8b5 openagent-top-btn"> 每天几分钱 开启百万大生意 </view>
+      </view>
+    </navigator>
     <view class="_view data-v-0c98b8b5 wbre-box">
       <view class="_view data-v-0c98b8b5 wbre-item">
         <view class="_view data-v-0c98b8b5 wbre-item-con">
           <view class="_view data-v-0c98b8b5 wbre-item-subtl">
-            <template type="huiyuan1" size="18" color="#ffc107" data="{{...$root['0'], ...$root[$kk+'RdM-1'],$root}}" is="18f61b88"></template>钻石代理3个月 </view>
+            <template type="huiyuan1" size="18" color="#ffc107" data="{{...$root['0'], ...$root[$kk+'l4Q-1'],$root}}" is="18f61b88"></template>钻石代理3个月 </view>
           <view class="_view data-v-0c98b8b5 wbre-item-tl"> ¥
             <text class="_text data-v-0c98b8b5">298.00</text>
           </view>
@@ -20,7 +22,7 @@
       <view class="_view data-v-0c98b8b5 wbre-item">
         <view class="_view data-v-0c98b8b5 wbre-item-con">
           <view class="_view data-v-0c98b8b5 wbre-item-subtl">
-            <template type="huiyuan1" size="18" color="#ffc107" data="{{...$root['0'], ...$root[$kk+'Nn8-2'],$root}}" is="18f61b88"></template>钻石代理6个月 </view>
+            <template type="huiyuan1" size="18" color="#ffc107" data="{{...$root['0'], ...$root[$kk+'APV-2'],$root}}" is="18f61b88"></template>钻石代理6个月 </view>
           <view class="_view data-v-0c98b8b5 wbre-item-tl"> ¥
             <text class="_text data-v-0c98b8b5">398.00</text>
           </view>
@@ -29,7 +31,7 @@
       <view class="_view data-v-0c98b8b5 wbre-item">
         <view class="_view data-v-0c98b8b5 wbre-item-con">
           <view class="_view data-v-0c98b8b5 wbre-item-subtl">
-            <template type="huiyuan1" size="18" color="#ffc107" data="{{...$root['0'], ...$root[$kk+'5yp-3'],$root}}" is="18f61b88"></template>钻石代理1年 </view>
+            <template type="huiyuan1" size="18" color="#ffc107" data="{{...$root['0'], ...$root[$kk+'IvJ-3'],$root}}" is="18f61b88"></template>钻石代理1年 </view>
           <view class="_view data-v-0c98b8b5 wbre-item-tl"> ¥
             <text class="_text data-v-0c98b8b5">698.00</text>
           </view>
@@ -38,7 +40,7 @@
       <view class="_view data-v-0c98b8b5 wbre-item">
         <view class="_view data-v-0c98b8b5 wbre-item-con active-wb-item">
           <view class="_view data-v-0c98b8b5 wbre-item-subtl">
-            <template type="huiyuan1" size="18" color="#ffc107" data="{{...$root['0'], ...$root[$kk+'Uor-4'],$root}}" is="18f61b88"></template>钻石代理终身
+            <template type="huiyuan1" size="18" color="#ffc107" data="{{...$root['0'], ...$root[$kk+'jpP-4'],$root}}" is="18f61b88"></template>钻石代理终身
             <text class="_text data-v-0c98b8b5">限时折扣</text>
           </view>
           <view class="_view data-v-0c98b8b5 wbre-item-tl"> ¥
@@ -48,10 +50,10 @@
         </view>
       </view>
     </view>
-    <radio-group class="_radio-group data-v-0c98b8b5 pay-box" bindchange="handleProxy" data-eventid="{{'d1Z-0'}}" data-comkey="{{$k}}">
+    <radio-group class="_radio-group data-v-0c98b8b5 pay-box" bindchange="handleProxy" data-eventid="{{'od9-0'}}" data-comkey="{{$k}}">
       <view class="_view data-v-0c98b8b5 pay-item" wx:key="item" key="{{item}}" wx:for="{{payList}}" wx:for-index="index" wx:for-item="item">
         <label class="_label data-v-0c98b8b5 pay-item-con">
-          <template data="{{...$root['0'], ...$root[$kk+'Ypz-5-'+index],$root}}" is="18f61b88"></template>{{item.value}}
+          <template data="{{...$root['0'], ...$root[$kk+'xc4-5-'+index],$root}}" is="18f61b88"></template>{{item.value}}
           <radio class="_radio data-v-0c98b8b5 pay-radio" value="{{item.name}}" checked="{{item.checked}}" />
         </label>
       </view>

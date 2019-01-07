@@ -21,11 +21,13 @@
 								</view>
 							</view>
 						</view>
-						<view class="income-pay">
-							<uni-icon type="mianfei" color="#e86a38" size="20"></uni-icon>
-							<text>钻石代理自用省钱 分享赚钱</text>
-							<view class="obtain-boss-open">开通</view>
-						</view>
+						<navigator hover-class="none" url="../openagent/openagent">
+							<view class="income-pay">
+								<uni-icon type="mianfei" color="#e86a38" size="20"></uni-icon>
+								<text>钻石代理自用省钱 分享赚钱</text>
+								<view class="obtain-boss-open">开通</view>
+							</view>
+						</navigator>
 					</view>
 					<view class="card-item">
 						<view class="card-item-tl">

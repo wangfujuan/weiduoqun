@@ -1,7 +1,7 @@
 <template>
     <view class="content">
-       <view class="shadow"></view>
-       <swiper :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" 
+       <!-- <view class="shadow"></view> -->
+       <!-- <swiper :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" 
        		:duration="duration" 
        		circular="true" 
        		next-margin="20rpx" 
@@ -21,8 +21,8 @@
        			<image src="../../static/banner.jpg" mode="widthFix"></image>
        		</view>
        	</swiper-item>
-       </swiper>
-			 <view class="top-ls">
+       </swiper> -->
+			 <!-- <view class="top-ls">
 				 <view class="top-item">
 					<view class="top-item-con block-tl-color1">
 						<view class="top-item-tl">
@@ -53,8 +53,44 @@
 						</view>
 					</view>
 				 </view>
-			 </view>
-			<view class="content-pad">
+			 </view> -->
+		<view class="content-pad">
+			<view class="white">
+				<view class="block-tl b-line">
+					<view class="block-tl-lf">
+						<view class="block-tl-icon block-tl-color6">
+							<uni-icon size="12" color="#fff" type="gerenweixin"></uni-icon>
+						</view>
+						<text class="mdtxt">我的名片</text>
+					</view>
+				</view>
+				<view class="uni-grid-9">
+					<navigator class="uni-grid-9-item" hover-class="none" url="../card/card?currentTab=0">
+						<view class="iconwp oneicon">
+							<uni-icon type="duoren2"></uni-icon>
+						</view>
+						<text class="uni-grid-9-text">微信群名片</text>	
+					</navigator>
+					<navigator class="uni-grid-9-item" hover-class="none" url="../card/card?currentTab=0">
+						<view class="iconwp fouricon">
+							<uni-icon type="qq02"></uni-icon>
+						</view>
+						<text class="uni-grid-9-text">QQ群名片</text>	
+					</navigator>
+					<navigator class="uni-grid-9-item" hover-class="none" url="../card/card?currentTab=1">
+						<view class="iconwp twoicon">
+							<uni-icon type="geren2"></uni-icon>
+						</view>
+						<text class="uni-grid-9-text">微信个人名片</text>	
+					</navigator>
+					<navigator class="uni-grid-9-item" hover-class="none" url="../card/card?currentTab=1">
+						<view class="iconwp threeicon">
+							<uni-icon type="xin2"></uni-icon>
+						</view>
+						<text class="uni-grid-9-text">QQ个人名片</text>	
+					</navigator>
+				</view>
+			</view>	
 		   <!-- 热门工具 start -->
 		   <view class="white">
 				<view class="block-tl">
@@ -98,6 +134,7 @@
 				</view>
 				<view class="tool-ls">
 					<view class="tool-item">
+						<navigator hover-class="none" url="../wxPersonal/wxPersonal">
 						<view class="tool-item-box">
 							<view class="tool-item-con">
 								<view class="tool-item-icon block-tl-color1">
@@ -119,8 +156,10 @@
 								千万人脉免费加
 							</view>
 						</view>
+						</navigator>
 					</view>
 					<view class="tool-item">
+						<navigator hover-class="none" url="../card/card?currentTab=1">
 						<view class="tool-item-box">
 							<view class="tool-item-con">
 								<view class="tool-item-icon block-tl-color2">
@@ -142,6 +181,7 @@
 								每日涨粉200人
 							</view>
 						</view>
+						</navigator>
 					</view>
 					<view class="tool-item">
 						<navigator hover-class="none" url="../allpeople/allpeople">
@@ -168,7 +208,7 @@
 					<view class="tool-item">
 						<view class="tool-item-box">
 							<view class="tool-item-con">
-								<view class="tool-item-icon block-tl-color4">
+								<view class="tool-item-icon block-tl-color7">
 									<uni-icon type="licaijingxuan"></uni-icon>
 								</view>
 								<view class="tool-item-info">
@@ -186,6 +226,7 @@
 						</view>
 					</view>
 					<view class="tool-item">
+						<navigator hover-class="none" url="../wxgroup/wxgroup">
 						<view class="tool-item-box">
 							<view class="tool-item-con">
 								<view class="tool-item-icon block-tl-color5">
@@ -204,6 +245,7 @@
 								每天更新500+
 							</view>
 						</view>
+						</navigator>
 					</view>
 					<view class="tool-item">
 						<view class="tool-item-box">
@@ -228,34 +270,34 @@
 				</view>
 		   </view>
 		   <!-- 热门工具 end -->
-			 <!-- 工具箱 start -->
+			 <!-- 自动加人 start -->
 			 <view class="white">
 			 <view class="block-tl">
 			 	<view class="block-tl-lf">
 			 		<view class="block-tl-icon block-tl-color1">
 			 			<uni-icon size="12" color="#fff" type="icon_fuzhugongju-mian"></uni-icon>
 			 		</view>
-			 		<text class="mdtxt">工具箱</text>
+			 		<text class="mdtxt">自动加人</text>
 			 	</view>
 			 	<view class="block-tl-rt">
 			 		<view class="block-tl-rt-more">
-			 			<text class="mdtxt">免费好用</text>
+			 			<text class="mdtxt">工具使用教程</text>
 			 			<view class="block-more more-color2">
 			 				<uni-icon size="12" type="qianjin"></uni-icon>
 			 			</view>
 			 		</view>
 			 	</view>
 			 </view>
-			 <view class="trend block-tl-color2">
+			 <!-- <view class="trend block-tl-color2">
 			 	<view class="trend-icon">
 			 		<uni-icon type="iconfontzhizuobiaozhun0247"></uni-icon>
 			 	</view>
 			 	<view class="trend-info">
 			 		<view class="trend-info-tl">
-			 			九格切图
+			 			自动群内加人
 			 		</view>
 			 		<view class="trend-info-des">
-			 			让你的朋友圈更炫酷
+			 			全自动智能加
 			 		</view>
 			 	</view>
 			 	<view class="trend-user whiteborder">
@@ -270,45 +312,45 @@
 			 		</view>
 			 		<uni-icon type="qianjin"></uni-icon>
 			 	</view>
-			 </view>
-			 <view class="tool-ls">
+			 </view> -->
+			 <view class="tool-ls autocolor">
 			 	<view class="tool-item">
 			 		<view class="tool-item-box">
 			 			<view class="tool-item-con">
-			 				<view class="tool-item-icon block-tl-color2">
+			 				<view class="tool-item-icon block-tl-color4">
 			 					<uni-icon type="zongxiangpingfen"></uni-icon>
 			 				</view>
 			 				<view class="tool-item-info">
 			 					<view class="tool-item-tl">
-			 						纵向拼图
+			 						自动群内加人
 			 					</view>
 			 					<view class="tool-item-des">
-			 						适合做长截图
+			 						全自动智能加
 			 					</view>
 			 				</view>
 			 			</view>
 			 			<view class="tool-item-btn">
-			 				最高支持10张图
+			 				最高每日+180人
 			 			</view>
 			 		</view>
 			 	</view>
 			 	<view class="tool-item">
 			 		<view class="tool-item-box">
 			 			<view class="tool-item-con">
-			 				<view class="tool-item-icon block-tl-color3">
+			 				<view class="tool-item-icon block-tl-color4">
 			 					<uni-icon type="hengxiangpingfen"></uni-icon>
 			 				</view>
 			 				<view class="tool-item-info">
 			 					<view class="tool-item-tl">
-			 						横向拼图
+			 						自动搜索加人
 			 					</view>
 			 					<view class="tool-item-des">
-			 						适合拼接横图
+			 						自动搜索添加
 			 					</view>
 			 				</view>
 			 			</view>
 			 			<view class="tool-item-btn">
-			 				最高支持10张图
+			 				每日自动加20人
 			 			</view>
 			 		</view>
 			 	</view>
@@ -320,41 +362,81 @@
 			 				</view>
 			 				<view class="tool-item-info">
 			 					<view class="tool-item-tl">
-			 						马赛克
+			 						自动扫码加人
 			 					</view>
 			 					<view class="tool-item-des">
-			 						自由打码涂抹
+			 						自动批量扫码
 			 					</view>
 			 				</view>
 			 			</view>
 			 			<view class="tool-item-btn">
-			 				3种打码选择
+			 				每天可加20人
 			 			</view>
 			 		</view>
 			 	</view>
 			 	<view class="tool-item">
 			 		<view class="tool-item-box">
 			 			<view class="tool-item-con">
-			 				<view class="tool-item-icon block-tl-color2">
+			 				<view class="tool-item-icon block-tl-color4">
 			 					<uni-icon type="zhongbiao"></uni-icon>
 			 				</view>
 			 				<view class="tool-item-info">
 			 					<view class="tool-item-tl">
-			 						圈重点
+			 						自动附近加人
 			 					</view>
 			 					<view class="tool-item-des">
-			 						快速标记涂鸦
+			 						自动批量添加
 			 					</view>
 			 				</view>
 			 			</view>
 			 			<view class="tool-item-btn">
-			 				3种画笔风格
+			 				每日可加30人
 			 			</view>
 			 		</view>
 			 	</view>
+				<view class="tool-item">
+					<view class="tool-item-box">
+						<view class="tool-item-con">
+							<view class="tool-item-icon block-tl-color4">
+								<uni-icon type="zhongbiao"></uni-icon>
+							</view>
+							<view class="tool-item-info">
+								<view class="tool-item-tl">
+									自动扫码加群
+								</view>
+								<view class="tool-item-des">
+									批量扫码加群
+								</view>
+							</view>
+						</view>
+						<view class="tool-item-btn">
+							每日可加30群
+						</view>
+					</view>
+				</view>
+				<view class="tool-item">
+					<view class="tool-item-box">
+						<view class="tool-item-con">
+							<view class="tool-item-icon block-tl-color4">
+								<uni-icon type="zhongbiao"></uni-icon>
+							</view>
+							<view class="tool-item-info">
+								<view class="tool-item-tl">
+									自动通过验证
+								</view>
+								<view class="tool-item-des">
+									被加自动通过
+								</view>
+							</view>
+						</view>
+						<view class="tool-item-btn">
+							每天不限次数
+						</view>
+					</view>
+				</view>
 			 </view>
 			 </view>
-			 <!-- 工具箱 end -->
+			 <!-- 自动加人 end -->
 	    </view>
     </view>
 </template>
@@ -520,6 +602,7 @@
 		display: flex;
 		flex-direction: row;
 		margin-bottom: 30upx;
+		white-space:nowrap;
 	}
 	
 	
@@ -538,7 +621,9 @@
 		border: 1px solid #fff;
 		transform: scale(0.8);
 	}
-	
+	.tool-item-icon{
+		flex: 0 0 80upx;
+	}
 	.tool-item-icon .uni-icon {
 		color: #fff;
 		font-size: 44upx;
@@ -594,5 +679,77 @@
 	
 	.whiteborder .trend-user-avatar{
 		border-color: #fff;
+	}
+	
+	/* 九宫格 */
+	.uni-grid-9 {
+		box-sizing: border-box;
+		padding-top: 25upx;
+	}
+	
+	.uni-grid-9-item {
+		width: 25%;
+		display: inline-block;
+		text-align: center;
+		margin-bottom: 35upx;
+	}
+	
+	.uni-grid-9-image {
+		width: 80upx;
+		height: 80upx;
+	}
+	
+	.uni-grid-9-text {
+		display: block;
+		line-height: 1;
+		font-size: 24upx;
+		margin-top: 16upx;
+		color: #626262;
+	}
+	
+	.uni-grid-9-item-hover {
+		background: rgba(0, 0, 0, 0.1);
+	}
+	
+	.iconwp {
+		width: 90upx;
+		height: 90upx;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: #007AFF;
+		border-radius: 100%;
+		margin: 0 auto;
+		text-align: center;
+		/* line-height: 90upx; */
+	}
+	
+	.iconwp .uni-icon {
+		font-size: 44upx;
+		color: #fff;
+	}
+	.oneicon {
+		background-image: linear-gradient(-45deg, #ff9a9e 0%, #ffbdbd 100%);
+		box-shadow: 4upx 0 16upx rgba(255, 189, 189, .3);
+	}
+	
+	.twoicon {
+		background-image: linear-gradient(-45deg, #30D2BE 0%, #80f3e5 100%);
+		box-shadow: 4upx 0 16upx rgba(128, 243, 229, .3);
+	}
+	
+	.threeicon {
+		background-image: linear-gradient(-45deg, #e7b65f 0%, #f1d199 100%);
+		box-shadow: 4upx 0 16upx rgba(241, 109, 153, .3);
+	}
+	
+	.fouricon {
+		background-image: linear-gradient(-45deg, #21c7ef 0%, #70e3ff 100%);
+		box-shadow: 4upx 0 16upx rgba(112, 227, 255, .3);
+	}
+	.autocolor .tool-item-btn{
+		border-color: #e5e5e5;
+		color: #b2b2b2;
 	}
 </style>

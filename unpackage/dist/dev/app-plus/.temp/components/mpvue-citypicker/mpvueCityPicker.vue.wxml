@@ -1,12 +1,12 @@
 <template name="09fae9f6">
   <view class="_div data-v-992e10bc mpvue-picker">
-    <view bindtap="handleProxy" catchtouchmove="true" data-eventid="{{'Yyz-0'}}" data-comkey="{{$k}}" class="_div data-v-992e10bc {{[showPicker ? 'pickerMask' : '']}}"></view>
+    <view bindtap="handleProxy" catchtouchmove="true" data-eventid="{{'2Sq-0'}}" data-comkey="{{$k}}" class="_div data-v-992e10bc {{[showPicker ? 'pickerMask' : '']}}"></view>
     <view class="_div data-v-992e10bc mpvue-picker-content  {{[showPicker ? 'mpvue-picker-view-show' : '']}}">
       <view class="_div data-v-992e10bc mpvue-picker__hd" catchtouchmove="true">
-        <view class="_div data-v-992e10bc mpvue-picker__action" bindtap="handleProxy" data-eventid="{{'p30-1'}}" data-comkey="{{$k}}">取消</view>
-        <view class="_div data-v-992e10bc mpvue-picker__action" bindtap="handleProxy" data-eventid="{{'mTh-2'}}" data-comkey="{{$k}}" style=" {{('color:' + themeColor + ';')}}">确定</view>
+        <view class="_div data-v-992e10bc mpvue-picker__action" bindtap="handleProxy" data-eventid="{{'IDt-1'}}" data-comkey="{{$k}}">取消</view>
+        <view class="_div data-v-992e10bc mpvue-picker__action" bindtap="handleProxy" data-eventid="{{'Aeu-2'}}" data-comkey="{{$k}}" style=" {{('color:' + themeColor + ';')}}">确定</view>
       </view>
-      <picker-view indicator-style="height: 40px;" class="_picker-view data-v-992e10bc mpvue-picker-view" value="{{pickerValue}}" bindchange="handleProxy" data-eventid="{{'pvN-3'}}" data-comkey="{{$k}}">
+      <picker-view indicator-style="height: 40px;" class="_picker-view data-v-992e10bc mpvue-picker-view" value="{{pickerValue}}" bindchange="handleProxy" data-eventid="{{'MuU-3'}}" data-comkey="{{$k}}">
         <block>
           <picker-view-column class="_picker-view-column data-v-992e10bc">
             <view class="_div data-v-992e10bc picker-item" wx:key="index" key="{{index}}" wx:for="{{provinceDataList}}" wx:for-index="index" wx:for-item="item">{{item.label}}</view>

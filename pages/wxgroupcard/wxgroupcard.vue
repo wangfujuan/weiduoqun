@@ -3,13 +3,13 @@
 		<view class="content-pad">
 			<view class="white">
 				<view class="wx-item">
-					<navigator class="wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
-						<view class="avatar-wp">
+					<view class="wx-item-md">
+						<navigator class="avatar-wp" hover-class="none" url="../memberindex/memberindex">
 							<view class="avatar-vip">
-								<uni-icon type="huiyuan" size="12"></uni-icon>会员
+								<uni-icon type="zuanshi" size="10"></uni-icon>超级会员
 							</view>
 							<image class="avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
-						</view>	
+						</navigator>
 						<view class="wx-item-con">
 							<view class="wx-item-tl">
 								<text class="mdtxt">妮妮小宝贝</text>
@@ -18,7 +18,7 @@
 								微信好：jingjingapp <view class="copy">复制</view>
 							</view>
 						</view>	
-					</navigator>
+					</view>
 					<view class="wx-item-rt" @click="show" data-position="middle">
 						<uni-icon type="tianjia" size="12" color="#44B549"></uni-icon>加群主
 					</view>
@@ -293,6 +293,7 @@
 <style>
 	.content{
 		background-color: #F4F6FA;
+		padding-bottom: 120upx;
 	}
 	.block-tl-rt-item .uni-icon{
 		margin-right: 4upx;
@@ -335,6 +336,7 @@
 		background-color: #f7d46b;
 		padding: 4upx;
 		position: relative;
+		background-image: linear-gradient(to bottom, #d9c085 0%, #b39a65 100%);
 	}
 	.avatar-100{
 		width: 120upx;
@@ -361,9 +363,9 @@
 	.avatar-vip{
 		position: absolute;
 		bottom: 0;
-		background-color: #f7d46b;
+		background-color: #b39a65;
 		color: #fff;
-		font-size: 20upx;
+		font-size: 18upx;
 		border-radius: 4upx;
 		width: 90upx;
 		text-align: center;
@@ -446,6 +448,8 @@
 		color: #44B549;
 		font-size: 20upx;
 		padding: 0 15upx;
+		height: 34upx;
+		line-height: 34upx;
 		border-radius: 6upx;
 		margin-left: 20upx;
 	}

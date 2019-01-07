@@ -308,6 +308,9 @@
 .uni-icon-iconfontlipinduihuanbangzhu:before {
   content: "\E615";
 }
+.uni-icon-zuanshi:before {
+  content: "\E64A";
+}
 .content {
   background-color: #f4f6fa;
 }

@@ -31,7 +31,7 @@
 							我的微币
 						</view>				
 					</navigator>
-					<view class="user-get-item">
+					<view class="user-get-item" @click="toObtain">
 						<view class="user-get-item-sum">
 							<text>18.00</text> 元
 						</view>
@@ -52,8 +52,8 @@
 					<navigator hover-class="none" class="member-item" url="../member/member">
 						<view class="member-item-lf">
 							<view class="member-item-lf-tl">
-								<view class="uni-icon uni-icon-huiyuan"></view>
-								<view class="">
+								<uni-icon type="zuanshi" size="13" color="#eb6644"></uni-icon>
+								<view class="mdtxt">
 									超级会员
 								</view>
 								<view class="haveopen">
@@ -64,12 +64,28 @@
 								2019.01.13到期
 							</view>
 						</view>
-						<view class="member-item-rt">
+						<!-- <view class="member-item-rt">
 							查看详细
-						</view>
+						</view> -->
 					</navigator>
 					<view class="line"></view>
-					<view class="member-item">
+					<view class="member-info">
+						<view class="member-info-lf">
+							<view>
+								开通钻石代理 享海量权限
+							</view>
+							<view class="member-info-txt">
+								分享累计最高赚提成50%
+							</view>
+						</view>
+						<view class="member-info-rt">
+							<view class="member-info-gd">
+								钻石代理
+							</view>
+							<uni-icon type="qianjin" color="#a8a8a8" size="12"></uni-icon>
+						</view>
+					</view>
+					<!-- <view class="member-item">
 						<view class="member-item-lf">
 							<view class="member-item-lf-tl">
 								<view class="uni-icon uni-icon-huiyuan1"></view>
@@ -87,7 +103,7 @@
 						<view class="member-item-rt">
 							开 通
 						</view>
-					</view>
+					</view> -->
 				</view>
 			</view>
 			<!-- 我的名片 start -->
@@ -96,21 +112,21 @@
 					我的名片
 				</view>
 				<view class="user-ls">
-					<navigator hover-class="none" url="../card/card" class="user-item">
+					<navigator hover-class="none" url="../card/card?currentTab=0" class="user-item">
 						<view class="uni-icon color1 uni-icon-weixinqun"></view>
 						<view class="user-item-info">微信群</view>
 					</navigator>
-					<view class="user-item">
+					<navigator hover-class="none" url="../card/card?currentTab=0" class="user-item">
 						<view class="uni-icon color2 uni-icon-qqqun"></view>
 						<view class="user-item-info">QQ群</view>
-					</view>
-					<navigator class="user-item" hover-class="none" url="">
+					</navigator>
+					<navigator class="user-item" hover-class="none" url="../card/card?currentTab=1">
 						<view class="uni-icon color3 uni-icon-gerenweixin"></view>
 						<view class="user-item-info">个人微信</view>
 					</navigator>
-					<navigator class="user-item" hover-class="none" url="">
+					<navigator class="user-item" hover-class="none" url="../card/card?currentTab=1">
 						<view class="uni-icon color4 uni-icon-qqqun"></view>
-						<view class="user-item-info">公众号</view>				
+						<view class="user-item-info">个人QQ</view>				
 					</navigator>
 				</view>
 			</view>
@@ -121,14 +137,14 @@
 					我的发布
 				</view>
 				<view class="user-ls">
-					<view class="user-item">
+					<navigator class="user-item" hover-class="none" url="../change/change?currentTab=0">
 						<view class="uni-icon color5 uni-icon-qunjiaoyi"></view>
 						<view class="user-item-info">群交易</view>
-					</view>
-					<view class="user-item">
+					</navigator>
+					<navigator class="user-item" hover-class="none" url="../megoods/megoods">
 						<view class="uni-icon color6 uni-icon-weishanghuoyuan"></view>
 						<view class="user-item-info">微商货源</view>
-					</view>
+					</navigator>
 					<navigator class="user-item" hover-class="none" url="../meCircle/meCircle">
 						<view class="uni-icon color7 uni-icon-weishangquan"></view>
 						<view class="user-item-info">微商圈</view>
@@ -146,11 +162,11 @@
 					收益中心
 				</view>
 				<view class="user-ls">
-					<view class="user-item">
+					<view class="user-item" @click="show">
 						<view class="uni-icon color5 uni-icon-dailishouyi"></view>
 						<view class="user-item-info">分享奖现金</view>
 					</view>
-					<view class="user-item">
+					<view class="user-item" @click="show">
 						<view class="uni-icon color6 uni-icon-erweimafenxiang"></view>
 						<view class="user-item-info">二维码分享</view>
 					</view>
@@ -179,10 +195,10 @@
 						<view class="uni-icon color6 uni-icon-tuiguang"></view>
 						<view class="user-item-info">充值订单</view>
 					</navigator>
-					<view class="user-item">
+					<navigator class="user-item" hover-class="none" url="../member/member">
 						<view class="uni-icon color7 uni-icon-wodehuiyuan"></view>
-						<view class="user-item-info">我的会员</view>
-					</view>
+						<view class="user-item-info">会员套餐</view>
+					</navigator>
 					<navigator class="user-item" hover-class="none" url="../agent/agent">
 						<view class="uni-icon color7 uni-icon-tuiguang"></view>
 						<view class="user-item-info">代理通道</view>
@@ -196,10 +212,6 @@
 					其他服务
 				</view>
 				<view class="user-ls">
-					<view class="user-item">
-						<view class="uni-icon color5 uni-icon-qunjiaoyi"></view>
-						<view class="user-item-info">账号管理</view>
-					</view>
 					<navigator class="user-item" hover-class="none" url="../feedback/feedback">
 						<uni-icon type="fankui-tianchong" size="30" color="#5bc48d"></uni-icon>
 						<view class="user-item-info">意见反馈</view>
@@ -220,9 +232,9 @@
 			</view>
 			<!-- 其他服务 end -->
 		</view>
-		<!-- <view class="mask" v-show="showMask" @click="hide"></view> -->
+		<view class="mask" v-show="showMask" @click="hide"></view>
 		<!-- popup 分享 start-->	
-		<!-- <view class="popup popup-bottom" v-show="showState.bottom">
+		<view class="popup popup-middle" v-show="showMask">
 			<view class="share-bt-wp">
 				<view class="share-bt-item">
 					<view class="share-bt-bg block-tl-color7">
@@ -257,10 +269,10 @@
 			</view> 
 			
 			<view class="action-cancel" @click="hide">
-				取消
+				<uni-icon type="shachu-xue" size="18" color="#505050"></uni-icon>
 			</view>
-		</view>-->
-		<!-- popup 分享 end-->
+		</view>
+		<!-- popup 分享 end -->
     </view>
 </template>
 
@@ -272,12 +284,6 @@
 		export default {
 				data: {
 					showMask: false,
-					showState: {
-						top: false,
-						middle: false,
-						bottom: false,
-					},
-					activePop: 'middle'
 				},
 				components: {
 					uniIcon
@@ -304,27 +310,17 @@
 								}
 						},
 						show: function(e) {
-							var pos = e.currentTarget.dataset.position;
-							switch (pos) {
-								case 'top':
-									this.activePop = 'top'
-									break
-								case 'bottom':
-									this.activePop = 'bottom'
-									break
-								case 'bottom1':
-									this.activePop = 'bottom1'
-									break
-								default:
-									this.activePop = 'middle'
-							}
 							this.showMask = true
-							this.showState[this.activePop] = true
 						},
 						hide: function() {
 							this.showMask = false
-							this.showState[this.activePop] = false
+// 							this.showState[this.activePop] = false
 						},
+						toObtain: function(){
+							uni.switchTab({
+								url: '/pages/obtain/obtain'
+							})
+						}
 				}
 		}
 
@@ -340,9 +336,7 @@
 		font-size: 32upx;
 		margin-right: 6upx;
 	}
-	.uni-icon-huiyuan{
-		color: #eb6644;
-		font-size: 28upx;
+	.uni-icon-zuanshi{
 		margin-right: 6upx;
 	}
 	.uni-icon-shezhi1{
@@ -459,13 +453,13 @@
 	}
 	.line{
 		width: 1px;
-		height: 200%;
+		height: 100%;
 		background-color: #e5e5e5;
-		transform-origin: 0 0;
+		transform-origin: 0 50%;
 		transform: scaleY(0.5);
 	}
 	.member-item{
-		flex: 1;
+		flex: 0 0 240upx;
 		padding: 20upx 10upx 20upx 20upx;
 		position: relative;
 	}
@@ -494,6 +488,7 @@
 		font-size: 26upx;
 		line-height: 1;
 		margin-bottom: 10upx;
+		align-items: center;
 		/* padding-top: 10upx; */
 	}
 	.member-item-lf-time{
@@ -591,5 +586,96 @@
 	.color8 {
 		color: #eda1c1;
 	}
+	.member-info{
+		flex: 1;
+		font-size: 22upx;
+		color: #999;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		padding-left: 20upx;
+		padding-right: 10upx;
+		justify-content: space-between;
+	}
+	.member-info-txt{
+		font-size: 20upx;
+		margin-top: 10upx;
+	}
+	.member-info-rt{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.member-info-gd{
+		width: 120upx;
+		height: 60upx;
+		text-align: center;
+		line-height: 60upx;
+		background-image: linear-gradient(45deg, #463413 20%, #090702 60%, #463413 100%);
+		border-radius: 10upx;
+		color: #fed388;
+	}
+	/* popup start */
+	.mask {
+		position: fixed;
+		z-index: 998;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, .3);
+	}
 	
+	.popup {
+		position: absolute;
+		z-index: 999;
+		background-color: #ffffff;
+		-webkit-box-shadow: 0 0 30upx rgba(0, 0, 0, .1);
+		box-shadow: 0 0 30upx rgba(0, 0, 0, .1);
+	}
+	
+	.popup-middle {
+		width: 700upx;
+		height: 420upx;
+		border-radius: 16upx;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+	}
+	.share-bt-wp{
+		display: flex;
+		flex-direction: row;
+		padding: 40upx 20upx 40upx;
+		position: relative;
+	}
+	.share-bt-item{
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-size: 24upx;
+		line-height: 1;
+	}
+	.share-bt-bg{
+		width: 100upx;
+		height: 100upx;
+		background-color: #000000;
+		border-radius: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+		margin-bottom: 20upx;
+	}
+	.action-cancel{
+		position: absolute;
+		bottom: 40upx;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
 </style>
