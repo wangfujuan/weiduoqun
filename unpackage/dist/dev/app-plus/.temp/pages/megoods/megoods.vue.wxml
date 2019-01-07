@@ -3,14 +3,14 @@
   <view class="_view data-v-373b043b content">
     <navigator hover-class="none" url="../openagent/openagent" class="_navigator data-v-373b043b">
       <view class="_view data-v-373b043b obtain-boss">
-        <template size="20" color="#e86a38" type="huiyuan1" data="{{...$root['0'], ...$root[$kk+'Rhi-0'],$root}}" is="18f61b88"></template>
+        <template size="20" color="#e86a38" type="huiyuan1" data="{{...$root['0'], ...$root[$kk+'7kH-0'],$root}}" is="18f61b88"></template>
         <view class="_view data-v-373b043b obtain-boss-info"> 钻石代理名片高亮 每天自动刷新 </view>
         <view class="_view data-v-373b043b obtain-boss-open"> 开通 </view>
       </view>
     </navigator>
     <view class="_view data-v-373b043b card-item">
       <view class="_view data-v-373b043b card-item-icon">
-        <template type="jiufuqianbaoicon05" size="16" data="{{...$root['0'], ...$root[$kk+'nEo-1'],$root}}" is="18f61b88"></template>
+        <template type="jiufuqianbaoicon05" size="16" data="{{...$root['0'], ...$root[$kk+'8v4-1'],$root}}" is="18f61b88"></template>
       </view>
       <view class="_view data-v-373b043b card-item-tl"> 妮妮小宝贝 </view>
       <view class="_view data-v-373b043b card-item-info"> 我是一个可爱的妈咪，刚刚微商求带... </view>
@@ -34,7 +34,7 @@
     </view>
     <view class="_view data-v-373b043b card-item used">
       <view class="_view data-v-373b043b card-item-icon">
-        <template type="jiufuqianbaoicon05" size="16" data="{{...$root['0'], ...$root[$kk+'JdG-2'],$root}}" is="18f61b88"></template>
+        <template type="jiufuqianbaoicon05" size="16" data="{{...$root['0'], ...$root[$kk+'rMy-2'],$root}}" is="18f61b88"></template>
       </view>
       <view class="_view data-v-373b043b card-item-tl"> 妮妮小宝贝 </view>
       <view class="_view data-v-373b043b card-item-info"> 我是一个可爱的妈咪，刚刚微商求带... </view>
@@ -81,13 +81,13 @@
         <view class="_view data-v-373b043b card-fixed-con">开通钻石代理</view>
       </navigator>
     </view>
-    <view class="_view data-v-373b043b mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'513-0'}}" data-comkey="{{$k}}"></view>
+    <view class="_view data-v-373b043b mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'pey-0'}}" data-comkey="{{$k}}"></view>
     <view class="_view data-v-373b043b popup popup-bottom" hidden="{{!(showState.bottom)}}">
-      <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'UVt-2'}}" data-comkey="{{$k}}" class="_form data-v-373b043b">
+      <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'CfD-2'}}" data-comkey="{{$k}}" class="_form data-v-373b043b">
         <view class="_view data-v-373b043b user-do">
           <view class="_view data-v-373b043b"> 置顶推荐 </view>
-          <view class="_view data-v-373b043b user-do-true" bindtap="handleProxy" data-eventid="{{'EmG-1'}}" data-comkey="{{$k}}">
-            <template type="shachu-xue" color="#8a8a8a" size="16" data="{{...$root['0'], ...$root[$kk+'vIg-3'],$root}}" is="18f61b88"></template>
+          <view class="_view data-v-373b043b user-do-true" bindtap="handleProxy" data-eventid="{{'CJu-1'}}" data-comkey="{{$k}}">
+            <template type="shachu-xue" color="#8a8a8a" size="16" data="{{...$root['0'], ...$root[$kk+'lDQ-3'],$root}}" is="18f61b88"></template>
           </view>
         </view>
         <view class="_view data-v-373b043b card-mask-con">

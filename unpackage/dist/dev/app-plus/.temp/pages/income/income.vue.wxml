@@ -18,7 +18,7 @@
             </view>
           </view>
           <view class="_view data-v-6082a91d income-pay">
-            <template type="zhifubaozhifu" color="#459ae5" size="20" data="{{...$root['0'], ...$root[$kk+'ngy-0'],$root}}" is="18f61b88"></template>
+            <template type="zhifubaozhifu" color="#459ae5" size="20" data="{{...$root['0'], ...$root[$kk+'Mre-0'],$root}}" is="18f61b88"></template>
             <text class="_text data-v-6082a91d">支付宝企业合作 提现自动秒到账</text>
           </view>
         </view>
@@ -27,7 +27,7 @@
     <view class="_view data-v-6082a91d share-ls">
       <view class="_view data-v-6082a91d share-item">
         <view class="_view data-v-6082a91d share-item-lf center">
-          <template size="24" color="#fff" type="dailishouyi" data="{{...$root['0'], ...$root[$kk+'gvm-1'],$root}}" is="18f61b88"></template>
+          <template size="24" color="#fff" type="dailishouyi" data="{{...$root['0'], ...$root[$kk+'leB-1'],$root}}" is="18f61b88"></template>
         </view>
         <view class="_view data-v-6082a91d share-item-con b-line">
           <view class="_view data-v-6082a91d share-item-md-tl"> 一级好友注册
@@ -40,7 +40,7 @@
       </view>
       <view class="_view data-v-6082a91d share-item">
         <view class="_view data-v-6082a91d share-item-lf center">
-          <template size="24" color="#fff" type="dailishouyi" data="{{...$root['0'], ...$root[$kk+'k5j-2'],$root}}" is="18f61b88"></template>
+          <template size="24" color="#fff" type="dailishouyi" data="{{...$root['0'], ...$root[$kk+'ctX-2'],$root}}" is="18f61b88"></template>
         </view>
         <view class="_view data-v-6082a91d share-item-con b-line">
           <view class="_view data-v-6082a91d share-item-md-tl"> 一级好友开通会员

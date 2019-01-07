@@ -10,7 +10,7 @@
       <view class="_view data-v-79696e5f allpeople-top-info"> 今日新增数据：302291条 </view>
     </view>
     <view class="_view data-v-79696e5f obtain-boss">
-      <template size="20" color="#a46c17" type="Spy" data="{{...$root['0'], ...$root[$kk+'Kzk-0'],$root}}" is="18f61b88"></template>
+      <template size="20" color="#a46c17" type="Spy" data="{{...$root['0'], ...$root[$kk+'shw-0'],$root}}" is="18f61b88"></template>
       <view class="_view data-v-79696e5f obtain-boss-info"> 老板赚钱特权 每笔收益最高奖励50% </view>
       <view class="_view data-v-79696e5f obtain-boss-open"> 开通 </view>
     </view>
@@ -19,35 +19,35 @@
         <view class="_view data-v-79696e5f rc-line b-line">
           <view class="_view data-v-79696e5f rc-line-lf">
             <view class="_view data-v-79696e5f block-tl-icon block-tl-color8">
-              <template type="diqiuquanqiu" color="#fff" size="13" data="{{...$root['0'], ...$root[$kk+'eXT-1'],$root}}" is="18f61b88"></template>
+              <template type="diqiuquanqiu" color="#fff" size="13" data="{{...$root['0'], ...$root[$kk+'1ar-1'],$root}}" is="18f61b88"></template>
             </view> 限定地区 </view>
           <view class="_view data-v-79696e5f rc-select"> 筛选散客地区 </view>
-          <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'A5C-2'],$root}}" is="18f61b88"></template>
+          <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'z2J-2'],$root}}" is="18f61b88"></template>
         </view>
         <view class="_view data-v-79696e5f rc-line b-line">
           <view class="_view data-v-79696e5f rc-line-lf">
             <view class="_view data-v-79696e5f block-tl-icon block-tl-color8">
-              <template type="diqiuquanqiu" color="#fff" size="13" data="{{...$root['0'], ...$root[$kk+'u3D-3'],$root}}" is="18f61b88"></template>
+              <template type="diqiuquanqiu" color="#fff" size="13" data="{{...$root['0'], ...$root[$kk+'Y0z-3'],$root}}" is="18f61b88"></template>
             </view> 散客性别 </view>
           <view class="_view data-v-79696e5f rc-select"> 筛选散客性别 </view>
-          <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'FZm-4'],$root}}" is="18f61b88"></template>
+          <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'dBx-4'],$root}}" is="18f61b88"></template>
         </view>
         <view class="_view data-v-79696e5f rc-line b-line">
           <view class="_view data-v-79696e5f rc-line-lf">
             <view class="_view data-v-79696e5f block-tl-icon block-tl-color8">
-              <template type="diqiuquanqiu" color="#fff" size="13" data="{{...$root['0'], ...$root[$kk+'cgL-5'],$root}}" is="18f61b88"></template>
+              <template type="diqiuquanqiu" color="#fff" size="13" data="{{...$root['0'], ...$root[$kk+'OZw-5'],$root}}" is="18f61b88"></template>
             </view> 匹配行业 </view>
           <view class="_view data-v-79696e5f rc-select"> 选择散客行业 </view>
-          <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'Wws-6'],$root}}" is="18f61b88"></template>
+          <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'6vF-6'],$root}}" is="18f61b88"></template>
         </view>
         <navigator hover-class="none" url="../openagent/openagent" class="_navigator data-v-79696e5f">
           <view class="_view data-v-79696e5f rc-line">
             <view class="_view data-v-79696e5f rc-line-lf">
               <view class="_view data-v-79696e5f block-tl-icon block-tl-color8">
-                <template type="diqiuquanqiu" color="#fff" size="13" data="{{...$root['0'], ...$root[$kk+'oCN-7'],$root}}" is="18f61b88"></template>
+                <template type="diqiuquanqiu" color="#fff" size="13" data="{{...$root['0'], ...$root[$kk+'6ex-7'],$root}}" is="18f61b88"></template>
               </view> 高级过滤 </view>
             <view class="_view data-v-79696e5f rc-select"> 过滤同行微商死粉 </view>
-            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'O0n-8'],$root}}" is="18f61b88"></template>
+            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'pFn-8'],$root}}" is="18f61b88"></template>
           </view>
         </navigator>
       </view>

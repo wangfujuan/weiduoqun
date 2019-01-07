@@ -414,7 +414,7 @@ page {
   padding: 24rpx 0;
   text-align: center;
   color: #999999;
-  font-size: 22rpx;
+  font-size: 10rpx;
   background-color: #f8f8f8;
   line-height: 1;
   display: -webkit-box;
@@ -435,7 +435,7 @@ page {
   padding: 0 20rpx;
 }
 .user-record-title {
-  font-size: 24rpx;
+  font-size: 10rpx;
   height: 70rpx;
   line-height: 70rpx;
   padding: 0 20rpx;

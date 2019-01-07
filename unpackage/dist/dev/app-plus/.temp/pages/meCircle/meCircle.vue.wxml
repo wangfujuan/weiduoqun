@@ -2,13 +2,13 @@
 <template name="205d285e">
   <view class="_view data-v-a053f106 content">
     <navigator class="_navigator data-v-a053f106 obtain-boss" url="../openagent/openagent" hover-class="none">
-      <template size="20" color="#e86a38" type="huiyuan1" data="{{...$root['0'], ...$root[$kk+'HwL-0'],$root}}" is="18f61b88"></template>
+      <template size="20" color="#e86a38" type="huiyuan1" data="{{...$root['0'], ...$root[$kk+'wwz-0'],$root}}" is="18f61b88"></template>
       <view class="_view data-v-a053f106 obtain-boss-info"> 钻石代理名片高亮 每天自动刷新 </view>
       <view class="_view data-v-a053f106 obtain-boss-open"> 开通 </view>
     </navigator>
     <view class="_view data-v-a053f106 card-item">
       <view class="_view data-v-a053f106 card-item-icon">
-        <template type="jiufuqianbaoicon05" size="14" data="{{...$root['0'], ...$root[$kk+'jUZ-1'],$root}}" is="18f61b88"></template>
+        <template type="jiufuqianbaoicon05" size="14" data="{{...$root['0'], ...$root[$kk+'klr-1'],$root}}" is="18f61b88"></template>
       </view>
       <view class="_view data-v-a053f106 card-item-con">
         <image src="../../static/goods.jpg" mode="widthFix" class="_image data-v-a053f106"></image>

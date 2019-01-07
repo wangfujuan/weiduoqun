@@ -3,7 +3,7 @@
   <view class="_view data-v-3ea6df5d content">
     <navigator hover-class="none" url="../member/member" class="_navigator data-v-3ea6df5d">
       <view class="_view data-v-3ea6df5d obtain-boss">
-        <template size="20" color="#a46c17" type="Spy" data="{{...$root['0'], ...$root[$kk+'cVZ-0'],$root}}" is="18f61b88"></template>
+        <template size="20" color="#a46c17" type="Spy" data="{{...$root['0'], ...$root[$kk+'txw-0'],$root}}" is="18f61b88"></template>
         <view class="_view data-v-3ea6df5d obtain-boss-info"> 钻石代理 好友消费累计提成高达50% </view>
         <view class="_view data-v-3ea6df5d obtain-boss-open"> 开通 </view>
       </view>
@@ -16,7 +16,7 @@
       <view class="_view data-v-3ea6df5d will-item-tl">
         <view class="_view data-v-3ea6df5d will-item-tl-lf"> 错过
           <text class="_text data-v-3ea6df5d">99.50</text>元 </view>
-        <view class="_view data-v-3ea6df5d will-item-tl-rt" bindtap="handleProxy" data-position="middle" data-eventid="{{'WXm-0'}}" data-comkey="{{$k}}"> 可领取 </view>
+        <view class="_view data-v-3ea6df5d will-item-tl-rt" bindtap="handleProxy" data-position="middle" data-eventid="{{'Cji-0'}}" data-comkey="{{$k}}"> 可领取 </view>
       </view>
       <view class="_view data-v-3ea6df5d will-item-info">
         <view class="_view data-v-3ea6df5d will-item-tl-lf"> 二级好友187****1837开通钻石代理399元 </view>
@@ -37,11 +37,11 @@
     <view class="_view data-v-3ea6df5d submitbtn-wp">
       <button class="_button data-v-3ea6df5d block-tl-color8 submitbtn" formType="submit">邀请好友获得奖励</button>
     </view>
-    <view class="_view data-v-3ea6df5d mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'Z3t-1'}}" data-comkey="{{$k}}"></view>
+    <view class="_view data-v-3ea6df5d mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'pa0-1'}}" data-comkey="{{$k}}"></view>
     <view class="_view data-v-3ea6df5d popup popup-middle" hidden="{{!(showState.middle)}}">
       <view class="_view data-v-3ea6df5d kf-tl b-line">
         <text class="_text data-v-3ea6df5d">您还不是钻石代理</text>
-        <template type="shachu-xue" size="16" bindtap="handleProxy" data-eventid="{{'056-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Pa1-1'],$root}}" is="18f61b88"></template>
+        <template type="shachu-xue" size="16" bindtap="handleProxy" data-eventid="{{'TLu-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'hg5-1'],$root}}" is="18f61b88"></template>
       </view>
       <view class="_view data-v-3ea6df5d will-pop"> 2019-10-29 19:00前开通能补领改笔提成 </view>
       <navigator hover-class="none" url="../member/member" class="_navigator data-v-3ea6df5d">

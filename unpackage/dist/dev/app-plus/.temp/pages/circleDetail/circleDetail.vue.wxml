@@ -27,17 +27,17 @@
           </view>
           <view class="_view data-v-08e12ac6 user-doings">
             <view class="_view data-v-08e12ac6 user-doings-item center">
-              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'2GM-0'],$root}}" is="18f61b88"></template> 分享 </view>
+              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'Bex-0'],$root}}" is="18f61b88"></template> 分享 </view>
             <view class="_view data-v-08e12ac6 m-line"></view>
             <view class="_view data-v-08e12ac6 user-doings-item center">
-              <template type="huida" data="{{...$root['0'], ...$root[$kk+'XaH-1'],$root}}" is="18f61b88"></template> 评论 </view>
+              <template type="huida" data="{{...$root['0'], ...$root[$kk+'D5R-1'],$root}}" is="18f61b88"></template> 评论 </view>
             <view class="_view data-v-08e12ac6 m-line"></view>
             <view class="_view data-v-08e12ac6 user-doings-item center">
-              <template type="zan" data="{{...$root['0'], ...$root[$kk+'sA3-2'],$root}}" is="18f61b88"></template> 点赞 </view>
+              <template type="zan" data="{{...$root['0'], ...$root[$kk+'WVr-2'],$root}}" is="18f61b88"></template> 点赞 </view>
           </view>
           <view class="_view data-v-08e12ac6 users-con">
             <view class="_view data-v-08e12ac6 users-zans b-line">
-              <template type="zan-fill" size="16" color="#666666" data="{{...$root['0'], ...$root[$kk+'lv7-3'],$root}}" is="18f61b88"></template>
+              <template type="zan-fill" size="16" color="#666666" data="{{...$root['0'], ...$root[$kk+'0Lf-3'],$root}}" is="18f61b88"></template>
               <view class="_view data-v-08e12ac6 userzan-name">小爱同学</view>
               <view class="_view data-v-08e12ac6 userzan-name">前年等一会</view>
             </view>

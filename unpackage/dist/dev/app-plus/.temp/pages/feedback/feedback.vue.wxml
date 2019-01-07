@@ -1,7 +1,7 @@
 <import src="/components/uni-icon.vue.wxml" />
 <template name="7464af1e">
   <view class="_view data-v-f45b77c6 content">
-    <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'CsP-1'}}" data-comkey="{{$k}}" class="_form data-v-f45b77c6">
+    <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'MP7-1'}}" data-comkey="{{$k}}" class="_form data-v-f45b77c6">
       <view class="_view data-v-f45b77c6 fd-box">
         <view class="_view data-v-f45b77c6 fd-tl"> 意见反馈 </view>
         <textarea placeholder-style="color:#9c9c9c" placeholder="重要意见有奖哦～" class="_textarea data-v-f45b77c6" />
@@ -15,8 +15,8 @@
       <view class="_view data-v-f45b77c6 fd-box">
         <view class="_view data-v-f45b77c6 fd-tl"> 添加图片 </view>
         <view class="_view data-v-f45b77c6 uploader-box">
-          <view class="_view data-v-f45b77c6 uploader-item" bindtap="handleProxy" data-eventid="{{'dvl-0'}}" data-comkey="{{$k}}">
-            <template type="tianjia" size="26" color="#b2b2b2" data="{{...$root['0'], ...$root[$kk+'13g-0'],$root}}" is="18f61b88"></template>
+          <view class="_view data-v-f45b77c6 uploader-item" bindtap="handleProxy" data-eventid="{{'7PC-0'}}" data-comkey="{{$k}}">
+            <template type="tianjia" size="26" color="#b2b2b2" data="{{...$root['0'], ...$root[$kk+'XMb-0'],$root}}" is="18f61b88"></template>
           </view>
         </view>
       </view>

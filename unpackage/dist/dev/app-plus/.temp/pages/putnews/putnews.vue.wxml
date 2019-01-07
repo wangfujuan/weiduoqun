@@ -2,7 +2,7 @@
 <import src="/components/ly-markdown/ly-markdown.vue.wxml" />
 <template name="a3f35e52">
   <view class="_view data-v-d8d430fa content">
-    <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'Ym0-2'}}" data-comkey="{{$k}}" class="_form data-v-d8d430fa">
+    <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'SbH-2'}}" data-comkey="{{$k}}" class="_form data-v-d8d430fa">
       <view class="_view data-v-d8d430fa content-pad">
         <view class="_view data-v-d8d430fa white">
           <view class="_view data-v-d8d430fa summary">
@@ -11,7 +11,7 @@
               <text class="_text data-v-d8d430fa">1</text>
             </view>
             <view class="_view data-v-d8d430fa center">
-              <template type="bangzhu" size="12" color="#8a8a8a" data="{{...$root['0'], ...$root[$kk+'J2M-0'],$root}}" is="18f61b88"></template> 微币使用规则 </view>
+              <template type="bangzhu" size="12" color="#8a8a8a" data="{{...$root['0'], ...$root[$kk+'ExL-0'],$root}}" is="18f61b88"></template> 微币使用规则 </view>
           </view>
         </view>
         <view class="_view data-v-d8d430fa white">
@@ -21,16 +21,16 @@
               <input type="text" placeholder-style="color: #c7c7c7" placeholder="想一个吸引人的文章标题" value="" class="_input data-v-d8d430fa" />
             </view>
           </navigator>
-          <view class="_view data-v-d8d430fa rc-line b-line" bindtap="handleProxy" data-eventid="{{'iNY-0'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-d8d430fa rc-line b-line" bindtap="handleProxy" data-eventid="{{'txW-0'}}" data-comkey="{{$k}}">
             <view class="_view data-v-d8d430fa rc-line-lf"> 分类 </view>
             <view class="_view data-v-d8d430fa rc-select"> 请选择文章分类 </view>
-            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'RDN-1'],$root}}" is="18f61b88"></template>
+            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'b7F-1'],$root}}" is="18f61b88"></template>
           </view>
         </view>
         <view class="_view data-v-d8d430fa white">
           <view class="_view data-v-d8d430fa rc-upload">
             <view class="_view data-v-d8d430fa up-avatar">
-              <template type="tianjia" color="#b9b9b9" data="{{...$root['0'], ...$root[$kk+'QDr-2'],$root}}" is="18f61b88"></template>
+              <template type="tianjia" color="#b9b9b9" data="{{...$root['0'], ...$root[$kk+'fEh-2'],$root}}" is="18f61b88"></template>
             </view>
             <view class="_view data-v-d8d430fa rc-upload-info"> 上传文章封面图
               <text class="_text data-v-d8d430fa">(限1张)</text>
@@ -38,7 +38,7 @@
           </view>
         </view>
         <view class="_view data-v-d8d430fa white">
-          <template data-eventid="{{'xTx-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'s5d-3'],$root}}" is="6109c38e"></template>
+          <template data-eventid="{{'PG8-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'uUI-3'],$root}}" is="6109c38e"></template>
         </view>
         <view class="_view data-v-d8d430fa user-agree"> 发布代表同意
           <navigator url class="_navigator data-v-d8d430fa">《用户使用服务协议》</navigator>

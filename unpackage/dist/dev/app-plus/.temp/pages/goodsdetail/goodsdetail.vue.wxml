@@ -7,7 +7,7 @@
           <navigator class="_navigator data-v-3ff60d0d wx-item-md" hover-class="none" url="../memberindex/memberindex">
             <view class="_view data-v-3ff60d0d avatar-wp">
               <view class="_view data-v-3ff60d0d avatar-vip">
-                <template type="huiyuan" size="10" data="{{...$root['0'], ...$root[$kk+'Ez5-0'],$root}}" is="18f61b88"></template>
+                <template type="huiyuan" size="10" data="{{...$root['0'], ...$root[$kk+'g3L-0'],$root}}" is="18f61b88"></template>
               </view>
               <image class="_image data-v-3ff60d0d avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
             </view>
@@ -16,13 +16,13 @@
                 <text class="_text data-v-3ff60d0d mdtxt">妮妮小宝贝</text>
               </view>
               <view class="_view data-v-3ff60d0d wx-item-wx">
-                <template type="kejian" size="18" data="{{...$root['0'], ...$root[$kk+'lO5-1'],$root}}" is="18f61b88"></template>
+                <template type="kejian" size="18" data="{{...$root['0'], ...$root[$kk+'dBu-1'],$root}}" is="18f61b88"></template>
                 <text class="_text data-v-3ff60d0d mdtxt">2029</text>
               </view>
             </view>
           </navigator>
-          <view class="_view data-v-3ff60d0d wx-item-rt" bindtap="handleProxy" data-position="middle" data-eventid="{{'xte-0'}}" data-comkey="{{$k}}">
-            <template type="tianjia" size="12" color="#44B549" data="{{...$root['0'], ...$root[$kk+'7ad-2'],$root}}" is="18f61b88"></template>加微信 </view>
+          <view class="_view data-v-3ff60d0d wx-item-rt" bindtap="handleProxy" data-position="middle" data-eventid="{{'iYp-0'}}" data-comkey="{{$k}}">
+            <template type="tianjia" size="12" color="#44B549" data="{{...$root['0'], ...$root[$kk+'HZE-2'],$root}}" is="18f61b88"></template>加微信 </view>
         </view>
       </view>
       <view class="_view data-v-3ff60d0d fixed-padtop">
@@ -30,7 +30,7 @@
           <view class="_view data-v-3ff60d0d wxgc-title"> 智能儿童早教机
             <view class="_view data-v-3ff60d0d block-tl-rt">
               <navigator url="../report/report" hover-class="none" class="_navigator data-v-3ff60d0d block-tl-rt-item">
-                <template type="jubao" size="13" data="{{...$root['0'], ...$root[$kk+'iNL-3'],$root}}" is="18f61b88"></template>
+                <template type="jubao" size="13" data="{{...$root['0'], ...$root[$kk+'ucR-3'],$root}}" is="18f61b88"></template>
                 <text class="_text data-v-3ff60d0d mdtxt">举报</text>
               </navigator>
             </view>
@@ -44,7 +44,7 @@
           <view class="_view data-v-3ff60d0d block-tl">
             <view class="_view data-v-3ff60d0d block-tl-lf">
               <view class="_view data-v-3ff60d0d block-tl-icon block-tl-color2">
-                <template type="huida" size="13" color="#fff" data="{{...$root['0'], ...$root[$kk+'33u-4'],$root}}" is="18f61b88"></template>
+                <template type="huida" size="13" color="#fff" data="{{...$root['0'], ...$root[$kk+'cng-4'],$root}}" is="18f61b88"></template>
               </view>
               <text class="_text data-v-3ff60d0d mdtxt">评论</text>
             </view>
@@ -76,11 +76,11 @@
     </view>
     <view class="_view data-v-3ff60d0d fixed-bt">
       <view class="_view data-v-3ff60d0d fixed-bt-item">
-        <template type="fenxiang" size="20" data="{{...$root['0'], ...$root[$kk+'YQj-5'],$root}}" is="18f61b88"></template>
+        <template type="fenxiang" size="20" data="{{...$root['0'], ...$root[$kk+'xzl-5'],$root}}" is="18f61b88"></template>
         <text class="_text data-v-3ff60d0d">分享</text>
       </view>
       <view class="_view data-v-3ff60d0d fixed-bt-item">
-        <template type="huida" size="22" data="{{...$root['0'], ...$root[$kk+'f5F-6'],$root}}" is="18f61b88"></template>
+        <template type="huida" size="22" data="{{...$root['0'], ...$root[$kk+'XMh-6'],$root}}" is="18f61b88"></template>
         <text class="_text data-v-3ff60d0d">评论 0</text>
       </view>
       <view class="_view data-v-3ff60d0d fixed-bt-btn-wp">

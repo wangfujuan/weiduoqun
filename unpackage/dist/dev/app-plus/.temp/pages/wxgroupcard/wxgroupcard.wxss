@@ -2,7 +2,6 @@
 
 .content {
   background-color: #F4F6FA;
-  padding-bottom: 120rpx;
 }
 .block-tl-rt-item .uni-icon {
   margin-right: 4rpx;
@@ -70,8 +69,6 @@
   background-color: #f7d46b;
   padding: 4rpx;
   position: relative;
-  background-image: -webkit-linear-gradient(top, #d9c085 0%, #b39a65 100%);
-  background-image: linear-gradient(to bottom, #d9c085 0%, #b39a65 100%);
 }
 .avatar-100 {
   width: 120rpx;
@@ -100,9 +97,9 @@
 .avatar-vip {
   position: absolute;
   bottom: 0;
-  background-color: #b39a65;
+  background-color: #f7d46b;
   color: #fff;
-  font-size: 18rpx;
+  font-size: 20rpx;
   border-radius: 4rpx;
   width: 90rpx;
   text-align: center;
@@ -201,8 +198,6 @@
   color: #44B549;
   font-size: 20rpx;
   padding: 0 15rpx;
-  height: 34rpx;
-  line-height: 34rpx;
   border-radius: 6rpx;
   margin-left: 20rpx;
 }
