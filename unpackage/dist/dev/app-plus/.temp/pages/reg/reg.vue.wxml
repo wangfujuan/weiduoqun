@@ -3,20 +3,20 @@
     <view class="_view data-v-52935867 input-group">
       <view class="_view data-v-52935867 input-row b-line">
         <text class="_text data-v-52935867 title">手机号码</text>
-        <input placeholder-class="gray" type="text" value="{{account}}" bindinput="handleProxy" placeholder="请输入手机号码" data-eventid="{{'tWe-0'}}" data-comkey="{{$k}}" class="_input data-v-52935867" />
+        <input placeholder-class="gray" type="text" value="{{account}}" bindinput="handleProxy" placeholder="请输入手机号码" data-eventid="{{'BR3-0'}}" data-comkey="{{$k}}" class="_input data-v-52935867" />
       </view>
       <view class="_view data-v-52935867 input-row b-line">
         <text class="_text data-v-52935867 title">验证码</text>
-        <input placeholder-class="gray" type="text" password="true" value="{{password}}" bindinput="handleProxy" placeholder="请输入验证码" data-eventid="{{'mjd-1'}}" data-comkey="{{$k}}" class="_input data-v-52935867" />
+        <input placeholder-class="gray" type="text" password="true" value="{{password}}" bindinput="handleProxy" placeholder="请输入验证码" data-eventid="{{'b59-1'}}" data-comkey="{{$k}}" class="_input data-v-52935867" />
         <button class="_button data-v-52935867 getcode">获取验证码</button>
       </view>
       <view class="_view data-v-52935867 input-row b-line">
         <text class="_text data-v-52935867 title">密码</text>
-        <input placeholder-class="gray" type="text" password="true" value="{{password}}" bindinput="handleProxy" placeholder="请输入密码" data-eventid="{{'A4f-2'}}" data-comkey="{{$k}}" class="_input data-v-52935867" />
+        <input placeholder-class="gray" type="text" password="true" value="{{password}}" bindinput="handleProxy" placeholder="请输入密码" data-eventid="{{'KDT-2'}}" data-comkey="{{$k}}" class="_input data-v-52935867" />
       </view>
     </view>
     <view class="_view data-v-52935867 btn-row">
-      <button class="_button data-v-52935867 regbtn" bindtap="handleProxy" data-eventid="{{'raf-3'}}" data-comkey="{{$k}}">注册</button>
+      <button class="_button data-v-52935867 regbtn" bindtap="handleProxy" data-eventid="{{'pvZ-3'}}" data-comkey="{{$k}}">注册</button>
     </view>
     <view class="_view data-v-52935867 action-row">
       <navigator url="../reg/reg" class="_navigator data-v-52935867">手机号登录</navigator>

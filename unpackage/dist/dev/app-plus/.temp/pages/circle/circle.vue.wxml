@@ -13,7 +13,7 @@
             </view>
             <view class="_view data-v-6377e186 block-tl-rt">
               <navigator hover-class="none" class="_navigator data-v-6377e186 block-tl-rt-item" url="../report/report">
-                <template type="jubao" data="{{...$root['0'], ...$root[$kk+'aGi-0'],$root}}" is="18f61b88"></template>
+                <template type="jubao" data="{{...$root['0'], ...$root[$kk+'d79-0'],$root}}" is="18f61b88"></template>
                 <text class="_text data-v-6377e186 mdtxt">举报</text>
               </navigator>
             </view>
@@ -34,17 +34,17 @@
           </view>
           <view class="_view data-v-6377e186 user-doings">
             <view class="_view data-v-6377e186 user-doings-item">
-              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'Ypv-1'],$root}}" is="18f61b88"></template>
+              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'D7O-1'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">分享</text>
             </view>
             <view class="_view data-v-6377e186 m-line"></view>
             <view class="_view data-v-6377e186 user-doings-item">
-              <template type="huida" data="{{...$root['0'], ...$root[$kk+'jZe-2'],$root}}" is="18f61b88"></template>
+              <template type="huida" data="{{...$root['0'], ...$root[$kk+'dJK-2'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">评论</text>
             </view>
             <view class="_view data-v-6377e186 m-line"></view>
             <view class="_view data-v-6377e186 user-doings-item">
-              <template type="zan" data="{{...$root['0'], ...$root[$kk+'BqD-3'],$root}}" is="18f61b88"></template>
+              <template type="zan" data="{{...$root['0'], ...$root[$kk+'2aj-3'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">点赞</text>
             </view>
           </view>
@@ -60,7 +60,7 @@
             </view>
             <view class="_view data-v-6377e186 block-tl-rt">
               <view class="_view data-v-6377e186 block-tl-rt-item">
-                <template type="jubao" data="{{...$root['0'], ...$root[$kk+'Tp3-4'],$root}}" is="18f61b88"></template>
+                <template type="jubao" data="{{...$root['0'], ...$root[$kk+'Wla-4'],$root}}" is="18f61b88"></template>
                 <text class="_text data-v-6377e186 mdtxt">举报</text>
               </view>
             </view>
@@ -81,17 +81,17 @@
           </view>
           <view class="_view data-v-6377e186 user-doings">
             <view class="_view data-v-6377e186 user-doings-item">
-              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'0CC-5'],$root}}" is="18f61b88"></template>
+              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'iu2-5'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">分享</text>
             </view>
             <view class="_view data-v-6377e186 m-line"></view>
             <view class="_view data-v-6377e186 user-doings-item">
-              <template type="huida" data="{{...$root['0'], ...$root[$kk+'nM9-6'],$root}}" is="18f61b88"></template>
+              <template type="huida" data="{{...$root['0'], ...$root[$kk+'hdb-6'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">评论</text>
             </view>
             <view class="_view data-v-6377e186 m-line"></view>
             <view class="_view data-v-6377e186 user-doings-item">
-              <template type="zan" data="{{...$root['0'], ...$root[$kk+'2hB-7'],$root}}" is="18f61b88"></template>
+              <template type="zan" data="{{...$root['0'], ...$root[$kk+'jqN-7'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">点赞</text>
             </view>
           </view>

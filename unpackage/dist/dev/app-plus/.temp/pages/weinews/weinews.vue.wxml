@@ -1,13 +1,13 @@
 <template name="08054522">
   <view class="_view data-v-3ce617ca index">
     <scroll-view id="tab-bar" class="_scroll-view data-v-3ce617ca swiper-tab" scroll-x scroll-left="{{scrollLeft}}">
-      <view wx:key="tab.id" key="{{tab.id}}" id="{{tab.id}}" data-current="{{index}}" bindtap="handleProxy" data-eventid="{{'fy3-0-'+index}}" data-comkey="{{$k}}" wx:for="{{tabBars}}" wx:for-index="index" wx:for-item="tab" class="_view data-v-3ce617ca {{['swiper-tab-list', tabIndex == index ? 'active' : '']}}">{{tab.name}}</view>
+      <view wx:key="tab.id" key="{{tab.id}}" id="{{tab.id}}" data-current="{{index}}" bindtap="handleProxy" data-eventid="{{'nM1-0-'+index}}" data-comkey="{{$k}}" wx:for="{{tabBars}}" wx:for-index="index" wx:for-item="tab" class="_view data-v-3ce617ca {{['swiper-tab-list', tabIndex == index ? 'active' : '']}}">{{tab.name}}</view>
     </scroll-view>
-    <swiper current="{{tabIndex}}" class="_swiper data-v-3ce617ca swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'wg3-3'}}" data-comkey="{{$k}}">
+    <swiper current="{{tabIndex}}" class="_swiper data-v-3ce617ca swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'o8j-3'}}" data-comkey="{{$k}}">
       <swiper-item wx:key="tab.id" key="{{tab.id}}" wx:for="{{newsitems}}" wx:for-index="index1" wx:for-item="tab" class="_swiper-item data-v-3ce617ca">
-        <scroll-view class="_scroll-view data-v-3ce617ca list" scroll-y bindscrolltolower="handleProxy" data-eventid="{{'pAQ-2-'+index1}}" data-comkey="{{$k}}">
+        <scroll-view class="_scroll-view data-v-3ce617ca list" scroll-y bindscrolltolower="handleProxy" data-eventid="{{'L2l-2-'+index1}}" data-comkey="{{$k}}">
           <view class="_view data-v-3ce617ca uni-list">
-            <view class="_view data-v-3ce617ca uni-list-cell b-line" hover-class="uni-list-cell-hover" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'ZsQ-1-'+index1+'-'+key}}" data-comkey="{{$k}}" wx:for="{{listData}}" wx:for-index="key"
+            <view class="_view data-v-3ce617ca uni-list-cell b-line" hover-class="uni-list-cell-hover" wx:key="key" key="{{key}}" bindtap="handleProxy" data-eventid="{{'yb0-1-'+index1+'-'+key}}" data-comkey="{{$k}}" wx:for="{{listData}}" wx:for-index="key"
               wx:for-item="value">
               <view class="_view data-v-3ce617ca uni-media-list">
                 <image class="_image data-v-3ce617ca uni-media-list-logo" src="{{value.cover}}"></image>

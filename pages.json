@@ -222,18 +222,19 @@
 			"style": {
 				"navigationBarTitleText": "我的名片",
 				"app-plus": {
-					"titleNView": {
-						"backgroundColor": "#44b549",
-						"titleColor": "#fff",
-						"buttons": [
-							{
-								"text" : "\ue60c",
-                                "fontSrc" : "/static/iconfont.ttf",
-                                "fontSize" : "14px",
-                                "color" : "#fff"
-							}
-						]
-					}
+					"titleNView": false
+// 					"titleNView": {
+// 						"backgroundColor": "#44b549",
+// 						"titleColor": "#fff",
+// 						"buttons": [
+// 							{
+// 								"text" : "\ue60c",
+//                                 "fontSrc" : "/static/iconfont.ttf",
+//                                 "fontSize" : "14px",
+//                                 "color" : "#fff"
+// 							}
+// 						]
+// 					}
 				}
 			}
 		},

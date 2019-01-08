@@ -5,7 +5,7 @@
       <view class="_view data-v-0c98b8b5 openagent-top">
         <view class="_view data-v-0c98b8b5 openagent-top-subtl"> 30多项高级特权 </view>
         <view class="_view data-v-0c98b8b5 openagent-top-tl">
-          <template type="huiyuan1" size="30" data="{{...$root['0'], ...$root[$kk+'AUL-0'],$root}}" is="18f61b88"></template>尊贵钻石代理 </view>
+          <template type="huiyuan1" size="30" data="{{...$root['0'], ...$root[$kk+'qiV-0'],$root}}" is="18f61b88"></template>尊贵钻石代理 </view>
         <view class="_view data-v-0c98b8b5 openagent-top-btn"> 每天几分钱 开启百万大生意 </view>
       </view>
     </navigator>
@@ -13,7 +13,7 @@
       <view class="_view data-v-0c98b8b5 wbre-item">
         <view class="_view data-v-0c98b8b5 wbre-item-con">
           <view class="_view data-v-0c98b8b5 wbre-item-subtl">
-            <template type="huiyuan1" size="18" color="#ffc107" data="{{...$root['0'], ...$root[$kk+'XN4-1'],$root}}" is="18f61b88"></template>钻石代理3个月 </view>
+            <template type="huiyuan1" size="18" color="#ffc107" data="{{...$root['0'], ...$root[$kk+'Toi-1'],$root}}" is="18f61b88"></template>钻石代理3个月 </view>
           <view class="_view data-v-0c98b8b5 wbre-item-tl"> ¥
             <text class="_text data-v-0c98b8b5">298.00</text>
           </view>
@@ -22,7 +22,7 @@
       <view class="_view data-v-0c98b8b5 wbre-item">
         <view class="_view data-v-0c98b8b5 wbre-item-con">
           <view class="_view data-v-0c98b8b5 wbre-item-subtl">
-            <template type="huiyuan1" size="18" color="#ffc107" data="{{...$root['0'], ...$root[$kk+'S8q-2'],$root}}" is="18f61b88"></template>钻石代理6个月 </view>
+            <template type="huiyuan1" size="18" color="#ffc107" data="{{...$root['0'], ...$root[$kk+'05Q-2'],$root}}" is="18f61b88"></template>钻石代理6个月 </view>
           <view class="_view data-v-0c98b8b5 wbre-item-tl"> ¥
             <text class="_text data-v-0c98b8b5">398.00</text>
           </view>
@@ -31,7 +31,7 @@
       <view class="_view data-v-0c98b8b5 wbre-item">
         <view class="_view data-v-0c98b8b5 wbre-item-con">
           <view class="_view data-v-0c98b8b5 wbre-item-subtl">
-            <template type="huiyuan1" size="18" color="#ffc107" data="{{...$root['0'], ...$root[$kk+'XNR-3'],$root}}" is="18f61b88"></template>钻石代理1年 </view>
+            <template type="huiyuan1" size="18" color="#ffc107" data="{{...$root['0'], ...$root[$kk+'muM-3'],$root}}" is="18f61b88"></template>钻石代理1年 </view>
           <view class="_view data-v-0c98b8b5 wbre-item-tl"> ¥
             <text class="_text data-v-0c98b8b5">698.00</text>
           </view>
@@ -40,7 +40,7 @@
       <view class="_view data-v-0c98b8b5 wbre-item">
         <view class="_view data-v-0c98b8b5 wbre-item-con active-wb-item">
           <view class="_view data-v-0c98b8b5 wbre-item-subtl">
-            <template type="huiyuan1" size="18" color="#ffc107" data="{{...$root['0'], ...$root[$kk+'J9I-4'],$root}}" is="18f61b88"></template>钻石代理终身
+            <template type="huiyuan1" size="18" color="#ffc107" data="{{...$root['0'], ...$root[$kk+'WAj-4'],$root}}" is="18f61b88"></template>钻石代理终身
             <text class="_text data-v-0c98b8b5">限时折扣</text>
           </view>
           <view class="_view data-v-0c98b8b5 wbre-item-tl"> ¥
@@ -50,10 +50,10 @@
         </view>
       </view>
     </view>
-    <radio-group class="_radio-group data-v-0c98b8b5 pay-box" bindchange="handleProxy" data-eventid="{{'Xbt-0'}}" data-comkey="{{$k}}">
+    <radio-group class="_radio-group data-v-0c98b8b5 pay-box" bindchange="handleProxy" data-eventid="{{'mX0-0'}}" data-comkey="{{$k}}">
       <view class="_view data-v-0c98b8b5 pay-item" wx:key="item" key="{{item}}" wx:for="{{payList}}" wx:for-index="index" wx:for-item="item">
         <label class="_label data-v-0c98b8b5 pay-item-con">
-          <template data="{{...$root['0'], ...$root[$kk+'iNM-5-'+index],$root}}" is="18f61b88"></template>{{item.value}}
+          <template data="{{...$root['0'], ...$root[$kk+'S2t-5-'+index],$root}}" is="18f61b88"></template>{{item.value}}
           <radio class="_radio data-v-0c98b8b5 pay-radio" value="{{item.name}}" checked="{{item.checked}}" />
         </label>
       </view>

@@ -7,7 +7,7 @@
           <view class="_view data-v-5b54944a wx-item-md">
             <navigator class="_navigator data-v-5b54944a avatar-wp" hover-class="none" url="../memberindex/memberindex">
               <view class="_view data-v-5b54944a avatar-vip">
-                <template type="zuanshi" size="10" data="{{...$root['0'], ...$root[$kk+'Bqt-0'],$root}}" is="18f61b88"></template>超级会员 </view>
+                <template type="zuanshi" size="10" data="{{...$root['0'], ...$root[$kk+'5Zh-0'],$root}}" is="18f61b88"></template>超级会员 </view>
               <image class="_image data-v-5b54944a avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
             </navigator>
             <view class="_view data-v-5b54944a wx-item-con">
@@ -19,19 +19,19 @@
               </view>
             </view>
           </view>
-          <view class="_view data-v-5b54944a wx-item-rt" bindtap="handleProxy" data-position="middle" data-eventid="{{'osF-0'}}" data-comkey="{{$k}}">
-            <template type="tianjia" size="12" color="#44B549" data="{{...$root['0'], ...$root[$kk+'8sM-1'],$root}}" is="18f61b88"></template>加群主 </view>
+          <view class="_view data-v-5b54944a wx-item-rt" bindtap="handleProxy" data-position="middle" data-eventid="{{'6sV-0'}}" data-comkey="{{$k}}">
+            <template type="tianjia" size="12" color="#44B549" data="{{...$root['0'], ...$root[$kk+'Daz-1'],$root}}" is="18f61b88"></template>加群主 </view>
         </view>
       </view>
       <view class="_view data-v-5b54944a white">
         <view class="_view data-v-5b54944a wxgc-title"> 北京吃喝玩乐群
           <view class="_view data-v-5b54944a block-tl-rt">
             <navigator url="../report/report" hover-class="none" class="_navigator data-v-5b54944a block-tl-rt-item">
-              <template type="jubao" size="13" data="{{...$root['0'], ...$root[$kk+'acJ-2'],$root}}" is="18f61b88"></template>
+              <template type="jubao" size="13" data="{{...$root['0'], ...$root[$kk+'J7i-2'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-5b54944a mdtxt">举报</text>
             </navigator>
             <view class="_view data-v-5b54944a block-tl-rt-item">
-              <template type="fenxiang" size="13" data="{{...$root['0'], ...$root[$kk+'DMm-3'],$root}}" is="18f61b88"></template>
+              <template type="fenxiang" size="13" data="{{...$root['0'], ...$root[$kk+'vjM-3'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-5b54944a mdtxt">分享</text>
             </view>
           </view>
@@ -66,7 +66,7 @@
         <view class="_view data-v-5b54944a block-tl">
           <view class="_view data-v-5b54944a block-tl-lf">
             <view class="_view data-v-5b54944a block-tl-icon block-tl-color3">
-              <template type="geren2" color="#fff" size="12" data="{{...$root['0'], ...$root[$kk+'ZON-4'],$root}}" is="18f61b88"></template>
+              <template type="geren2" color="#fff" size="12" data="{{...$root['0'], ...$root[$kk+'aQ5-4'],$root}}" is="18f61b88"></template>
             </view>
             <text class="_text data-v-5b54944a mdtxt">热门微信群推荐</text>
           </view>
@@ -75,7 +75,7 @@
           <navigator class="_navigator data-v-5b54944a wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
             <view class="_view data-v-5b54944a avatar-wp">
               <view class="_view data-v-5b54944a avatar-vip">
-                <template type="huiyuan" size="12" data="{{...$root['0'], ...$root[$kk+'gew-5'],$root}}" is="18f61b88"></template>会员 </view>
+                <template type="huiyuan" size="12" data="{{...$root['0'], ...$root[$kk+'gbj-5'],$root}}" is="18f61b88"></template>会员 </view>
               <image class="_image data-v-5b54944a avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
             </view>
             <view class="_view data-v-5b54944a wx-item-con">
@@ -91,7 +91,7 @@
           <navigator class="_navigator data-v-5b54944a wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
             <view class="_view data-v-5b54944a avatar-wp">
               <view class="_view data-v-5b54944a avatar-vip">
-                <template type="huiyuan" size="12" data="{{...$root['0'], ...$root[$kk+'w3O-6'],$root}}" is="18f61b88"></template>会员 </view>
+                <template type="huiyuan" size="12" data="{{...$root['0'], ...$root[$kk+'6eS-6'],$root}}" is="18f61b88"></template>会员 </view>
               <image class="_image data-v-5b54944a avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
             </view>
             <view class="_view data-v-5b54944a wx-item-con">
@@ -106,7 +106,7 @@
           <navigator class="_navigator data-v-5b54944a wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
             <view class="_view data-v-5b54944a avatar-wp">
               <view class="_view data-v-5b54944a avatar-vip">
-                <template type="huiyuan" size="12" data="{{...$root['0'], ...$root[$kk+'4ew-7'],$root}}" is="18f61b88"></template>会员 </view>
+                <template type="huiyuan" size="12" data="{{...$root['0'], ...$root[$kk+'5Js-7'],$root}}" is="18f61b88"></template>会员 </view>
               <image class="_image data-v-5b54944a avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
             </view>
             <view class="_view data-v-5b54944a wx-item-con">
@@ -122,7 +122,7 @@
         <view class="_view data-v-5b54944a block-tl">
           <view class="_view data-v-5b54944a block-tl-lf">
             <view class="_view data-v-5b54944a block-tl-icon block-tl-color2">
-              <template type="geren2" color="#fff" size="12" data="{{...$root['0'], ...$root[$kk+'4A8-8'],$root}}" is="18f61b88"></template>
+              <template type="geren2" color="#fff" size="12" data="{{...$root['0'], ...$root[$kk+'fMl-8'],$root}}" is="18f61b88"></template>
             </view>
             <text class="_text data-v-5b54944a mdtxt">热门微信群分类</text>
           </view>
@@ -130,42 +130,42 @@
         <view class="_view data-v-5b54944a hot-category-ls">
           <view class="_view data-v-5b54944a hot-category-item">
             <view class="_view data-v-5b54944a hot-category-con b-line"> 红包群
-              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'Gp6-9'],$root}}" is="18f61b88"></template>
+              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'Mz9-9'],$root}}" is="18f61b88"></template>
             </view>
           </view>
           <view class="_view data-v-5b54944a hot-category-item">
             <view class="_view data-v-5b54944a hot-category-con b-line"> 微信福利群
-              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'7jV-10'],$root}}" is="18f61b88"></template>
+              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'BuL-10'],$root}}" is="18f61b88"></template>
             </view>
           </view>
           <view class="_view data-v-5b54944a hot-category-item">
             <view class="_view data-v-5b54944a hot-category-con b-line"> 创业群
-              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'qUh-11'],$root}}" is="18f61b88"></template>
+              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'hOi-11'],$root}}" is="18f61b88"></template>
             </view>
           </view>
           <view class="_view data-v-5b54944a hot-category-item">
             <view class="_view data-v-5b54944a hot-category-con b-line"> 兼职群
-              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'hPL-12'],$root}}" is="18f61b88"></template>
+              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'AJj-12'],$root}}" is="18f61b88"></template>
             </view>
           </view>
           <view class="_view data-v-5b54944a hot-category-item">
             <view class="_view data-v-5b54944a hot-category-con b-line"> 红包群
-              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'Jjx-13'],$root}}" is="18f61b88"></template>
+              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'tJW-13'],$root}}" is="18f61b88"></template>
             </view>
           </view>
           <view class="_view data-v-5b54944a hot-category-item">
             <view class="_view data-v-5b54944a hot-category-con b-line"> 微信福利群
-              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'w1O-14'],$root}}" is="18f61b88"></template>
+              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'HnR-14'],$root}}" is="18f61b88"></template>
             </view>
           </view>
           <view class="_view data-v-5b54944a hot-category-item">
             <view class="_view data-v-5b54944a hot-category-con b-line"> 创业群
-              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'NZV-15'],$root}}" is="18f61b88"></template>
+              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'Yne-15'],$root}}" is="18f61b88"></template>
             </view>
           </view>
           <view class="_view data-v-5b54944a hot-category-item">
             <view class="_view data-v-5b54944a hot-category-con b-line"> 兼职群
-              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'FnW-16'],$root}}" is="18f61b88"></template>
+              <template type="qianjin" size="12" color="#bbb" data="{{...$root['0'], ...$root[$kk+'IHe-16'],$root}}" is="18f61b88"></template>
             </view>
           </view>
         </view>
@@ -174,25 +174,25 @@
     <view class="_view data-v-5b54944a wxgroup-fix">
       <view class="_view data-v-5b54944a wxgroup-btn-wp">
         <view class="_view data-v-5b54944a wxgroup-btn-lf center">
-          <template type="erweimafenxiang" size="16" color="#fff" data="{{...$root['0'], ...$root[$kk+'n5l-17'],$root}}" is="18f61b88"></template> 保存二维码 </view>
+          <template type="erweimafenxiang" size="16" color="#fff" data="{{...$root['0'], ...$root[$kk+'jE0-17'],$root}}" is="18f61b88"></template> 保存二维码 </view>
         <view class="_view data-v-5b54944a wxgroup-btn-md center">
-          <template type="tongxunlu" size="16" color="#fff" data="{{...$root['0'], ...$root[$kk+'4Hd-18'],$root}}" is="18f61b88"></template> 导入通讯录 </view>
+          <template type="tongxunlu" size="16" color="#fff" data="{{...$root['0'], ...$root[$kk+'LpC-18'],$root}}" is="18f61b88"></template> 导入通讯录 </view>
         <view class="_view data-v-5b54944a wxgroup-btn-rt center">
-          <template type="weixin" size="16" color="#fff" data="{{...$root['0'], ...$root[$kk+'UP9-19'],$root}}" is="18f61b88"></template> 发送到微信 </view>
+          <template type="weixin" size="16" color="#fff" data="{{...$root['0'], ...$root[$kk+'Xm8-19'],$root}}" is="18f61b88"></template> 发送到微信 </view>
       </view>
     </view>
-    <view class="_view data-v-5b54944a mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'2fR-1'}}" data-comkey="{{$k}}"></view>
+    <view class="_view data-v-5b54944a mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'RZQ-1'}}" data-comkey="{{$k}}"></view>
     <view class="_view data-v-5b54944a popup popup-middle" hidden="{{!(showState.middle)}}">
       <view class="_view data-v-5b54944a kf-tl b-line"> 添加群
-        <template type="shachu-xue" size="16" bindtap="handleProxy" data-eventid="{{'Pbm-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'RBW-20'],$root}}" is="18f61b88"></template>
+        <template type="shachu-xue" size="16" bindtap="handleProxy" data-eventid="{{'sT5-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'hHh-20'],$root}}" is="18f61b88"></template>
       </view>
       <view class="_view data-v-5b54944a add-line">
-        <template type="weixin" color="#44B549" size="22" data="{{...$root['0'], ...$root[$kk+'XXX-21'],$root}}" is="18f61b88"></template>
+        <template type="weixin" color="#44B549" size="22" data="{{...$root['0'], ...$root[$kk+'Rv4-21'],$root}}" is="18f61b88"></template>
         <view class="_view data-v-5b54944a add-info">jinglingapp</view>
         <view class="_view data-v-5b54944a add-copy">复制</view>
       </view>
       <view class="_view data-v-5b54944a add-line">
-        <template type="ai-phone" color="#e9ce59" size="22" data="{{...$root['0'], ...$root[$kk+'6jl-22'],$root}}" is="18f61b88"></template>
+        <template type="ai-phone" color="#e9ce59" size="22" data="{{...$root['0'], ...$root[$kk+'m9R-22'],$root}}" is="18f61b88"></template>
         <view class="_view data-v-5b54944a add-info">15010200333</view>
         <view class="_view data-v-5b54944a add-copy">复制</view>
       </view>
@@ -200,9 +200,9 @@
       <view class="_view data-v-5b54944a kf-con-info"> 扫一扫 或者 点击图片保存到手机相册 </view>
       <view class="_view data-v-5b54944a wx-btn-ls">
         <view class="_view data-v-5b54944a kf-btn block-tl-color8 center">
-          <template type="weixin" size="18" data="{{...$root['0'], ...$root[$kk+'M1B-23'],$root}}" is="18f61b88"></template>发送到微信 </view>
+          <template type="weixin" size="18" data="{{...$root['0'], ...$root[$kk+'8ys-23'],$root}}" is="18f61b88"></template>发送到微信 </view>
         <view class="_view data-v-5b54944a kf-btn center wx-btn-default">
-          <template type="tongxunlu" size="18" data="{{...$root['0'], ...$root[$kk+'Rp8-24'],$root}}" is="18f61b88"></template>导入通讯录 </view>
+          <template type="tongxunlu" size="18" data="{{...$root['0'], ...$root[$kk+'bh3-24'],$root}}" is="18f61b88"></template>导入通讯录 </view>
       </view>
     </view>
   </view>

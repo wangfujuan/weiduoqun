@@ -8,17 +8,17 @@
 				previous-margin="20rpx">
 			<swiper-item>
 				<view class="swiper-item">
-					<image src="../../static/banner.jpg" mode="widthFix"></image>
+					<image src="../../static/banner/banner.jpg" mode="widthFix"></image>
 				</view>
 			</swiper-item>
 			<swiper-item>
 				<view class="swiper-item">
-					<image src="../../static/banner.jpg" mode="widthFix"></image>
+					<image src="../../static/banner/banner2.jpg" mode="widthFix"></image>
 				</view>
 			</swiper-item>
 			<swiper-item>
 				<view class="swiper-item">
-					<image src="../../static/banner.jpg" mode="widthFix"></image>
+					<image src="../../static/banner/banner3.jpg" mode="widthFix"></image>
 				</view>
 			</swiper-item>
 		</swiper>
