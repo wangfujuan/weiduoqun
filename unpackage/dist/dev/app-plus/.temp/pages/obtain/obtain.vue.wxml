@@ -19,7 +19,7 @@
             </view>
           </view>
           <view class="_view data-v-c85254c6 obtain-boss">
-            <template size="20" color="#a46c17" type="Spy" data="{{...$root['0'], ...$root[$kk+'7TX-0'],$root}}" is="18f61b88"></template>
+            <template size="20" color="#a46c17" type="Spy" data="{{...$root['0'], ...$root[$kk+'nXw-0'],$root}}" is="18f61b88"></template>
             <view class="_view data-v-c85254c6 obtain-boss-info"> 老板赚钱特权 每笔收益最高奖励50% </view>
             <view class="_view data-v-c85254c6 obtain-boss-open"> 开通 </view>
           </view>
@@ -27,7 +27,7 @@
             <view class="_view data-v-c85254c6 obtain-led block-tl-color3">
               <view class="_view data-v-c85254c6 obtain-led-lf">
                 <view class="_view data-v-c85254c6 obtain-led-tl center">
-                  <template size="18" color="#fff" type="qiandai-tianchong" data="{{...$root['0'], ...$root[$kk+'6Z2-1'],$root}}" is="18f61b88"></template>
+                  <template size="18" color="#fff" type="qiandai-tianchong" data="{{...$root['0'], ...$root[$kk+'Akl-1'],$root}}" is="18f61b88"></template>
                   <view class="_view data-v-c85254c6 obtain-led-tl-txt"> 待领收益(错过) </view>
                 </view>
                 <view class="_view data-v-c85254c6 obtain-led-num">
@@ -35,23 +35,23 @@
               </view>
               <view class="_view data-v-c85254c6 obtain-led-rt">
                 <view class="_view data-v-c85254c6 obtain-led-detail"> 查看详情
-                  <template size="12" color="#fff" type="qianjin" data="{{...$root['0'], ...$root[$kk+'q8y-2'],$root}}" is="18f61b88"></template>
+                  <template size="12" color="#fff" type="qianjin" data="{{...$root['0'], ...$root[$kk+'Uz7-2'],$root}}" is="18f61b88"></template>
                 </view>
                 <view class="_view data-v-c85254c6 obtain-led-sum"> 累计10笔收益 </view>
               </view>
             </view>
           </navigator>
           <view class="_view data-v-c85254c6 obtain-do">
-            <view class="_view data-v-c85254c6 obtain-do-item">
+            <navigator hover-class="none" class="_navigator data-v-c85254c6 obtain-do-item" url="../income/income">
               <view class="_view data-v-c85254c6 obtain-do-con">
-                <view class="_view data-v-c85254c6 obtain-do-con-tl"> 钱包余额 </view>
+                <view class="_view data-v-c85254c6 obtain-do-con-tl"> 收益余额 </view>
                 <view class="_view data-v-c85254c6 obtain-do-con-info">
                   <text class="_text data-v-c85254c6">0.00</text>元 </view>
               </view>
               <view class="_view data-v-c85254c6 obtain-do-icon center">
-                <template color="#dddddd" type="qianjin" data="{{...$root['0'], ...$root[$kk+'UCE-3'],$root}}" is="18f61b88"></template>
+                <template color="#dddddd" type="qianjin" data="{{...$root['0'], ...$root[$kk+'gPX-3'],$root}}" is="18f61b88"></template>
               </view>
-            </view>
+            </navigator>
             <navigator hover-class="none" class="_navigator data-v-c85254c6 obtain-do-item" url="../inviteList/inviteList">
               <view class="_view data-v-c85254c6 obtain-do-con">
                 <view class="_view data-v-c85254c6 obtain-do-con-tl"> 邀请记录 </view>
@@ -59,7 +59,7 @@
                   <text class="_text data-v-c85254c6">10</text>人 </view>
               </view>
               <view class="_view data-v-c85254c6 obtain-do-icon center">
-                <template color="#dddddd" type="qianjin" data="{{...$root['0'], ...$root[$kk+'pfB-4'],$root}}" is="18f61b88"></template>
+                <template color="#dddddd" type="qianjin" data="{{...$root['0'], ...$root[$kk+'up2-4'],$root}}" is="18f61b88"></template>
               </view>
             </navigator>
           </view>
@@ -69,17 +69,9 @@
         <view class="_view data-v-c85254c6 block-tl b-line">
           <view class="_view data-v-c85254c6 block-tl-lf">
             <view class="_view data-v-c85254c6 block-tl-icon block-tl-color8">
-              <template size="16" color="#fff" type="jihua" data="{{...$root['0'], ...$root[$kk+'cQY-5'],$root}}" is="18f61b88"></template>
+              <template size="16" color="#fff" type="jihua" data="{{...$root['0'], ...$root[$kk+'T11-5'],$root}}" is="18f61b88"></template>
             </view>
             <text class="_text data-v-c85254c6 mdtxt">每日计划</text>
-          </view>
-          <view class="_view data-v-c85254c6 block-tl-rt">
-            <view class="_view data-v-c85254c6 block-tl-rt-more">
-              <text class="_text data-v-c85254c6 mdtxt">更多</text>
-              <view class="_view data-v-c85254c6 block-more more-color5">
-                <template size="12" color="#fff" type="qianjin" data="{{...$root['0'], ...$root[$kk+'JZR-6'],$root}}" is="18f61b88"></template>
-              </view>
-            </view>
           </view>
         </view>
         <view class="_view data-v-c85254c6 obtain-day b-line">
@@ -90,7 +82,7 @@
         <view class="_view data-v-c85254c6 share-ls">
           <view class="_view data-v-c85254c6 share-item">
             <view class="_view data-v-c85254c6 share-item-lf center">
-              <template size="30" color="#44b549" type="pengyouquan" data="{{...$root['0'], ...$root[$kk+'kCo-7'],$root}}" is="18f61b88"></template>
+              <template size="30" color="#44b549" type="pengyouquan" data="{{...$root['0'], ...$root[$kk+'5xC-6'],$root}}" is="18f61b88"></template>
             </view>
             <view class="_view data-v-c85254c6 share-item-con b-line">
               <view class="_view data-v-c85254c6 share-item-md">
@@ -98,24 +90,22 @@
                 <view class="_view data-v-c85254c6 share-item-md-des"> 早晚各一次，至少保留10小时 </view>
                 <view class="_view data-v-c85254c6 share-item-md-sum">
                   <view class="_view data-v-c85254c6 share-item-md-sum-item center">
-                    <view class="_view data-v-c85254c6 share-item-md-sum-txt"> 每次+5 </view>
-                    <template color="#e9526e" size="14" type="hua" data="{{...$root['0'], ...$root[$kk+'jjN-8'],$root}}" is="18f61b88"></template>
+                    <view class="_view data-v-c85254c6 share-item-md-sum-txt"> 每次+5微币 </view>
                   </view>
                   <view class="_view data-v-c85254c6 share-item-md-sum-item center">
-                    <view class="_view data-v-c85254c6 share-item-md-sum-txt"> 老板+20 </view>
-                    <template color="#e9526e" size="14" type="hua" data="{{...$root['0'], ...$root[$kk+'XdT-9'],$root}}" is="18f61b88"></template>
+                    <view class="_view data-v-c85254c6 share-item-md-sum-txt"> 老板+20微币 </view>
                   </view>
                 </view>
               </view>
               <view class="_view data-v-c85254c6 share-item-rt">
-                <view class="_view data-v-c85254c6 share-item-rt-go"> 去完成 </view>
+                <view class="_view data-v-c85254c6 share-item-rt-go" bindtap="handleProxy" data-eventid="{{'jMD-0'}}" data-comkey="{{$k}}"> 去完成 </view>
                 <view class="_view data-v-c85254c6 share-item-rt-day"> 今日：0/5 </view>
               </view>
             </view>
           </view>
           <view class="_view data-v-c85254c6 share-item">
             <view class="_view data-v-c85254c6 share-item-lf center">
-              <template size="28" color="#44b549" type="weixin" data="{{...$root['0'], ...$root[$kk+'QxE-10'],$root}}" is="18f61b88"></template>
+              <template size="28" color="#44b549" type="weixin" data="{{...$root['0'], ...$root[$kk+'Em7-7'],$root}}" is="18f61b88"></template>
             </view>
             <view class="_view data-v-c85254c6 share-item-con b-line">
               <view class="_view data-v-c85254c6 share-item-md">
@@ -123,24 +113,22 @@
                 <view class="_view data-v-c85254c6 share-item-md-des"> 要求50人以上的微信群 </view>
                 <view class="_view data-v-c85254c6 share-item-md-sum">
                   <view class="_view data-v-c85254c6 share-item-md-sum-item center">
-                    <view class="_view data-v-c85254c6 share-item-md-sum-txt"> 每次+5 </view>
-                    <template color="#e9526e" size="14" type="hua" data="{{...$root['0'], ...$root[$kk+'Q26-11'],$root}}" is="18f61b88"></template>
+                    <view class="_view data-v-c85254c6 share-item-md-sum-txt"> 每次+5微币 </view>
                   </view>
                   <view class="_view data-v-c85254c6 share-item-md-sum-item center">
-                    <view class="_view data-v-c85254c6 share-item-md-sum-txt"> 老板+20 </view>
-                    <template color="#e9526e" size="14" type="hua" data="{{...$root['0'], ...$root[$kk+'VYQ-12'],$root}}" is="18f61b88"></template>
+                    <view class="_view data-v-c85254c6 share-item-md-sum-txt"> 老板+20微币 </view>
                   </view>
                 </view>
               </view>
               <view class="_view data-v-c85254c6 share-item-rt">
-                <view class="_view data-v-c85254c6 share-item-rt-go"> 去完成 </view>
+                <view class="_view data-v-c85254c6 share-item-rt-go" bindtap="handleProxy" data-eventid="{{'iT2-1'}}" data-comkey="{{$k}}"> 去完成 </view>
                 <view class="_view data-v-c85254c6 share-item-rt-day"> 今日：0/5 </view>
               </view>
             </view>
           </view>
           <view class="_view data-v-c85254c6 share-item">
             <view class="_view data-v-c85254c6 share-item-lf center">
-              <template size="28" color="#44b549" type="qun" data="{{...$root['0'], ...$root[$kk+'MBc-13'],$root}}" is="18f61b88"></template>
+              <template size="28" color="#44b549" type="qun" data="{{...$root['0'], ...$root[$kk+'Ag2-8'],$root}}" is="18f61b88"></template>
             </view>
             <view class="_view data-v-c85254c6 share-item-con">
               <view class="_view data-v-c85254c6 share-item-md">
@@ -148,17 +136,15 @@
                 <view class="_view data-v-c85254c6 share-item-md-des"> 微商/电商/淘宝/金融/营销人群为佳 </view>
                 <view class="_view data-v-c85254c6 share-item-md-sum">
                   <view class="_view data-v-c85254c6 share-item-md-sum-item center">
-                    <view class="_view data-v-c85254c6 share-item-md-sum-txt"> 每次+5 </view>
-                    <template color="#e9526e" size="14" type="hua" data="{{...$root['0'], ...$root[$kk+'oJh-14'],$root}}" is="18f61b88"></template>
+                    <view class="_view data-v-c85254c6 share-item-md-sum-txt"> 每次+5微币 </view>
                   </view>
                   <view class="_view data-v-c85254c6 share-item-md-sum-item center">
-                    <view class="_view data-v-c85254c6 share-item-md-sum-txt"> 老板+20 </view>
-                    <template color="#e9526e" size="14" type="hua" data="{{...$root['0'], ...$root[$kk+'YSq-15'],$root}}" is="18f61b88"></template>
+                    <view class="_view data-v-c85254c6 share-item-md-sum-txt"> 老板+20微币 </view>
                   </view>
                 </view>
               </view>
               <view class="_view data-v-c85254c6 share-item-rt">
-                <view class="_view data-v-c85254c6 share-item-rt-go"> 去完成 </view>
+                <view class="_view data-v-c85254c6 share-item-rt-go" bindtap="handleProxy" data-eventid="{{'LCx-2'}}" data-comkey="{{$k}}"> 去完成 </view>
                 <view class="_view data-v-c85254c6 share-item-rt-day"> 今日：0/5 </view>
               </view>
             </view>
@@ -170,7 +156,7 @@
         <view class="_view data-v-c85254c6 block-tl b-line">
           <view class="_view data-v-c85254c6 block-tl-lf">
             <view class="_view data-v-c85254c6 block-tl-icon block-tl-color3">
-              <template type="shoucang-tianchong" color="#fff" size="12" data="{{...$root['0'], ...$root[$kk+'0m0-16'],$root}}" is="18f61b88"></template>
+              <template type="shoucang-tianchong" color="#fff" size="12" data="{{...$root['0'], ...$root[$kk+'a60-9'],$root}}" is="18f61b88"></template>
             </view>
             <text class="_text data-v-c85254c6 mdtxt">收益模式</text>
           </view>
@@ -179,7 +165,7 @@
         <view class="_view data-v-c85254c6 get-m-ls">
           <view class="_view data-v-c85254c6 get-m-item">
             <view class="_view data-v-c85254c6 tool-item-icon block-tl-color7">
-              <template type="diqiuquanqiu" size="22" color="#fff" data="{{...$root['0'], ...$root[$kk+'KCG-17'],$root}}" is="18f61b88"></template>
+              <template type="diqiuquanqiu" size="22" color="#fff" data="{{...$root['0'], ...$root[$kk+'Y9p-10'],$root}}" is="18f61b88"></template>
             </view>
             <view class="_view data-v-c85254c6 get-m-item-txt"> 分享好友注册 </view>
             <view class="_view data-v-c85254c6 get-m-item-sub"> 您的奖励 </view>
@@ -187,7 +173,7 @@
           </view>
           <view class="_view data-v-c85254c6 get-m-item">
             <view class="_view data-v-c85254c6 tool-item-icon block-tl-color4">
-              <template type="diqiuquanqiu" size="22" color="#fff" data="{{...$root['0'], ...$root[$kk+'MEI-18'],$root}}" is="18f61b88"></template>
+              <template type="diqiuquanqiu" size="22" color="#fff" data="{{...$root['0'], ...$root[$kk+'Hau-11'],$root}}" is="18f61b88"></template>
             </view>
             <view class="_view data-v-c85254c6 get-m-item-txt"> 好友充值消费 </view>
             <view class="_view data-v-c85254c6 get-m-item-sub"> 您的奖励
@@ -202,14 +188,14 @@
         <view class="_view data-v-c85254c6 block-tl b-line">
           <view class="_view data-v-c85254c6 block-tl-lf">
             <view class="_view data-v-c85254c6 block-tl-icon block-tl-color3">
-              <template type="likefill" size="13" color="#fff" data="{{...$root['0'], ...$root[$kk+'AQS-19'],$root}}" is="18f61b88"></template>
+              <template type="likefill" size="13" color="#fff" data="{{...$root['0'], ...$root[$kk+'KDO-12'],$root}}" is="18f61b88"></template>
             </view>
             <text class="_text data-v-c85254c6 mdtxt">收益预估</text>
           </view>
         </view>
         <view class="_view data-v-c85254c6 calc-wp">
           <view class="_view data-v-c85254c6 calc-tl">
-            <template type="qiandai-tianchong" size="12" color="#e86a38" data="{{...$root['0'], ...$root[$kk+'OvV-20'],$root}}" is="18f61b88"></template>
+            <template type="qiandai-tianchong" size="12" color="#e86a38" data="{{...$root['0'], ...$root[$kk+'eTC-13'],$root}}" is="18f61b88"></template>
             <text class="_text data-v-c85254c6">收益例子</text> （只邀请注册即可 假设每人每天邀请10人） </view>
           <view class="_view data-v-c85254c6 calc-line"> 1.每天邀请10名好友注册，注册奖励10人 × 1元 × 30元 = 300元 </view>
           <view class="_view data-v-c85254c6 calc-line"> 2.10名好友中，假设有1名和您一样开通钻石代理，返现299元 ×
@@ -217,7 +203,7 @@
         </view>
         <view class="_view data-v-c85254c6 calc-wp">
           <view class="_view data-v-c85254c6 calc-tl">
-            <template type="qiandai-tianchong" size="12" color="#e86a38" data="{{...$root['0'], ...$root[$kk+'g7k-21'],$root}}" is="18f61b88"></template>
+            <template type="qiandai-tianchong" size="12" color="#e86a38" data="{{...$root['0'], ...$root[$kk+'Kd1-14'],$root}}" is="18f61b88"></template>
             <text class="_text data-v-c85254c6">每月预估</text> （三级分销 无限裂变 持续躺赚） </view>
           <view class="_view data-v-c85254c6 calc-sum"> 300元+8400元+1500元+20940元 =
             <text class="_text data-v-c85254c6 fontred">31140元</text>
@@ -229,14 +215,14 @@
         <view class="_view data-v-c85254c6 block-tl b-line">
           <view class="_view data-v-c85254c6 block-tl-lf">
             <view class="_view data-v-c85254c6 block-tl-icon block-tl-color3">
-              <template type="likefill" size="13" color="#fff" data="{{...$root['0'], ...$root[$kk+'SYq-22'],$root}}" is="18f61b88"></template>
+              <template type="likefill" size="13" color="#fff" data="{{...$root['0'], ...$root[$kk+'xso-15'],$root}}" is="18f61b88"></template>
             </view>
             <text class="_text data-v-c85254c6 mdtxt">收益问题</text>
           </view>
         </view>
         <view class="_view data-v-c85254c6 calc-wp">
           <view class="_view data-v-c85254c6 calc-tl">
-            <template type="qiandai-tianchong" size="12" color="#e86a38" data="{{...$root['0'], ...$root[$kk+'BmN-23'],$root}}" is="18f61b88"></template>
+            <template type="qiandai-tianchong" size="12" color="#e86a38" data="{{...$root['0'], ...$root[$kk+'Y9y-16'],$root}}" is="18f61b88"></template>
             <text class="_text data-v-c85254c6">邀请好友的说明</text>
           </view>
           <view class="_view data-v-c85254c6 calc-line"> 新用户 </view>
@@ -244,28 +230,30 @@
         </view>
         <view class="_view data-v-c85254c6 calc-wp">
           <view class="_view data-v-c85254c6 calc-tl">
-            <template type="qiandai-tianchong" size="12" color="#e86a38" data="{{...$root['0'], ...$root[$kk+'qOM-24'],$root}}" is="18f61b88"></template>
+            <template type="qiandai-tianchong" size="12" color="#e86a38" data="{{...$root['0'], ...$root[$kk+'YCT-17'],$root}}" is="18f61b88"></template>
             <text class="_text data-v-c85254c6">什么是一级好友，什么是二级好友</text>
           </view>
           <view class="_view data-v-c85254c6 calc-line"> 您邀请 </view>
         </view>
         <view class="_view data-v-c85254c6 calc-wp">
           <view class="_view data-v-c85254c6 calc-tl">
-            <template type="qiandai-tianchong" size="12" color="#e86a38" data="{{...$root['0'], ...$root[$kk+'5dl-25'],$root}}" is="18f61b88"></template>
+            <template type="qiandai-tianchong" size="12" color="#e86a38" data="{{...$root['0'], ...$root[$kk+'wcR-18'],$root}}" is="18f61b88"></template>
             <text class="_text data-v-c85254c6">不是钻石代理会有收益吗？</text>
           </view>
           <view class="_view data-v-c85254c6 calc-line"> 您邀请 </view>
         </view>
         <view class="_view data-v-c85254c6 calc-wp">
           <view class="_view data-v-c85254c6 calc-tl">
-            <template type="qiandai-tianchong" size="12" color="#e86a38" data="{{...$root['0'], ...$root[$kk+'8T0-26'],$root}}" is="18f61b88"></template>
+            <template type="qiandai-tianchong" size="12" color="#e86a38" data="{{...$root['0'], ...$root[$kk+'Nev-19'],$root}}" is="18f61b88"></template>
             <text class="_text data-v-c85254c6">收益如何提现</text>
           </view>
           <view class="_view data-v-c85254c6 calc-line"> 您邀请 </view>
         </view>
       </view>
-      <view class="_view data-v-c85254c6 servicebtn">
-        <template type="kefu" color="#44B549" size="14" data="{{...$root['0'], ...$root[$kk+'hGD-27'],$root}}" is="18f61b88"></template>客服中心 </view>
+      <navigator url="../service/service" hover-class="none" class="_navigator data-v-c85254c6">
+        <view class="_view data-v-c85254c6 servicebtn">
+          <template type="kefu" color="#44B549" size="14" data="{{...$root['0'], ...$root[$kk+'4AQ-20'],$root}}" is="18f61b88"></template>客服中心 </view>
+      </navigator>
     </view>
   </view>
 </template>

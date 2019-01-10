@@ -2,7 +2,7 @@
 <import src="/components/mpvue-picker/mpvuePicker.vue.wxml" />
 <template name="78f8c381">
   <view class="_view data-v-168cee2d content">
-    <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'YJ9-4'}}" data-comkey="{{$k}}" class="_form data-v-168cee2d">
+    <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'RlX-4'}}" data-comkey="{{$k}}" class="_form data-v-168cee2d">
       <view class="_view data-v-168cee2d content-pad">
         <view class="_view data-v-168cee2d white">
           <view class="_view data-v-168cee2d summary">
@@ -11,7 +11,7 @@
               <text class="_text data-v-168cee2d">1</text>
             </view>
             <view class="_view data-v-168cee2d center">
-              <template type="bangzhu" size="12" color="#8a8a8a" data="{{...$root['0'], ...$root[$kk+'jQX-0'],$root}}" is="18f61b88"></template> 微币使用规则 </view>
+              <template type="bangzhu" size="12" color="#8a8a8a" data="{{...$root['0'], ...$root[$kk+'awN-0'],$root}}" is="18f61b88"></template> 微币使用规则 </view>
           </view>
         </view>
         <view class="_view data-v-168cee2d white">
@@ -35,26 +35,26 @@
           </view>
         </view>
         <view class="_view data-v-168cee2d white">
-          <view class="_view data-v-168cee2d rc-line b-line" bindtap="handleProxy" data-eventid="{{'vIm-0'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-168cee2d rc-line b-line" bindtap="handleProxy" data-eventid="{{'Vbo-0'}}" data-comkey="{{$k}}">
             <view class="_view data-v-168cee2d rc-line-lf"> 地区 </view>
             <view class="_view data-v-168cee2d rc-select"> 请选择地区 </view>
-            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'lvJ-1'],$root}}" is="18f61b88"></template>
+            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'yyH-1'],$root}}" is="18f61b88"></template>
           </view>
-          <view class="_view data-v-168cee2d rc-line b-line" bindtap="handleProxy" data-position="bottom" data-eventid="{{'Vtd-1'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-168cee2d rc-line b-line" bindtap="handleProxy" data-position="bottom" data-eventid="{{'J8g-1'}}" data-comkey="{{$k}}">
             <view class="_view data-v-168cee2d rc-line-lf"> 标签 </view>
             <view class="_view data-v-168cee2d rc-select"> 请选择个人属性 </view>
-            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'1A3-2'],$root}}" is="18f61b88"></template>
+            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'xb8-2'],$root}}" is="18f61b88"></template>
           </view>
-          <view class="_view data-v-168cee2d rc-line" bindtap="handleProxy" data-eventid="{{'MK5-2'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-168cee2d rc-line" bindtap="handleProxy" data-eventid="{{'aFr-2'}}" data-comkey="{{$k}}">
             <view class="_view data-v-168cee2d rc-line-lf"> 行业 </view>
             <view class="_view data-v-168cee2d rc-select"> 请选择个人行业 </view>
-            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'wr2-3'],$root}}" is="18f61b88"></template>
+            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'SHv-3'],$root}}" is="18f61b88"></template>
           </view>
         </view>
         <view class="_view data-v-168cee2d white">
           <view class="_view data-v-168cee2d rc-upload">
-            <view class="_view data-v-168cee2d up-avatar" bindtap="handleProxy" data-eventid="{{'ghH-3'}}" data-comkey="{{$k}}">
-              <template type="tianjia" color="#b9b9b9" data="{{...$root['0'], ...$root[$kk+'5lm-4'],$root}}" is="18f61b88"></template>
+            <view class="_view data-v-168cee2d up-avatar" bindtap="handleProxy" data-eventid="{{'g5v-3'}}" data-comkey="{{$k}}">
+              <template type="tianjia" color="#b9b9b9" data="{{...$root['0'], ...$root[$kk+'cJ4-4'],$root}}" is="18f61b88"></template>
             </view>
             <view class="_view data-v-168cee2d rc-upload-info"> 上传微信头像 </view>
           </view>
@@ -62,13 +62,13 @@
         <view class="_view data-v-168cee2d white">
           <view class="_view data-v-168cee2d rc-upload">
             <view class="_view data-v-168cee2d up-avatar">
-              <template type="tianjia" color="#b9b9b9" data="{{...$root['0'], ...$root[$kk+'gAY-5'],$root}}" is="18f61b88"></template>
+              <template type="tianjia" color="#b9b9b9" data="{{...$root['0'], ...$root[$kk+'475-5'],$root}}" is="18f61b88"></template>
             </view>
             <view class="_view data-v-168cee2d rc-upload-info"> 上传微信二维码
               <text class="_text data-v-168cee2d">(限1张)</text>
             </view>
             <view class="_view data-v-168cee2d rc-upload-rt center">
-              <template type="bangzhu" size="12" data="{{...$root['0'], ...$root[$kk+'wdS-6'],$root}}" is="18f61b88"></template> 如何获取 </view>
+              <template type="bangzhu" size="12" data="{{...$root['0'], ...$root[$kk+'1X2-6'],$root}}" is="18f61b88"></template> 如何获取 </view>
           </view>
         </view>
         <view class="_view data-v-168cee2d user-agree"> 发布代表同意
@@ -79,16 +79,16 @@
         </view>
       </view>
     </form>
-    <template ref="mpvuePicker" bindonConfirm="handleProxy" bindonCancel="handleProxy" data-eventid="{{'5NP-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'d9g-7'],$root}}" is="ec834500"></template>
-    <view class="_view data-v-168cee2d mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'sqB-6'}}" data-comkey="{{$k}}"></view>
+    <template ref="mpvuePicker" bindonConfirm="handleProxy" bindonCancel="handleProxy" data-eventid="{{'RVH-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'GaQ-7'],$root}}" is="ec834500"></template>
+    <view class="_view data-v-168cee2d mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'dwX-6'}}" data-comkey="{{$k}}"></view>
     <view class="_view data-v-168cee2d popup popup-bottom" hidden="{{!(showState.bottom)}}">
       <view class="_view data-v-168cee2d user-do">
-        <view class="_view data-v-168cee2d user-do-cancel" bindtap="handleProxy" data-eventid="{{'vxa-7'}}" data-comkey="{{$k}}"> 取消 </view>
+        <view class="_view data-v-168cee2d user-do-cancel" bindtap="handleProxy" data-eventid="{{'RjG-7'}}" data-comkey="{{$k}}"> 取消 </view>
         <view class="_view data-v-168cee2d"> 选择属性 </view>
-        <view class="_view data-v-168cee2d user-do-true" bindtap="handleProxy" data-eventid="{{'AJt-8'}}" data-comkey="{{$k}}"> 确定 </view>
+        <view class="_view data-v-168cee2d user-do-true" bindtap="handleProxy" data-eventid="{{'NCj-8'}}" data-comkey="{{$k}}"> 确定 </view>
       </view>
       <view class="_view data-v-168cee2d user-sl-ls">
-        <checkbox-group bindchange="handleProxy" data-eventid="{{'5vA-9'}}" data-comkey="{{$k}}" class="_checkbox-group data-v-168cee2d">
+        <checkbox-group bindchange="handleProxy" data-eventid="{{'AXG-9'}}" data-comkey="{{$k}}" class="_checkbox-group data-v-168cee2d">
           <view class="_view data-v-168cee2d uni-list">
             <label class="_label data-v-168cee2d uni-list-cell" wx:key="item.value" key="{{item.value}}" wx:for="{{attrs}}" wx:for-index="index" wx:for-item="item">
               <view class="_view data-v-168cee2d">

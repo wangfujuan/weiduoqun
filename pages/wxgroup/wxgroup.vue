@@ -1,52 +1,113 @@
 <template>
 	<view class="content">	
-		<view class="b-line"></view>
-		<view class="filter">
-			<view class="filter-item" @click="show" data-position="top">
-				人气排行
-			</view>
-			<view class="filter-item">
-				地区
-			</view>
-			<view class="filter-item" @tap="showRightDrawer">
-				行业
-			</view>
+		<view class="swiper-tab">  
+		  <view class="prev" @click="prevClick"><uni-icon type="fanhui" color="#fff" size="18"></uni-icon></view> 
+		  <view :class="['swiper-tab-list', currentTab==0 ? 'active' : '']" data-current="0" @click="swichNav">微信群</view>  
+		  <view :class="['swiper-tab-list', currentTab==1 ? 'active' : '']" data-current="1" @click="swichNav">微信个人</view>  
+		  <view class="addicon" @click="helpClick"><uni-icon type="iconfontlipinduihuanbangzhu" color="#fff" size="18"></uni-icon></view>
 		</view>
-		<view class="wxgroup-ls">
-			<checkbox-group @change="checkboxChange">
-				<view class="wx-item" v-for="item in items" :key="item.value" color="#44B549">
-					<label>
-						<checkbox class="checkbox" :value="item.value" :checked="item.check" />	
-						<view class="me-checkbox">
-							<uni-icon type="right-1" v-if="item.check" color="#44B549" size="22"></uni-icon>
-							<uni-icon type="right-1" v-else color="#ccc" size="22"></uni-icon>
+		<swiper :current="currentTab" class="swiper-box" duration="300" @change="bindChange">
+			<swiper-item>
+				<scroll-view class="list" scroll-y>
+					<view class="filter">
+						<view class="filter-item" @click="show" data-position="top">
+							人气排行
 						</view>
-					</label>
-					<navigator class="wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
-						<view class="avatar-wp">
-							<view class="avatar-vip">
-								<uni-icon type="zuanshi" size="10"></uni-icon>超级会员
-							</view>
-							<image class="avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
-						</view>	
-						<view class="wx-item-con">
-							<view class="wx-item-tl">
-								<text class="ding">顶</text><text class="mdtxt">妮妮小宝贝</text>
-							</view>
-							<view class="wx-item-wx">
-								进群加群主，不加秒踢
-							</view>
-						</view>	
-					</navigator>
-					<view class="wx-item-rt" @click="show" data-position="middle">
-						<uni-icon type="tianjia" size="12" color="#44B549"></uni-icon>加群
+						<view class="filter-item">
+							地区
+						</view>
+						<view class="filter-item" @tap="showRightDrawer">
+							行业
+						</view>
 					</view>
-				</view>
-			</checkbox-group>
-		</view>
+					<view class="wxgroup-ls">
+						<checkbox-group @change="checkboxChange">
+							<view class="wx-item" v-for="item in items" :key="item.value" color="#44B549">
+								<label>
+									<checkbox class="checkbox" :value="item.value" :checked="item.check" />	
+									<view class="me-checkbox">
+										<uni-icon type="right-1" v-if="item.check" color="#44B549" size="22"></uni-icon>
+										<uni-icon type="right-1" v-else color="#ccc" size="22"></uni-icon>
+									</view>
+								</label>
+								<navigator class="wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
+									<view class="avatar-wp">
+										<view class="avatar-vip">
+											<uni-icon type="zuanshi" size="9"></uni-icon>超级会员
+										</view>
+										<image class="avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+									</view>	
+									<view class="wx-item-con">
+										<view class="wx-item-tl">
+											<text class="ding">顶</text><text class="mdtxt">妮妮小宝贝</text>
+										</view>
+										<view class="wx-item-wx">
+											进群加群主，不加秒踢
+										</view>
+									</view>	
+								</navigator>
+								<view class="wx-item-rt" @click="show" data-position="middle">
+									<uni-icon type="tianjia" size="12" color="#44B549"></uni-icon>加群
+								</view>
+							</view>
+						</checkbox-group>
+					</view>
+				</scroll-view>
+			</swiper-item>
+			<swiper-item>
+				<scroll-view class="list" scroll-y>
+					<view class="filter">
+						<view class="filter-item" @click="show" data-position="top">
+							人气排行
+						</view>
+						<view class="filter-item">
+							地区
+						</view>
+						<view class="filter-item">
+							性别
+						</view>
+						<view class="filter-item" @tap="showRightDrawer">
+							行业
+						</view>
+					</view>
+					<view class="wxgroup-ls">
+						<checkbox-group @change="checkboxChange">
+							<view class="wx-item" v-for="item in items" :key="item.value" color="#44B549">
+								<label>
+									<checkbox class="checkbox" :value="item.value" :checked="item.check" />	
+									<view class="me-checkbox">
+										<uni-icon type="right-1" v-if="item.check" color="#44B549" size="22"></uni-icon>
+										<uni-icon type="right-1" v-else color="#ccc" size="22"></uni-icon>
+									</view>
+								</label>
+								<navigator class="wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
+									<view class="avatar-wp">
+										<view class="avatar-vip">
+											<uni-icon type="zuanshi" size="9"></uni-icon>超级会员
+										</view>
+										<image class="avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+									</view>	
+									<view class="wx-item-con">
+										<view class="wx-item-tl">
+											<text class="ding">顶</text><text class="mdtxt">妮妮小宝贝</text>
+										</view>
+										<view class="wx-item-wx">
+											进群加群主，不加秒踢
+										</view>
+									</view>	
+								</navigator>
+								<view class="wx-item-rt" @click="show" data-position="middle">
+									<uni-icon type="tianjia" size="12" color="#44B549"></uni-icon>加群
+								</view>
+							</view>
+						</checkbox-group>
+					</view>
+				</scroll-view>
+			</swiper-item>
+		</swiper>
 		<view class="wxgroup-fix">
 			<uni-icon type="right-1" color="#44B549" size="22"></uni-icon>
-			已选8个群
+			已选8个{{wxcategory}}
 			<view class="wxgroup-btn-wp">
 				<view class="wxgroup-btn-lf" @click="show" data-position="bottom">
 					批量保存二维码
@@ -194,7 +255,9 @@
 					}
 				],
 				activeIndex: 9999,
-				activePop: 'middle'
+				activePop: 'middle',
+				currentTab: 0,
+				wxcategory: ''
 			};
 			
 		},
@@ -202,7 +265,26 @@
 			uniIcon,
 			uniDrawer
 		},
+		onLoad(options) {
+			this.currentTab = parseInt(options.currentTab);
+			if(this.currentTab == 0){
+				this.wxcategory = '群'
+			}else{
+				this.wxcategory = '人'
+			}
+		},
 		methods: {
+			bindChange: function (e) {	
+				this.currentTab = e.detail.current;
+			},
+			swichNav: function(e){
+				this.currentTab = e.currentTarget.dataset.current;
+				if(e.currentTarget.dataset.current == 0){
+					this.wxcategory = '群'
+				}else{
+					this.wxcategory = '人'
+				}
+			},
 			checkboxChange: function (e) {
 				console.log('checkbox发生change事件，携带value值为：' + e.detail.value);
 			},
@@ -244,13 +326,17 @@
 				this.tradeName = name;
 				this.activeIndex = index;	
 			},
+			helpClick: function(){
+				uni.navigateTo({
+					url: '/pages/help/help'
+				})					
+			},
+			prevClick: function(){
+				uni.navigateBack({
+					delta: 1
+				})
+			}
 		},
-		onNavigationBarButtonTap(e) {
-			uni.navigateTo({
-				url: '/pages/help/help'
-			})	
-			// this.rightDrawerVisible = !this.rightDrawerVisible
-		}
 	}
 </script>
 
@@ -365,10 +451,10 @@
 		color: #fff;
 		font-size: 20upx;
 		border-radius: 4upx;
-		width: 90upx;
+		width: 100upx;
 		text-align: center;
 		left: 50%;
-		margin-left: -45upx;
+		margin-left: -50upx;
 		font-size: 18upx;
 	}
 	.wx-item label{
@@ -623,9 +709,10 @@
 		height: 84upx;
 		line-height: 84upx;
 		background-color: #44B549;
-		padding-top: 90upx;
+		padding-top: var(--status-bar-height);
 		padding-left: 20%;
 		padding-right: 20%;
+		position: relative;
 	}
 	.swiper-tab-list{
 		position: relative;
@@ -635,7 +722,6 @@
 		width: 50%;
 		text-align: center;
 		color: #fff;
-		
 	}
 	.swiper-tab-list.active::after{
 		content: '';
@@ -648,6 +734,18 @@
 		background-color: #fff;	
 		box-shadow: 0 2upx 10upx rgba(0,0,0,.3);
 		border-radius: 4upx;
+	}
+	.prev{
+		position: fixed;
+		left: 30upx;
+		top: var(--status-bar-height);
+		padding-top: 12upx;
+	}
+	.addicon{
+		position: fixed;
+		right: 30upx;
+		top: var(--status-bar-height);
+		padding-top: 12upx;
 	}
 	.swiper-box {
 	    flex: 1;

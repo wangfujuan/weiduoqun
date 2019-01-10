@@ -2,6 +2,7 @@
 
 .content {
   background-color: #F4F6FA;
+  padding-bottom: 300rpx;
 }
 .openagent-top {
   padding: 50rpx 0;
@@ -240,10 +241,14 @@
   width: 2rpx;
 }
 .opensum {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-color: #fff;
-  margin: 20rpx 0;
   padding: 20rpx 20rpx;
   font-size: 26rpx;
+  border-top: 2rpx solid #e5e5e5;
 }
 .opensum-line {
   display: -webkit-box;

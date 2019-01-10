@@ -62,10 +62,10 @@
 					</view>
 					</navigator>
 					<view class="obtain-do">
-						<view class="obtain-do-item">
+						<navigator hover-class="none" class="obtain-do-item" url="../income/income">
 							<view class="obtain-do-con">
 								<view class="obtain-do-con-tl">
-									钱包余额
+									收益余额
 								</view>
 								<view class="obtain-do-con-info">
 									<text>0.00</text>元
@@ -74,7 +74,7 @@
 							<view class="obtain-do-icon center">
 								<uni-icon color="#dddddd" type="qianjin"></uni-icon>
 							</view>
-						</view>
+						</navigator>
 						<navigator hover-class="none" class="obtain-do-item" url="../inviteList/inviteList">	
 							<view class="obtain-do-con">
 								<view class="obtain-do-con-tl">
@@ -99,14 +99,6 @@
 							<uni-icon size="16" color="#fff" type="jihua"></uni-icon>	
 						</view>
 						<text class="mdtxt">每日计划</text>
-					</view>
-					<view class="block-tl-rt">
-						<view class="block-tl-rt-more">
-							<text class="mdtxt">更多</text>
-							<view class="block-more more-color5">
-								<uni-icon size="12" color="#fff" type="qianjin"></uni-icon>
-							</view>
-						</view>
 					</view>
 				</view>
 				<view class="obtain-day b-line">
@@ -133,20 +125,18 @@
 								<view class="share-item-md-sum">
 									<view class="share-item-md-sum-item center">
 										<view class="share-item-md-sum-txt">
-											每次+5
+											每次+5微币
 										</view>
-										<uni-icon color="#e9526e" size="14" type="hua"></uni-icon>
 									</view>
 									<view class="share-item-md-sum-item center">
 										<view class="share-item-md-sum-txt">
-											老板+20
+											老板+20微币
 										</view>
-										<uni-icon color="#e9526e" size="14" type="hua"></uni-icon>
 									</view>
 								</view>
 							</view>
 							<view class="share-item-rt">
-								<view class="share-item-rt-go">
+								<view class="share-item-rt-go" @click="shareCircle">
 									去完成
 								</view>
 								<view class="share-item-rt-day">
@@ -170,20 +160,18 @@
 								<view class="share-item-md-sum">
 									<view class="share-item-md-sum-item center">
 										<view class="share-item-md-sum-txt">
-											每次+5
+											每次+5微币
 										</view>
-										<uni-icon color="#e9526e" size="14" type="hua"></uni-icon>
 									</view>
 									<view class="share-item-md-sum-item center">
 										<view class="share-item-md-sum-txt">
-											老板+20
+											老板+20微币
 										</view>
-										<uni-icon color="#e9526e" size="14" type="hua"></uni-icon>
 									</view>
 								</view>
 							</view>
 							<view class="share-item-rt">
-								<view class="share-item-rt-go">
+								<view class="share-item-rt-go" @click="shareGroup">
 									去完成
 								</view>
 								<view class="share-item-rt-day">
@@ -207,20 +195,18 @@
 								<view class="share-item-md-sum">
 									<view class="share-item-md-sum-item center">
 										<view class="share-item-md-sum-txt">
-											每次+5
+											每次+5微币
 										</view>
-										<uni-icon color="#e9526e" size="14" type="hua"></uni-icon>
 									</view>
 									<view class="share-item-md-sum-item center">
 										<view class="share-item-md-sum-txt">
-											老板+20
+											老板+20微币
 										</view>
-										<uni-icon color="#e9526e" size="14" type="hua"></uni-icon>
 									</view>
 								</view>
 							</view>
 							<view class="share-item-rt">
-								<view class="share-item-rt-go">
+								<view class="share-item-rt-go" @click="sharePer">
 									去完成
 								</view>
 								<view class="share-item-rt-day">
@@ -376,9 +362,11 @@
 				</view>
 			</view>
 			<!-- 收益问题 end -->	
-			<view class="servicebtn">
-				<uni-icon type="kefu" color="#44B549" size="14"></uni-icon>客服中心
-			</view>
+			<navigator url="../service/service" hover-class="none">
+				<view class="servicebtn">
+					<uni-icon type="kefu" color="#44B549" size="14"></uni-icon>客服中心
+				</view>
+			</navigator>
 		</view> 
 		
     </view>
@@ -397,7 +385,54 @@
 			uniIcon
 		},
 		methods: {
-			
+			// 分享到群
+			shareGroup: function(){
+				uni.share({
+					provider: "weixin",
+					scene: "WXSceneSession",
+					type: 1,
+					summary: "我正在使用HBuilderX开发uni-app，赶紧跟我一起来体验！",
+					success: function (res) {
+						console.log("success:" + JSON.stringify(res));
+					},
+					fail: function (err) {
+						console.log("fail:" + JSON.stringify(err));
+					}
+				});
+				
+				
+			},
+			// 分享到朋友圈
+			shareCircle: function(){
+				uni.share({
+				    provider: "weixin",
+				    scene: "WXSenceTimeline",
+				    type: 1,
+				    summary: "我正在使用HBuilderX开发uni-app，赶紧跟我一起来体验！",
+				    success: function (res) {
+				        console.log("success:" + JSON.stringify(res));
+				    },
+				    fail: function (err) {
+				        console.log("fail:" + JSON.stringify(err));
+				    }
+				});
+			},
+			// 分享到人
+			sharePer: function(){
+				uni.share({
+					provider: "weixin",
+					scene: "WXSceneSession",
+					type: 1,
+					summary: "我正在使用HBuilderX开发uni-app，赶紧跟我一起来体验！",
+					success: function (res) {
+						console.log("success:" + JSON.stringify(res));
+					},
+					fail: function (err) {
+						console.log("fail:" + JSON.stringify(err));
+					}
+				});
+				
+			}
 		}
 	}
 </script>

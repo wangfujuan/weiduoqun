@@ -13,7 +13,7 @@
       </view>
       <navigator url="../member/member" hover-class="none" class="_navigator data-v-0dde4133">
         <view class="_view data-v-0dde4133 income-pay">
-          <template type="mianfei" color="#e86a38" size="20" data="{{...$root['0'], ...$root[$kk+'9IW-0'],$root}}" is="18f61b88"></template>
+          <template type="mianfei" color="#e86a38" size="20" data="{{...$root['0'], ...$root[$kk+'1Fy-0'],$root}}" is="18f61b88"></template>
           <text class="_text data-v-0dde4133">钻石代理自用省钱 分享赚钱</text>
           <view class="_view data-v-0dde4133 obtain-boss-open">开通</view>
         </view>

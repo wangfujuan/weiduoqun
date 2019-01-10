@@ -1,7 +1,7 @@
 <template>
     <view class="content">
 		<view class="swiper-tab">  
-		  <view class="prev"><uni-icon type="fanhui" color="#fff" size="18"></uni-icon></view>
+		  <view class="prev" @click="prevClick"><uni-icon type="fanhui" color="#fff" size="18"></uni-icon></view> 
 		  <view :class="['swiper-tab-list', currentTab==0 ? 'active' : '']" data-current="0" @click="swichNav">微信群名片</view>  
 		  <view :class="['swiper-tab-list', currentTab==1 ? 'active' : '']" data-current="1" @click="swichNav">微信个人名片</view>  
 		  <view class="addicon" @click="addClick"><uni-icon type="tianjia" color="#fff" size="18"></uni-icon></view>
@@ -356,6 +356,11 @@
 				}
 				
 			},
+			prevClick: function(){
+				uni.navigateBack({
+					delta: 1
+				})
+			}
         }
 		
     }
@@ -444,7 +449,7 @@
 		position: relative;
 		display: inline-block;
 		vertical-align: top;
-		font-size: 28upx;
+		font-size: 32upx;
 		width: 50%;
 		text-align: center;
 		color: #fff;
@@ -465,6 +470,7 @@
 		position: fixed;
 		left: 30upx;
 		top: var(--status-bar-height);
+		padding-top: 12upx;
 	}
 	.addicon{
 		position: fixed;

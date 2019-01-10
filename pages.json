@@ -263,18 +263,19 @@
 			"style": {
 				"navigationBarTitleText": "群交易",
 				"app-plus": {
-					"titleNView": {
-						"backgroundColor": "#44b549",
-						"titleColor": "#fff",
-						"buttons": [
-							{
-								"text" : "\ue60c",
-		                        "fontSrc" : "/static/iconfont.ttf",
-		                        "fontSize" : "14px",
-		                        "color" : "#fff"
-							}
-						]
-					}
+					"titleNView": false
+// 					"titleNView": {
+// 						"backgroundColor": "#44b549",
+// 						"titleColor": "#fff",
+// 						"buttons": [
+// 							{
+// 								"text" : "\ue60c",
+// 		                        "fontSrc" : "/static/iconfont.ttf",
+// 		                        "fontSize" : "14px",
+// 		                        "color" : "#fff"
+// 							}
+// 						]
+// 					}
 				}
 			}
 		},
@@ -396,16 +397,17 @@
 			"style": {
 				"navigationBarTitleText": "微信群",
 				"app-plus" : {
-					"titleNView" : {
-						"buttons" : [
-						    {
-						        "text" : "\ue615",
-						        "fontSrc": "/static/iconfont.ttf",
-						        "fontSize": "18px",
-						        "color" : "#505050"
-						    }
-						]
-					}
+					"titleNView": false
+// 					"titleNView" : {
+// 						"buttons" : [
+// 						    {
+// 						        "text" : "\ue615",
+// 						        "fontSrc": "/static/iconfont.ttf",
+// 						        "fontSize": "18px",
+// 						        "color" : "#505050"
+// 						    }
+// 						]
+// 					}
 				}
 			}
 		},
@@ -414,16 +416,17 @@
 			"style": {
 				"navigationBarTitleText": "微信群交易",
 				"app-plus" : {
-					"titleNView" : {
-						"buttons" : [
-						    {
-						        "text" : "\ue615",
-						        "fontSrc": "/static/iconfont.ttf",
-						        "fontSize": "18px",
-						        "color" : "#505050"
-						    }
-						]
-					}
+					"titleNView": false
+// 					"titleNView" : {
+// 						"buttons" : [
+// 						    {
+// 						        "text" : "\ue615",
+// 						        "fontSrc": "/static/iconfont.ttf",
+// 						        "fontSize": "18px",
+// 						        "color" : "#505050"
+// 						    }
+// 						]
+// 					}
 				}
 			}
 		},
@@ -761,6 +764,12 @@
 						]
 					}
 				}
+			}
+		},
+		{
+			"path": "pages/tips/tips",
+			"style": {
+				"navigationBarTitleText": "公告内容"
 			}
 		}
     ],

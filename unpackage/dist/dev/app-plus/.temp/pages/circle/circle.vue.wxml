@@ -13,7 +13,7 @@
             </view>
             <view class="_view data-v-6377e186 block-tl-rt">
               <navigator hover-class="none" class="_navigator data-v-6377e186 block-tl-rt-item" url="../report/report">
-                <template type="jubao" data="{{...$root['0'], ...$root[$kk+'d79-0'],$root}}" is="18f61b88"></template>
+                <template type="jubao" data="{{...$root['0'], ...$root[$kk+'AF9-0'],$root}}" is="18f61b88"></template>
                 <text class="_text data-v-6377e186 mdtxt">举报</text>
               </navigator>
             </view>
@@ -23,7 +23,7 @@
           </navigator>
           <view class="_view data-v-6377e186 art-item-pic">
             <view class="_view data-v-6377e186 art-item-img-wp">
-              <image class="_image data-v-6377e186 art-item-img" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+              <image class="_image data-v-6377e186 art-item-img" bindtap="handleProxy" src="../../static/avatar/avatar_1.jpg" mode="widthFix" data-eventid="{{'IGe-0'}}" data-comkey="{{$k}}"></image>
             </view>
             <view class="_view data-v-6377e186 art-item-img-wp">
               <image class="_image data-v-6377e186 art-item-img" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
@@ -34,69 +34,26 @@
           </view>
           <view class="_view data-v-6377e186 user-doings">
             <view class="_view data-v-6377e186 user-doings-item">
-              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'D7O-1'],$root}}" is="18f61b88"></template>
+              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'vpb-1'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">分享</text>
             </view>
             <view class="_view data-v-6377e186 m-line"></view>
-            <view class="_view data-v-6377e186 user-doings-item">
-              <template type="huida" data="{{...$root['0'], ...$root[$kk+'dJK-2'],$root}}" is="18f61b88"></template>
+            <view class="_view data-v-6377e186 user-doings-item" bindtap="handleProxy" data-eventid="{{'0sK-1'}}" data-comkey="{{$k}}">
+              <template type="huida" data="{{...$root['0'], ...$root[$kk+'o4F-2'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">评论</text>
             </view>
             <view class="_view data-v-6377e186 m-line"></view>
             <view class="_view data-v-6377e186 user-doings-item">
-              <template type="zan" data="{{...$root['0'], ...$root[$kk+'2aj-3'],$root}}" is="18f61b88"></template>
-              <text class="_text data-v-6377e186 mdtxt">点赞</text>
-            </view>
-          </view>
-        </view>
-      </view>
-      <view class="_view data-v-6377e186 white">
-        <view class="_view data-v-6377e186 art-item">
-          <view class="_view data-v-6377e186 art-item-tl">
-            <image class="_image data-v-6377e186 avatar" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
-            <view class="_view data-v-6377e186 art-user">
-              <view class="_view data-v-6377e186 art-user-name"> 松松 </view>
-              <view class="_view data-v-6377e186 art-usr-time"> 30秒前 </view>
-            </view>
-            <view class="_view data-v-6377e186 block-tl-rt">
-              <view class="_view data-v-6377e186 block-tl-rt-item">
-                <template type="jubao" data="{{...$root['0'], ...$root[$kk+'Wla-4'],$root}}" is="18f61b88"></template>
-                <text class="_text data-v-6377e186 mdtxt">举报</text>
-              </view>
-            </view>
-          </view>
-          <navigator url="../circleDetail/circleDetail" hover-class="none" class="_navigator data-v-6377e186">
-            <view class="_view data-v-6377e186 art-item-info"> 似乎在😊 很多人眼中，胸针是古板或陈旧的~~，很难和时髦挂上勾❤️。但胸针是个很好搭配的饰品，在个很好搭配的饰上都能有它的存在，可以说它是万能的点缀。 </view>
-          </navigator>
-          <view class="_view data-v-6377e186 art-item-pic">
-            <view class="_view data-v-6377e186 art-item-img-wp">
-              <image class="_image data-v-6377e186 art-item-img" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
-            </view>
-            <view class="_view data-v-6377e186 art-item-img-wp">
-              <image class="_image data-v-6377e186 art-item-img" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
-            </view>
-            <view class="_view data-v-6377e186 art-item-img-wp">
-              <image class="_image data-v-6377e186 art-item-img" src="../../static/avatar/avatar_3.jpg" mode="widthFix"></image>
-            </view>
-          </view>
-          <view class="_view data-v-6377e186 user-doings">
-            <view class="_view data-v-6377e186 user-doings-item">
-              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'iu2-5'],$root}}" is="18f61b88"></template>
-              <text class="_text data-v-6377e186 mdtxt">分享</text>
-            </view>
-            <view class="_view data-v-6377e186 m-line"></view>
-            <view class="_view data-v-6377e186 user-doings-item">
-              <template type="huida" data="{{...$root['0'], ...$root[$kk+'hdb-6'],$root}}" is="18f61b88"></template>
-              <text class="_text data-v-6377e186 mdtxt">评论</text>
-            </view>
-            <view class="_view data-v-6377e186 m-line"></view>
-            <view class="_view data-v-6377e186 user-doings-item">
-              <template type="zan" data="{{...$root['0'], ...$root[$kk+'jqN-7'],$root}}" is="18f61b88"></template>
+              <template type="zan" data="{{...$root['0'], ...$root[$kk+'9pS-3'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">点赞</text>
             </view>
           </view>
         </view>
       </view>
     </view>
+    <view class="_view data-v-6377e186 {{['comment-input', isInput ? 'inputshow' : '']}}">
+      <input type="text" class="_input data-v-6377e186 input-txt" value="" placeholder-style="color: #b2b2b2" placeholder="评论" />
+    </view>
+    <view class="_view data-v-6377e186 picbig"></view>
   </view>
 </template>

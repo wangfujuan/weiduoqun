@@ -3,17 +3,17 @@
     <view class="_view data-v-61a77511 logo"> LOGO </view>
     <view class="_view data-v-61a77511 input-group">
       <view class="_view data-v-61a77511 input-row b-line center">
-        <input placeholder-class="gray" type="number" value="{{account}}" bindinput="handleProxy" placeholder="请输入手机号码" data-eventid="{{'18W-0'}}" data-comkey="{{$k}}" class="_input data-v-61a77511" />
-        <view class="_view data-v-61a77511 uni-icon uni-icon-shanchu" wx:if="{{showClearIcon}}" bindtap="handleProxy" data-eventid="{{'X1q-1'}}" data-comkey="{{$k}}"></view>
+        <input placeholder-class="gray" type="number" value="{{account}}" bindinput="handleProxy" placeholder="请输入手机号码" data-eventid="{{'DQQ-0'}}" data-comkey="{{$k}}" class="_input data-v-61a77511" />
+        <view class="_view data-v-61a77511 uni-icon uni-icon-shanchu" wx:if="{{showClearIcon}}" bindtap="handleProxy" data-eventid="{{'bed-1'}}" data-comkey="{{$k}}"></view>
       </view>
       <view class="_view data-v-61a77511 input-row b-line center">
-        <input placeholder-class="gray" type="text" password="{{showPassword}}" value="{{password}}" bindinput="handleProxy" placeholder="请输入密码" data-eventid="{{'ffa-2'}}" data-comkey="{{$k}}" class="_input data-v-61a77511" />
-        <view class="_view data-v-61a77511 uni-icon uni-icon-kejian" wx:if="{{showPassword}}" bindtap="handleProxy" data-eventid="{{'EhF-3'}}" data-comkey="{{$k}}"></view>
-        <view class="_view data-v-61a77511 uni-icon uni-icon-yincangbukejian" wx:if="{{!showPassword}}" bindtap="handleProxy" data-eventid="{{'Gze-4'}}" data-comkey="{{$k}}"></view>
+        <input placeholder-class="gray" type="text" password="{{showPassword}}" value="{{password}}" bindinput="handleProxy" placeholder="请输入密码" data-eventid="{{'BQz-2'}}" data-comkey="{{$k}}" class="_input data-v-61a77511" />
+        <view class="_view data-v-61a77511 uni-icon uni-icon-kejian" wx:if="{{showPassword}}" bindtap="handleProxy" data-eventid="{{'iia-3'}}" data-comkey="{{$k}}"></view>
+        <view class="_view data-v-61a77511 uni-icon uni-icon-yincangbukejian" wx:if="{{!showPassword}}" bindtap="handleProxy" data-eventid="{{'8pi-4'}}" data-comkey="{{$k}}"></view>
       </view>
     </view>
     <view class="_view data-v-61a77511 btn-row">
-      <button class="_button data-v-61a77511 greenlinear loginbtn" bindtap="handleProxy" data-eventid="{{'ES5-5'}}" data-comkey="{{$k}}">登录</button>
+      <button class="_button data-v-61a77511 greenlinear loginbtn" bindtap="handleProxy" data-eventid="{{'sWt-5'}}" data-comkey="{{$k}}">登录</button>
     </view>
     <view class="_view data-v-61a77511 action-row">
       <navigator url="../reg/reg" hover-class="none" class="_navigator data-v-61a77511">注册账号</navigator>
@@ -21,7 +21,7 @@
     </view>
     <view class="_view data-v-61a77511 oauth-row" wx:if="{{hasProvider}}" style=" {{('top:' + (positionTop + 'px') + ';')}}">
       <view class="_view data-v-61a77511 oauth-image" wx:key="provider.value" key="{{provider.value}}" wx:for="{{providerList}}" wx:for-index="index" wx:for-item="provider">
-        <image src="{{provider.image}}" bindtap="handleProxy" data-eventid="{{'0TE-6-'+index}}" data-comkey="{{$k}}" class="_image data-v-61a77511"></image>
+        <image src="{{provider.image}}" bindtap="handleProxy" data-eventid="{{'ofL-6-'+index}}" data-comkey="{{$k}}" class="_image data-v-61a77511"></image>
       </view>
       <view class="_view data-v-61a77511 weixinlogin"> 微信登录 </view>
       <view class="_view data-v-61a77511 weixin-info"> 无法注册？

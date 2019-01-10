@@ -2,45 +2,99 @@
 <import src="/components/uni-drawer.vue.wxml" />
 <template name="10ebf48f">
   <view class="_view data-v-1308e98a content">
-    <view class="_view data-v-1308e98a b-line"></view>
-    <view class="_view data-v-1308e98a filter">
-      <view class="_view data-v-1308e98a filter-item" bindtap="handleProxy" data-position="top" data-eventid="{{'UJD-0'}}" data-comkey="{{$k}}"> 人气排行 </view>
-      <view class="_view data-v-1308e98a filter-item"> 地区 </view>
-      <view class="_view data-v-1308e98a filter-item" bindtap="handleProxy" data-eventid="{{'rjh-1'}}" data-comkey="{{$k}}"> 行业 </view>
+    <view class="_view data-v-1308e98a swiper-tab">
+      <view class="_view data-v-1308e98a prev" bindtap="handleProxy" data-eventid="{{'uoV-0'}}" data-comkey="{{$k}}">
+        <template type="fanhui" color="#fff" size="18" data="{{...$root['0'], ...$root[$kk+'lbC-0'],$root}}" is="18f61b88"></template>
+      </view>
+      <view data-current="0" bindtap="handleProxy" data-eventid="{{'3xJ-1'}}" data-comkey="{{$k}}" class="_view data-v-1308e98a {{['swiper-tab-list', currentTab == 0 ? 'active' : '']}}">微信群</view>
+      <view data-current="1" bindtap="handleProxy" data-eventid="{{'c9G-2'}}" data-comkey="{{$k}}" class="_view data-v-1308e98a {{['swiper-tab-list', currentTab == 1 ? 'active' : '']}}">微信个人</view>
+      <view class="_view data-v-1308e98a addicon" bindtap="handleProxy" data-eventid="{{'RTA-3'}}" data-comkey="{{$k}}">
+        <template type="iconfontlipinduihuanbangzhu" color="#fff" size="18" data="{{...$root['0'], ...$root[$kk+'yAB-1'],$root}}" is="18f61b88"></template>
+      </view>
     </view>
-    <view class="_view data-v-1308e98a wxgroup-ls">
-      <checkbox-group bindchange="handleProxy" data-eventid="{{'b3N-3'}}" data-comkey="{{$k}}" class="_checkbox-group data-v-1308e98a">
-        <view class="_view data-v-1308e98a wx-item" wx:key="item.value" key="{{item.value}}" color="#44B549" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
-          <label class="_label data-v-1308e98a">
-            <checkbox class="_checkbox data-v-1308e98a checkbox" value="{{item.value}}" checked="{{item.check}}"></checkbox>
-            <view class="_view data-v-1308e98a me-checkbox">
-              <template type="right-1" wx:if="{{item.check}}" color="#44B549" size="22" data="{{...$root['0'], ...$root[$kk+'WwQ-1-'+index],$root}}" is="18f61b88"></template>
-              <template type="right-1" wx:else color="#ccc" size="22" data="{{...$root['0'], ...$root[$kk+'MPB-0-'+index],$root}}" is="18f61b88"></template>
-            </view>
-          </label>
-          <navigator class="_navigator data-v-1308e98a wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
-            <view class="_view data-v-1308e98a avatar-wp">
-              <view class="_view data-v-1308e98a avatar-vip">
-                <template type="zuanshi" size="10" data="{{...$root['0'], ...$root[$kk+'Jld-2-'+index],$root}}" is="18f61b88"></template>超级会员 </view>
-              <image class="_image data-v-1308e98a avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
-            </view>
-            <view class="_view data-v-1308e98a wx-item-con">
-              <view class="_view data-v-1308e98a wx-item-tl">
-                <text class="_text data-v-1308e98a ding">顶</text>
-                <text class="_text data-v-1308e98a mdtxt">妮妮小宝贝</text>
+    <swiper current="{{currentTab}}" class="_swiper data-v-1308e98a swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'8Kb-12'}}" data-comkey="{{$k}}">
+      <swiper-item class="_swiper-item data-v-1308e98a">
+        <scroll-view class="_scroll-view data-v-1308e98a list" scroll-y>
+          <view class="_view data-v-1308e98a filter">
+            <view class="_view data-v-1308e98a filter-item" bindtap="handleProxy" data-position="top" data-eventid="{{'rZb-4'}}" data-comkey="{{$k}}"> 人气排行 </view>
+            <view class="_view data-v-1308e98a filter-item"> 地区 </view>
+            <view class="_view data-v-1308e98a filter-item" bindtap="handleProxy" data-eventid="{{'kZF-5'}}" data-comkey="{{$k}}"> 行业 </view>
+          </view>
+          <view class="_view data-v-1308e98a wxgroup-ls">
+            <checkbox-group bindchange="handleProxy" data-eventid="{{'XVn-7'}}" data-comkey="{{$k}}" class="_checkbox-group data-v-1308e98a">
+              <view class="_view data-v-1308e98a wx-item" wx:key="item.value" key="{{item.value}}" color="#44B549" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+                <label class="_label data-v-1308e98a">
+                  <checkbox class="_checkbox data-v-1308e98a checkbox" value="{{item.value}}" checked="{{item.check}}"></checkbox>
+                  <view class="_view data-v-1308e98a me-checkbox">
+                    <template type="right-1" wx:if="{{item.check}}" color="#44B549" size="22" data="{{...$root['0'], ...$root[$kk+'Rwp-3-'+index],$root}}" is="18f61b88"></template>
+                    <template type="right-1" wx:else color="#ccc" size="22" data="{{...$root['0'], ...$root[$kk+'oTq-2-'+index],$root}}" is="18f61b88"></template>
+                  </view>
+                </label>
+                <navigator class="_navigator data-v-1308e98a wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
+                  <view class="_view data-v-1308e98a avatar-wp">
+                    <view class="_view data-v-1308e98a avatar-vip">
+                      <template type="zuanshi" size="9" data="{{...$root['0'], ...$root[$kk+'2gI-4-'+index],$root}}" is="18f61b88"></template>超级会员 </view>
+                    <image class="_image data-v-1308e98a avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+                  </view>
+                  <view class="_view data-v-1308e98a wx-item-con">
+                    <view class="_view data-v-1308e98a wx-item-tl">
+                      <text class="_text data-v-1308e98a ding">顶</text>
+                      <text class="_text data-v-1308e98a mdtxt">妮妮小宝贝</text>
+                    </view>
+                    <view class="_view data-v-1308e98a wx-item-wx"> 进群加群主，不加秒踢 </view>
+                  </view>
+                </navigator>
+                <view class="_view data-v-1308e98a wx-item-rt" bindtap="handleProxy" data-position="middle" data-eventid="{{'YnW-6-'+index}}" data-comkey="{{$k}}">
+                  <template type="tianjia" size="12" color="#44B549" data="{{...$root['0'], ...$root[$kk+'voO-5-'+index],$root}}" is="18f61b88"></template>加群 </view>
               </view>
-              <view class="_view data-v-1308e98a wx-item-wx"> 进群加群主，不加秒踢 </view>
-            </view>
-          </navigator>
-          <view class="_view data-v-1308e98a wx-item-rt" bindtap="handleProxy" data-position="middle" data-eventid="{{'r9T-2-'+index}}" data-comkey="{{$k}}">
-            <template type="tianjia" size="12" color="#44B549" data="{{...$root['0'], ...$root[$kk+'bKG-3-'+index],$root}}" is="18f61b88"></template>加群 </view>
-        </view>
-      </checkbox-group>
-    </view>
+            </checkbox-group>
+          </view>
+        </scroll-view>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-1308e98a">
+        <scroll-view class="_scroll-view data-v-1308e98a list" scroll-y>
+          <view class="_view data-v-1308e98a filter">
+            <view class="_view data-v-1308e98a filter-item" bindtap="handleProxy" data-position="top" data-eventid="{{'tnM-8'}}" data-comkey="{{$k}}"> 人气排行 </view>
+            <view class="_view data-v-1308e98a filter-item"> 地区 </view>
+            <view class="_view data-v-1308e98a filter-item"> 性别 </view>
+            <view class="_view data-v-1308e98a filter-item" bindtap="handleProxy" data-eventid="{{'czr-9'}}" data-comkey="{{$k}}"> 行业 </view>
+          </view>
+          <view class="_view data-v-1308e98a wxgroup-ls">
+            <checkbox-group bindchange="handleProxy" data-eventid="{{'qWe-11'}}" data-comkey="{{$k}}" class="_checkbox-group data-v-1308e98a">
+              <view class="_view data-v-1308e98a wx-item" wx:key="item.value" key="{{item.value}}" color="#44B549" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+                <label class="_label data-v-1308e98a">
+                  <checkbox class="_checkbox data-v-1308e98a checkbox" value="{{item.value}}" checked="{{item.check}}"></checkbox>
+                  <view class="_view data-v-1308e98a me-checkbox">
+                    <template type="right-1" wx:if="{{item.check}}" color="#44B549" size="22" data="{{...$root['0'], ...$root[$kk+'XDB-9-'+index],$root}}" is="18f61b88"></template>
+                    <template type="right-1" wx:else color="#ccc" size="22" data="{{...$root['0'], ...$root[$kk+'vEo-8-'+index],$root}}" is="18f61b88"></template>
+                  </view>
+                </label>
+                <navigator class="_navigator data-v-1308e98a wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
+                  <view class="_view data-v-1308e98a avatar-wp">
+                    <view class="_view data-v-1308e98a avatar-vip">
+                      <template type="zuanshi" size="9" data="{{...$root['0'], ...$root[$kk+'4kj-10-'+index],$root}}" is="18f61b88"></template>超级会员 </view>
+                    <image class="_image data-v-1308e98a avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+                  </view>
+                  <view class="_view data-v-1308e98a wx-item-con">
+                    <view class="_view data-v-1308e98a wx-item-tl">
+                      <text class="_text data-v-1308e98a ding">顶</text>
+                      <text class="_text data-v-1308e98a mdtxt">妮妮小宝贝</text>
+                    </view>
+                    <view class="_view data-v-1308e98a wx-item-wx"> 进群加群主，不加秒踢 </view>
+                  </view>
+                </navigator>
+                <view class="_view data-v-1308e98a wx-item-rt" bindtap="handleProxy" data-position="middle" data-eventid="{{'4N5-10-'+index}}" data-comkey="{{$k}}">
+                  <template type="tianjia" size="12" color="#44B549" data="{{...$root['0'], ...$root[$kk+'klv-11-'+index],$root}}" is="18f61b88"></template>加群 </view>
+              </view>
+            </checkbox-group>
+          </view>
+        </scroll-view>
+      </swiper-item>
+    </swiper>
     <view class="_view data-v-1308e98a wxgroup-fix">
-      <template type="right-1" color="#44B549" size="22" data="{{...$root['0'], ...$root[$kk+'fjF-5'],$root}}" is="18f61b88"></template> 已选8个群
+      <template type="right-1" color="#44B549" size="22" data="{{...$root['0'], ...$root[$kk+'Vlj-14'],$root}}" is="18f61b88"></template> 已选8个{{wxcategory}}
       <view class="_view data-v-1308e98a wxgroup-btn-wp">
-        <view class="_view data-v-1308e98a wxgroup-btn-lf" bindtap="handleProxy" data-position="bottom" data-eventid="{{'fL6-4'}}" data-comkey="{{$k}}"> 批量保存二维码 </view>
+        <view class="_view data-v-1308e98a wxgroup-btn-lf" bindtap="handleProxy" data-position="bottom" data-eventid="{{'56y-13'}}" data-comkey="{{$k}}"> 批量保存二维码 </view>
         <view class="_view data-v-1308e98a wxgroup-btn-rt">
           <navigator url="../import/import" class="_navigator data-v-1308e98a"> 批量导入通讯录 </navigator>
         </view>
@@ -48,15 +102,15 @@
     </view>
     <view class="_view data-v-1308e98a popup popup-middle" hidden="{{!(showState.middle)}}">
       <view class="_view data-v-1308e98a kf-tl b-line"> 添加群
-        <template type="shachu-xue" size="16" bindtap="handleProxy" data-eventid="{{'3qS-5'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'IlM-6'],$root}}" is="18f61b88"></template>
+        <template type="shachu-xue" size="16" bindtap="handleProxy" data-eventid="{{'JTE-14'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'vjU-15'],$root}}" is="18f61b88"></template>
       </view>
       <view class="_view data-v-1308e98a add-line">
-        <template type="weixin" color="#44B549" size="22" data="{{...$root['0'], ...$root[$kk+'zkh-7'],$root}}" is="18f61b88"></template>
+        <template type="weixin" color="#44B549" size="22" data="{{...$root['0'], ...$root[$kk+'8Nu-16'],$root}}" is="18f61b88"></template>
         <view class="_view data-v-1308e98a add-info">jinglingapp</view>
         <view class="_view data-v-1308e98a add-copy">复制群主微信号</view>
       </view>
       <view class="_view data-v-1308e98a add-line">
-        <template type="ai-phone" color="#e9ce59" size="22" data="{{...$root['0'], ...$root[$kk+'nUh-8'],$root}}" is="18f61b88"></template>
+        <template type="ai-phone" color="#e9ce59" size="22" data="{{...$root['0'], ...$root[$kk+'UlR-17'],$root}}" is="18f61b88"></template>
         <view class="_view data-v-1308e98a add-info">15010200333</view>
         <view class="_view data-v-1308e98a add-copy">复制群主手机号</view>
       </view>
@@ -64,29 +118,29 @@
       <view class="_view data-v-1308e98a kf-con-info"> 扫一扫 或者 点击图片保存到手机相册 </view>
       <view class="_view data-v-1308e98a wx-btn-ls">
         <view class="_view data-v-1308e98a kf-btn block-tl-color8 center">
-          <template type="weixin" size="18" data="{{...$root['0'], ...$root[$kk+'A1l-9'],$root}}" is="18f61b88"></template>发送到微信 </view>
+          <template type="weixin" size="18" data="{{...$root['0'], ...$root[$kk+'Raj-18'],$root}}" is="18f61b88"></template>发送到微信 </view>
         <view class="_view data-v-1308e98a kf-btn center wx-btn-default">
-          <template type="tongxunlu" size="18" data="{{...$root['0'], ...$root[$kk+'xqS-10'],$root}}" is="18f61b88"></template>导入通讯录 </view>
+          <template type="tongxunlu" size="18" data="{{...$root['0'], ...$root[$kk+'xLu-19'],$root}}" is="18f61b88"></template>导入通讯录 </view>
       </view>
     </view>
     <view class="_view data-v-1308e98a popup popup-bottom" hidden="{{!(showState.bottom)}}">
       <view class="_view data-v-1308e98a action-line">
-        <template type="xiangce" color="#eb6644" data="{{...$root['0'], ...$root[$kk+'qVK-11'],$root}}" is="18f61b88"></template>
+        <template type="xiangce" color="#eb6644" data="{{...$root['0'], ...$root[$kk+'Zuu-20'],$root}}" is="18f61b88"></template>
         <view class="_view data-v-1308e98a action-line-info">批量保存群二维码到相册</view>
-        <template type="qianjin" size="18" color="#8a8a8a" data="{{...$root['0'], ...$root[$kk+'psv-12'],$root}}" is="18f61b88"></template>
+        <template type="qianjin" size="18" color="#8a8a8a" data="{{...$root['0'], ...$root[$kk+'8qu-21'],$root}}" is="18f61b88"></template>
       </view>
       <view class="_view data-v-1308e98a action-line">
-        <template type="weixin" color="#44B549" data="{{...$root['0'], ...$root[$kk+'cF4-13'],$root}}" is="18f61b88"></template>
+        <template type="weixin" color="#44B549" data="{{...$root['0'], ...$root[$kk+'ewh-22'],$root}}" is="18f61b88"></template>
         <view class="_view data-v-1308e98a action-line-info"> 批量发送群二维码到微信 </view>
-        <template type="qianjin" size="18" color="#8a8a8a" data="{{...$root['0'], ...$root[$kk+'lWz-14'],$root}}" is="18f61b88"></template>
+        <template type="qianjin" size="18" color="#8a8a8a" data="{{...$root['0'], ...$root[$kk+'2fH-23'],$root}}" is="18f61b88"></template>
       </view>
-      <view class="_view data-v-1308e98a action-cancel" bindtap="handleProxy" data-eventid="{{'Y1r-6'}}" data-comkey="{{$k}}"> 取消 </view>
+      <view class="_view data-v-1308e98a action-cancel" bindtap="handleProxy" data-eventid="{{'PmV-15'}}" data-comkey="{{$k}}"> 取消 </view>
     </view>
-    <template mode="right" bindclose="handleProxy" data-eventid="{{'5Up-9'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'3OT-15'],$root, $slotdefault:'data-v-1308e98a-default-3OT-15'}}" is="c8231818"></template>
-    <view hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'33n-10'}}" data-comkey="{{$k}}" class="_view data-v-1308e98a {{['mask', activePop == 'top' ? 'masktop' : '']}}"></view>
+    <template mode="right" bindclose="handleProxy" data-eventid="{{'4ik-18'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'K8c-24'],$root, $slotdefault:'data-v-1308e98a-default-K8c-24'}}" is="c8231818"></template>
+    <view hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'6yf-19'}}" data-comkey="{{$k}}" class="_view data-v-1308e98a {{['mask', activePop == 'top' ? 'masktop' : '']}}"></view>
     <view class="_view data-v-1308e98a popup popup-top" hidden="{{!(showState.top)}}">
       <view class="_view data-v-1308e98a popup-item b-line popup-active"> 人气排行
-        <template type="duihao" color="#44B549" size="16" data="{{...$root['0'], ...$root[$kk+'vJz-16'],$root}}" is="18f61b88"></template>
+        <template type="duihao" color="#44B549" size="16" data="{{...$root['0'], ...$root[$kk+'yJD-25'],$root}}" is="18f61b88"></template>
       </view>
       <view class="_view data-v-1308e98a popup-item"> 最新发布 </view>
     </view>

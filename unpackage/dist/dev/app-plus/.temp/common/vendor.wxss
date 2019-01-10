@@ -313,6 +313,9 @@
 .uni-icon-fanhui:before {
   content: "\E616";
 }
+.uni-icon-jinggao:before {
+  content: "\E6AA";
+}
 .pickerMask {
   position: fixed;
   z-index: 1000;

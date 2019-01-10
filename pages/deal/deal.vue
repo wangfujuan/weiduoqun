@@ -1,43 +1,95 @@
 <template>
 	<view class="content">	
-		<view class="b-line"></view>
-		<view class="filter">
-			<view class="filter-item" @click="show" data-position="top">
-				人气排行
-			</view>
-			<view class="filter-item">
-				地区
-			</view>
-			<view class="filter-item" @tap="showRightDrawer">
-				行业
-			</view>
+		<view class="swiper-tab">  
+		  <view class="prev" @click="prevClick"><uni-icon type="fanhui" color="#fff" size="18"></uni-icon></view> 
+		  <view :class="['swiper-tab-list', currentTab==0 ? 'active' : '']" data-current="0" @click="swichNav">微信群</view>  
+		  <view :class="['swiper-tab-list', currentTab==1 ? 'active' : '']" data-current="1" @click="swichNav">QQ群</view>  
+		  <view class="addicon" @click="helpClick"><uni-icon type="iconfontlipinduihuanbangzhu" color="#fff" size="18"></uni-icon></view>
 		</view>
-		<view class="wxgroup-ls">
-			<view class="wx-item">
-				<navigator class="wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
-					<view class="avatar-wp">
-						<view class="avatar-vip">
-							<uni-icon type="zuanshi" size="10"></uni-icon>超级会员
+		<swiper :current="currentTab" class="swiper-box" duration="300" @change="bindChange">
+			<swiper-item>
+				<scroll-view class="list" scroll-y>
+					<view class="filter">
+						<view class="filter-item" @click="show" data-position="top">
+							人气排行
 						</view>
-						<image class="avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
-					</view>	
-					<view class="wx-item-con">
-						<view class="wx-item-tl">
-							<text class="ding">顶</text><text class="mdtxt">妮妮小宝贝</text> <text class="truetag">客服担保</text>
+						<view class="filter-item">
+							地区
 						</view>
-						<view class="wx-item-wx">
-							<text style="font-size: 20upx;color: #eb6644;">¥ </text><text style="font-size: 30upx;font-weight: 500;color: #eb6644;">129 </text>389人关注 广州
+						<view class="filter-item" @tap="showRightDrawer">
+							行业
 						</view>
-						<view class="mi-card-name">
-							最爱你的轩轩 <navigator class="gosee" url="">去看看 ></navigator>
+					</view>
+					<view class="wxgroup-ls">
+						<view class="wx-item">
+							<navigator class="wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
+								<view class="avatar-wp">
+									<view class="avatar-vip">
+										<uni-icon type="zuanshi" size="10"></uni-icon>超级会员
+									</view>
+									<image class="avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+								</view>	
+								<view class="wx-item-con">
+									<view class="wx-item-tl">
+										<text class="ding">顶</text><text class="mdtxt">妮妮小宝贝</text> <text class="truetag">客服担保</text>
+									</view>
+									<view class="wx-item-wx">
+										<text style="font-size: 20upx;color: #eb6644;">¥ </text><text style="font-size: 30upx;font-weight: 500;color: #eb6644;">129 </text>389人关注 广州
+									</view>
+									<view class="mi-card-name">
+										最爱你的轩轩 <navigator class="gosee" url="">去看看 ></navigator>
+									</view>
+								</view>	
+							</navigator>
+							<view class="wx-item-rt">
+								<text class="fontred">500</text>人群
+							</view>
+						</view>			
+					</view>
+				</scroll-view>
+			</swiper-item>
+			<swiper-item>
+				<scroll-view class="list" scroll-y>
+					<view class="filter">
+						<view class="filter-item" @click="show" data-position="top">
+							人气排行
 						</view>
-					</view>	
-				</navigator>
-				<view class="wx-item-rt">
-					<text class="fontred">500</text>人群
-				</view>
-			</view>			
-		</view>
+						<view class="filter-item">
+							地区
+						</view>
+						<view class="filter-item" @tap="showRightDrawer">
+							行业
+						</view>
+					</view>
+					<view class="wxgroup-ls">
+						<view class="wx-item">
+							<navigator class="wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
+								<view class="avatar-wp">
+									<view class="avatar-vip">
+										<uni-icon type="zuanshi" size="10"></uni-icon>超级会员
+									</view>
+									<image class="avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
+								</view>	
+								<view class="wx-item-con">
+									<view class="wx-item-tl">
+										<text class="ding">顶</text><text class="mdtxt">妮妮小宝贝</text> <text class="truetag">客服担保</text>
+									</view>
+									<view class="wx-item-wx">
+										<text style="font-size: 20upx;color: #eb6644;">¥ </text><text style="font-size: 30upx;font-weight: 500;color: #eb6644;">129 </text>389人关注 广州
+									</view>
+									<view class="mi-card-name">
+										最爱你的轩轩 <navigator class="gosee" url="">去看看 ></navigator>
+									</view>
+								</view>	
+							</navigator>
+							<view class="wx-item-rt">
+								<text class="fontred">500</text>人群
+							</view>
+						</view>			
+					</view>
+				</scroll-view>
+			</swiper-item>
+		</swiper>
 		<view class="submitbtn-wp">
 			<navigator class="block-tl-color8 submitbtn" url="../releaseChange/releaseChange">
 				<uni-icon type="tianjia" color="#fff" size="18"></uni-icon>
@@ -133,13 +185,22 @@
 					bottom: false,
 				},
 				activePop: 'middle',
-				isNav: false
+				isNav: false,
+				currentTab: 0,
 			};
 			
 		},
 		components: {
 			uniIcon,
 			uniDrawer
+		},
+		onLoad(options) {
+			this.currentTab = parseInt(options.currentTab);
+// 			if(this.currentTab == 0){
+// 				this.wxcategory = '群'
+// 			}else{
+// 				this.wxcategory = '人'
+// 			}
 		},
 		methods: {
 			checkboxChange: function (e) {
@@ -180,6 +241,19 @@
 				this.showMask = false
 				this.showState[this.activePop] = false
 			},
+			swichNav: function(e){
+				this.currentTab = e.currentTarget.dataset.current;
+			},
+			helpClick: function(){
+				uni.navigateTo({
+					url: '/pages/help/help'
+				})					
+			},
+			prevClick: function(){
+				uni.navigateBack({
+					delta: 1
+				})
+			}
 		},
 		onNavigationBarButtonTap(e) {
 			// this.isNav = !this.isNav
@@ -291,10 +365,10 @@
 		color: #fff;
 		font-size: 20upx;
 		border-radius: 4upx;
-		width: 90upx;
+		width: 100upx;
 		text-align: center;
 		left: 50%;
-		margin-left: -45upx;
+		margin-left: -50upx;
 		font-size: 18upx;
 	}
 	.wx-item label{
@@ -549,9 +623,10 @@
 		height: 84upx;
 		line-height: 84upx;
 		background-color: #44B549;
-		padding-top: 90upx;
+		padding-top: var(--status-bar-height);
 		padding-left: 20%;
 		padding-right: 20%;
+		position: relative;
 	}
 	.swiper-tab-list{
 		position: relative;
@@ -561,7 +636,6 @@
 		width: 50%;
 		text-align: center;
 		color: #fff;
-		
 	}
 	.swiper-tab-list.active::after{
 		content: '';
@@ -574,6 +648,18 @@
 		background-color: #fff;	
 		box-shadow: 0 2upx 10upx rgba(0,0,0,.3);
 		border-radius: 4upx;
+	}
+	.prev{
+		position: fixed;
+		left: 30upx;
+		top: var(--status-bar-height);
+		padding-top: 12upx;
+	}
+	.addicon{
+		position: fixed;
+		right: 30upx;
+		top: var(--status-bar-height);
+		padding-top: 12upx;
 	}
 	.swiper-box {
 	    flex: 1;

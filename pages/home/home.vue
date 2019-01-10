@@ -25,19 +25,19 @@
 		<view class="content-pad">
 			<view class="white">
 				<view class="uni-grid-9 b-line">
-					<navigator class="uni-grid-9-item" hover-class="none" url="../wxgroup/wxgroup">
+					<navigator class="uni-grid-9-item" hover-class="none" url="../wxgroup/wxgroup?currentTab=0">
 						<view class="iconwp oneicon">
 							<uni-icon type="duoren2"></uni-icon>
 						</view>
 						<text class="uni-grid-9-text">微信群</text>	
 					</navigator>
-					<navigator class="uni-grid-9-item" hover-class="none" url="../wxgroup/wxgroup">
+					<navigator class="uni-grid-9-item" hover-class="none" url="../wxgroup/wxgroup?currentTab=0">
 						<view class="iconwp fouricon">
 							<uni-icon type="qq02"></uni-icon>
 						</view>
 						<text class="uni-grid-9-text">QQ群</text>	
 					</navigator>
-					<navigator class="uni-grid-9-item" hover-class="none" url="../wxPersonal/wxPersonal">
+					<navigator class="uni-grid-9-item" hover-class="none" url="../wxgroup/wxgroup?currentTab=1">
 						<view class="iconwp twoicon">
 							<uni-icon type="geren2"></uni-icon>
 						</view>
@@ -49,7 +49,7 @@
 						</view>
 						<text class="uni-grid-9-text">人脉多</text>	
 					</view>
-					<navigator class="uni-grid-9-item" hover-class="none" url="../deal/deal">
+					<navigator class="uni-grid-9-item" hover-class="none" url="../deal/deal?currentTab=0">
 						<view class="iconwp fiveicon">
 							<uni-icon type="upstagefill"></uni-icon>
 						</view>
@@ -80,22 +80,25 @@
 						<text class="uni-grid-9-text">{{item.name}}</text>
 					</navigator> -->
 				</view>
+				<navigator hover-class="none" url="../tips/tips">
 				<view class="tips">
+					<uni-icon type="jinggao" color="#eb6644" size="20"></uni-icon>
 					<view class="tips-text">
-						注意：防骗提醒，让你远离骗子！
-					</view>
-					<uni-icon type="arrowright"></uni-icon>				
+						<text>注意：防骗提醒，让你远离骗子！</text>				
+					</view>			
+					<uni-icon type="qianjin" size="12" color="#e5e5e5"></uni-icon>
 				</view>
+				</navigator>
 			</view>
 			<!-- 推荐名片 start -->
 			<view class="white">
 				<view class="block-tl">
-					<view class="block-tl-lf">
+					<navigator hover-class="none" class="block-tl-lf" url="../wxgroup/wxgroup?currentTab=1">
 						<view class="block-tl-icon block-tl-color1">
 							<uni-icon type="geren2"></uni-icon>
 						</view>
-						<text class="mdtxt">推荐名片</text>
-					</view>
+						<text class="mdtxt">推荐名片</text>				
+					</navigator>
 					<view class="block-tl-rt">
 						<view class="block-tl-rt-item">
 							<uni-icon type="laiyuan"></uni-icon>							
@@ -108,7 +111,7 @@
 					</view>
 				</view>
 				<scroll-view class="card-ls" scroll-x scroll-left="0">	
-					<view class="card-item" v-for="card in cardList" :key="card.id">
+					<navigator hover-class="none" class="card-item" v-for="card in cardList" :key="card.id" url="../wxgroupcard/wxgroupcard">
 						<view class="card-avatar">
 							<image :src="card.img" mode="widthFix"></image>
 						</view>
@@ -116,19 +119,19 @@
 							<text class="ding">顶</text>
 							<text class="mdtxt">{{card.name}}</text>
 						</view>
-					</view>	
+					</navigator>	
 				</scroll-view>	
 			</view>
 			<!-- 推荐名片 end -->
 			<!-- 热门群 start -->
 			<view class="white">
 				<view class="block-tl">
-					<view class="block-tl-lf">
+					<navigator class="block-tl-lf" hover-class="none" url="../wxgroup/wxgroup?currentTab=0">
 						<view class="block-tl-icon block-tl-color2">
 							<uni-icon type="duoren2"></uni-icon>
 						</view>
 						<text class="mdtxt">热门群</text>
-					</view>
+					</navigator>
 					<view class="block-tl-rt">
 						<view class="block-tl-rt-item">
 							<uni-icon type="laiyuan"></uni-icon>
@@ -142,14 +145,14 @@
 				</view>
 				<scroll-view class="card-ls hot-ls" scroll-x scroll-left="0">	
 					<view class="hot-item" v-for="hot in hotList" :key="hot.id">
-						<view class="card-avatar">
+						<navigator hover-class="none" class="card-avatar" url="../wxgroupcard/wxgroupcard">
 							<image :src="hot.img" mode="widthFix"></image>
-						</view>
+						</navigator>
 						<view class="hot-name">
 							<text class="ding">顶</text>
 							<text class="mdtxt">{{hot.name}}</text>
 						</view>
-						<view class="hot-add">
+						<view class="hot-add" @click="addCard">
 							<uni-icon type="tianjia"></uni-icon>
 							<text class="mdtxt">加群</text>
 						</view>
@@ -177,30 +180,48 @@
 						</view>
 					</view>
 				</navigator>
-				<view class="product-ls">
+				<view class="product-ls">	
 					<view class="product-item b-line">
-						<view class="product-tl">
-							目前世界上最神奇的面膜
-						</view>
-						<image class="product-item-img" src="../../static/product.png" mode="widthFix"></image>
+						<navigator hover-class="none" url="../goodsdetail/goodsdetail">
+							<view class="product-tl">
+								目前世界上最神奇的面膜
+							</view>
+							<view class="img-wp">
+								<image class="product-item-img" src="../../static/goods.jpg" mode="widthFix"></image>
+								<image class="product-item-img" src="../../static/goods.jpg" mode="widthFix"></image>
+								<image class="product-item-img" src="../../static/goods.jpg" mode="widthFix"></image>
+							</view>
+						</navigator>
 						<view class="product-info">
 							米色小霞 <text>99人阅读</text>
 						</view>
 					</view>	
 					<view class="product-item b-line">
-						<view class="product-tl">
-							目前世界上最神奇的面膜
-						</view>
-						<image class="product-item-img" src="../../static/product.png" mode="widthFix"></image>
+						<navigator hover-class="none" url="../goodsdetail/goodsdetail">
+							<view class="product-tl">
+								目前世界上最神奇的面膜
+							</view>
+							<view class="img-wp">
+								<image class="product-item-img" src="../../static/goods.jpg" mode="widthFix"></image>
+								<image class="product-item-img" src="../../static/goods.jpg" mode="widthFix"></image>
+								<image class="product-item-img" src="../../static/goods.jpg" mode="widthFix"></image>
+							</view>
+						</navigator>
 						<view class="product-info">
 							米色小霞 <text>99人阅读</text>
 						</view>
 					</view>	
 					<view class="product-item">
-						<view class="product-tl">
-							目前世界上最神奇的面膜
-						</view>
-						<image class="product-item-img" src="../../static/product.png" mode="widthFix"></image>
+						<navigator hover-class="none" url="../goodsdetail/goodsdetail">
+							<view class="product-tl">
+								目前世界上最神奇的面膜
+							</view>
+							<view class="img-wp">
+								<image class="product-item-img" src="../../static/goods.jpg" mode="widthFix"></image>
+								<image class="product-item-img" src="../../static/goods.jpg" mode="widthFix"></image>
+								<image class="product-item-img" src="../../static/goods.jpg" mode="widthFix"></image>
+							</view>
+						</navigator>
 						<view class="product-info">
 							米色小霞 <text>99人阅读</text>
 						</view>
@@ -208,14 +229,14 @@
 				</view>
 			</view>
 			<!-- 微商货源 end -->
-			<!-- 头条干货 start -->
+			<!-- 微头条 start -->
 			<view class="white">
 				<view class="block-tl">
 					<navigator class="block-tl-lf" hover-class="none" url="../weinews/weinews">
 						<view class="block-tl-icon block-tl-color4">
 							<uni-icon type="chanpin2"></uni-icon>
 						</view>
-						<text class="mdtxt">头条干货</text>	
+						<text class="mdtxt">微头条</text>	
 					</navigator>
 					<view class="block-tl-rt">
 						<view class="block-tl-rt-item">
@@ -245,7 +266,7 @@
 					</view>
 				</view>
 			</view>
-			<!-- 头条干货 end -->
+			<!-- 微头条 end -->
 		</view>
 	</view>
 </template>
@@ -260,7 +281,7 @@
 				reload: false,
 				indicatorDots: false,
 				autoplay: false,
-				interval: 2000,
+				interval: 5000,
 				duration: 500,
 				grids: [
 					{
@@ -441,7 +462,23 @@
 				uni.switchTab({
 					url: '/pages/obtain/obtain'
 				})
-			}
+			},
+			addCard: function(){
+				uni.showActionSheet({
+					itemList: ['保存二维码到相册', '导入通讯录', '发送到微信扫码'],
+					success: function (res) {
+						console.log('选中了第' + (res.tapIndex + 1) + '个按钮');
+					},
+					fail: function (res) {
+						console.log(res.errMsg);
+					}
+				});
+			},
+			goDetail(e) {
+			    uni.navigateTo({
+			        url: '/pages/weinewsDetail/weinewsDetail?data=' + e.title
+			    })
+			},
 		},
 		onNavigationBarButtonTap() {
 			uni.navigateTo({
@@ -452,7 +489,6 @@
 </script>
 
 <style>
-	@import "../../common/iconfont.css";
 	
 	.content {
 		background-color: #f4f6fa;
@@ -475,22 +511,19 @@
 	
 	uni-image,swiper-item image {
 		width: 100%;
-		border-radius: 14upx;
 	}
 	
 	.block-tl-icon .uni-icon {
 		color: #fff;
 		font-size: 24upx;
 	}
-	
+
 	.block-tl-rt-item .uni-icon {
 		color: #aaa;
 		font-size: 26upx;
 		vertical-align: middle;
 		margin-right: 4upx;
 	}
-	
-	
 	/* 九宫格 */
 	.uni-grid-9 {
 		box-sizing: border-box;
@@ -585,26 +618,24 @@
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		padding: 0 20rpx 0 40rpx;
+		padding: 0 20upx 0 20upx;
 		height: 78upx;
 		line-height: 78upx;
 	}
-	
 	.tips-text{
 		flex: 1;
 		font-size: 28upx;
+		padding-left: 14upx;
+		
 	}
 	.uni-icon{
 		font-size: 18px;
 		color: #eaeaea;
 	}
-	
-	
 	.scroll {
 		width: 100%;
 		overflow: hidden;
 	}
-	
 	.card-ls{
 		/* width: 100%; */
 		white-space: nowrap;
@@ -679,21 +710,24 @@
 	
 	.product-tl {
 		font-size: 30upx;
-		font-weight: 500;
+		/* font-weight: 500; */
 		line-height: 1;
 	}
 	
 	.product-ls {
-		margin-top: -30upx;
+		margin-top: -10upx;
 	}
 	
 	.product-item {
 		padding: 30upx 25upx 0;
 	}
-	
-	.product-item-img {
-		width: 100%;
+	.img-wp{
+		display: flex;
 		margin: 25upx 0;
+	}
+	.product-item-img {
+		flex: 1;
+		margin: 0 2upx;
 	}
 	
 	.product-info {

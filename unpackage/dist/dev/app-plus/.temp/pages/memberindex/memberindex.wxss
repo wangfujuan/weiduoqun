@@ -123,6 +123,8 @@
   background-color: #f7d46b;
   padding: 4rpx;
   position: relative;
+  background-image: -webkit-linear-gradient(top, #d9c085 0%, #b39a65 100%);
+  background-image: linear-gradient(to bottom, #d9c085 0%, #b39a65 100%);
 }
 .avatar-100 {
   width: 120rpx;
@@ -132,9 +134,9 @@
 .avatar-vip {
   position: absolute;
   bottom: 0;
-  background-color: #f7d46b;
+  background-color: #b39a65;
   color: #fff;
-  font-size: 20rpx;
+  font-size: 18rpx;
   border-radius: 4rpx;
   width: 110rpx;
   text-align: center;
@@ -243,7 +245,7 @@
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 122rpx;
   flex: 0 0 122rpx;
-  border: 4rpx solid #f7d46b;
+  border: 4rpx solid #b39a65;
   padding: 2rpx;
   position: relative;
   border-radius: 100%;
@@ -264,7 +266,7 @@
   text-align: center;
   right: 0;
   border: 2rpx solid #fff;
-  background-color: #f7d46b;
+  background-color: #b39a65;
   color: #fff;
 }
 .avatar-vip-top .uni-icon {
@@ -307,4 +309,28 @@
   -webkit-justify-content: space-between;
   justify-content: space-between;
   padding-bottom: 5rpx;
+}
+.nav-ls {
+  position: fixed;
+  top: 120rpx;
+  right: 20rpx;
+  background-color: #fff;
+  width: 200rpx;
+  border-radius: 10rpx;
+}
+.nav-ls::before {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: -16rpx;
+  right: 20rpx;
+  border: 10rpx solid #fff;
+  border-color: transparent transparent #fff;
+}
+.nav-item {
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 24rpx;
+  text-align: center;
 }

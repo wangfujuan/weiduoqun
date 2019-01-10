@@ -1,8 +1,10 @@
 <template>
     <view class="content">
 		<view class="swiper-tab">  
+		  <view class="prev" @click="prevClick"><uni-icon type="fanhui" color="#fff" size="18"></uni-icon></view>
 		  <view :class="['swiper-tab-list', currentTab==0 ? 'active' : '']" data-current="0" @click="swichNav">微信群交易</view>  
 		  <view :class="['swiper-tab-list', currentTab==1 ? 'active' : '']" data-current="1" @click="swichNav">QQ群交易</view>  
+		  <view class="addicon" @click="addClick"><uni-icon type="tianjia" color="#fff" size="18"></uni-icon></view>
 		</view>
 		<swiper :current="currentTab" class="swiper-box" duration="300" @change="bindChange">
 			<swiper-item>
@@ -280,19 +282,24 @@
 				this.showMask = false
 				this.showState[this.activePop] = false
 			},
-        },
-		onNavigationBarButtonTap: function(){
-			if(this.currentTab == 0){
-				uni.navigateTo({
-					url: '/pages/releaseChange/releaseChange'
-				})
-			}else{
-				uni.navigateTo({
-					url: '/pages/releaseChange/releaseChange'
+			addClick: function(){
+				if(this.currentTab == 0){
+					uni.navigateTo({
+						url: '/pages/releaseChange/releaseChange'
+					})
+				}else{
+					uni.navigateTo({
+						url: '/pages/releaseChange/releaseChange'
+					})
+				}
+				
+			},
+			prevClick: function(){
+				uni.navigateBack({
+					delta: 1
 				})
 			}
-			
-		},
+        },
     }
 </script>
 
@@ -366,16 +373,20 @@
 	}
     .swiper-tab{
 		font-size: 0;
-		width: 100%;
+		width: 60%;
 		height: 84upx;
 		line-height: 84upx;
 		background-color: #44B549;
+		padding-top: var(--status-bar-height);
+		padding-left: 20%;
+		padding-right: 20%;
+		position: relative;
 	}
 	.swiper-tab-list{
 		position: relative;
 		display: inline-block;
 		vertical-align: top;
-		font-size: 28upx;
+		font-size: 32upx;
 		width: 50%;
 		text-align: center;
 		color: #fff;
@@ -391,6 +402,18 @@
 		background-color: #fff;	
 		box-shadow: 0 2upx 10upx rgba(0,0,0,.3);
 		border-radius: 4upx;
+	}
+	.prev{
+		position: fixed;
+		left: 30upx;
+		top: var(--status-bar-height);
+		padding-top: 12upx;
+	}
+	.addicon{
+		position: fixed;
+		right: 30upx;
+		top: var(--status-bar-height);
+		padding-top: 12upx;
 	}
 	.swiper-box {
         flex: 1;

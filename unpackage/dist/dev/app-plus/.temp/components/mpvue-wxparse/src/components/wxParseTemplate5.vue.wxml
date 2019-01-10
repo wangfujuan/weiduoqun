@@ -7,30 +7,30 @@
     <block wx:if="{{node.tag == 'button'}}">
       <button type="default" size="mini" class="_button data-v-3d1f8764">
         <block wx:key="index" key="{{index}}" wx:for="{{node.nodes}}" wx:for-index="index" wx:for-item="node">
-          <template data="{{...$root['0'], ...$root[$kk+'jCu-0-'+index],$root}}" is="43ebc9fb"></template>
+          <template data="{{...$root['0'], ...$root[$kk+'Wsv-0-'+index],$root}}" is="43ebc9fb"></template>
         </block>
       </button>
     </block>
     <block wx:elif="{{node.tag == 'li'}}">
       <view class="_view data-v-3d1f8764 {{node.classStr}}" style=" {{node.styleStr}}">
         <block wx:key="index" key="{{index}}" wx:for="{{node.nodes}}" wx:for-index="index" wx:for-item="node">
-          <template data="{{...$root['0'], ...$root[$kk+'yfW-1-'+index],$root}}" is="43ebc9fb"></template>
+          <template data="{{...$root['0'], ...$root[$kk+'m0J-1-'+index],$root}}" is="43ebc9fb"></template>
         </block>
       </view>
     </block>
     <block wx:elif="{{node.tag == 'video'}}">
-      <template data="{{...$root['0'], ...$root[$kk+'hBq-2'],$root}}" is="948ce10c"></template>
+      <template data="{{...$root['0'], ...$root[$kk+'MNE-2'],$root}}" is="948ce10c"></template>
     </block>
     <block wx:elif="{{node.tag == 'audio'}}">
-      <template data="{{...$root['0'], ...$root[$kk+'N5K-3'],$root}}" is="717df155"></template>
+      <template data="{{...$root['0'], ...$root[$kk+'qmg-3'],$root}}" is="717df155"></template>
     </block>
     <block wx:elif="{{node.tag == 'img'}}">
-      <template data="{{...$root['0'], ...$root[$kk+'OvR-4'],$root}}" is="1f6706fc"></template>
+      <template data="{{...$root['0'], ...$root[$kk+'5CI-4'],$root}}" is="1f6706fc"></template>
     </block>
     <block wx:elif="{{node.tag == 'a'}}">
-      <view bindtap="handleProxy" data-href="{{node.attr.href}}" data-eventid="{{'ZlF-0'}}" data-comkey="{{$k}}" class="_view data-v-3d1f8764 {{node.classStr}}" style=" {{node.styleStr}}">
+      <view bindtap="handleProxy" data-href="{{node.attr.href}}" data-eventid="{{'Ai0-0'}}" data-comkey="{{$k}}" class="_view data-v-3d1f8764 {{node.classStr}}" style=" {{node.styleStr}}">
         <block wx:key="index" key="{{index}}" wx:for="{{node.nodes}}" wx:for-index="index" wx:for-item="node">
-          <template data="{{...$root['0'], ...$root[$kk+'75c-5-'+index],$root}}" is="43ebc9fb"></template>
+          <template data="{{...$root['0'], ...$root[$kk+'2UY-5-'+index],$root}}" is="43ebc9fb"></template>
         </block>
       </view>
     </block>
@@ -40,7 +40,7 @@
     <block wx:else>
       <view class="_view data-v-3d1f8764 {{node.classStr}}" style=" {{node.styleStr}}">
         <block wx:key="index" key="{{index}}" wx:for="{{node.nodes}}" wx:for-index="index" wx:for-item="node">
-          <template data="{{...$root['0'], ...$root[$kk+'vTs-6-'+index],$root}}" is="43ebc9fb"></template>
+          <template data="{{...$root['0'], ...$root[$kk+'nT2-6-'+index],$root}}" is="43ebc9fb"></template>
         </block>
       </view>
     </block>

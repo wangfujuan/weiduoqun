@@ -6,7 +6,7 @@
 					<view class="wx-item-md">
 						<navigator class="avatar-wp" hover-class="none" url="../memberindex/memberindex">
 							<view class="avatar-vip">
-								<uni-icon type="zuanshi" size="10"></uni-icon>超级会员
+								<uni-icon type="zuanshi" size="9"></uni-icon>超级会员
 							</view>
 							<image class="avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
 						</navigator>
@@ -367,10 +367,10 @@
 		color: #fff;
 		font-size: 18upx;
 		border-radius: 4upx;
-		width: 90upx;
+		width: 100upx;
 		text-align: center;
 		left: 50%;
-		margin-left: -45upx;
+		margin-left: -50upx;
 	}
 	.copy{
 		font-size: 22upx;

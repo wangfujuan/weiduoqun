@@ -155,3 +155,27 @@ swiper-item {
   -webkit-transform: scaleY(0.5);
   transform: scaleY(0.5);
 }
+.comment-input {
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 20rpx;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+.input-txt {
+  background-color: #F4F6FA;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  height: 40rpx;
+  line-height: 40rpx;
+  padding: 20rpx;
+  border-radius: 6rpx;
+}
+.inputshow {
+  display: block;
+}

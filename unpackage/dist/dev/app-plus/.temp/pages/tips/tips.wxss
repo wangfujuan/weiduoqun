@@ -1,0 +1,23 @@
+@import "../../common/vendor.wxss";
+
+.content {
+  padding: 0 30rpx;
+  border-top: 2rpx solid #e5e5e5;
+  line-height: 1.4;
+  font-size: 30rpx;
+}
+.tips-tl {
+  font-size: 40rpx;
+  font-weight: 500;
+  padding: 40rpx 0;
+}
+.tips-sub {
+  color: #aaaaaa;
+  font-size: 24rpx;
+  margin-bottom: 40rpx;
+}
+.tips-line {
+  color: #000;
+  margin: 24rpx 0;
+  text-indent: 1em;
+}

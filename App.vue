@@ -3,10 +3,35 @@
     export default {
         onLaunch: function () {
             console.log('App Launch');
+			uni.request({
+				url: util.PATH_API+'base/Session', 
+				method: 'POST',
+				data: {  
+					"n": "Session",  
+					"s": "",  
+					"t": "2014-01-0112:59:59",  
+					"m": 123,  
+					"q": {   
+						"model": "Mi4s",   
+						"version": "10.0.1",   
+						"resolution": "960*640",   
+						"deviceToken": "116369cafe611f12bfdbd87aa112df21",   
+						"deviceTokenPush": "",   
+						"deviceType": "2",  
+						"info": "5.0.2"  ,
+					} ,
+				},
+				header: {
+					'Content-Type': 'application/x-www-form-urlencoded'
+				},
+				success: function(res) {
+					console.log(res.code);
+				}
+			});
         },
         onShow: function () {
             console.log('App Show');
-			console.log(util.PATH_API);
+			
         },
         onHide: function () {
             console.log('App Hide');
