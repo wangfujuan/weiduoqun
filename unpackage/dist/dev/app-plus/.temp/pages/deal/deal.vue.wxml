@@ -3,29 +3,29 @@
 <template name="ea4a605e">
   <view class="_view data-v-5edbd77d content">
     <view class="_view data-v-5edbd77d swiper-tab">
-      <view class="_view data-v-5edbd77d prev" bindtap="handleProxy" data-eventid="{{'H9X-0'}}" data-comkey="{{$k}}">
-        <template type="fanhui" color="#fff" size="18" data="{{...$root['0'], ...$root[$kk+'EKp-0'],$root}}" is="18f61b88"></template>
+      <view class="_view data-v-5edbd77d prev" bindtap="handleProxy" data-eventid="{{'aL0-0'}}" data-comkey="{{$k}}">
+        <template type="fanhui" color="#fff" size="18" data="{{...$root['0'], ...$root[$kk+'QdN-0'],$root}}" is="18f61b88"></template>
       </view>
-      <view data-current="0" bindtap="handleProxy" data-eventid="{{'gaD-1'}}" data-comkey="{{$k}}" class="_view data-v-5edbd77d {{['swiper-tab-list', currentTab == 0 ? 'active' : '']}}">微信群</view>
-      <view data-current="1" bindtap="handleProxy" data-eventid="{{'ZkA-2'}}" data-comkey="{{$k}}" class="_view data-v-5edbd77d {{['swiper-tab-list', currentTab == 1 ? 'active' : '']}}">QQ群</view>
-      <view class="_view data-v-5edbd77d addicon" bindtap="handleProxy" data-eventid="{{'5Hl-3'}}" data-comkey="{{$k}}">
-        <template type="iconfontlipinduihuanbangzhu" color="#fff" size="18" data="{{...$root['0'], ...$root[$kk+'Brb-1'],$root}}" is="18f61b88"></template>
+      <view data-current="0" bindtap="handleProxy" data-eventid="{{'xyR-1'}}" data-comkey="{{$k}}" class="_view data-v-5edbd77d {{['swiper-tab-list', currentTab == 0 ? 'active' : '']}}">微信群</view>
+      <view data-current="1" bindtap="handleProxy" data-eventid="{{'3jC-2'}}" data-comkey="{{$k}}" class="_view data-v-5edbd77d {{['swiper-tab-list', currentTab == 1 ? 'active' : '']}}">QQ群</view>
+      <view class="_view data-v-5edbd77d addicon" bindtap="handleProxy" data-eventid="{{'gd3-3'}}" data-comkey="{{$k}}">
+        <template type="iconfontlipinduihuanbangzhu" color="#fff" size="18" data="{{...$root['0'], ...$root[$kk+'wdZ-1'],$root}}" is="18f61b88"></template>
       </view>
     </view>
-    <swiper current="{{currentTab}}" class="_swiper data-v-5edbd77d swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'zf5-8'}}" data-comkey="{{$k}}">
+    <swiper current="{{currentTab}}" class="_swiper data-v-5edbd77d swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'Fke-8'}}" data-comkey="{{$k}}">
       <swiper-item class="_swiper-item data-v-5edbd77d">
         <scroll-view class="_scroll-view data-v-5edbd77d list" scroll-y>
           <view class="_view data-v-5edbd77d filter">
-            <view class="_view data-v-5edbd77d filter-item" bindtap="handleProxy" data-position="top" data-eventid="{{'9mi-4'}}" data-comkey="{{$k}}"> 人气排行 </view>
+            <view class="_view data-v-5edbd77d filter-item" bindtap="handleProxy" data-position="top" data-eventid="{{'Qew-4'}}" data-comkey="{{$k}}"> 人气排行 </view>
             <view class="_view data-v-5edbd77d filter-item"> 地区 </view>
-            <view class="_view data-v-5edbd77d filter-item" bindtap="handleProxy" data-eventid="{{'iXe-5'}}" data-comkey="{{$k}}"> 行业 </view>
+            <view class="_view data-v-5edbd77d filter-item" bindtap="handleProxy" data-eventid="{{'DPG-5'}}" data-comkey="{{$k}}"> 行业 </view>
           </view>
           <view class="_view data-v-5edbd77d wxgroup-ls">
             <view class="_view data-v-5edbd77d wx-item">
               <navigator class="_navigator data-v-5edbd77d wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
                 <view class="_view data-v-5edbd77d avatar-wp">
                   <view class="_view data-v-5edbd77d avatar-vip">
-                    <template type="zuanshi" size="10" data="{{...$root['0'], ...$root[$kk+'Ado-2'],$root}}" is="18f61b88"></template>超级会员 </view>
+                    <template type="zuanshi" size="10" data="{{...$root['0'], ...$root[$kk+'NCV-2'],$root}}" is="18f61b88"></template>超级会员 </view>
                   <image class="_image data-v-5edbd77d avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
                 </view>
                 <view class="_view data-v-5edbd77d wx-item-con">
@@ -51,16 +51,16 @@
       <swiper-item class="_swiper-item data-v-5edbd77d">
         <scroll-view class="_scroll-view data-v-5edbd77d list" scroll-y>
           <view class="_view data-v-5edbd77d filter">
-            <view class="_view data-v-5edbd77d filter-item" bindtap="handleProxy" data-position="top" data-eventid="{{'Jt3-6'}}" data-comkey="{{$k}}"> 人气排行 </view>
+            <view class="_view data-v-5edbd77d filter-item" bindtap="handleProxy" data-position="top" data-eventid="{{'hV6-6'}}" data-comkey="{{$k}}"> 人气排行 </view>
             <view class="_view data-v-5edbd77d filter-item"> 地区 </view>
-            <view class="_view data-v-5edbd77d filter-item" bindtap="handleProxy" data-eventid="{{'wiY-7'}}" data-comkey="{{$k}}"> 行业 </view>
+            <view class="_view data-v-5edbd77d filter-item" bindtap="handleProxy" data-eventid="{{'sGS-7'}}" data-comkey="{{$k}}"> 行业 </view>
           </view>
           <view class="_view data-v-5edbd77d wxgroup-ls">
             <view class="_view data-v-5edbd77d wx-item">
               <navigator class="_navigator data-v-5edbd77d wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
                 <view class="_view data-v-5edbd77d avatar-wp">
                   <view class="_view data-v-5edbd77d avatar-vip">
-                    <template type="zuanshi" size="10" data="{{...$root['0'], ...$root[$kk+'WWS-4'],$root}}" is="18f61b88"></template>超级会员 </view>
+                    <template type="zuanshi" size="10" data="{{...$root['0'], ...$root[$kk+'akZ-4'],$root}}" is="18f61b88"></template>超级会员 </view>
                   <image class="_image data-v-5edbd77d avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
                 </view>
                 <view class="_view data-v-5edbd77d wx-item-con">
@@ -86,23 +86,23 @@
     </swiper>
     <view class="_view data-v-5edbd77d submitbtn-wp">
       <navigator class="_navigator data-v-5edbd77d block-tl-color8 submitbtn" url="../releaseChange/releaseChange">
-        <template type="tianjia" color="#fff" size="18" data="{{...$root['0'], ...$root[$kk+'vJX-6'],$root}}" is="18f61b88"></template> 发布我的群交易 </navigator>
+        <template type="tianjia" color="#fff" size="18" data="{{...$root['0'], ...$root[$kk+'QTj-6'],$root}}" is="18f61b88"></template> 发布我的群交易 </navigator>
     </view>
-    <template mode="right" bindclose="handleProxy" data-eventid="{{'Wqa-11'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'JKg-7'],$root, $slotdefault:'data-v-5edbd77d-default-JKg-7'}}" is="c8231818"></template>
-    <view hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'Y6a-12'}}" data-comkey="{{$k}}" class="_view data-v-5edbd77d {{['mask', activePop == 'top' ? 'masktop' : '']}}"></view>
+    <template mode="right" bindclose="handleProxy" data-eventid="{{'Fi0-11'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Pj1-7'],$root, $slotdefault:'data-v-5edbd77d-default-Pj1-7'}}" is="c8231818"></template>
+    <view hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'G6E-12'}}" data-comkey="{{$k}}" class="_view data-v-5edbd77d {{['mask', activePop == 'top' ? 'masktop' : '']}}"></view>
     <view class="_view data-v-5edbd77d popup popup-top" hidden="{{!(showState.top)}}">
       <view class="_view data-v-5edbd77d popup-item b-line popup-active"> 人气排行
-        <template type="duihao" color="#44B549" size="16" data="{{...$root['0'], ...$root[$kk+'AN5-8'],$root}}" is="18f61b88"></template>
+        <template type="duihao" color="#44B549" size="16" data="{{...$root['0'], ...$root[$kk+'AZp-8'],$root}}" is="18f61b88"></template>
       </view>
       <view class="_view data-v-5edbd77d popup-item"> 最新发布 </view>
     </view>
     <view class="_view data-v-5edbd77d nav-ls" hidden="{{!(isNav)}}">
       <view class="_view data-v-5edbd77d nav-item b-line">
-        <template type="tianjia" size="12" color="#333" data="{{...$root['0'], ...$root[$kk+'gWp-9'],$root}}" is="18f61b88"></template> 添加微信 </view>
+        <template type="tianjia" size="12" color="#333" data="{{...$root['0'], ...$root[$kk+'yhq-9'],$root}}" is="18f61b88"></template> 添加微信 </view>
       <view class="_view data-v-5edbd77d nav-item b-line">
-        <template type="jubao" size="12" color="#333" data="{{...$root['0'], ...$root[$kk+'8XZ-10'],$root}}" is="18f61b88"></template> 投诉举报 </view>
+        <template type="jubao" size="12" color="#333" data="{{...$root['0'], ...$root[$kk+'nMn-10'],$root}}" is="18f61b88"></template> 投诉举报 </view>
       <view class="_view data-v-5edbd77d nav-item">
-        <template type="iconzhuyenor" size="12" color="#333" data="{{...$root['0'], ...$root[$kk+'qhp-11'],$root}}" is="18f61b88"></template> 回到首页 </view>
+        <template type="iconzhuyenor" size="12" color="#333" data="{{...$root['0'], ...$root[$kk+'IBd-11'],$root}}" is="18f61b88"></template> 回到首页 </view>
     </view>
   </view>
 </template>

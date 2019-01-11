@@ -23,7 +23,7 @@
         <navigator url="../report/report" class="_navigator data-v-66d038fd">
           <view class="_view data-v-66d038fd block-tl-rt">
             <view class="_view data-v-66d038fd block-tl-rt-item">
-              <template type="qinglihuancun" size="13" data="{{...$root['0'], ...$root[$kk+'5wB-0'],$root}}" is="18f61b88"></template>
+              <template type="qinglihuancun" size="13" data="{{...$root['0'], ...$root[$kk+'yxB-0'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-66d038fd mdtxt">内容投诉</text>
             </view>
           </view>
@@ -53,29 +53,29 @@
         </view>
       </view>
       <navigator class="_navigator data-v-66d038fd share-more center" hover-class="none" url="../moreComment/moreComment"> 查看更多评论
-        <template type="qianjin" size="12" data="{{...$root['0'], ...$root[$kk+'JU2-1'],$root}}" is="18f61b88"></template>
+        <template type="qianjin" size="12" data="{{...$root['0'], ...$root[$kk+'JPZ-1'],$root}}" is="18f61b88"></template>
       </navigator>
     </view>
     <view class="_view data-v-66d038fd wd-fixed-bt">
       <view class="_view data-v-66d038fd wx-fixed-input">
-        <template type="yijianfankui" size="16" color="#1a1a1a" data="{{...$root['0'], ...$root[$kk+'VIk-2'],$root}}" is="18f61b88"></template> 评一下 </view>
+        <template type="yijianfankui" size="16" color="#1a1a1a" data="{{...$root['0'], ...$root[$kk+'62j-2'],$root}}" is="18f61b88"></template> 评一下 </view>
       <view class="_view data-v-66d038fd wd-fixed-item">
-        <template type="huida" size="16" color="#1a1a1a" data="{{...$root['0'], ...$root[$kk+'Cg8-3'],$root}}" is="18f61b88"></template>
+        <template type="huida" size="16" color="#1a1a1a" data="{{...$root['0'], ...$root[$kk+'Etn-3'],$root}}" is="18f61b88"></template>
         <text class="_text data-v-66d038fd">1</text>
       </view>
       <view class="_view data-v-66d038fd wd-fixed-item">
-        <template type="zan" size="16" color="#1a1a1a" data="{{...$root['0'], ...$root[$kk+'yEn-4'],$root}}" is="18f61b88"></template>
+        <template type="zan" size="16" color="#1a1a1a" data="{{...$root['0'], ...$root[$kk+'Ref-4'],$root}}" is="18f61b88"></template>
         <text class="_text data-v-66d038fd">3</text>
       </view>
       <view class="_view data-v-66d038fd wd-fixed-item">
-        <template type="shoucang1" size="16" color="#1a1a1a" data="{{...$root['0'], ...$root[$kk+'LmM-5'],$root}}" is="18f61b88"></template>
+        <template type="shoucang1" size="16" color="#1a1a1a" data="{{...$root['0'], ...$root[$kk+'9rn-5'],$root}}" is="18f61b88"></template>
         <text class="_text data-v-66d038fd">收藏</text>
       </view>
       <view class="_view data-v-66d038fd wd-fixed-item">
-        <template type="fenxiang" size="16" color="#1a1a1a" data="{{...$root['0'], ...$root[$kk+'LQk-6'],$root}}" is="18f61b88"></template>
+        <template type="fenxiang" size="16" color="#1a1a1a" data="{{...$root['0'], ...$root[$kk+'rL7-6'],$root}}" is="18f61b88"></template>
         <text class="_text data-v-66d038fd">分享</text>
       </view>
     </view>
-    <template hidden="{{!(gabackshow)}}" data="{{...$root['0'], ...$root[$kk+'Tm6-7'],$root}}" is="22742fd5"></template>
+    <template hidden="{{!(gabackshow)}}" data="{{...$root['0'], ...$root[$kk+'uLf-7'],$root}}" is="22742fd5"></template>
   </view>
 </template>

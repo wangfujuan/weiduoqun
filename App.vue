@@ -3,29 +3,32 @@
     export default {
         onLaunch: function () {
             console.log('App Launch');
+			var params = {
+				"n": "Session",
+				"s": "",
+				"t": "2014-01-0112:59:59",
+				"m": 123,
+				"q": {
+					"model": "Mi4s",
+					"version": "10.0.1",
+					"resolution": "960*640",
+					"deviceToken": "116369cafe611f12bfdbd87aa112df21",
+					"deviceTokenPush": "",
+					"deviceType": "2",
+					"info": "5.0.2"
+				}
+		    };
+			
 			uni.request({
-				url: util.PATH_API+'base/Session', 
+				url: util.PATH_API+'/api/base/Session', 
 				method: 'POST',
-				data: {  
-					"n": "Session",  
-					"s": "",  
-					"t": "2014-01-0112:59:59",  
-					"m": 123,  
-					"q": {   
-						"model": "Mi4s",   
-						"version": "10.0.1",   
-						"resolution": "960*640",   
-						"deviceToken": "116369cafe611f12bfdbd87aa112df21",   
-						"deviceTokenPush": "",   
-						"deviceType": "2",  
-						"info": "5.0.2"  ,
-					} ,
-				},
+				dataType: 'json',
+				data: {"json":JSON.stringify(params)},
 				header: {
-					'Content-Type': 'application/x-www-form-urlencoded'
+				   'content-type': 'application/x-www-form-urlencoded' 
 				},
 				success: function(res) {
-					console.log(res.code);
+					console.log(JSON.stringify(res.data));
 				}
 			});
         },

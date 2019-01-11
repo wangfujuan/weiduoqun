@@ -13,7 +13,7 @@
             </view>
             <view class="_view data-v-6377e186 block-tl-rt">
               <navigator hover-class="none" class="_navigator data-v-6377e186 block-tl-rt-item" url="../report/report">
-                <template type="jubao" data="{{...$root['0'], ...$root[$kk+'AF9-0'],$root}}" is="18f61b88"></template>
+                <template type="jubao" data="{{...$root['0'], ...$root[$kk+'Dbz-0'],$root}}" is="18f61b88"></template>
                 <text class="_text data-v-6377e186 mdtxt">举报</text>
               </navigator>
             </view>
@@ -23,7 +23,7 @@
           </navigator>
           <view class="_view data-v-6377e186 art-item-pic">
             <view class="_view data-v-6377e186 art-item-img-wp">
-              <image class="_image data-v-6377e186 art-item-img" bindtap="handleProxy" src="../../static/avatar/avatar_1.jpg" mode="widthFix" data-eventid="{{'IGe-0'}}" data-comkey="{{$k}}"></image>
+              <image class="_image data-v-6377e186 art-item-img" bindtap="handleProxy" src="../../static/avatar/avatar_1.jpg" mode="widthFix" data-eventid="{{'EEW-0'}}" data-comkey="{{$k}}"></image>
             </view>
             <view class="_view data-v-6377e186 art-item-img-wp">
               <image class="_image data-v-6377e186 art-item-img" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
@@ -34,17 +34,17 @@
           </view>
           <view class="_view data-v-6377e186 user-doings">
             <view class="_view data-v-6377e186 user-doings-item">
-              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'vpb-1'],$root}}" is="18f61b88"></template>
+              <template type="fenxiang" data="{{...$root['0'], ...$root[$kk+'CTV-1'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">分享</text>
             </view>
             <view class="_view data-v-6377e186 m-line"></view>
-            <view class="_view data-v-6377e186 user-doings-item" bindtap="handleProxy" data-eventid="{{'0sK-1'}}" data-comkey="{{$k}}">
-              <template type="huida" data="{{...$root['0'], ...$root[$kk+'o4F-2'],$root}}" is="18f61b88"></template>
+            <view class="_view data-v-6377e186 user-doings-item" bindtap="handleProxy" data-eventid="{{'745-1'}}" data-comkey="{{$k}}">
+              <template type="huida" data="{{...$root['0'], ...$root[$kk+'Sxn-2'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">评论</text>
             </view>
             <view class="_view data-v-6377e186 m-line"></view>
             <view class="_view data-v-6377e186 user-doings-item">
-              <template type="zan" data="{{...$root['0'], ...$root[$kk+'9pS-3'],$root}}" is="18f61b88"></template>
+              <template type="zan" data="{{...$root['0'], ...$root[$kk+'uYi-3'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-6377e186 mdtxt">点赞</text>
             </view>
           </view>

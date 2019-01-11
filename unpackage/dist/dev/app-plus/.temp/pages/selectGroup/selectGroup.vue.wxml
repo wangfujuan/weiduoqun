@@ -1,7 +1,7 @@
 <import src="/components/uni-icon.vue.wxml" />
 <template name="43991bd9">
   <view class="_view data-v-3da572f6 content">
-    <radio-group bindchange="handleProxy" data-eventid="{{'ivH-0'}}" data-comkey="{{$k}}" class="_radio-group data-v-3da572f6">
+    <radio-group bindchange="handleProxy" data-eventid="{{'vU7-0'}}" data-comkey="{{$k}}" class="_radio-group data-v-3da572f6">
       <view class="_view data-v-3da572f6 sg-item" wx:key="item.value" key="{{item.value}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
         <label class="_label data-v-3da572f6">
           <radio value="{{item.value}}" checked="true" class="_radio data-v-3da572f6" />
@@ -14,12 +14,12 @@
           </view>
         </view>
         <view class="_view data-v-3da572f6 sg-item-rt"> 编辑
-          <template type="qianjin" size="12" color="#a2a2a2" data="{{...$root['0'], ...$root[$kk+'5O0-0-'+index],$root}}" is="18f61b88"></template>
+          <template type="qianjin" size="12" color="#a2a2a2" data="{{...$root['0'], ...$root[$kk+'68A-0-'+index],$root}}" is="18f61b88"></template>
         </view>
       </view>
     </radio-group>
     <view class="_view data-v-3da572f6 add-group center">
-      <template type="tianjia" size="18" color="#8a8a8a" data="{{...$root['0'], ...$root[$kk+'UqU-2'],$root}}" is="18f61b88"></template> 创建新的群主名片 </view>
+      <template type="tianjia" size="18" color="#8a8a8a" data="{{...$root['0'], ...$root[$kk+'wW2-2'],$root}}" is="18f61b88"></template> 创建新的群主名片 </view>
     <view class="_view data-v-3da572f6 submitbtn-wp">
       <button class="_button data-v-3da572f6 block-tl-color8 submitbtn" formType="submit">确定</button>
     </view>

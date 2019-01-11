@@ -14,10 +14,6 @@
 						<navigator class="edituser" url="../meedit/meedit">修改资料 <view class="uni-icon uni-icon-qianjin"></view></navigator>
 					</view>
 				</view>
-				<navigator url="../setting/setting" hover-class="none" class="me-login-set center">
-					<view class="uni-icon uni-icon-shezhi1"></view>
-					设置	
-				</navigator>
 			</view>	
         </view>
 		<view class="content-pad">
@@ -48,26 +44,23 @@
 				</view>
 			</view>
 			<view class="white">
-				<view class="member-ls">
-					<navigator hover-class="none" class="member-item" url="../member/member">
+				<navigator class="member-ls" url="../weibiRecharge/weibiRecharge" hover-class="none">
+					<view class="member-item" >
 						<view class="member-item-lf">
 							<view class="member-item-lf-tl">
 								<uni-icon type="zuanshi" size="13" color="#eb6644"></uni-icon>
 								<view class="mdtxt">
-									超级会员
+									钻石会员
 								</view>
-								<view class="haveopen">
-									已开通
+								<view class="noopen">
+									未开通
 								</view>
 							</view>
 							<view class="member-item-lf-time">
-								2019.01.13到期
+								终身代理限时3折
 							</view>
 						</view>
-						<!-- <view class="member-item-rt">
-							查看详细
-						</view> -->
-					</navigator>
+					</view>
 					<view class="line"></view>
 					<view class="member-info">
 						<view class="member-info-lf">
@@ -104,7 +97,7 @@
 							开 通
 						</view>
 					</view> -->
-				</view>
+				</navigator>
 			</view>
 			<!-- 我的名片 start -->
 			<view class="white">
@@ -321,6 +314,11 @@
 								url: '/pages/obtain/obtain'
 							})
 						}
+				},
+				onNavigationBarButtonTap() {
+					uni.navigateTo({
+						url: '/pages/setting/setting'
+					})
 				}
 		}
 
@@ -612,9 +610,10 @@
 		height: 60upx;
 		text-align: center;
 		line-height: 60upx;
-		background-image: linear-gradient(45deg, #463413 20%, #090702 60%, #463413 100%);
+		background-color: #f5f5f5;
+		/* background-image: linear-gradient(45deg, #463413 20%, #090702 60%, #463413 100%); */
 		border-radius: 10upx;
-		color: #fed388;
+		color: #A1A1A1;
 	}
 	/* popup start */
 	.mask {

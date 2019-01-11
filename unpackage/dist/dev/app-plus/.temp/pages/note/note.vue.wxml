@@ -1,16 +1,16 @@
 <template name="709798de">
   <view class="_view data-v-c8958986 content">
     <view class="_view data-v-c8958986 swiper-tab">
-      <view data-current="0" bindtap="handleProxy" data-eventid="{{'wny-0'}}" data-comkey="{{$k}}" class="_view data-v-c8958986 {{['swiper-tab-list', currentTab == 0 ? 'active' : '']}}">所有消息</view>
+      <view data-current="0" bindtap="handleProxy" data-eventid="{{'0mN-0'}}" data-comkey="{{$k}}" class="_view data-v-c8958986 {{['swiper-tab-list', currentTab == 0 ? 'active' : '']}}">所有消息</view>
       <view class="_view data-v-c8958986 swiper-line"></view>
-      <view data-current="1" bindtap="handleProxy" data-eventid="{{'suW-1'}}" data-comkey="{{$k}}" class="_view data-v-c8958986 {{['swiper-tab-list', currentTab == 1 ? 'active' : '']}}">未读消息</view>
+      <view data-current="1" bindtap="handleProxy" data-eventid="{{'wCO-1'}}" data-comkey="{{$k}}" class="_view data-v-c8958986 {{['swiper-tab-list', currentTab == 1 ? 'active' : '']}}">未读消息</view>
       <view class="_view data-v-c8958986 swiper-line"></view>
-      <view data-current="2" bindtap="handleProxy" data-eventid="{{'0v1-2'}}" data-comkey="{{$k}}" class="_view data-v-c8958986 {{['swiper-tab-list', currentTab == 2 ? 'active' : '']}}">已读消息</view>
+      <view data-current="2" bindtap="handleProxy" data-eventid="{{'oYJ-2'}}" data-comkey="{{$k}}" class="_view data-v-c8958986 {{['swiper-tab-list', currentTab == 2 ? 'active' : '']}}">已读消息</view>
     </view>
-    <swiper current="{{currentTab}}" class="_swiper data-v-c8958986 swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'BVx-4'}}" data-comkey="{{$k}}">
+    <swiper current="{{currentTab}}" class="_swiper data-v-c8958986 swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'Q6Y-4'}}" data-comkey="{{$k}}">
       <swiper-item class="_swiper-item data-v-c8958986">
         <scroll-view class="_scroll-view data-v-c8958986 list" scroll-y>
-          <checkbox-group bindchange="handleProxy" color="#000" data-eventid="{{'CPE-3'}}" data-comkey="{{$k}}" class="_checkbox-group data-v-c8958986">
+          <checkbox-group bindchange="handleProxy" color="#000" data-eventid="{{'Hdg-3'}}" data-comkey="{{$k}}" class="_checkbox-group data-v-c8958986">
             <view class="_view data-v-c8958986 checkbox-wp" wx:key="item.value" key="{{item.value}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
               <label class="_label data-v-c8958986 checkbox" wx:if="{{eidt}}">
                 <checkbox value="{{item.name}}" checked="{{item.checked}}" class="_checkbox data-v-c8958986"></checkbox>

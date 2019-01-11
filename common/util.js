@@ -1,4 +1,4 @@
-const PATH_API = 'http://39.104.128.20:8080/wmg/api/'
+const PATH_API = 'http://tghy.cn/wmg'
 
 function formatTime(time) {
 	if (typeof time !== 'number' || time < 0) {

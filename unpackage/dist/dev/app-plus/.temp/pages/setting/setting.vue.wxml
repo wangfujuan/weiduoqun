@@ -8,7 +8,7 @@
           <view class="_view data-v-1b5ca942 edit-item-txt"> 完善个人资料加粉效果更精准 </view>
         </view>
         <view class="_view data-v-1b5ca942 edit-item-rt">
-          <template type="qianjin" color="#ddd" size="16" data="{{...$root['0'], ...$root[$kk+'hhH-0'],$root}}" is="18f61b88"></template>
+          <template type="qianjin" color="#ddd" size="16" data="{{...$root['0'], ...$root[$kk+'9s6-0'],$root}}" is="18f61b88"></template>
         </view>
       </navigator>
     </view>
@@ -20,7 +20,7 @@
           <view class="_view data-v-1b5ca942 edit-item-txt"> 可停止一个或多个号被加粉 </view>
         </view>
         <view class="_view data-v-1b5ca942 edit-item-rt">
-          <template type="qianjin" color="#ddd" size="16" data="{{...$root['0'], ...$root[$kk+'GFH-1'],$root}}" is="18f61b88"></template>
+          <template type="qianjin" color="#ddd" size="16" data="{{...$root['0'], ...$root[$kk+'l3O-1'],$root}}" is="18f61b88"></template>
         </view>
       </view>
       <view class="_view data-v-1b5ca942 edit-item b-line">
@@ -40,7 +40,7 @@
           <view class="_view data-v-1b5ca942 edit-item-txt"> 有收益时短信提醒，每天最多2次，累计最多5次 </view>
         </view>
         <view class="_view data-v-1b5ca942 edit-item-rt">
-          <switch color="#44B549" bindchange="handleProxy" data-eventid="{{'rN2-0'}}" data-comkey="{{$k}}" class="_switch data-v-1b5ca942" />
+          <switch color="#44B549" bindchange="handleProxy" data-eventid="{{'P4K-0'}}" data-comkey="{{$k}}" class="_switch data-v-1b5ca942" />
         </view>
       </view>
       <view class="_view data-v-1b5ca942 edit-item b-line">
@@ -62,7 +62,7 @@
       <view class="_view data-v-1b5ca942 edit-item b-line">
         <view class="_view data-v-1b5ca942 edit-item-lf"> 清除缓存 </view>
         <view class="_view data-v-1b5ca942 edit-item-rt">
-          <template type="qianjin" color="#ddd" size="16" data="{{...$root['0'], ...$root[$kk+'hs5-2'],$root}}" is="18f61b88"></template>
+          <template type="qianjin" color="#ddd" size="16" data="{{...$root['0'], ...$root[$kk+'WGr-2'],$root}}" is="18f61b88"></template>
         </view>
       </view>
     </view>

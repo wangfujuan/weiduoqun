@@ -1,4 +1,4 @@
 <template name="1f6706fc">
-  <image mode="{{node.attr.mode}}" lazy-load="{{node.attr.lazyLoad}}" data-src="{{node.attr.src}}" src="{{node.attr.src}}" bindtap="handleProxy" bindload="handleProxy" data-eventid="{{'i4n-0'}}" data-comkey="{{$k}}" class="_image data-v-aca01554 {{node.classStr}}"
+  <image mode="{{node.attr.mode}}" lazy-load="{{node.attr.lazyLoad}}" data-src="{{node.attr.src}}" src="{{node.attr.src}}" bindtap="handleProxy" bindload="handleProxy" data-eventid="{{'SgE-0'}}" data-comkey="{{$k}}" class="_image data-v-aca01554 {{node.classStr}}"
     style=" {{newStyleStr || node.styleStr}}"></image>
 </template>

@@ -5,13 +5,13 @@
       <view class="_view data-v-7a7a2da2 mi-bg" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjjrz-71ByWB7WRMvrvYPWIfaW_00G5YeXAZLK0j1RyPPD9ETP');"></view>
       <view class="_view data-v-7a7a2da2 avatar-wp-top">
         <view class="_view data-v-7a7a2da2 avatar-vip-top">
-          <template type="zuanshi" size="12" data="{{...$root['0'], ...$root[$kk+'x0E-0'],$root}}" is="18f61b88"></template>
+          <template type="zuanshi" size="12" data="{{...$root['0'], ...$root[$kk+'TE5-0'],$root}}" is="18f61b88"></template>
         </view>
         <image class="_image data-v-7a7a2da2 avatar-100-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjjrz-71ByWB7WRMvrvYPWIfaW_00G5YeXAZLK0j1RyPPD9ETP" mode="widthFix"></image>
       </view>
       <view class="_view data-v-7a7a2da2 mi-top-con">
         <view class="_view data-v-7a7a2da2 mi-top-phone"> 139****0909
-          <template type="nv" color="#f96547" size="14" data="{{...$root['0'], ...$root[$kk+'RfY-1'],$root}}" is="18f61b88"></template>
+          <template type="nv" color="#f96547" size="14" data="{{...$root['0'], ...$root[$kk+'vOy-1'],$root}}" is="18f61b88"></template>
         </view>
         <view class="_view data-v-7a7a2da2 mi-top-id"> ID: 10293939 </view>
         <view class="_view data-v-7a7a2da2 mi-top-wx"> 微信号：15010200383
@@ -20,10 +20,10 @@
       </view>
     </view>
     <view class="_view data-v-7a7a2da2 mi-tab">
-      <view bindtap="handleProxy" data-eventid="{{'6q4-0'}}" data-comkey="{{$k}}" class="_view data-v-7a7a2da2 {{['mi-tab-item', currentTab == 1 ? 'mi-tab-active' : '']}}"> 名片 </view>
-      <view bindtap="handleProxy" data-eventid="{{'DBU-1'}}" data-comkey="{{$k}}" class="_view data-v-7a7a2da2 {{['mi-tab-item', currentTab == 2 ? 'mi-tab-active' : '']}}"> 群交易 </view>
-      <view bindtap="handleProxy" data-eventid="{{'BBA-2'}}" data-comkey="{{$k}}" class="_view data-v-7a7a2da2 {{['mi-tab-item', currentTab == 3 ? 'mi-tab-active' : '']}}"> 微商圈 </view>
-      <view bindtap="handleProxy" data-eventid="{{'peN-3'}}" data-comkey="{{$k}}" class="_view data-v-7a7a2da2 {{['mi-tab-item', currentTab == 4 ? 'mi-tab-active' : '']}}"> 微商货源 </view>
+      <view bindtap="handleProxy" data-eventid="{{'LW1-0'}}" data-comkey="{{$k}}" class="_view data-v-7a7a2da2 {{['mi-tab-item', currentTab == 1 ? 'mi-tab-active' : '']}}"> 名片 </view>
+      <view bindtap="handleProxy" data-eventid="{{'i2B-1'}}" data-comkey="{{$k}}" class="_view data-v-7a7a2da2 {{['mi-tab-item', currentTab == 2 ? 'mi-tab-active' : '']}}"> 群交易 </view>
+      <view bindtap="handleProxy" data-eventid="{{'nz6-2'}}" data-comkey="{{$k}}" class="_view data-v-7a7a2da2 {{['mi-tab-item', currentTab == 3 ? 'mi-tab-active' : '']}}"> 微商圈 </view>
+      <view bindtap="handleProxy" data-eventid="{{'LpD-3'}}" data-comkey="{{$k}}" class="_view data-v-7a7a2da2 {{['mi-tab-item', currentTab == 4 ? 'mi-tab-active' : '']}}"> 微商货源 </view>
     </view>
     <view class="_view data-v-7a7a2da2 mi-card-tabcon" hidden="{{!(currentTab == 1)}}">
       <navigator class="_navigator data-v-7a7a2da2 wx-item" hover-class="none" url="../wxgroupcard/wxgroupcard">
@@ -40,7 +40,7 @@
             <view class="_view data-v-7a7a2da2 wx-item-wx"> 进群加群主，不加秒踢 </view>
           </view>
         </view>
-        <template type="qianjin" size="16" color="#ddd" data="{{...$root['0'], ...$root[$kk+'ehp-2'],$root}}" is="18f61b88"></template>
+        <template type="qianjin" size="16" color="#ddd" data="{{...$root['0'], ...$root[$kk+'jxE-2'],$root}}" is="18f61b88"></template>
       </navigator>
       <navigator class="_navigator data-v-7a7a2da2 wx-item" hover-class="none" url="../wxgroupcard/wxgroupcard">
         <view class="_view data-v-7a7a2da2 wx-item-md">
@@ -55,7 +55,7 @@
             <view class="_view data-v-7a7a2da2 wx-item-wx"> 进群加群主，不加秒踢 </view>
           </view>
         </view>
-        <template type="qianjin" size="16" color="#ddd" data="{{...$root['0'], ...$root[$kk+'YNY-3'],$root}}" is="18f61b88"></template>
+        <template type="qianjin" size="16" color="#ddd" data="{{...$root['0'], ...$root[$kk+'se9-3'],$root}}" is="18f61b88"></template>
       </navigator>
     </view>
     <view class="_view data-v-7a7a2da2 mi-card-tabcon" hidden="{{!(currentTab == 2)}}">
@@ -77,7 +77,7 @@
             <view class="_view data-v-7a7a2da2 mi-card-name"> 最爱你的轩轩 </view>
           </view>
         </view>
-        <template type="qianjin" size="16" color="#ddd" data="{{...$root['0'], ...$root[$kk+'L8k-4'],$root}}" is="18f61b88"></template>
+        <template type="qianjin" size="16" color="#ddd" data="{{...$root['0'], ...$root[$kk+'liX-4'],$root}}" is="18f61b88"></template>
       </navigator>
       <navigator class="_navigator data-v-7a7a2da2 wx-item" hover-class="none" url="../wxgroupcard/wxgroupcard">
         <view class="_view data-v-7a7a2da2 wx-item-md">
@@ -95,7 +95,7 @@
             <view class="_view data-v-7a7a2da2 mi-card-name"> 最爱你的轩轩 </view>
           </view>
         </view>
-        <template type="qianjin" size="16" color="#ddd" data="{{...$root['0'], ...$root[$kk+'zga-5'],$root}}" is="18f61b88"></template>
+        <template type="qianjin" size="16" color="#ddd" data="{{...$root['0'], ...$root[$kk+'lla-5'],$root}}" is="18f61b88"></template>
       </navigator>
     </view>
     <view class="_view data-v-7a7a2da2 mi-card-tabcon" hidden="{{!(currentTab == 3)}}">
@@ -138,11 +138,11 @@
     </view>
     <view class="_view data-v-7a7a2da2 nav-ls" hidden="{{!(isNav)}}">
       <view class="_view data-v-7a7a2da2 nav-item b-line">
-        <template type="tianjia" size="12" color="#333" data="{{...$root['0'], ...$root[$kk+'1al-6'],$root}}" is="18f61b88"></template> 添加微信 </view>
+        <template type="tianjia" size="12" color="#333" data="{{...$root['0'], ...$root[$kk+'8u8-6'],$root}}" is="18f61b88"></template> 添加微信 </view>
       <view class="_view data-v-7a7a2da2 nav-item b-line">
-        <template type="jubao" size="12" color="#333" data="{{...$root['0'], ...$root[$kk+'nm6-7'],$root}}" is="18f61b88"></template> 投诉举报 </view>
+        <template type="jubao" size="12" color="#333" data="{{...$root['0'], ...$root[$kk+'aUU-7'],$root}}" is="18f61b88"></template> 投诉举报 </view>
       <view class="_view data-v-7a7a2da2 nav-item">
-        <template type="iconzhuyenor" size="12" color="#333" data="{{...$root['0'], ...$root[$kk+'ao3-8'],$root}}" is="18f61b88"></template> 回到首页 </view>
+        <template type="iconzhuyenor" size="12" color="#333" data="{{...$root['0'], ...$root[$kk+'trN-8'],$root}}" is="18f61b88"></template> 回到首页 </view>
     </view>
   </view>
 </template>

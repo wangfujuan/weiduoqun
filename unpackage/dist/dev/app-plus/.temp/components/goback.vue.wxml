@@ -1,5 +1,5 @@
 <import src="/components/uni-icon.vue.wxml" />
 <template name="22742fd5">
-  <view class="_view data-v-0b5c06fe goback" bindtap="handleProxy" data-eventid="{{'PBq-0'}}" data-comkey="{{$k}}">
-    <template type="huidaodingbu" size="16" color="#505050" data="{{...$root['0'], ...$root[$kk+'OQ2-0'],$root}}" is="18f61b88"></template>顶部</view>
+  <view class="_view data-v-0b5c06fe goback" bindtap="handleProxy" data-eventid="{{'uMC-0'}}" data-comkey="{{$k}}">
+    <template type="huidaodingbu" size="16" color="#505050" data="{{...$root['0'], ...$root[$kk+'1Sb-0'],$root}}" is="18f61b88"></template>顶部</view>
 </template>

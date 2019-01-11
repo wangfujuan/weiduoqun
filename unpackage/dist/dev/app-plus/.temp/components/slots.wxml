@@ -4,9 +4,9 @@
 <import src="/components/uni-icon.vue.wxml" />
 <import src="/components/uni-drawer.vue.wxml" />
 <import src="/components/uni-icon.vue.wxml" />
-<import src="/components/ly-markdown/ly-markdown.vue.wxml" />
-<import src="/components/uni-icon.vue.wxml" />
 <import src="/components/goback.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/ly-markdown/ly-markdown.vue.wxml" />
 <import src="/components/mpvue-wxparse/src/wxParse.vue.wxml" />
 <import src="/components/mpvue-wxparse/src/components/wxParseTemplate0.vue.wxml" />
 <import src="/components/mpvue-wxparse/src/components/wxParseTemplate1.vue.wxml" />
@@ -49,57 +49,57 @@
 <import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
 <import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
 <import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
-<import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
-<import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
-<import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
 <import src="/components/mpvue-wxparse/src/components/wxParseTemplate11.vue.wxml" />
 <import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
 <import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
 <import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
-<template name="data-v-2bdefdc6-default-lB9-15">
-  <view class="_view data-v-2bdefdc6 drawer-content">
-    <view class="_view data-v-2bdefdc6 drawer-title b-line"> 行业筛选 </view>
-    <view class="_view data-v-2bdefdc6 st-title"> 微信商家 </view>
-    <view class="_view data-v-2bdefdc6 user-sl-ls">
-      <view class="_view data-v-2bdefdc6 user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
-        <view class="_view data-v-2bdefdc6 user-sl-item-con" bindtap="handleProxy" data-eventid="{{'CPr-7-'+index}}" data-comkey="{{$k}}">
-          <text class="_text data-v-2bdefdc6 {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
-        </view>
-      </view>
-      <view class="_view data-v-2bdefdc6 submitbtn-wp">
-        <view class="_view data-v-2bdefdc6 block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'AS1-8'}}" data-comkey="{{$k}}">确定</view>
-      </view>
-    </view>
-  </view>
-</template>
-<template name="data-v-1308e98a-default-K8c-24">
-  <view class="_view data-v-1308e98a drawer-content">
-    <view class="_view data-v-1308e98a drawer-title b-line"> 行业筛选 </view>
-    <view class="_view data-v-1308e98a st-title"> 微信商家 </view>
-    <view class="_view data-v-1308e98a user-sl-ls">
-      <view class="_view data-v-1308e98a user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
-        <view class="_view data-v-1308e98a user-sl-item-con" bindtap="handleProxy" data-eventid="{{'Pty-16-'+index}}" data-comkey="{{$k}}">
-          <text class="_text data-v-1308e98a {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
-        </view>
-      </view>
-      <view class="_view data-v-1308e98a submitbtn-wp">
-        <view class="_view data-v-1308e98a block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'ZzI-17'}}" data-comkey="{{$k}}">确定</view>
-      </view>
-    </view>
-  </view>
-</template>
-<template name="data-v-5edbd77d-default-JKg-7">
+<import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
+<template name="data-v-5edbd77d-default-Pj1-7">
   <view class="_view data-v-5edbd77d drawer-content">
     <view class="_view data-v-5edbd77d drawer-title b-line"> 行业筛选 </view>
     <view class="_view data-v-5edbd77d st-title"> 微信商家 </view>
     <view class="_view data-v-5edbd77d user-sl-ls">
       <view class="_view data-v-5edbd77d user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
-        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'jSS-9-'+index}}" data-comkey="{{$k}}">
+        <view class="_view data-v-5edbd77d user-sl-item-con" bindtap="handleProxy" data-eventid="{{'VbH-9-'+index}}" data-comkey="{{$k}}">
           <text class="_text data-v-5edbd77d {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
         </view>
       </view>
       <view class="_view data-v-5edbd77d submitbtn-wp">
-        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'L3a-10'}}" data-comkey="{{$k}}">确定</view>
+        <view class="_view data-v-5edbd77d block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'x1n-10'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-2bdefdc6-default-bwb-15">
+  <view class="_view data-v-2bdefdc6 drawer-content">
+    <view class="_view data-v-2bdefdc6 drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-2bdefdc6 st-title"> 微信商家 </view>
+    <view class="_view data-v-2bdefdc6 user-sl-ls">
+      <view class="_view data-v-2bdefdc6 user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-2bdefdc6 user-sl-item-con" bindtap="handleProxy" data-eventid="{{'pa1-7-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-2bdefdc6 {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-2bdefdc6 submitbtn-wp">
+        <view class="_view data-v-2bdefdc6 block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'1gM-8'}}" data-comkey="{{$k}}">确定</view>
+      </view>
+    </view>
+  </view>
+</template>
+<template name="data-v-1308e98a-default-uAU-24">
+  <view class="_view data-v-1308e98a drawer-content">
+    <view class="_view data-v-1308e98a drawer-title b-line"> 行业筛选 </view>
+    <view class="_view data-v-1308e98a st-title"> 微信商家 </view>
+    <view class="_view data-v-1308e98a user-sl-ls">
+      <view class="_view data-v-1308e98a user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-1308e98a user-sl-item-con" bindtap="handleProxy" data-eventid="{{'C5y-16-'+index}}" data-comkey="{{$k}}">
+          <text class="_text data-v-1308e98a {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
+        </view>
+      </view>
+      <view class="_view data-v-1308e98a submitbtn-wp">
+        <view class="_view data-v-1308e98a block-tl-color8 submitbtn" bindtap="handleProxy" data-eventid="{{'rjU-17'}}" data-comkey="{{$k}}">确定</view>
       </view>
     </view>
   </view>

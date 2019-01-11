@@ -5,7 +5,7 @@
       <view class="_view data-v-608119bd white">
         <view class="_view data-v-608119bd draw-tl">
           <view class="_view data-v-608119bd center">
-            <template type="zhifubaozhifu" color="#459ae5" size="20" data="{{...$root['0'], ...$root[$kk+'P79-0'],$root}}" is="18f61b88"></template> 支付宝 </view>
+            <template type="zhifubaozhifu" color="#459ae5" size="20" data="{{...$root['0'], ...$root[$kk+'8Oq-0'],$root}}" is="18f61b88"></template> 支付宝 </view>
           <text class="_text data-v-608119bd">提现规则</text>
         </view>
         <view class="_view data-v-608119bd draw-con">
@@ -17,7 +17,7 @@
       <view class="_view data-v-608119bd white">
         <view class="_view data-v-608119bd draw-tl">
           <view class="_view data-v-608119bd center">
-            <template type="dailishouyi" color="#e74c2d" size="20" data="{{...$root['0'], ...$root[$kk+'c5y-1'],$root}}" is="18f61b88"></template> 提现金额(元) </view>
+            <template type="dailishouyi" color="#e74c2d" size="20" data="{{...$root['0'], ...$root[$kk+'jIt-1'],$root}}" is="18f61b88"></template> 提现金额(元) </view>
           <text class="_text data-v-608119bd">手续费：0元</text>
         </view>
         <view class="_view data-v-608119bd draw-con">
@@ -30,7 +30,7 @@
       <view class="_view data-v-608119bd white">
         <view class="_view data-v-608119bd draw-tl">
           <view class="_view data-v-608119bd center">
-            <template type="ai-phone" color="#44b549" size="20" data="{{...$root['0'], ...$root[$kk+'bmD-2'],$root}}" is="18f61b88"></template> 注册手机号
+            <template type="ai-phone" color="#44b549" size="20" data="{{...$root['0'], ...$root[$kk+'D6H-2'],$root}}" is="18f61b88"></template> 注册手机号
             <text class="_text data-v-608119bd">128****2311</text>
           </view>
           <text class="_text data-v-608119bd">不能接受验证码？</text>

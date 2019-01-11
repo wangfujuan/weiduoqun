@@ -3,11 +3,9 @@
 		<view class="wb-top">
 			<view class="wb-top-sign">
 				<view class="wb-top-sign-lf">
-					签到提醒(开)
+					<!-- 签到提醒(开) -->
 				</view>
-				<view class="wb-top-sign-rt">
-					奖励规则
-				</view>
+				<navigator class="wb-top-sign-rt" url="../rule/rule" hover-class="none">奖励规则</navigator>
 			</view>
 			<view class="wb-top-tl">
 				0

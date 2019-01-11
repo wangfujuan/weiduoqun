@@ -2,7 +2,7 @@
 <import src="/components/mpvue-picker/mpvuePicker.vue.wxml" />
 <template name="cdb9ec9e">
   <view class="_view data-v-2257395d content">
-    <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'eSr-2'}}" data-comkey="{{$k}}" class="_form data-v-2257395d">
+    <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'Dvs-2'}}" data-comkey="{{$k}}" class="_form data-v-2257395d">
       <view class="_view data-v-2257395d content-pad">
         <view class="_view data-v-2257395d white">
           <view class="_view data-v-2257395d summary">
@@ -11,7 +11,7 @@
               <text class="_text data-v-2257395d">1</text>
             </view>
             <view class="_view data-v-2257395d center">
-              <template type="bangzhu" size="12" color="#8a8a8a" data="{{...$root['0'], ...$root[$kk+'0AK-0'],$root}}" is="18f61b88"></template> 微币使用规则 </view>
+              <template type="bangzhu" size="12" color="#8a8a8a" data="{{...$root['0'], ...$root[$kk+'wc1-0'],$root}}" is="18f61b88"></template> 微币使用规则 </view>
           </view>
         </view>
         <view class="_view data-v-2257395d white">
@@ -19,18 +19,18 @@
             <view class="_view data-v-2257395d rc-line b-line">
               <view class="_view data-v-2257395d rc-line-lf"> 分类 </view>
               <view class="_view data-v-2257395d rc-select"> 选择产品分类 </view>
-              <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'JCh-1'],$root}}" is="18f61b88"></template>
+              <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'wQF-1'],$root}}" is="18f61b88"></template>
             </view>
           </navigator>
-          <view class="_view data-v-2257395d rc-line b-line" bindtap="handleProxy" data-eventid="{{'Ywt-0'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-2257395d rc-line b-line" bindtap="handleProxy" data-eventid="{{'MCX-0'}}" data-comkey="{{$k}}">
             <view class="_view data-v-2257395d rc-line-lf"> 名片 </view>
             <view class="_view data-v-2257395d rc-select"> 选择个人名片做为联系方式 </view>
-            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'7ss-2'],$root}}" is="18f61b88"></template>
+            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'SpT-2'],$root}}" is="18f61b88"></template>
           </view>
-          <view class="_view data-v-2257395d rc-line" bindtap="handleProxy" data-eventid="{{'8gw-1'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-2257395d rc-line" bindtap="handleProxy" data-eventid="{{'olr-1'}}" data-comkey="{{$k}}">
             <view class="_view data-v-2257395d rc-line-lf"> 地区 </view>
             <view class="_view data-v-2257395d rc-select"> 请选择地区 </view>
-            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'ArZ-3'],$root}}" is="18f61b88"></template>
+            <template color="#acacac" size="16" type="qianjin" data="{{...$root['0'], ...$root[$kk+'V4L-3'],$root}}" is="18f61b88"></template>
           </view>
         </view>
         <view class="_view data-v-2257395d white">
@@ -46,7 +46,7 @@
         <view class="_view data-v-2257395d white">
           <view class="_view data-v-2257395d rc-upload">
             <view class="_view data-v-2257395d up-avatar">
-              <template type="tianjia" color="#b9b9b9" data="{{...$root['0'], ...$root[$kk+'Hqm-4'],$root}}" is="18f61b88"></template>
+              <template type="tianjia" color="#b9b9b9" data="{{...$root['0'], ...$root[$kk+'I7w-4'],$root}}" is="18f61b88"></template>
             </view>
             <view class="_view data-v-2257395d rc-upload-info"> 上传产品图
               <text class="_text data-v-2257395d">(限1张)</text>
@@ -61,6 +61,6 @@
         </view>
       </view>
     </form>
-    <template ref="mpvuePicker" bindonConfirm="handleProxy" bindonCancel="handleProxy" data-eventid="{{'JMi-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'XBZ-5'],$root}}" is="ec834500"></template>
+    <template ref="mpvuePicker" bindonConfirm="handleProxy" bindonCancel="handleProxy" data-eventid="{{'Eck-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'MvW-5'],$root}}" is="ec834500"></template>
   </view>
 </template>

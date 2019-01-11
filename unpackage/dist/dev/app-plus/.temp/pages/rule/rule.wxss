@@ -1,0 +1,10 @@
+@import "../../common/vendor.wxss";
+
+.content {
+  padding: 30rpx;
+  line-height: 1.8;
+}
+.rule-tl {
+  font-weight: 500;
+  margin: 20rpx 0 10rpx;
+}
