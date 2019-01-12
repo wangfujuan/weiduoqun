@@ -163,14 +163,22 @@
 				const urls = ['https://cdn.kissdp.cn/comment/28b6090b64dcf4b4310891b06c8938ab.jpg','https://cdn.kissdp.cn/comment/d4ebb8b7098b905ff8c2f503bcc6b68c.jpg']
 				uni.previewImage({
 					current: current,
-					urls: urls
-				})
-				uni.previewImage({
-					// #ifndef APP-PLUS
-					
-					// #endif
+					urls: urls,
+// 					success() {	
+// 						uni.saveImageToPhotosAlbum({
+// 							filePath: current,
+// 							success: function () {
+// 								console.log('save success');
+// 							}
+// 						});
+// 					}
 				})
 			}
+		},
+		onNavigationBarButtonTap() {
+			uni.navigateTo({
+				url: '/pages/weibi/weibi'
+			})
 		}
 	}
 	

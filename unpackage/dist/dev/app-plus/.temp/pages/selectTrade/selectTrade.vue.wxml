@@ -3,7 +3,7 @@
     <view class="_view data-v-45e8d7cf st-title"> 微信商家 </view>
     <view class="_view data-v-45e8d7cf user-sl-ls">
       <view class="_view data-v-45e8d7cf user-sl-item" wx:key="index" key="{{index}}" wx:for="{{trades}}" wx:for-index="index" wx:for-item="item">
-        <view class="_view data-v-45e8d7cf user-sl-item-con" bindtap="handleProxy" data-eventid="{{'o8M-0-'+index}}" data-comkey="{{$k}}">
+        <view class="_view data-v-45e8d7cf user-sl-item-con" bindtap="handleProxy" data-eventid="{{'NF7-0-'+index}}" data-comkey="{{$k}}">
           <text class="_text data-v-45e8d7cf {{activeIndex == index ? 'active' : ''}}">{{item.name}}</text>
         </view>
       </view>

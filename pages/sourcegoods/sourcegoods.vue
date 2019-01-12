@@ -90,9 +90,10 @@
             </swiper-item>
         </swiper>
 		<view class="submitbtn-wp">
-			<button class="block-tl-color8 submitbtn" formType="submit">
-				发布我的货源
-			</button>
+			<navigator url="../releaseGoods/releaseGoods" hover-class="none" class="block-tl-color8 submitbtn">发布我的货源</navigator>
+			<!-- <button  formType="submit">
+				
+			</button> -->
 		</view>
     </view>
 </template>

@@ -6,23 +6,23 @@
 		  <view :class="['swiper-tab-list', currentTab==1 ? 'active' : '']" data-current="1" @click="swichNav">QQ群</view>  
 		  <view class="addicon" @click="helpClick"><uni-icon type="iconfontlipinduihuanbangzhu" color="#fff" size="18"></uni-icon></view>
 		</view>
+		<view class="filter">
+			<view class="filter-item" @click="show" data-position="top">
+				人气排行
+			</view>
+			<view class="filter-item" @click="showMulLinkageTwoPicker">
+				地区
+			</view>
+			<view class="filter-item" @tap="showRightDrawer">
+				行业
+			</view>
+		</view>
 		<swiper :current="currentTab" class="swiper-box" duration="300" @change="bindChange">
 			<swiper-item>
-				<scroll-view class="list" scroll-y>
-					<view class="filter">
-						<view class="filter-item" @click="show" data-position="top">
-							人气排行
-						</view>
-						<view class="filter-item">
-							地区
-						</view>
-						<view class="filter-item" @tap="showRightDrawer">
-							行业
-						</view>
-					</view>
+				<scroll-view class="list" scroll-y>	
 					<view class="wxgroup-ls">
 						<view class="wx-item">
-							<navigator class="wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
+							<navigator class="wx-item-md" hover-class="none" url="../dealDetail/dealDetail">
 								<view class="avatar-wp">
 									<view class="avatar-vip">
 										<uni-icon type="zuanshi" size="10"></uni-icon>超级会员
@@ -50,17 +50,6 @@
 			</swiper-item>
 			<swiper-item>
 				<scroll-view class="list" scroll-y>
-					<view class="filter">
-						<view class="filter-item" @click="show" data-position="top">
-							人气排行
-						</view>
-						<view class="filter-item">
-							地区
-						</view>
-						<view class="filter-item" @tap="showRightDrawer">
-							行业
-						</view>
-					</view>
 					<view class="wxgroup-ls">
 						<view class="wx-item">
 							<navigator class="wx-item-md" hover-class="none" url="../wxgroupcard/wxgroupcard">
@@ -140,16 +129,26 @@
 				回到首页
 			</view>
 		</view>
+		<mpvue-picker :themeColor="themeColor" ref="mpvuePicker" :mode="mode" :deepLength="deepLength" :pickerValueDefault="pickerValueDefault"
+		@onConfirm="onConfirm" @onCancel="onCancel" :pickerValueArray="pickerValueArray"></mpvue-picker>
 	</view>
 </template>
 
 <script>
 	import uniIcon from '../../components/uni-icon.vue'
 	import uniDrawer from '../../components/uni-drawer.vue';
+	import mpvuePicker from '../../components/mpvue-picker/mpvuePicker.vue';
+	import mpvueCityPicker from '../../components/mpvue-citypicker/mpvueCityPicker.vue';
+	import cityData from '../../common/city.data.js';
 	
 	export default {
 		data() {
 			return {
+				mulLinkageTwoPicker: cityData,
+				pickerValueDefault: [0, 0],
+				themeColor: '#44b549',
+				mode: '',
+				deepLength: 1,
 				rightDrawerVisible: false,
 				trades: [
 					{
@@ -192,7 +191,9 @@
 		},
 		components: {
 			uniIcon,
-			uniDrawer
+			uniDrawer,
+			mpvuePicker,
+			mpvueCityPicker
 		},
 		onLoad(options) {
 			this.currentTab = parseInt(options.currentTab);
@@ -253,7 +254,15 @@
 				uni.navigateBack({
 					delta: 1
 				})
-			}
+			},
+			// 二级联动选择
+			showMulLinkageTwoPicker() {
+				this.pickerValueArray = this.mulLinkageTwoPicker
+				this.mode = 'multiLinkageSelector'
+				this.deepLength = 2
+				this.pickerValueDefault = [0, 0]
+				this.$refs.mpvuePicker.show()
+			},
 		},
 		onNavigationBarButtonTap(e) {
 			// this.isNav = !this.isNav
@@ -433,11 +442,12 @@
 	.masktop{
 		position: fixed;
 		z-index: 998;
-		top: 180upx;
+		top: 174upx;
 		right: 0;
 		bottom: 0;
 		left: 0;
 		background-color: rgba(0, 0, 0, .3);
+		margin-top: var(--status-bar-height);
 	}
 
 	.popup {
@@ -459,12 +469,13 @@
 		margin: auto;
 	}
 	.popup-top {
-		top: 90upx;
+		top: 174upx;
 		width: 100%;
 		/* height: 100upx; */
 		text-align: left;
 		box-shadow: none;
 		border-top: 2upx solid #e5e5e5;
+		margin-top: var(--status-bar-height);
 	}
 	.popup-bottom {
 		bottom: 0;
@@ -682,6 +693,18 @@
 		color: #333;
 		text-decoration: underline;
 		margin-left: 20upx;
+	}
+	.truetag{
+		color: #44B549;
+		font-weight: normal;
+		font-size: 24upx;
+		height: 36upx;
+		line-height: 36upx;
+		padding: 0 8upx;
+		display: inline-block;
+		border: 2upx solid #44B549;
+		border-radius: 6upx;
+		transform: scale(0.75);
 	}
 	/* .nav-ls{
 		position: fixed;

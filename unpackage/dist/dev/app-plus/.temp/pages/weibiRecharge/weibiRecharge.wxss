@@ -3,6 +3,9 @@
 ._button::after {
   border: none;
 }
+uni-input ._input {
+  min-height: 100rpx !important;
+}
 .content {
   background-color: #090702;
   color: #c18f35;
@@ -173,9 +176,30 @@
   margin-top: 20rpx;
   font-size: 24rpx;
   line-height: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  min-height: 56rpx;
 }
-.wbre-item-tl text {
+.wbre-item-tl text,
+.wbre-item-tl ._input {
   font-size: 36rpx;
+}
+.wbre-item-tl ._input {
+  width: 100rpx;
+  height: 100%;
+  background-color: rgba(0,0,0,.1);
+  margin: 0 10rpx;
 }
 .wbre-item-lf {
   display: -webkit-box;

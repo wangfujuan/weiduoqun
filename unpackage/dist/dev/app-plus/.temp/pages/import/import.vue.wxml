@@ -7,7 +7,7 @@
           <view class="_view data-v-32d914c6 import-tl-txt"> 导入群主手机号到通讯录 </view>
           <view class="_view data-v-32d914c6 block-tl-rt">
             <view class="_view data-v-32d914c6 block-tl-rt-item">
-              <template type="shuaxin" size="12" data="{{...$root['0'], ...$root[$kk+'4LV-0'],$root}}" is="18f61b88"></template>
+              <template type="shuaxin" size="12" data="{{...$root['0'], ...$root[$kk+'27X-0'],$root}}" is="18f61b88"></template>
               <text class="_text data-v-32d914c6 mdtxt">换一批</text>
             </view>
           </view>
@@ -15,7 +15,7 @@
         <view class="_view data-v-32d914c6 import-user">
           <image wx:key="avatar.id" key="{{avatar.id}}" class="_image data-v-32d914c6 avatar-70" src="{{avatar.url}}" mode wx:for="{{avatars}}" wx:for-index="index" wx:for-item="avatar"></image>
         </view>
-        <view class="_view data-v-32d914c6 import-btn" bindtap="handleProxy" data-position="middle" data-eventid="{{'3qL-0'}}" data-comkey="{{$k}}"> 立即导入通讯录 </view>
+        <view class="_view data-v-32d914c6 import-btn" bindtap="handleProxy" data-position="middle" data-eventid="{{'1xA-0'}}" data-comkey="{{$k}}"> 立即导入通讯录 </view>
         <view class="_view data-v-32d914c6 tips-tl"> 重要提示： </view>
         <view class="_view data-v-32d914c6 tips-con">
           <view class="_view data-v-32d914c6">1、导入通讯录之后，首先在手机桌面找到电话本或者联系人图标，我们精心准备了一个简单的十分钟介绍视频，方便你快速了解uni-app的主要特征</view>
@@ -27,9 +27,9 @@
       <view class="_view data-v-32d914c6 white">
         <view class="_view data-v-32d914c6 other-use">
           <view class="_view data-v-32d914c6 other-use-item center">
-            <template type="weixin" color="#44b549" data="{{...$root['0'], ...$root[$kk+'e4S-1'],$root}}" is="18f61b88"></template> 返回微信查看 </view>
+            <template type="weixin" color="#44b549" data="{{...$root['0'], ...$root[$kk+'fn6-1'],$root}}" is="18f61b88"></template> 返回微信查看 </view>
           <view class="_view data-v-32d914c6 other-use-item center">
-            <template type="jiufuqianbaoicon05" size="18" color="#eb644a" data="{{...$root['0'], ...$root[$kk+'0qt-2'],$root}}" is="18f61b88"></template> 清理通讯录 </view>
+            <template type="jiufuqianbaoicon05" size="18" color="#eb644a" data="{{...$root['0'], ...$root[$kk+'Zp7-2'],$root}}" is="18f61b88"></template> 清理通讯录 </view>
         </view>
       </view>
       <view class="_view data-v-32d914c6 white">
@@ -55,17 +55,17 @@
         </view>
       </view>
     </view>
-    <view class="_view data-v-32d914c6 mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'SrE-1'}}" data-comkey="{{$k}}"></view>
+    <view class="_view data-v-32d914c6 mask" hidden="{{!(showMask)}}" bindtap="handleProxy" data-eventid="{{'ddO-1'}}" data-comkey="{{$k}}"></view>
     <view class="_view data-v-32d914c6 popup popup-middle" hidden="{{!(showState.middle)}}">
       <view class="_view data-v-32d914c6 kf-tl b-line">
         <view class="_view data-v-32d914c6 import-pop-tl"> 导入成功 </view>
-        <template type="shachu-xue" size="16" bindtap="handleProxy" data-eventid="{{'F5k-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'7lh-3'],$root}}" is="18f61b88"></template>
+        <template type="shachu-xue" size="16" bindtap="handleProxy" data-eventid="{{'z1P-2'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'vLK-3'],$root}}" is="18f61b88"></template>
       </view>
       <view class="_view data-v-32d914c6 import-pop-con"> 请稍候打开微信添加群主 </view>
       <view class="_view data-v-32d914c6 import-pop-line"> 群主微信导入成功！请打开微信 -> 通讯录 -> 新的好友，先添加群主 </view>
       <view class="_view data-v-32d914c6 import-pop-line"> 请打招呼说 </view>
       <view class="_view data-v-32d914c6 import-pop-line"> 有任何问题请查看下面的帮助信息！ </view>
-      <view class="_view data-v-32d914c6 import-pop-btn block-tl-color8" bindtap="handleProxy" data-eventid="{{'y0a-3'}}" data-comkey="{{$k}}"> 我知道啦 </view>
+      <view class="_view data-v-32d914c6 import-pop-btn block-tl-color8" bindtap="handleProxy" data-eventid="{{'7Hk-3'}}" data-comkey="{{$k}}"> 我知道啦 </view>
     </view>
   </view>
 </template>

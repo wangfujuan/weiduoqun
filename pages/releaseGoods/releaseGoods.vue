@@ -50,13 +50,13 @@
 					<view class="rc-line-lf">
 						标题
 					</view>
-					<input type="text" placeholder-style="color: #c7c7c7" placeholder="想个吸引人的标题" value="" />
+					<input type="text" placeholder-style="color: #dfdfdf" placeholder="想个吸引人的标题" value="" />
 				</view>
 				<view class="rc-line">
 					<view class="rc-line-lf">
 						描述
 					</view>
-					<input type="text" placeholder-style="color: #c7c7c7" placeholder="认真填写描述,要一鸣惊人哦" value="" />
+					<input type="text" placeholder-style="color: #dfdfdf" placeholder="认真填写描述,要一鸣惊人哦" value="" />
 				</view>
 				
 			</view>
@@ -183,7 +183,7 @@
 	.rc-line input,.rc-select{
 		flex: 1;
 		padding-left: 30upx;
-		color: #c7c7c7;
+		color: #dfdfdf;
 	}
 	.rc-upload{
 		display: flex;

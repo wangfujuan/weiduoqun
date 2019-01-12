@@ -1,5 +1,5 @@
 <template>
-    <view class="content">
+    <view :class="['content', showMask?'hidden':'']">
         <view class="me-top">
 			<view class="me-login">
 				<image class="avatar" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
@@ -44,7 +44,7 @@
 				</view>
 			</view>
 			<view class="white">
-				<navigator class="member-ls" url="../weibiRecharge/weibiRecharge" hover-class="none">
+				<navigator class="member-ls" url="../member/member" hover-class="none">
 					<view class="member-item" >
 						<view class="member-item-lf">
 							<view class="member-item-lf-tl">
@@ -277,6 +277,7 @@
 		export default {
 				data: {
 					showMask: false,
+					
 				},
 				components: {
 					uniIcon
@@ -325,8 +326,10 @@
 </script>
 
 <style>
-	@import "../../common/iconfont.css";
-	.content{
+	.hidden{
+		height: 100vh;
+	}
+	.content{	
 		overflow: hidden;
 	}
 	.uni-icon-huiyuan1{
@@ -506,7 +509,7 @@
 		color: #449dff;
 	}
 	.haveopen{
-		font-size: 24upx;
+		font-size: 22upx;
 		background: #fceeea;
 		color: #eb6644;
 		height: 40upx;
@@ -518,7 +521,7 @@
 		transform-origin: 0 50%;
 	}
 	.noopen{
-		font-size: 24upx;
+		font-size: 22upx;
 		border: 2upx solid #eee;
 		/* background: #fceeea; */
 		color: #a1a1a1;
@@ -635,14 +638,13 @@
 	}
 	
 	.popup-middle {
-		width: 700upx;
-		height: 420upx;
-		border-radius: 16upx;
-		top: 0;
-		right: 0;
+		width: 100%;
+		height: 350upx;
+		/* border-radius: 16upx; */
+		left: 50%;
+		margin-left: -50%;
 		bottom: 0;
-		left: 0;
-		margin: auto;
+		
 	}
 	.share-bt-wp{
 		display: flex;

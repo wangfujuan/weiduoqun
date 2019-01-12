@@ -19,7 +19,7 @@
 					<view class="rc-line-lf">
 						群名
 					</view>
-					<input type="text" placeholder-style="color: #c7c7c7" placeholder="想个吸引人的群名,不超过10个字" value="" />
+					<input type="text" placeholder-style="color: #dfdfdf" placeholder="想个吸引人的群名,不超过10个字" value="" />
 				</view>
 				<view class="twosum">
 					<view class="rc-line b-line">
@@ -35,8 +35,8 @@
 						<view class="rc-line-lf">
 							群人数
 						</view>
-						<input type="text" placeholder-style="color: #c7c7c7" placeholder="" value="" />
-						<text style="color: #c7c7c7;">个</text>
+						<input type="text" placeholder-style="color: #dfdfdf" placeholder="" value="" />
+						<text style="color: #dfdfdf;">个</text>
 					</view>
 				</view>
 				<view class="twosum">
@@ -44,7 +44,7 @@
 						<view class="rc-line-lf">
 							售价
 						</view>
-						<input type="text" placeholder-style="color: #c7c7c7" placeholder="￥0.00" value="" />
+						<input type="text" placeholder-style="color: #dfdfdf" placeholder="￥0.00" value="" />
 						<uni-icon color="#acacac" size="16" type="qianjin"></uni-icon>
 					</view>
 					<view class="rc-line b-line">
@@ -83,7 +83,7 @@
 					<view class="rc-line-lf">
 						描述
 					</view>
-					<input type="text" placeholder-style="color: #c7c7c7" placeholder="认真填写描述,要一鸣惊人哦" value="" />
+					<input type="text" placeholder-style="color: #dfdfdf" placeholder="认真填写描述,要一鸣惊人哦" value="" />
 				</view>		
 			</view>
 			<view class="white">
@@ -244,7 +244,7 @@
 	.rc-line input,.rc-select{
 		flex: 1;
 		padding-left: 30upx;
-		color: #c7c7c7;
+		color: #dfdfdf;
 	}
 	.rc-upload{
 		display: flex;

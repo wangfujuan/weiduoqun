@@ -10,10 +10,10 @@
       </navigator>
     </view>
     <view class="_view data-v-c7a31006 member-cl b-line">
-      <view class="_view data-v-c7a31006 member-cl-item center {{isActive == 0 ? 'member-active' : ''}}" bindtap="handleProxy" data-eventid="{{'C33-0'}}" data-comkey="{{$k}}"> 普通会员 </view>
+      <view class="_view data-v-c7a31006 member-cl-item center {{isActive == 0 ? 'member-active' : ''}}" bindtap="handleProxy" data-eventid="{{'CxR-0'}}" data-comkey="{{$k}}"> 普通会员 </view>
       <view class="_view data-v-c7a31006 line"></view>
-      <view class="_view data-v-c7a31006 member-cl-item center {{isActive == 1 ? 'member-active' : ''}}" bindtap="handleProxy" data-eventid="{{'ZWu-1'}}" data-comkey="{{$k}}">
-        <template type="zuanshi" color="#b28431" size="18" data="{{...$root['0'], ...$root[$kk+'Dtf-0'],$root}}" is="18f61b88"></template>钻石代理
+      <view class="_view data-v-c7a31006 member-cl-item center {{isActive == 1 ? 'member-active' : ''}}" bindtap="handleProxy" data-eventid="{{'J7Y-1'}}" data-comkey="{{$k}}">
+        <template type="zuanshi" color="#b28431" size="18" data="{{...$root['0'], ...$root[$kk+'MsH-0'],$root}}" is="18f61b88"></template>钻石代理
         <text class="_text data-v-c7a31006 coupons">折扣</text>
       </view>
     </view>
@@ -21,7 +21,7 @@
       <view class="_view data-v-c7a31006 member-box-item b-line">
         <view class="_view data-v-c7a31006 member-box-item-lf">
           <view class="_view data-v-c7a31006 tool-item-icon block-tl-color1">
-            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'nEI-1'],$root}}" is="18f61b88"></template>
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'Nn3-1'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
         </view>
@@ -34,7 +34,7 @@
       <view class="_view data-v-c7a31006 member-box-item b-line">
         <view class="_view data-v-c7a31006 member-box-item-lf">
           <view class="_view data-v-c7a31006 tool-item-icon block-tl-color2">
-            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'GLn-2'],$root}}" is="18f61b88"></template>
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'IjH-2'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
         </view>
@@ -47,7 +47,7 @@
       <view class="_view data-v-c7a31006 member-box-item b-line">
         <view class="_view data-v-c7a31006 member-box-item-lf">
           <view class="_view data-v-c7a31006 tool-item-icon block-tl-color6">
-            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'aLb-3'],$root}}" is="18f61b88"></template>
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'rR3-3'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
         </view>
@@ -60,7 +60,7 @@
       <view class="_view data-v-c7a31006 member-box-item b-line">
         <view class="_view data-v-c7a31006 member-box-item-lf">
           <view class="_view data-v-c7a31006 tool-item-icon block-tl-color4">
-            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'tDo-4'],$root}}" is="18f61b88"></template>
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'LLo-4'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
         </view>
@@ -73,7 +73,7 @@
       <view class="_view data-v-c7a31006 member-box-item b-line">
         <view class="_view data-v-c7a31006 member-box-item-lf">
           <view class="_view data-v-c7a31006 tool-item-icon block-tl-color4">
-            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'TVi-5'],$root}}" is="18f61b88"></template>
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'9p1-5'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
         </view>
@@ -86,7 +86,7 @@
       <view class="_view data-v-c7a31006 member-box-item b-line">
         <view class="_view data-v-c7a31006 member-box-item-lf">
           <view class="_view data-v-c7a31006 tool-item-icon block-tl-color4">
-            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'EAw-6'],$root}}" is="18f61b88"></template>
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'aHf-6'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
         </view>
@@ -101,7 +101,7 @@
       <view class="_view data-v-c7a31006 member-box-item b-line">
         <view class="_view data-v-c7a31006 member-box-item-lf">
           <view class="_view data-v-c7a31006 tool-item-icon block-tl-color1">
-            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'qiy-7'],$root}}" is="18f61b88"></template>
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'NAm-7'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-c7a31006 member-box-item-tl"> 尊贵身份标识 </view>
         </view>
@@ -114,7 +114,7 @@
       <view class="_view data-v-c7a31006 member-box-item b-line">
         <view class="_view data-v-c7a31006 member-box-item-lf">
           <view class="_view data-v-c7a31006 tool-item-icon block-tl-color1">
-            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'r2v-8'],$root}}" is="18f61b88"></template>
+            <template size="22" color="#fff" type="diqiuquanqiu" data="{{...$root['0'], ...$root[$kk+'Ory-8'],$root}}" is="18f61b88"></template>
           </view>
           <view class="_view data-v-c7a31006 member-box-item-tl"> 会员价格 </view>
         </view>

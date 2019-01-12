@@ -2,11 +2,11 @@
 <template name="239d4249">
   <view class="_view data-v-7d9d2616 index">
     <scroll-view id="tab-bar" class="_scroll-view data-v-7d9d2616 swiper-tab" scroll-x scroll-left="{{scrollLeft}}">
-      <view wx:key="tab.id" key="{{tab.id}}" id="{{tab.id}}" data-current="{{index}}" bindtap="handleProxy" data-eventid="{{'yfp-0-'+index}}" data-comkey="{{$k}}" wx:for="{{tabBars}}" wx:for-index="index" wx:for-item="tab" class="_view data-v-7d9d2616 {{['swiper-tab-list', tabIndex == index ? 'active' : '']}}">{{tab.name}}</view>
+      <view wx:key="tab.id" key="{{tab.id}}" id="{{tab.id}}" data-current="{{index}}" bindtap="handleProxy" data-eventid="{{'myN-0-'+index}}" data-comkey="{{$k}}" wx:for="{{tabBars}}" wx:for-index="index" wx:for-item="tab" class="_view data-v-7d9d2616 {{['swiper-tab-list', tabIndex == index ? 'active' : '']}}">{{tab.name}}</view>
     </scroll-view>
-    <swiper current="{{tabIndex}}" class="_swiper data-v-7d9d2616 swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'HSx-2'}}" data-comkey="{{$k}}">
+    <swiper current="{{tabIndex}}" class="_swiper data-v-7d9d2616 swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'kyq-2'}}" data-comkey="{{$k}}">
       <swiper-item wx:key="tab.id" key="{{tab.id}}" wx:for="{{newsitems}}" wx:for-index="index1" wx:for-item="tab" class="_swiper-item data-v-7d9d2616">
-        <scroll-view class="_scroll-view data-v-7d9d2616 list" scroll-y bindscrolltolower="handleProxy" data-eventid="{{'wFm-1-'+index1}}" data-comkey="{{$k}}">
+        <scroll-view class="_scroll-view data-v-7d9d2616 list" scroll-y bindscrolltolower="handleProxy" data-eventid="{{'J3Y-1-'+index1}}" data-comkey="{{$k}}">
           <view class="_view data-v-7d9d2616 goods-ls">
             <view class="_view data-v-7d9d2616 goods-item">
               <navigator hover-class="none" url="../goodsdetail/goodsdetail" class="_navigator data-v-7d9d2616">
@@ -17,7 +17,7 @@
                     <image class="_image data-v-7d9d2616 avatar-36" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
                     <view class="_view data-v-7d9d2616 goods-item-phone"> 150***1029 </view>
                     <view class="_view data-v-7d9d2616 goods-item-sum">
-                      <template type="kejian" size="16" data="{{...$root['0'], ...$root[$kk+'VUO-0-'+index1],$root}}" is="18f61b88"></template> 100 </view>
+                      <template type="kejian" size="16" data="{{...$root['0'], ...$root[$kk+'CbR-0-'+index1],$root}}" is="18f61b88"></template> 100 </view>
                   </view>
                 </view>
               </navigator>
@@ -30,7 +30,7 @@
                   <image class="_image data-v-7d9d2616 avatar-36" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
                   <view class="_view data-v-7d9d2616 goods-item-phone"> 150***1029 </view>
                   <view class="_view data-v-7d9d2616 goods-item-sum">
-                    <template type="kejian" size="16" data="{{...$root['0'], ...$root[$kk+'3da-1-'+index1],$root}}" is="18f61b88"></template> 100 </view>
+                    <template type="kejian" size="16" data="{{...$root['0'], ...$root[$kk+'hAz-1-'+index1],$root}}" is="18f61b88"></template> 100 </view>
                 </view>
               </view>
             </view>
@@ -42,7 +42,7 @@
                   <image class="_image data-v-7d9d2616 avatar-36" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
                   <view class="_view data-v-7d9d2616 goods-item-phone"> 150***1029 </view>
                   <view class="_view data-v-7d9d2616 goods-item-sum">
-                    <template type="kejian" size="16" data="{{...$root['0'], ...$root[$kk+'vWW-2-'+index1],$root}}" is="18f61b88"></template> 100 </view>
+                    <template type="kejian" size="16" data="{{...$root['0'], ...$root[$kk+'Rcs-2-'+index1],$root}}" is="18f61b88"></template> 100 </view>
                 </view>
               </view>
             </view>
@@ -54,7 +54,7 @@
                   <image class="_image data-v-7d9d2616 avatar-36" src="../../static/avatar/avatar_2.jpg" mode="widthFix"></image>
                   <view class="_view data-v-7d9d2616 goods-item-phone"> 150***1029 </view>
                   <view class="_view data-v-7d9d2616 goods-item-sum">
-                    <template type="kejian" size="16" data="{{...$root['0'], ...$root[$kk+'laU-3-'+index1],$root}}" is="18f61b88"></template> 100 </view>
+                    <template type="kejian" size="16" data="{{...$root['0'], ...$root[$kk+'FGO-3-'+index1],$root}}" is="18f61b88"></template> 100 </view>
                 </view>
               </view>
             </view>
@@ -63,7 +63,7 @@
       </swiper-item>
     </swiper>
     <view class="_view data-v-7d9d2616 submitbtn-wp">
-      <button class="_button data-v-7d9d2616 block-tl-color8 submitbtn" formType="submit"> 发布我的货源 </button>
+      <navigator url="../releaseGoods/releaseGoods" hover-class="none" class="_navigator data-v-7d9d2616 block-tl-color8 submitbtn">发布我的货源</navigator>
     </view>
   </view>
 </template>

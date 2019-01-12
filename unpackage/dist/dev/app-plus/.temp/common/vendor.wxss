@@ -316,6 +316,18 @@
 .uni-icon-jinggao:before {
   content: "\E6AA";
 }
+.uni-icon-taojinbi:before {
+  content: "\E756";
+}
+.uni-icon-houtui:before {
+  content: "\E749";
+}
+.uni-icon-qianjin1:before {
+  content: "\E618";
+}
+.uni-icon-houtui1:before {
+  content: "\E617";
+}
 .pickerMask {
   position: fixed;
   z-index: 1000;

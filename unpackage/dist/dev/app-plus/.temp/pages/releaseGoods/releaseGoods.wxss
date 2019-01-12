@@ -63,7 +63,7 @@
   -webkit-flex: 1;
   flex: 1;
   padding-left: 30rpx;
-  color: #c7c7c7;
+  color: #dfdfdf;
 }
 .rc-upload {
   display: -webkit-box;

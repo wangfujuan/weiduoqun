@@ -53,7 +53,7 @@
 				</view>
 			</view>
 		</view>
-		<view class="wb-get">
+		<!-- <view class="wb-get">
 			<view class="wb-get-item center">
 				<uni-icon size="20" color="#ffa300" type="choujiang"></uni-icon>
 				<text>每日抽奖</text>
@@ -63,7 +63,7 @@
 				<uni-icon size="24" color="#ffa300" type="youhuiquan01"></uni-icon>
 				<text>会员领福利</text>
 			</view>
-		</view>
+		</view> -->
 		<view class="line20"></view>
 		<navigator hover-class="none" url="../weibiRecharge/weibiRecharge">
 			<image class="wbbanner" src="../../static/wbbanner.jpg" mode="widthFix"></image>
@@ -81,7 +81,7 @@
 					<view class="share-item-con b-line">
 						<view class="share-item-md">
 							<view class="share-item-md-tl">
-								精准人脉 <view class="share-item-md-sum-item center"><text class="share-item-md-sum-txt">每次+10</text> <uni-icon size="13" color="#e9526e" type="hua"></uni-icon></view>
+								精准人脉 <view class="share-item-md-sum-item center"><text class="share-item-md-sum-txt">每次+10</text> <uni-icon size="13" color="#ffa300" type="taojinbi"></uni-icon></view>
 							</view>
 							<view class="share-item-md-des">
 								导入通讯录并完成加粉，每天奖励一次
@@ -101,7 +101,7 @@
 					<view class="share-item-con b-line">
 						<view class="share-item-md">
 							<view class="share-item-md-tl">
-								精选客源 <view class="share-item-md-sum-item center"><text class="share-item-md-sum-txt">每次+10</text> <uni-icon size="13" color="#e9526e" type="hua"></uni-icon></view>
+								精选客源 <view class="share-item-md-sum-item center"><text class="share-item-md-sum-txt">每次+10</text> <uni-icon size="13" color="#ffa300" type="taojinbi"></uni-icon></view>
 							</view>
 							<view class="share-item-md-des">
 								导入通讯录并完成加粉，每天奖励一次
@@ -121,7 +121,7 @@
 					<view class="share-item-con b-line">
 						<view class="share-item-md">
 							<view class="share-item-md-tl">
-								每日分享 <view class="share-item-md-sum-item center"><text class="share-item-md-sum-txt">每次+10</text> <uni-icon size="13" color="#e9526e" type="hua"></uni-icon></view>
+								每日分享 <view class="share-item-md-sum-item center"><text class="share-item-md-sum-txt">每次+10</text> <uni-icon size="13" color="#ffa300" type="taojinbi"></uni-icon></view>
 							</view>
 							<view class="share-item-md-des">
 								分享邀请图片到微信群，每天+5
@@ -141,7 +141,7 @@
 					<view class="share-item-con b-line">
 						<view class="share-item-md">
 							<view class="share-item-md-tl">
-								名片互粉 <view class="share-item-md-sum-item center"><text class="share-item-md-sum-txt">每次+10</text> <uni-icon size="13" color="#e9526e" type="hua"></uni-icon></view>
+								名片互粉 <view class="share-item-md-sum-item center"><text class="share-item-md-sum-txt">每次+10</text> <uni-icon size="13" color="#ffa300" type="taojinbi"></uni-icon></view>
 							</view>
 							<view class="share-item-md-des">
 								保存10张名片二维码，并扫码加好友
@@ -161,7 +161,7 @@
 					<view class="share-item-con b-line">
 						<view class="share-item-md">
 							<view class="share-item-md-tl">
-								免费抽奖 <view class="share-item-md-sum-item center"><text class="share-item-md-sum-txt">每次+5</text> <uni-icon size="13" color="#e9526e" type="hua"></uni-icon></view>
+								免费抽奖 <view class="share-item-md-sum-item center"><text class="share-item-md-sum-txt">每次+5</text> <uni-icon size="13" color="#ffa300" type="taojinbi"></uni-icon></view>
 							</view>
 							<view class="share-item-md-des">
 								今日免费抽奖，每天完成抽奖3次
@@ -181,7 +181,7 @@
 					<view class="share-item-con b-line">
 						<view class="share-item-md">
 							<view class="share-item-md-tl">
-								完善资料 <view class="share-item-md-sum-item center"><text class="share-item-md-sum-txt">首次+20</text> <uni-icon size="13" color="#e9526e" type="hua"></uni-icon></view>
+								完善资料 <view class="share-item-md-sum-item center"><text class="share-item-md-sum-txt">首次+20</text> <uni-icon size="13" color="#ffa300" type="taojinbi"></uni-icon></view>
 							</view>
 							<view class="share-item-md-des">
 								在个人中心完善个人资料，限做一次
@@ -195,9 +195,116 @@
 					</view>
 				</view>
 			</view>
-			<view class="share-more center">
+			<!-- <view class="share-more center">
 				免费获取更多小红花
 				<uni-icon size="12" color="#44b549" type="qianjin"></uni-icon>
+			</view> -->
+			<view class="line20"></view>
+			<view class="wb-earn">
+				<view class="wb-earn-tl b-line">
+					微币的用途
+				</view>
+				<view class="wbuse-ls">
+					<view class="wbuse-item">
+						<view class="share-item-lf block-tl-color1 center">
+							<uni-icon size="22" color="#fff" type="remen"></uni-icon>
+						</view>
+						<view class="wbuse-item-tl">
+							坐等爆粉
+						</view>
+						<view class="wbuse-item-sub">
+							每天被加百人
+						</view>
+					</view>
+					<view class="wbuse-item">
+						<view class="share-item-lf block-tl-color2 center">
+							<uni-icon size="22" color="#fff" type="gerenxinxi"></uni-icon>
+						</view>
+						<view class="wbuse-item-tl">
+							多号爆粉
+						</view>
+						<view class="wbuse-item-sub">
+							最多绑定3个
+						</view>
+					</view>
+					<view class="wbuse-item">
+						<view class="share-item-lf block-tl-color3 center">
+							<uni-icon size="22" color="#fff" type="gerenxinxi"></uni-icon>
+						</view>
+						<view class="wbuse-item-tl">
+							名片置顶
+						</view>
+						<view class="wbuse-item-sub">
+							曝光量+10倍
+						</view>
+					</view>
+					<view class="wbuse-item">
+						<view class="share-item-lf block-tl-color6 center">
+							<uni-icon size="22" color="#fff" type="chanpin2"></uni-icon>
+						</view>
+						<view class="wbuse-item-tl">
+							产品推广
+						</view>
+						<view class="wbuse-item-sub">
+							帮你招商加盟
+						</view>
+					</view>
+					<view class="wbuse-item">
+						<view class="share-item-lf block-tl-color5 center">
+							<uni-icon size="22" color="#fff" type="gerenxinxi"></uni-icon>
+						</view>
+						<view class="wbuse-item-tl">
+							名片引流
+						</view>
+						<view class="wbuse-item-sub">
+							最多绑定3个号
+						</view>
+					</view>
+					<view class="wbuse-item">
+						<view class="share-item-lf block-tl-color4 center">
+							<uni-icon size="22" color="#fff" type="diqiuquanqiu"></uni-icon>
+						</view>
+						<view class="wbuse-item-tl">
+							全网散客
+						</view>
+						<view class="wbuse-item-sub">
+							无微商无死粉
+						</view>
+					</view>
+					<view class="wbuse-item">
+						<view class="share-item-lf block-tl-color7 center">
+							<uni-icon size="22" color="#fff" type="choujiang"></uni-icon>
+						</view>
+						<view class="wbuse-item-tl">
+							抽奖活动
+						</view>
+						<view class="wbuse-item-sub">
+							小投入大回报
+						</view>
+					</view>
+					<view class="wbuse-item">
+						<view class="share-item-lf block-tl-color2 center">
+							<uni-icon size="22" color="#fff" type="qunjiaoyi"></uni-icon>
+						</view>
+						<view class="wbuse-item-tl">
+							人物悬赏
+						</view>
+						<view class="wbuse-item-sub">
+							即将推出
+						</view>
+					</view>
+					<view class="wbuse-item">
+						<view class="share-item-lf block-tl-color8 center">
+							<uni-icon size="22" color="#fff" type="licaijingxuan"></uni-icon>
+						</view>
+						<view class="wbuse-item-tl">
+							更多服务
+						</view>
+						<view class="wbuse-item-sub">
+							功能不断出新
+						</view>
+					</view>
+				</view>
 			</view>
 		</view>
 		<view class="submitbtn-wp">
@@ -431,4 +538,28 @@
 	.share-item-md-sum-txt {
 		margin-right: 10upx;
 	}
+	.wbuse-ls{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		padding-top: 35upx;
+	}
+	.wbuse-item{
+		flex: 0 0 33.3333%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		line-height: 1;
+		margin-bottom: 56upx;
+	}
+	.wbuse-item-tl{
+		margin: 20upx 0 12upx;
+		font-size: 26upx;
+	}
+	.wbuse-item-sub{
+		color: #999999;
+		font-size: 24upx;
+	}
+	
 </style>

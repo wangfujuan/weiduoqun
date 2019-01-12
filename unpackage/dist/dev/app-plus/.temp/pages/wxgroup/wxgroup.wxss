@@ -220,11 +220,12 @@ page {
 .masktop {
   position: fixed;
   z-index: 998;
-  top: 180rpx;
+  top: 174rpx;
   right: 0;
   bottom: 0;
   left: 0;
   background-color: rgba(0, 0, 0, .3);
+  margin-top: var(--status-bar-height);
 }
 .popup {
   position: absolute;
@@ -243,11 +244,12 @@ page {
   margin: auto;
 }
 .popup-top {
-  top: 90rpx;
+  top: 174rpx;
   width: 100%;
   text-align: left;
   box-shadow: none;
   border-top: 2rpx solid #e5e5e5;
+  margin-top: var(--status-bar-height);
 }
 .popup-bottom {
   bottom: 0;
@@ -385,11 +387,11 @@ page {
   color: #8a8a8a;
 }
 .drawer-title {
-  margin-top: 88rpx;
+  margin-top: 40rpx;
   text-align: center;
   height: 80rpx;
   line-height: 80rpx;
-  border-top: 2rpx solid #e5e5e5;
+  border-bottom: 2rpx solid #e5e5e5;
 }
 .st-title {
   padding: 30rpx 30rpx 0;
@@ -448,8 +450,14 @@ page {
   -webkit-align-items: center;
   align-items: center;
 }
+.popup-item .uni-icon {
+  opacity: 0;
+}
 .popup-active {
   color: #44B549;
+}
+.popup-active .uni-icon {
+  opacity: 1;
 }
 .swiper-tab {
   font-size: 0;

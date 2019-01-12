@@ -2,13 +2,13 @@
 <template name="47145dff">
   <view class="_view data-v-36aeeeaa content">
     <view class="_view data-v-36aeeeaa swiper-tab">
-      <view data-current="0" bindtap="handleProxy" data-eventid="{{'elB-0'}}" data-comkey="{{$k}}" class="_view data-v-36aeeeaa {{['swiper-tab-list', currentTab == 0 ? 'active' : '']}}">所有</view>
+      <view data-current="0" bindtap="handleProxy" data-eventid="{{'IDc-0'}}" data-comkey="{{$k}}" class="_view data-v-36aeeeaa {{['swiper-tab-list', currentTab == 0 ? 'active' : '']}}">所有</view>
       <view class="_view data-v-36aeeeaa swiper-line"></view>
-      <view data-current="1" bindtap="handleProxy" data-eventid="{{'JgC-1'}}" data-comkey="{{$k}}" class="_view data-v-36aeeeaa {{['swiper-tab-list', currentTab == 1 ? 'active' : '']}}">开钻石代理</view>
+      <view data-current="1" bindtap="handleProxy" data-eventid="{{'Bks-1'}}" data-comkey="{{$k}}" class="_view data-v-36aeeeaa {{['swiper-tab-list', currentTab == 1 ? 'active' : '']}}">开钻石代理</view>
       <view class="_view data-v-36aeeeaa swiper-line"></view>
-      <view data-current="2" bindtap="handleProxy" data-eventid="{{'wyQ-2'}}" data-comkey="{{$k}}" class="_view data-v-36aeeeaa {{['swiper-tab-list', currentTab == 2 ? 'active' : '']}}">充值微币</view>
+      <view data-current="2" bindtap="handleProxy" data-eventid="{{'9Gz-2'}}" data-comkey="{{$k}}" class="_view data-v-36aeeeaa {{['swiper-tab-list', currentTab == 2 ? 'active' : '']}}">充值微币</view>
     </view>
-    <swiper current="{{currentTab}}" class="_swiper data-v-36aeeeaa swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'PTB-3'}}" data-comkey="{{$k}}">
+    <swiper current="{{currentTab}}" class="_swiper data-v-36aeeeaa swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'AAa-3'}}" data-comkey="{{$k}}">
       <swiper-item class="_swiper-item data-v-36aeeeaa">
         <scroll-view class="_scroll-view data-v-36aeeeaa list" scroll-y>
           <view class="_view data-v-36aeeeaa income-con">
@@ -44,7 +44,7 @@
                     <text class="_text data-v-36aeeeaa">18.00</text>元 </view>
                   <view class="_view data-v-36aeeeaa lastprice"> 30.00元 </view>
                 </view>
-                <template type="qianjin" size="12" color="#a8a8a8" data="{{...$root['0'], ...$root[$kk+'Qor-0'],$root}}" is="18f61b88"></template>
+                <template type="qianjin" size="12" color="#a8a8a8" data="{{...$root['0'], ...$root[$kk+'oYs-0'],$root}}" is="18f61b88"></template>
               </view>
             </view>
           </navigator>
@@ -60,7 +60,7 @@
                   <text class="_text data-v-36aeeeaa">18.00</text>元 </view>
                 <view class="_view data-v-36aeeeaa lastprice"> 30.00元 </view>
               </view>
-              <template type="qianjin" size="12" color="#a8a8a8" data="{{...$root['0'], ...$root[$kk+'yvo-1'],$root}}" is="18f61b88"></template>
+              <template type="qianjin" size="12" color="#a8a8a8" data="{{...$root['0'], ...$root[$kk+'vxm-1'],$root}}" is="18f61b88"></template>
             </view>
           </view>
         </scroll-view>
@@ -79,7 +79,7 @@
                   <text class="_text data-v-36aeeeaa">18.00</text>元 </view>
                 <view class="_view data-v-36aeeeaa lastprice"> 30.00元 </view>
               </view>
-              <template type="qianjin" size="12" color="#a8a8a8" data="{{...$root['0'], ...$root[$kk+'YRr-3'],$root}}" is="18f61b88"></template>
+              <template type="qianjin" size="12" color="#a8a8a8" data="{{...$root['0'], ...$root[$kk+'DH2-3'],$root}}" is="18f61b88"></template>
             </view>
           </view>
         </scroll-view>
@@ -98,7 +98,7 @@
                   <text class="_text data-v-36aeeeaa">18.00</text>元 </view>
                 <view class="_view data-v-36aeeeaa lastprice"> 30.00元 </view>
               </view>
-              <template type="qianjin" size="12" color="#a8a8a8" data="{{...$root['0'], ...$root[$kk+'Phy-5'],$root}}" is="18f61b88"></template>
+              <template type="qianjin" size="12" color="#a8a8a8" data="{{...$root['0'], ...$root[$kk+'LHP-5'],$root}}" is="18f61b88"></template>
             </view>
           </view>
         </scroll-view>

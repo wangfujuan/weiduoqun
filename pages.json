@@ -52,6 +52,8 @@
 				"navigationBarBackgroundColor":"#44B549",
 				"app-plus" : {
 					"titleNView" : {
+						"titleText":"我的",
+						"titleColor":"#ffffff",
 						"buttons" : [
 						    {
 						        "text" : "\ue6e9",
@@ -465,6 +467,12 @@
 			"path": "pages/wxgroupcard/wxgroupcard",
 			"style": {
 				"navigationBarTitleText": "微信群名片"
+			}
+		},
+		{
+			"path": "pages/dealDetail/dealDetail",
+			"style": {
+				"navigationBarTitleText": "微信群交易详情"
 			}
 		},
 		{

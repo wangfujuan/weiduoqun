@@ -456,6 +456,11 @@
 		components: {
 			uniIcon
 		},
+		onNavigationBarButtonTap() {
+			uni.navigateTo({
+				url: '/pages/weibi/weibi'
+			})
+		}
 	}
 </script>
 

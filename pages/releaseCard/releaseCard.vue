@@ -19,13 +19,13 @@
 					<view class="rc-line-lf">
 						昵称
 					</view>
-					<input type="text" placeholder-style="color: #c7c7c7" placeholder="请填写您的微信昵称" value="" />
+					<input type="text" placeholder-style="color: #dfdfdf" placeholder="请填写您的微信昵称" value="" />
 				</view>
 				<view class="rc-line">
 					<view class="rc-line-lf">
 						简介
 					</view>
-					<input type="text" placeholder-style="color: #c7c7c7" placeholder="认真填写描述,要一鸣惊人哦" value="" />
+					<input type="text" placeholder-style="color: #dfdfdf" placeholder="认真填写描述,要一鸣惊人哦" value="" />
 				</view>
 			</view>
 			<view class="white">
@@ -33,13 +33,13 @@
 					<view class="rc-line-lf">
 						微信号
 					</view>
-					<input type="text" placeholder-style="color: #c7c7c7" placeholder="请填写您的微信号" value="" />
+					<input type="text" placeholder-style="color: #dfdfdf" placeholder="请填写您的微信号" value="" />
 				</view>
 				<view class="rc-line">
 					<view class="rc-line-lf">
 						手机号
 					</view>
-					<input type="text" placeholder-style="color: #c7c7c7" placeholder="请填写您该微信绑定的手机号" value="" />
+					<input type="text" placeholder-style="color: #dfdfdf" placeholder="请填写您该微信绑定的手机号" value="" />
 				</view>
 			</view>
 			<view class="white">
@@ -318,7 +318,7 @@
 	.rc-line input,.rc-select{
 		flex: 1;
 		padding-left: 30upx;
-		color: #c7c7c7;
+		color: #dfdfdf;
 	}
 	.rc-upload{
 		display: flex;

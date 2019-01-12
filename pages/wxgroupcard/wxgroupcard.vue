@@ -49,7 +49,12 @@
 						曝光：1209
 					</view>
 				</view>
-				<image class="wxgc-code" src="../../static/me-code.jpg" mode="widthFix"></image>
+				<view class="pageturn">
+					<uni-icon type="houtui1" size="30" color="#b2b2b2"></uni-icon>
+					<image class="wxgc-code" src="../../static/me-code.png" mode="widthFix"></image>
+					<uni-icon type="qianjin1" size="30" color="#b2b2b2"></uni-icon>
+				</view>
+				
 				<view class="warning b-line">
 					注意防骗，请勿轻信他人请勿轻易转账给对方
 				</view>
@@ -628,5 +633,9 @@
 		background-color: #44B549;
 		border-radius: 0 76upx 76upx 0;
 		flex: 0 0 33.3333%;
+	}
+	.pageturn{
+		display: flex;
+		align-items: center;
 	}
 </style>

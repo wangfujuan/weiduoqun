@@ -201,11 +201,12 @@ page {
 .masktop {
   position: fixed;
   z-index: 998;
-  top: 180rpx;
+  top: 174rpx;
   right: 0;
   bottom: 0;
   left: 0;
   background-color: rgba(0, 0, 0, .3);
+  margin-top: var(--status-bar-height);
 }
 .popup {
   position: absolute;
@@ -224,11 +225,12 @@ page {
   margin: auto;
 }
 .popup-top {
-  top: 90rpx;
+  top: 174rpx;
   width: 100%;
   text-align: left;
   box-shadow: none;
   border-top: 2rpx solid #e5e5e5;
+  margin-top: var(--status-bar-height);
 }
 .popup-bottom {
   bottom: 0;
@@ -501,4 +503,17 @@ page {
   color: #333;
   text-decoration: underline;
   margin-left: 20rpx;
+}
+.truetag {
+  color: #44B549;
+  font-weight: normal;
+  font-size: 24rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  padding: 0 8rpx;
+  display: inline-block;
+  border: 2rpx solid #44B549;
+  border-radius: 6rpx;
+  -webkit-transform: scale(0.75);
+  transform: scale(0.75);
 }

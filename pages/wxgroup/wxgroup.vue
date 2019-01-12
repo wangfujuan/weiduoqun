@@ -6,20 +6,34 @@
 		  <view :class="['swiper-tab-list', currentTab==1 ? 'active' : '']" data-current="1" @click="swichNav">微信个人</view>  
 		  <view class="addicon" @click="helpClick"><uni-icon type="iconfontlipinduihuanbangzhu" color="#fff" size="18"></uni-icon></view>
 		</view>
+		<view class="filter">
+			<view class="filter-item" @click="showpup" data-position="top">
+				人气排行
+			</view>
+			<view class="filter-item" @click="showMulLinkageTwoPicker">
+				地区
+			</view>
+			<view class="filter-item" v-if="currentTab==1" @click="showpup" data-position="top1">
+				性别
+			</view>
+			<view class="filter-item" @tap="showRightDrawer">
+				行业
+			</view>
+		</view>
 		<swiper :current="currentTab" class="swiper-box" duration="300" @change="bindChange">
 			<swiper-item>
 				<scroll-view class="list" scroll-y>
-					<view class="filter">
-						<view class="filter-item" @click="show" data-position="top">
+					<!-- <view class="filter">
+						<view class="filter-item" @click="showpup" data-position="top">
 							人气排行
 						</view>
-						<view class="filter-item">
+						<view class="filter-item" >
 							地区
 						</view>
 						<view class="filter-item" @tap="showRightDrawer">
 							行业
 						</view>
-					</view>
+					</view> -->
 					<view class="wxgroup-ls">
 						<checkbox-group @change="checkboxChange">
 							<view class="wx-item" v-for="item in items" :key="item.value" color="#44B549">
@@ -46,7 +60,7 @@
 										</view>
 									</view>	
 								</navigator>
-								<view class="wx-item-rt" @click="show" data-position="middle">
+								<view class="wx-item-rt" @click="showpup" data-position="middle">
 									<uni-icon type="tianjia" size="12" color="#44B549"></uni-icon>加群
 								</view>
 							</view>
@@ -56,20 +70,6 @@
 			</swiper-item>
 			<swiper-item>
 				<scroll-view class="list" scroll-y>
-					<view class="filter">
-						<view class="filter-item" @click="show" data-position="top">
-							人气排行
-						</view>
-						<view class="filter-item">
-							地区
-						</view>
-						<view class="filter-item">
-							性别
-						</view>
-						<view class="filter-item" @tap="showRightDrawer">
-							行业
-						</view>
-					</view>
 					<view class="wxgroup-ls">
 						<checkbox-group @change="checkboxChange">
 							<view class="wx-item" v-for="item in items" :key="item.value" color="#44B549">
@@ -96,7 +96,7 @@
 										</view>
 									</view>	
 								</navigator>
-								<view class="wx-item-rt" @click="show" data-position="middle">
+								<view class="wx-item-rt" @click="showpup" data-position="middle">
 									<uni-icon type="tianjia" size="12" color="#44B549"></uni-icon>加群
 								</view>
 							</view>
@@ -109,7 +109,7 @@
 			<uni-icon type="right-1" color="#44B549" size="22"></uni-icon>
 			已选8个{{wxcategory}}
 			<view class="wxgroup-btn-wp">
-				<view class="wxgroup-btn-lf" @click="show" data-position="bottom">
+				<view class="wxgroup-btn-lf" @click="showpup" data-position="bottom">
 					批量保存二维码
 				</view>
 				<view class="wxgroup-btn-rt">
@@ -189,7 +189,7 @@
 				</view>
 			</view>
 		</uni-drawer>
-		<view :class="['mask', activePop=='top'? 'masktop':'' ]" v-show="showMask" @click="hide"></view>
+		<view :class="['mask', activePop=='top' || activePop=='top1'? 'masktop':'' ]" v-show="showMask" @click="hide"></view>
 		<view class="popup popup-top" v-show="showState.top">
 			<view class="popup-item b-line popup-active">
 				人气排行
@@ -197,18 +197,43 @@
 			</view>
 			<view class="popup-item">
 				最新发布
+				<uni-icon type="duihao" color="#44B549" size="16"></uni-icon>
 			</view>
 		</view>
+		<view class="popup popup-top" v-show="showState.top1">
+			<view class="popup-item b-line popup-active">
+				全部
+				<uni-icon type="duihao" color="#44B549" size="16"></uni-icon>
+			</view>
+			<view class="popup-item">
+				男
+				<uni-icon type="duihao" color="#44B549" size="16"></uni-icon>
+			</view>
+			<view class="popup-item">
+				女
+				<uni-icon type="duihao" color="#44B549" size="16"></uni-icon>
+			</view>
+		</view>
+		<mpvue-picker :themeColor="themeColor" ref="mpvuePicker" :mode="mode" :deepLength="deepLength" :pickerValueDefault="pickerValueDefault"
+		@onConfirm="onConfirm" @onCancel="onCancel" :pickerValueArray="pickerValueArray"></mpvue-picker>
 	</view>
 </template>
 
 <script>
 	import uniIcon from '../../components/uni-icon.vue'
 	import uniDrawer from '../../components/uni-drawer.vue';
+	import mpvuePicker from '../../components/mpvue-picker/mpvuePicker.vue';
+	import mpvueCityPicker from '../../components/mpvue-citypicker/mpvueCityPicker.vue';
+	import cityData from '../../common/city.data.js';
 	
 	export default {
 		data() {
 			return {
+				mulLinkageTwoPicker: cityData,
+				pickerValueDefault: [0, 0],
+				themeColor: '#44b549',
+				mode: '',
+				deepLength: 1,
 				items: [{
 					value: '1',
 					check: true
@@ -263,7 +288,9 @@
 		},
 		components: {
 			uniIcon,
-			uniDrawer
+			uniDrawer,
+			mpvuePicker,
+			mpvueCityPicker
 		},
 		onLoad(options) {
 			this.currentTab = parseInt(options.currentTab);
@@ -288,11 +315,14 @@
 			checkboxChange: function (e) {
 				console.log('checkbox发生change事件，携带value值为：' + e.detail.value);
 			},
-			show: function(e) {
+			showpup: function(e) {
 				var pos = e.currentTarget.dataset.position;
 				switch (pos) {
 					case 'top':
 						this.activePop = 'top'
+						break
+					case 'top1':
+						this.activePop = 'top1'
 						break
 					case 'bottom':
 						this.activePop = 'bottom'
@@ -335,12 +365,22 @@
 				uni.navigateBack({
 					delta: 1
 				})
-			}
+			},
+			showMulLinkageTwoPicker() {
+				this.pickerValueArray = this.mulLinkageTwoPicker
+				this.mode = 'multiLinkageSelector'
+				this.deepLength = 2
+				this.pickerValueDefault = [0, 0]
+				this.$refs.mpvuePicker.show()
+			},
 		},
 	}
 </script>
 
 <style>
+	/* .user-status{
+		height: var(--status-bar-height);
+	} */
 	page{
 		height: 100%;
 		overflow: hidden;
@@ -519,11 +559,12 @@
 	.masktop{
 		position: fixed;
 		z-index: 998;
-		top: 180upx;
+		top: 174upx;
 		right: 0;
 		bottom: 0;
 		left: 0;
 		background-color: rgba(0, 0, 0, .3);
+		margin-top: var(--status-bar-height);
 	}
 
 	.popup {
@@ -545,12 +586,13 @@
 		margin: auto;
 	}
 	.popup-top {
-		top: 90upx;
+		top: 174upx;
 		width: 100%;
 		/* height: 100upx; */
 		text-align: left;
 		box-shadow: none;
 		border-top: 2upx solid #e5e5e5;
+		margin-top: var(--status-bar-height);
 	}
 	.popup-bottom {
 		bottom: 0;
@@ -653,14 +695,13 @@
 		color: #8a8a8a;
 	}
 	.drawer-title{
-		margin-top: 88upx;
+		margin-top: 40upx;
 		text-align: center;
 		height: 80upx;
 		line-height: 80upx;
-		border-top: 2upx solid #e5e5e5;
+		border-bottom: 2upx solid #e5e5e5;
 	}
-	.st-title{
-		
+	.st-title{	
 		padding: 30upx 30upx 0;
 	}
 	.user-sl-ls{
@@ -700,8 +741,14 @@
 		justify-content: space-between;
 		align-items: center;
 	}
+	.popup-item .uni-icon{
+		opacity: 0;
+	}
 	.popup-active{
 		color: #44B549;
+	}
+	.popup-active .uni-icon{
+		opacity: 1;
 	}
 	.swiper-tab{
 		font-size: 0;

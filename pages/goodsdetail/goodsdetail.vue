@@ -6,7 +6,7 @@
 					<navigator class="wx-item-md" hover-class="none" url="../memberindex/memberindex">
 						<view class="avatar-wp">
 							<view class="avatar-vip">
-								<uni-icon type="huiyuan" size="10"></uni-icon>
+								<uni-icon type="zuanshi" size="10"></uni-icon>
 							</view>
 							<image class="avatar-100" src="../../static/avatar/avatar_1.jpg" mode="widthFix"></image>
 						</view>	
@@ -92,7 +92,7 @@
 				</view>
 			</view>
 		</view>
-		<view class="fixed-bt">
+		<view class="wxgroup-fix">
 			<view class="fixed-bt-item">
 				<uni-icon type="fenxiang" size="20"></uni-icon>
 				<text>分享</text>
@@ -101,12 +101,48 @@
 				<uni-icon type="huida" size="22"></uni-icon>
 				<text>评论 0</text>
 			</view>
-			<view class="fixed-bt-btn-wp">
-				<view class="fixed-bt-btn block-tl-color8">
+			<view class="wxgroup-btn-wp">
+				<view class="wxgroup-btn-lf center">
+					我要评论
+				</view>
+				<navigator class="wxgroup-btn-rt center" url="../releaseGoods/releaseGoods" hover-class="none">发布我的货源</navigator>
+
+				<!-- <view class="fixed-bt-btn block-tl-color8">
 					我要发表评论
+				</view> -->
+			</view>
+		</view>
+		<!-- popup 加群 start-->	
+		<view class="mask" v-show="showMask" @click="hide"></view>
+		<view class="popup popup-middle" v-show="showState.middle">
+			<view class="kf-tl b-line">
+				添加群
+				<uni-icon type="shachu-xue" size="16" @click="hide"></uni-icon>
+			</view>
+			<view class="add-line">
+				<uni-icon type="weixin" color="#44B549" size="22"></uni-icon>
+				<view class="add-info">jinglingapp</view>
+				<view class="add-copy">复制</view>
+			</view>
+			<view class="add-line">
+				<uni-icon type="ai-phone" color="#e9ce59" size="22"></uni-icon>
+				<view class="add-info">15010200333</view>
+				<view class="add-copy">复制</view>
+			</view>
+			<image class="kf-con-code" src="../../static/code.jpg" mode="widthFix"></image>
+			<view class="kf-con-info">
+				扫一扫 或者 点击图片保存到手机相册
+			</view>
+			<view class="wx-btn-ls">
+				<view class="kf-btn block-tl-color8 center">
+					<uni-icon type="weixin" size="18"></uni-icon>发送到微信
+				</view>
+				<view class="kf-btn center wx-btn-default">
+					<uni-icon type="tongxunlu" size="18"></uni-icon>导入通讯录
 				</view>
 			</view>
 		</view>
+		<!-- popup 加群 end-->
 	</view>
 </template>
 
@@ -116,11 +152,38 @@
 	export default {
 		data() {
 			return {
-				
+				showMask: false,
+				showState: {
+					top: false,
+					middle: false,
+					bottom: false,
+				},
+				activePop: 'middle'
 			};
 		},
 		components: {
 			uniIcon
+		},
+		methods: {
+			show: function(e) {
+				var pos = e.currentTarget.dataset.position;
+				switch (pos) {
+					case 'top':
+						this.activePop = 'top'
+						break
+					case 'bottom':
+						this.activePop = 'bottom'
+						break
+					default:
+						this.activePop = 'middle'
+				}
+				this.showMask = true
+				this.showState[this.activePop] = true
+			},
+			hide: function() {
+				this.showMask = false
+				this.showState[this.activePop] = false
+			},
 		},
 	}
 </script>
@@ -174,7 +237,7 @@
 		height: 104upx;
 		flex: 0 0 104upx;
 		border-radius: 6upx;
-		border: 4upx solid #f7d46b;
+		border: 4upx solid #b39a65;
 		padding: 4upx;
 		position: relative;
 		border-radius: 100%;
@@ -195,6 +258,9 @@
 	.wx-item-wx{
 		margin-top: 10upx;
 		color: #888888;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
 	}
 	.ding{
 		width: 40upx;
@@ -204,7 +270,7 @@
 	.avatar-vip{
 		position: absolute;
 		bottom: 0;
-		background-color: #f7d46b;
+		background-color: #b39a65;
 		color: #fff;
 		font-size: 20upx;
 		border-radius: 4upx;
@@ -289,7 +355,7 @@
 		align-items: center;
 	}
 	.fixed-bt-item{
-		flex: 0 0 140upx;
+		flex: 0 0 100upx;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -312,5 +378,154 @@
 	}
 	.block-tl-rt-item .uni-icon{
 		margin-right: 4upx;
+	}
+	/* popup start */
+	.mask {
+		position: fixed;
+		z-index: 998;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, .3);
+	}
+	.masktop{
+		position: fixed;
+		z-index: 998;
+		top: 180upx;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, .3);
+	}
+	
+	.popup {
+		position: absolute;
+		z-index: 999;
+		background-color: #ffffff;
+		-webkit-box-shadow: 0 0 30upx rgba(0, 0, 0, .1);
+		box-shadow: 0 0 30upx rgba(0, 0, 0, .1);
+	}
+	
+	.popup-middle {
+		width: 620upx;
+		height: 720upx;
+		border-radius: 10upx;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin: auto;
+	}
+	/* popup end */
+	.kf-tl {
+		padding: 0 20upx;
+		height: 80upx;
+		color: #666;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.kf-con-wx{
+		display: block;
+		width: 400upx;
+		text-align: center;
+		border: 4upx dashed #c2c2c2;
+		margin: 50upx auto 20upx;
+		height: 70upx;
+		line-height: 70upx;
+		border-radius: 16upx;
+		color: #999;
+	}
+	.kf-con-info{
+		text-align: center;
+		font-size: 22upx;
+		color: #A1A1A1;
+	}
+	.kf-con-code{
+		width: 240upx;
+		height: 240upx;
+		margin: 30upx auto 20upx;
+		display: block;
+	}
+	.wx-btn-ls{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 0 20upx;
+	}
+	.kf-btn{
+		height: 76upx;
+		line-height: 76upx;
+		width: 250upx;
+		margin: 30upx auto;
+		border-radius: 76upx;
+		color: #fff;
+		text-align: center;
+	}
+	.wx-btn-default{
+		border: 2upx solid #E5E5E5;
+		color: #505050;
+	}
+	.kf-btn .uni-icon{
+		margin-right: 10upx;
+	}
+	.add-line{
+		display: flex;
+		flex-direction: row;
+		padding: 0 50upx;
+		align-items: center;
+		margin-top: 20upx;
+	}
+	.add-copy{
+		border: 2upx solid #e5e5e5;
+		height: 60upx;
+		line-height: 60upx;
+		width: 120upx;
+		text-align: center;
+		border-radius: 10upx;
+		font-size: 26upx;
+	}
+	.add-info{
+		flex: 1;
+		padding-left: 20upx;
+		color: #8a8a8a;
+	}
+	.wxgroup-fix{
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 30upx;
+		height: 120upx;
+		margin: 0 20upx;
+		background-color: rgba(255,255,255,.8);
+		border: 2upx solid #f0f0f0;
+		border-radius: 15upx;
+		display: flex;
+		padding: 0 20upx;
+		align-items: center;
+		justify-content: space-between;
+		color: #8A8A8A;
+	}
+	.wxgroup-btn-wp{
+		display: flex;
+		flex: 0 0 420upx;
+		flex-direction: row;
+		height: 76upx;
+		line-height: 76upx;
+		color: #fff;
+		font-size: 24upx;
+		text-align: center;
+	}
+	.wxgroup-btn-lf{
+		background-color: #44c853;
+		border-radius: 76upx 0 0 76upx;	
+		flex: 1;
+	}
+	.wxgroup-btn-rt{
+		background-color: #44B549;
+		border-radius: 0 76upx 76upx 0;
+		flex: 1;
 	}
 </style>

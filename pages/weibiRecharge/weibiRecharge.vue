@@ -76,10 +76,10 @@
 						任意微币数量
 					</view>
 					<view class="wbre-item-info">
-						<input type="text" value="10" />
+						<text>20微币</text>
 					</view>
 					<view class="wbre-item-tl">
-						¥ <text>10元</text>
+						¥ <input type="text" value="10" /> 元
 					</view>
 				</view>		
 			</view>
@@ -275,6 +275,9 @@
 	button::after{
 		border: none
 	}
+	uni-input input{
+		min-height: 1rem !important;
+	}
 	.content{
 		background-color: #090702;
 		color: #c18f35;
@@ -418,11 +421,21 @@
 		margin-top: 20upx;
 		font-size: 24upx;
 		line-height: 1;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		min-height: 56upx;
 	}
-	.wbre-item-tl text{
+	.wbre-item-tl text,.wbre-item-tl input{
 		font-size: 36upx;
 	}
-	
+	.wbre-item-tl input{
+		width: 100upx;
+		height: 100%;
+		background-color: rgba(0,0,0,.1);
+		margin: 0 10upx;
+	}
 	.wbre-item-lf{
 		display: flex;
 		flex-direction: row;

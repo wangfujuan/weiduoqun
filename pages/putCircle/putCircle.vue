@@ -15,7 +15,7 @@
 				</view>
 			</view>
 			<view class="white">
-				<textarea value="" placeholder="想说/拍点什么" placeholder-style="color: #d1d1d1; font-size: 30upx" />
+				<textarea value="" placeholder="想说/拍点什么" placeholder-style="color: #dfdfdf; font-size: 30upx" />
 				<view class="rc-upload">
 					<view class="up-avatar">
 						<uni-icon type="tianjia" color="#b9b9b9"></uni-icon>

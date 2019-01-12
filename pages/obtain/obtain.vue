@@ -9,7 +9,7 @@
 							收益<text class="obtain-money">0.00</text>元
 						</view>
 						<view class="obtain-box-btnls">
-							<view class="obtain-box-btn">
+							<view class="obtain-box-btn" @click="show">
 								邀请好友
 							</view>
 							<navigator class="obtain-box-btn" hover-class="none" url="../withdraw/withdraw">
@@ -125,12 +125,12 @@
 								<view class="share-item-md-sum">
 									<view class="share-item-md-sum-item center">
 										<view class="share-item-md-sum-txt">
-											每次+5微币
+											每次+5<uni-icon size="15" color="#ffa300" type="taojinbi"></uni-icon>
 										</view>
 									</view>
 									<view class="share-item-md-sum-item center">
 										<view class="share-item-md-sum-txt">
-											老板+20微币
+											老板+20<uni-icon size="15" color="#ffa300" type="taojinbi"></uni-icon>
 										</view>
 									</view>
 								</view>
@@ -160,12 +160,12 @@
 								<view class="share-item-md-sum">
 									<view class="share-item-md-sum-item center">
 										<view class="share-item-md-sum-txt">
-											每次+5微币
+											每次+5<uni-icon size="15" color="#ffa300" type="taojinbi"></uni-icon>
 										</view>
 									</view>
 									<view class="share-item-md-sum-item center">
 										<view class="share-item-md-sum-txt">
-											老板+20微币
+											老板+20<uni-icon size="15" color="#ffa300" type="taojinbi"></uni-icon>
 										</view>
 									</view>
 								</view>
@@ -195,12 +195,12 @@
 								<view class="share-item-md-sum">
 									<view class="share-item-md-sum-item center">
 										<view class="share-item-md-sum-txt">
-											每次+5微币
+											每次+5<uni-icon size="15" color="#ffa300" type="taojinbi"></uni-icon>
 										</view>
 									</view>
 									<view class="share-item-md-sum-item center">
 										<view class="share-item-md-sum-txt">
-											老板+20微币
+											老板+20<uni-icon size="15" color="#ffa300" type="taojinbi"></uni-icon>
 										</view>
 									</view>
 								</view>
@@ -368,7 +368,47 @@
 				</view>
 			</navigator>
 		</view> 
-		
+		<view class="mask" v-show="showMask" @click="hide"></view>
+		<!-- popup 分享 start-->	
+		<view class="popup popup-middle" v-show="showMask">
+			<view class="share-bt-wp">
+				<view class="share-bt-item">
+					<view class="share-bt-bg block-tl-color7">
+						<uni-icon type="weixin"></uni-icon>
+					</view>
+					<text>微信好友</text>
+				</view>
+				<view class="share-bt-item">
+					<view class="share-bt-bg block-tl-color7">
+						<uni-icon type="pengyouquan"></uni-icon>
+					</view>
+					<text>朋友圈</text>
+				</view>
+				<view class="share-bt-item">
+					<view class="share-bt-bg block-tl-color6">
+						<uni-icon type="qq02"></uni-icon>
+					</view>
+					<text>QQ好友</text>
+				</view>
+				<view class="share-bt-item">
+					<view class="share-bt-bg block-tl-color1">
+						<uni-icon type="062qqkongjian"></uni-icon>
+					</view>
+					<text>QQ空间</text>
+				</view>
+				<view class="share-bt-item">
+					<view class="share-bt-bg block-tl-color5">
+						<uni-icon type="lianjie"></uni-icon>
+					</view>
+					<text>复制链接</text>
+				</view>
+			</view> 
+			
+			<view class="action-cancel" @click="hide">
+				<uni-icon type="shachu-xue" size="18" color="#505050"></uni-icon>
+			</view>
+		</view>
+		<!-- popup 分享 end -->
     </view>
 </template>
 
@@ -378,7 +418,7 @@
 	export default {
 		data() {
 			return {
-				
+				showMask: false,
 			}
 		},
 		components: {
@@ -432,7 +472,18 @@
 					}
 				});
 				
-			}
+			},
+			show: function(e) {
+				this.showMask = true
+			},
+			hide: function() {
+				this.showMask = false
+			},
+		},
+		onNavigationBarButtonTap() {
+			uni.navigateTo({
+				url: '/pages/weibi/weibi'
+			})
 		}
 	}
 </script>
@@ -709,7 +760,14 @@
 	
 	.share-item-md-sum-txt {
 		margin-right: 10upx;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
 	}
+	.share-item-md-sum-txt .uni-icon{
+		margin-left: 10upx;
+	}
+	
 	.share-will-more{
 		text-align: center;
 		color: #b2b2b2;
@@ -820,5 +878,65 @@
 	.servicebtn .uni-icon{
 		margin-right: 10upx;
 	}
+	/* popup start */
+	.mask {
+		position: fixed;
+		z-index: 998;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, .3);
+	}
 	
+	.popup {
+		position: absolute;
+		z-index: 999;
+		background-color: #ffffff;
+		-webkit-box-shadow: 0 0 30upx rgba(0, 0, 0, .1);
+		box-shadow: 0 0 30upx rgba(0, 0, 0, .1);
+	}
+	
+	.popup-middle {
+		width: 100%;
+		height: 350upx;
+		/* border-radius: 16upx; */
+		left: 50%;
+		margin-left: -50%;
+		bottom: 0;
+		
+	}
+	.share-bt-wp{
+		display: flex;
+		flex-direction: row;
+		padding: 40upx 20upx 40upx;
+		position: relative;
+	}
+	.share-bt-item{
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-size: 24upx;
+		line-height: 1;
+	}
+	.share-bt-bg{
+		width: 100upx;
+		height: 100upx;
+		background-color: #000000;
+		border-radius: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+		margin-bottom: 20upx;
+	}
+	.action-cancel{
+		position: absolute;
+		bottom: 40upx;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
 </style>

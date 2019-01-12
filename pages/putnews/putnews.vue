@@ -20,7 +20,7 @@
 						<view class="rc-line-lf">
 							标题
 						</view>
-						<input type="text" placeholder-style="color: #c7c7c7" placeholder="想一个吸引人的文章标题" value="" />					
+						<input type="text" placeholder-style="color: #dfdfdf" placeholder="想一个吸引人的文章标题" value="" />					
 					</view>
 				</navigator>
 				<view class="rc-line b-line" @click="showMulLinkageTwoPicker">
@@ -129,7 +129,7 @@
 	.rc-line input,.rc-select{
 		flex: 1;
 		padding-left: 30upx;
-		color: #c7c7c7;
+		color: #dfdfdf;
 	}
 	.rc-upload{
 		display: flex;
